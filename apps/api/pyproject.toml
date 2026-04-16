@@ -1,0 +1,66 @@
+[project]
+name = "curriculum-tutor-api"
+version = "0.1.0"
+description = "FastAPI backend for the curriculum-grounded tutor MVP"
+requires-python = ">=3.12"
+dependencies = [
+  "alembic>=1.14.0",
+  "boto3>=1.36.0",
+  "dramatiq>=1.17.0",
+  "email-validator>=2.2.0",
+  "fastapi>=0.115.0",
+  "httpx>=0.28.0",
+  "langchain-core>=0.3.0",
+  "opentelemetry-api>=1.31.0",
+  "opentelemetry-exporter-otlp-proto-http>=1.31.0",
+  "opentelemetry-instrumentation-fastapi>=0.52b0",
+  "opentelemetry-instrumentation-httpx>=0.52b0",
+  "opentelemetry-instrumentation-sqlalchemy>=0.52b0",
+  "opentelemetry-sdk>=1.31.0",
+  "pdfplumber>=0.11.0",
+  "pydantic>=2.10.0",
+  "pydantic-settings>=2.7.0",
+  "pypdf>=5.1.0",
+  "pyjwt>=2.10.0",
+  "pymupdf>=1.25.0",
+  "psycopg[binary]>=3.2.0",
+  "python-docx>=1.1.0",
+  "python-multipart>=0.0.20",
+  "python-pptx>=1.0.2",
+  "qdrant-client>=1.12.1",
+  "redis>=5.0.0",
+  "sqlalchemy>=2.0.36",
+  "uvicorn[standard]>=0.34.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28.0",
+  "pytest>=8.3.0",
+]
+
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*", "tests*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+  "unit: fast, isolated tests for pure validation and policy behavior",
+  "module: route and service-boundary tests with targeted dependency overrides",
+  "integration: app-level HTTP and middleware tests against the FastAPI surface",
+  "system: end-to-end API flow tests that exercise the real dependency path with controlled collaborators",
+  "functional: functional requirement coverage",
+  "nonfunctional: non-functional requirement coverage",
+  "security: security-focused coverage",
+  "performance: lightweight latency and throughput baselines",
+]

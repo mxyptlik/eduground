@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: curriculum-tutor-evaluator
+Version: 0.1.0
+Summary: Offline evaluation harness for grounded tutoring
+Requires-Python: >=3.12
+Requires-Dist: opentelemetry-api>=1.30.0
+Requires-Dist: opentelemetry-sdk>=1.30.0
+Requires-Dist: pydantic>=2.10.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.0; extra == "dev"

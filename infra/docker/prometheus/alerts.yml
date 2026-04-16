@@ -1,0 +1,49 @@
+groups:
+  - name: infrastructure-health
+    rules:
+      - alert: ObservabilityTargetDown
+        expr: up{job=~"prometheus|otel-collector|loki|tempo|postgres-exporter|redis-exporter|qdrant|eduground-api"} == 0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Observability or infrastructure target is down"
+          description: "Prometheus target {{ $labels.job }} has been down for more than 5 minutes."
+
+  - name: application-signals
+    rules:
+      - alert: EdugroundApiErrorRateHigh
+        expr: |
+          (
+            sum(rate(eduground_http_requests_total{status_code=~"5.."}[5m]))
+            /
+            clamp_min(sum(rate(eduground_http_requests_total[5m])), 1)
+          ) > 0.05
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "API 5xx rate is elevated"
+          description: "API 5xx rate has been above 5% for 10 minutes."
+
+      - alert: EdugroundRetrievalLatencyHigh
+        expr: |
+          histogram_quantile(
+            0.95,
+            sum by (le) (rate(eduground_retrieval_latency_ms_bucket[10m]))
+          ) > 1500
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Retrieval latency p95 is elevated"
+          description: "Retriever p95 latency has been above 1500 ms for 10 minutes."
+
+      - alert: EdugroundIngestionFailuresSpike
+        expr: increase(eduground_ingestion_jobs_total{status="failed"}[15m]) > 5
+        for: 15m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Ingestion failures are spiking"
+          description: "More than five ingestion jobs failed in the last 15 minutes."

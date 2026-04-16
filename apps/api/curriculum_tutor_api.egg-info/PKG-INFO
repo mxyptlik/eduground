@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: curriculum-tutor-api
+Version: 0.1.0
+Summary: FastAPI backend for the curriculum-grounded tutor MVP
+Requires-Python: >=3.12
+Requires-Dist: alembic>=1.14.0
+Requires-Dist: boto3>=1.36.0
+Requires-Dist: dramatiq>=1.17.0
+Requires-Dist: email-validator>=2.2.0
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: httpx>=0.28.0
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: opentelemetry-api>=1.31.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-http>=1.31.0
+Requires-Dist: opentelemetry-instrumentation-fastapi>=0.52b0
+Requires-Dist: opentelemetry-instrumentation-httpx>=0.52b0
+Requires-Dist: opentelemetry-instrumentation-sqlalchemy>=0.52b0
+Requires-Dist: opentelemetry-sdk>=1.31.0
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: pydantic>=2.10.0
+Requires-Dist: pydantic-settings>=2.7.0
+Requires-Dist: pypdf>=5.1.0
+Requires-Dist: pyjwt>=2.10.0
+Requires-Dist: pymupdf>=1.25.0
+Requires-Dist: psycopg[binary]>=3.2.0
+Requires-Dist: python-docx>=1.1.0
+Requires-Dist: python-multipart>=0.0.20
+Requires-Dist: python-pptx>=1.0.2
+Requires-Dist: qdrant-client>=1.12.1
+Requires-Dist: redis>=5.0.0
+Requires-Dist: sqlalchemy>=2.0.36
+Requires-Dist: uvicorn[standard]>=0.34.0
+Provides-Extra: dev
+Requires-Dist: httpx>=0.28.0; extra == "dev"
+Requires-Dist: pytest>=8.3.0; extra == "dev"

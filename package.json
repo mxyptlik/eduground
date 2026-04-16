@@ -1,0 +1,23 @@
+{
+  "name": "eduground",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "npm@10.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "check": "npm run --workspaces --if-present check",
+    "lint": "npm run --workspaces --if-present lint",
+    "test": "npm run --workspaces --if-present test",
+    "test:system:load:read": "k6 run tests/system/load/read_path.js",
+    "test:system:load:chat": "k6 run tests/system/load/chat_path.js",
+    "test:system:observability": "python tests/system/observability/verify_traceability.py",
+    "format": "npm run --workspaces --if-present format",
+    "prompts:validate": "npm run --workspace @eduground/prompts validate"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

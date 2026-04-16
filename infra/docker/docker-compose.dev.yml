@@ -1,0 +1,148 @@
+services:
+  api:
+    profiles: ["app"]
+    build:
+      context: ../..
+      dockerfile: apps/api/Dockerfile
+    env_file:
+      - ../../.env
+    environment:
+      PYTHONPATH: apps/api
+      CURRICULUM_TUTOR_DATABASE_URL: ${CURRICULUM_TUTOR_DATABASE_URL:-postgresql+psycopg://eduground:eduground@postgres:5432/eduground}
+      CURRICULUM_TUTOR_DATABASE_POOL_SIZE: ${CURRICULUM_TUTOR_DATABASE_POOL_SIZE:-20}
+      CURRICULUM_TUTOR_DATABASE_MAX_OVERFLOW: ${CURRICULUM_TUTOR_DATABASE_MAX_OVERFLOW:-40}
+      CURRICULUM_TUTOR_DATABASE_POOL_TIMEOUT_SECONDS: ${CURRICULUM_TUTOR_DATABASE_POOL_TIMEOUT_SECONDS:-30}
+      CURRICULUM_TUTOR_DATABASE_POOL_RECYCLE_SECONDS: ${CURRICULUM_TUTOR_DATABASE_POOL_RECYCLE_SECONDS:-1800}
+      CURRICULUM_TUTOR_REDIS_URL: ${CURRICULUM_TUTOR_REDIS_URL:-redis://redis:6379/0}
+      CURRICULUM_TUTOR_QDRANT_URL: ${CURRICULUM_TUTOR_QDRANT_URL:-http://qdrant:6333}
+      CURRICULUM_TUTOR_S3_ENDPOINT: ${CURRICULUM_TUTOR_S3_ENDPOINT:-http://minio:9000}
+      CURRICULUM_TUTOR_S3_USE_SSL: ${CURRICULUM_TUTOR_S3_USE_SSL:-false}
+    command: python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+      - qdrant
+      - minio
+
+  worker:
+    profiles: ["app"]
+    build:
+      context: ../..
+      dockerfile: apps/worker/Dockerfile
+    env_file:
+      - ../../.env
+    environment:
+      PYTHONPATH: apps/worker
+      CURRICULUM_TUTOR_DATABASE_URL: ${CURRICULUM_TUTOR_DATABASE_URL:-postgresql+psycopg://eduground:eduground@postgres:5432/eduground}
+      CURRICULUM_TUTOR_REDIS_URL: ${CURRICULUM_TUTOR_REDIS_URL:-redis://redis:6379/0}
+      CURRICULUM_TUTOR_QDRANT_URL: ${CURRICULUM_TUTOR_QDRANT_URL:-http://qdrant:6333}
+      CURRICULUM_TUTOR_S3_ENDPOINT: ${CURRICULUM_TUTOR_S3_ENDPOINT:-http://minio:9000}
+      CURRICULUM_TUTOR_S3_USE_SSL: ${CURRICULUM_TUTOR_S3_USE_SSL:-false}
+    command: >
+      sh -c "python -m dramatiq
+      --processes ${CURRICULUM_TUTOR_WORKER_PROCESSES:-2}
+      --threads ${CURRICULUM_TUTOR_WORKER_THREADS:-4}
+      app.jobs.ingestion app.jobs.maintenance"
+    depends_on:
+      - redis
+      - qdrant
+      - minio
+      - postgres
+
+  scheduler:
+    profiles: ["app"]
+    build:
+      context: ../..
+      dockerfile: apps/worker/Dockerfile
+    env_file:
+      - ../../.env
+    environment:
+      PYTHONPATH: apps/worker
+      CURRICULUM_TUTOR_DATABASE_URL: ${CURRICULUM_TUTOR_DATABASE_URL:-postgresql+psycopg://eduground:eduground@postgres:5432/eduground}
+      CURRICULUM_TUTOR_REDIS_URL: ${CURRICULUM_TUTOR_REDIS_URL:-redis://redis:6379/0}
+      CURRICULUM_TUTOR_QDRANT_URL: ${CURRICULUM_TUTOR_QDRANT_URL:-http://qdrant:6333}
+      CURRICULUM_TUTOR_S3_ENDPOINT: ${CURRICULUM_TUTOR_S3_ENDPOINT:-http://minio:9000}
+      CURRICULUM_TUTOR_S3_USE_SSL: ${CURRICULUM_TUTOR_S3_USE_SSL:-false}
+      CURRICULUM_TUTOR_MAINTENANCE_INTERVAL_SECONDS: ${CURRICULUM_TUTOR_MAINTENANCE_INTERVAL_SECONDS:-3600}
+      CURRICULUM_TUTOR_MAINTENANCE_STARTUP_DELAY_SECONDS: ${CURRICULUM_TUTOR_MAINTENANCE_STARTUP_DELAY_SECONDS:-30}
+    command: python -m app.jobs.scheduler
+    depends_on:
+      - redis
+      - postgres
+
+  web:
+    profiles: ["app"]
+    build:
+      context: ../..
+      dockerfile: apps/web/Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+        VITE_CLERK_PUBLISHABLE_KEY: ${VITE_CLERK_PUBLISHABLE_KEY:-pk_test_REPLACE_ME}
+    env_file:
+      - ../../.env
+    environment:
+      PORT: ${PORT:-8080}
+    ports:
+      - "8080:8080"
+    depends_on:
+      - api
+
+  evaluator:
+    profiles: ["app"]
+    build:
+      context: ../..
+      dockerfile: apps/evaluator/Dockerfile
+    env_file:
+      - ../../.env
+    environment:
+      PYTHONPATH: apps/evaluator
+      CURRICULUM_TUTOR_DATABASE_URL: ${CURRICULUM_TUTOR_DATABASE_URL:-postgresql+psycopg://eduground:eduground@postgres:5432/eduground}
+      CURRICULUM_TUTOR_REDIS_URL: ${CURRICULUM_TUTOR_REDIS_URL:-redis://redis:6379/0}
+      CURRICULUM_TUTOR_QDRANT_URL: ${CURRICULUM_TUTOR_QDRANT_URL:-http://qdrant:6333}
+    depends_on:
+      - api
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-eduground}
+      POSTGRES_USER: ${POSTGRES_USER:-eduground}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-eduground}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  qdrant:
+    image: qdrant/qdrant:v1.13.1
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ACCESS_KEY:-eduground}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-eduground123}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+volumes:
+  postgres_data:
+  redis_data:
+  qdrant_data:
+  minio_data:

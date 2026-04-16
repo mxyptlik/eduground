@@ -1,0 +1,9 @@
+[
+  {
+    "sample_key": "intro-1",
+    "question": "What is the core rule for grounded tutoring?",
+    "expected_answer": "Every factual answer block must be supported by citations from notebook sources.",
+    "retrieved_context": "The tutor must ground every factual block in notebook sources and provide citations for those claims.",
+    "model_answer": "Every factual answer block should be supported by notebook-source citations."
+  }
+]

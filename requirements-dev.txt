@@ -1,0 +1,4 @@
+-r requirements.txt
+-e ./apps/api[dev]
+-e ./apps/worker[dev]
+-e ./apps/evaluator[dev]

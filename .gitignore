@@ -1,0 +1,54 @@
+# Node
+node_modules/
+dist/
+build/
+.turbo/
+.vite/
+coverage/
+.npm/
+.pnpm-store/
+.yarn/
+.npm-cache-*/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Python
+__pycache__/
+*.pyc
+.pyo
+.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+.coverage.*
+htmlcov/
+pip-wheel-metadata/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Generated or local data
+*.log
+logs/
+tmp/
+data/
+storage/
+.eduground_local_storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local tooling and agent artifacts
+.skill-installs/

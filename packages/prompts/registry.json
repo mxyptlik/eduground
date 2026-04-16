@@ -1,0 +1,25 @@
+{
+  "tutor": {
+    "v1": "tutor/v1.md"
+  },
+  "quiz": {
+    "v1": "quiz/v1.md"
+  },
+  "citation": {
+    "v1": "citation/v1.md"
+  },
+  "guardrail": {
+    "v1": "guardrail/v1.md"
+  },
+  "policy": {
+    "teaching": {
+      "v1": "policy/teaching/v1.md"
+    },
+    "assignment": {
+      "v1": "policy/assignment/v1.md"
+    },
+    "exam": {
+      "v1": "policy/exam/v1.md"
+    }
+  }
+}
