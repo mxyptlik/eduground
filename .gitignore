@@ -44,7 +44,7 @@ Thumbs.db
 logs/
 tmp/
 data/
-storage/
+/storage/
 .eduground_local_storage/
 *.db
 *.sqlite
