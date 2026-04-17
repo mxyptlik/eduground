@@ -8,9 +8,22 @@ from sqlalchemy.orm import Session, sessionmaker
 
 from app.core.config import settings
 
-if settings.database_url.startswith("sqlite"):
+
+def _normalize_sqlalchemy_database_url(database_url: str) -> str:
+    if database_url.startswith("postgres://"):
+        return "postgresql+psycopg://" + database_url.removeprefix("postgres://")
+    if database_url.startswith("postgresql://"):
+        return "postgresql+psycopg://" + database_url.removeprefix("postgresql://")
+    if database_url.startswith("postgresql+psycopg2://"):
+        return "postgresql+psycopg://" + database_url.removeprefix("postgresql+psycopg2://")
+    return database_url
+
+
+database_url = _normalize_sqlalchemy_database_url(settings.database_url)
+
+if database_url.startswith("sqlite"):
     engine = create_engine(
-        settings.database_url,
+        database_url,
         future=True,
         pool_pre_ping=True,
         connect_args={"check_same_thread": False},
@@ -18,7 +31,7 @@ if settings.database_url.startswith("sqlite"):
     )
 else:
     engine = create_engine(
-        settings.database_url,
+        database_url,
         future=True,
         pool_pre_ping=True,
         pool_size=settings.database_pool_size,
