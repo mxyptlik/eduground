@@ -14,6 +14,7 @@ from app.core.observability import counter, histogram, traced_operation
 from app.integrations.embeddings.base import OpenRouterEmbeddingProvider
 from app.integrations.llm.base import OpenRouterLLMProvider
 from app.integrations.rerank.openrouter_adapter import OpenRouterRerankerProvider, RerankerProviderError
+from app.integrations.vectorstore.base import VectorStoreError
 from app.integrations.vectorstore.qdrant_adapter import QdrantClientConfig, QdrantVectorStore
 from app.models.content import Chunk, Source
 from app.models.learning import Note
@@ -351,7 +352,24 @@ class AnswerQuestionWorkflow:
             query_vectors = self.embeddings.embed([query_text])
         if not query_vectors:
             return []
-        search_results = self.vector_store.search(query_vectors[0], filters, top_k=5)
+        try:
+            search_results = self.vector_store.search(query_vectors[0], filters, top_k=5)
+        except VectorStoreError as exc:
+            logger.warning(
+                "Vector search unavailable, continuing with LLM fallback",
+                extra={
+                    "extra_json": {
+                        "error": str(exc),
+                        "notebook_scope": filters.get("notebook_id"),
+                    }
+                },
+            )
+            counter(
+                "eduground_provider_failures_total",
+                labels={"provider": "qdrant", "operation": "search"},
+                description="Provider failures by provider and operation",
+            )
+            return []
         candidates: list[CandidateRecord] = []
         for result in search_results:
             payload = result.get("payload") or {}
