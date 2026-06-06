@@ -301,6 +301,7 @@ export class ApiClient {
       mime_type: string;
       byte_size: number;
       checksum_sha256: string;
+      force_local_fallback?: boolean;
     },
   ) {
     return this.request<UploadUrlResponse>(`/api/notebooks/${notebookId}/sources/upload-url`, {
@@ -308,6 +309,57 @@ export class ApiClient {
       body: JSON.stringify(payload),
       timeoutMs: 30_000,
     });
+  }
+
+  async uploadSourceObjectWithFallback(
+    notebookId: string,
+    payload: {
+      filename: string;
+      mime_type: string;
+      byte_size: number;
+      checksum_sha256: string;
+    },
+    file: File,
+  ) {
+    const uploadToSignedUrl = async (uploadUrl: string, provider: "r2" | "local_storage") => {
+      let uploadResponse: Response;
+      try {
+        uploadResponse = await fetch(uploadUrl, {
+          method: "PUT",
+          headers: {
+            "Content-Type": payload.mime_type,
+          },
+          body: file,
+        });
+      } catch {
+        throw new ApiError("Upload target was unreachable.", 0, {
+          code: "object_upload_failed",
+          provider,
+          retryable: true,
+        });
+      }
+
+      if (!uploadResponse.ok) {
+        throw new ApiError(`Upload failed with status ${uploadResponse.status}.`, uploadResponse.status, {
+          code: "object_upload_failed",
+          provider,
+          retryable: uploadResponse.status >= 500 || uploadResponse.status === 429,
+        });
+      }
+    };
+
+    const primaryUploadUrl = await this.createSourceUploadUrl(notebookId, payload);
+    try {
+      await uploadToSignedUrl(primaryUploadUrl.upload_url, "r2");
+      return primaryUploadUrl;
+    } catch {
+      const fallbackUploadUrl = await this.createSourceUploadUrl(notebookId, {
+        ...payload,
+        force_local_fallback: true,
+      });
+      await uploadToSignedUrl(fallbackUploadUrl.upload_url, "local_storage");
+      return fallbackUploadUrl;
+    }
   }
 
   createSource(

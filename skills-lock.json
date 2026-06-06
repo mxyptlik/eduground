@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "humanizer": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "2ffb472a9649b0fb56790c158a1ca01557cda897d6ddcf2b51a968daf6ddfdc8"
+    }
+  }
+}

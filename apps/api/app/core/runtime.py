@@ -48,13 +48,14 @@ def validate_runtime_configuration() -> None:
     _require(settings.qdrant_collection_name, "CURRICULUM_TUTOR_QDRANT_COLLECTION_NAME")
 
     storage_backend = settings.object_storage_backend.strip().lower()
-    if storage_backend not in {"auto", "r2", "local"}:
-        raise RuntimeConfigurationError("CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND must be one of: auto, r2, local")
+    primary_storage_backends = {"s3", "r2"}
+    if storage_backend not in {"auto", "local", *primary_storage_backends}:
+        raise RuntimeConfigurationError("CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND must be one of: auto, s3, r2, local")
 
     s3_values = [settings.s3_endpoint, settings.s3_bucket, settings.s3_access_key, settings.s3_secret_key]
     s3_all_present = all(value is not None and str(value).strip() for value in s3_values)
 
-    if storage_backend == "r2":
+    if storage_backend in primary_storage_backends and not settings.object_storage_local_fallback_enabled:
         _require_present(settings.s3_endpoint, "CURRICULUM_TUTOR_S3_ENDPOINT")
         _require_present(settings.s3_bucket, "CURRICULUM_TUTOR_S3_BUCKET")
         _require_present(settings.s3_access_key, "CURRICULUM_TUTOR_S3_ACCESS_KEY")
@@ -71,7 +72,7 @@ def validate_runtime_configuration() -> None:
                 "Auto object storage mode requires either full CURRICULUM_TUTOR_S3_* configuration or local fallback enabled"
             )
 
-    if storage_backend == "local" or (storage_backend == "auto" and settings.object_storage_local_fallback_enabled):
+    if storage_backend == "local" or (storage_backend in {"auto", *primary_storage_backends} and settings.object_storage_local_fallback_enabled):
         _require_present(settings.object_storage_local_dir, "CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_DIR")
         _require_present(settings.api_public_base_url, "CURRICULUM_TUTOR_API_PUBLIC_BASE_URL")
 

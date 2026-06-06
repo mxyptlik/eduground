@@ -11,7 +11,7 @@ from sqlalchemy.orm import Session
 
 from app.core.config import settings
 from app.integrations.queue import enqueue_source_ingestion_job
-from app.integrations.storage.factory import get_object_storage
+from app.integrations.storage.factory import get_local_storage_for_signed_routes, get_object_storage
 from app.models.content import IngestionJob, Source, SourceUploadIntent, SourceVersion
 from app.models.enums import IngestionJobType, JobStatus, SourceStatus
 from app.models.identity import User
@@ -60,10 +60,11 @@ class SourceService:
             created_at=datetime.now(UTC),
         )
         intent = self.sources.create_upload_intent(intent)
+        upload_storage = get_local_storage_for_signed_routes() if payload.force_local_fallback else self.storage
         return UploadUrlResponse(
             upload_intent_id=intent.id,
             storage_key=storage_key,
-            upload_url=self.storage.create_signed_upload_url(storage_key, payload.mime_type),
+            upload_url=upload_storage.create_signed_upload_url(storage_key, payload.mime_type),
             expires_in_seconds=settings.signed_url_ttl_seconds,
         )
 

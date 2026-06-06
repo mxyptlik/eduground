@@ -22,6 +22,7 @@ class UploadUrlRequest(BaseModel):
     mime_type: str
     byte_size: int = Field(gt=0)
     checksum_sha256: str
+    force_local_fallback: bool = False
 
     @field_validator("filename")
     @classmethod

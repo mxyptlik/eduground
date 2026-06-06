@@ -2,7 +2,6 @@ import { ChangeEvent, FormEvent, KeyboardEvent as ReactKeyboardEvent, useEffect,
 import { Link, useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { ApiError } from "@/lib/api/client";
 import { apiClient } from "@/lib/api/client";
 import { getDisplayErrorMessage } from "@/lib/api/errors";
 import type { Source, TutorAnswer, TutorChatSourcePreview, TutorChatStreamEvent } from "@/lib/api/types";
@@ -522,27 +521,12 @@ export function TutorChatPage() {
     try {
       const checksum = await hashFile(file);
       const mimeType = inferMimeType(file);
-      const uploadUrl = await apiClient.createSourceUploadUrl(selectedNotebookId, {
+      const uploadUrl = await apiClient.uploadSourceObjectWithFallback(selectedNotebookId, {
         filename: file.name,
         mime_type: mimeType,
         byte_size: file.size,
         checksum_sha256: checksum,
-      });
-      const uploadResponse = await fetch(uploadUrl.upload_url, {
-        method: "PUT",
-        headers: {
-          "Content-Type": mimeType,
-        },
-        body: file,
-      });
-
-      if (!uploadResponse.ok) {
-        throw new ApiError(`Upload failed with status ${uploadResponse.status}.`, uploadResponse.status, {
-          code: "object_upload_failed",
-          provider: "r2",
-          retryable: uploadResponse.status >= 500 || uploadResponse.status === 429,
-        });
-      }
+      }, file);
 
       const source = await apiClient.createSource(selectedNotebookId, {
         upload_intent_id: uploadUrl.upload_intent_id,

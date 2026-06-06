@@ -29,7 +29,7 @@ This repository now includes a working monorepo for the curriculum tutor product
 - Automatic schema creation is controlled by `CURRICULUM_TUTOR_AUTO_CREATE_SCHEMA`.
 - The product no longer depends on seeded demo users or demo notebooks. Create a real account through the Clerk-backed web app and select or create an organization before using notebook-scoped features.
 - The primary online provider path is `OpenRouter` for chat and embeddings, with Qdrant for vector search and S3-compatible object storage for uploads.
-- Object storage now supports resilient mode: `R2/MinIO` primary with a local directory fallback (`CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND=auto`) so uploads/reads can continue when primary storage is unavailable.
+- Object storage now supports resilient mode: `R2/MinIO` primary with a local directory fallback (`CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND=auto`, or `s3`/`r2` with local fallback enabled) so uploads/reads can continue when primary storage is unavailable.
 - For local Clerk development, the webhook endpoint is optional. Session verification and read-repair sync can run without `CURRICULUM_TUTOR_CLERK_WEBHOOK_SIGNING_SECRET`; add it later when you want live Clerk webhook ingestion.
 
 ## Layout

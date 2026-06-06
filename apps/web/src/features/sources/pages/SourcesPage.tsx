@@ -227,26 +227,13 @@ export function SourcesPage() {
 
     try {
       const checksum = await hashFile(selectedFile);
-      const uploadUrl = await apiClient.createSourceUploadUrl(selectedNotebookId, {
+      const mimeType = inferMimeType(selectedFile);
+      const uploadUrl = await apiClient.uploadSourceObjectWithFallback(selectedNotebookId, {
         filename: selectedFile.name,
-        mime_type: inferMimeType(selectedFile),
+        mime_type: mimeType,
         byte_size: selectedFile.size,
         checksum_sha256: checksum,
-      });
-      const uploadResponse = await fetch(uploadUrl.upload_url, {
-        method: "PUT",
-        headers: {
-          "Content-Type": inferMimeType(selectedFile),
-        },
-        body: selectedFile,
-      });
-      if (!uploadResponse.ok) {
-        throw new ApiError(`Upload failed with status ${uploadResponse.status}.`, uploadResponse.status, {
-          code: "object_upload_failed",
-          provider: "r2",
-          retryable: uploadResponse.status >= 500 || uploadResponse.status === 429,
-        });
-      }
+      }, selectedFile);
 
       const source = await apiClient.createSource(selectedNotebookId, {
         upload_intent_id: uploadUrl.upload_intent_id,
@@ -254,7 +241,7 @@ export function SourcesPage() {
         title: sourceTitle.trim() || selectedFile.name,
         original_filename: selectedFile.name,
         storage_key: uploadUrl.storage_key,
-        mime_type: inferMimeType(selectedFile),
+        mime_type: mimeType,
         checksum_sha256: checksum,
         byte_size: selectedFile.size,
         language_code: "en",

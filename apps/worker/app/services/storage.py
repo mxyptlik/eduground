@@ -9,14 +9,16 @@ class StorageError(RuntimeError):
     pass
 
 
+PRIMARY_STORAGE_BACKENDS = {"s3", "r2"}
+SUPPORTED_STORAGE_BACKENDS = {"auto", "local", *PRIMARY_STORAGE_BACKENDS}
+
+
 def get_object_bytes(storage_key: str) -> bytes:
     backend = settings.object_storage_backend.strip().lower()
     if backend == "local":
         return _read_local(storage_key)
-    if backend == "r2":
-        return _read_s3(storage_key)
 
-    if backend != "auto":
+    if backend not in SUPPORTED_STORAGE_BACKENDS:
         raise StorageError(f"Unsupported object storage backend '{settings.object_storage_backend}'")
 
     try:

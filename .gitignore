@@ -52,3 +52,9 @@ data/
 
 # Local tooling and agent artifacts
 .skill-installs/
+.thesis-analysis/
+.codex-skill-inspect-20260605181224/
+.codex-skill-inspect/
+.agents/
+.npm-cache-uipro/
+diagrams/

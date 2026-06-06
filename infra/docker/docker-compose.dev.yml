@@ -17,6 +17,9 @@ services:
       CURRICULUM_TUTOR_QDRANT_URL: ${CURRICULUM_TUTOR_QDRANT_URL:-http://qdrant:6333}
       CURRICULUM_TUTOR_S3_ENDPOINT: ${CURRICULUM_TUTOR_S3_ENDPOINT:-http://minio:9000}
       CURRICULUM_TUTOR_S3_USE_SSL: ${CURRICULUM_TUTOR_S3_USE_SSL:-false}
+      CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND: ${CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND:-auto}
+      CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_FALLBACK_ENABLED: ${CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_FALLBACK_ENABLED:-true}
+      CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_DIR: ${CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_DIR:-/data/eduground-local-storage}
     command: python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"
@@ -25,6 +28,8 @@ services:
       - redis
       - qdrant
       - minio
+    volumes:
+      - object_storage_fallback:/data/eduground-local-storage
 
   worker:
     profiles: ["app"]
@@ -40,6 +45,9 @@ services:
       CURRICULUM_TUTOR_QDRANT_URL: ${CURRICULUM_TUTOR_QDRANT_URL:-http://qdrant:6333}
       CURRICULUM_TUTOR_S3_ENDPOINT: ${CURRICULUM_TUTOR_S3_ENDPOINT:-http://minio:9000}
       CURRICULUM_TUTOR_S3_USE_SSL: ${CURRICULUM_TUTOR_S3_USE_SSL:-false}
+      CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND: ${CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND:-auto}
+      CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_FALLBACK_ENABLED: ${CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_FALLBACK_ENABLED:-true}
+      CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_DIR: ${CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_DIR:-/data/eduground-local-storage}
     command: >
       sh -c "python -m dramatiq
       --processes ${CURRICULUM_TUTOR_WORKER_PROCESSES:-2}
@@ -50,6 +58,8 @@ services:
       - qdrant
       - minio
       - postgres
+    volumes:
+      - object_storage_fallback:/data/eduground-local-storage
 
   scheduler:
     profiles: ["app"]
@@ -146,3 +156,4 @@ volumes:
   redis_data:
   qdrant_data:
   minio_data:
+  object_storage_fallback:

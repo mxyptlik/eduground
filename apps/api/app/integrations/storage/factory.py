@@ -12,6 +12,9 @@ from app.integrations.storage.s3_adapter import S3ObjectStorage
 
 logger = get_logger("app.storage")
 
+PRIMARY_STORAGE_BACKENDS = {"s3", "r2"}
+SUPPORTED_STORAGE_BACKENDS = {"auto", "local", *PRIMARY_STORAGE_BACKENDS}
+
 
 @dataclass(slots=True)
 class ResilientObjectStorage(ObjectStorage):
@@ -106,7 +109,7 @@ def _create_local_storage() -> LocalDirectoryObjectStorage:
 
 def build_object_storage() -> ObjectStorage:
     backend = settings.object_storage_backend.strip().lower()
-    if backend not in {"auto", "r2", "local"}:
+    if backend not in SUPPORTED_STORAGE_BACKENDS:
         raise DependencyUnavailableError(
             code="invalid_storage_backend",
             message=f"Unsupported CURRICULUM_TUTOR_OBJECT_STORAGE_BACKEND value '{settings.object_storage_backend}'",
@@ -116,7 +119,7 @@ def build_object_storage() -> ObjectStorage:
     if backend == "local":
         return _create_local_storage()
 
-    if backend == "r2":
+    if backend == "auto" and not settings.object_storage_local_fallback_enabled:
         return _create_primary_storage()
 
     if settings.object_storage_local_fallback_enabled:
