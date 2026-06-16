@@ -27,6 +27,10 @@ def _require_present(value: str | None, env_name: str) -> None:
         raise RuntimeConfigurationError(f"{env_name} must be configured")
 
 
+def _gemini_fallback_available() -> bool:
+    return settings.gemini_fallback_enabled and not _is_placeholder(settings.gemini_api_key)
+
+
 def validate_runtime_configuration() -> None:
     _require(settings.secret_key, "CURRICULUM_TUTOR_SECRET_KEY")
     _require_present(settings.database_url, "CURRICULUM_TUTOR_DATABASE_URL")
@@ -40,9 +44,16 @@ def validate_runtime_configuration() -> None:
     if settings.otel_enabled:
         _require_present(settings.otel_exporter_otlp_endpoint, "CURRICULUM_TUTOR_OTEL_EXPORTER_OTLP_ENDPOINT")
 
-    _require(settings.openrouter_api_key, "CURRICULUM_TUTOR_OPENROUTER_API_KEY")
-    _require(settings.openrouter_chat_model, "CURRICULUM_TUTOR_OPENROUTER_CHAT_MODEL")
-    _require(settings.openrouter_embedding_model, "CURRICULUM_TUTOR_OPENROUTER_EMBEDDING_MODEL")
+    if _is_placeholder(settings.openrouter_api_key) and not _gemini_fallback_available():
+        raise RuntimeConfigurationError(
+            "CURRICULUM_TUTOR_OPENROUTER_API_KEY must be configured, or set CURRICULUM_TUTOR_GEMINI_API_KEY with Gemini fallback enabled"
+        )
+    if not _is_placeholder(settings.openrouter_api_key):
+        _require(settings.openrouter_chat_model, "CURRICULUM_TUTOR_OPENROUTER_CHAT_MODEL")
+        _require(settings.openrouter_embedding_model, "CURRICULUM_TUTOR_OPENROUTER_EMBEDDING_MODEL")
+    if _gemini_fallback_available():
+        _require(settings.gemini_chat_model, "CURRICULUM_TUTOR_GEMINI_CHAT_MODEL")
+        _require(settings.gemini_embedding_model, "CURRICULUM_TUTOR_GEMINI_EMBEDDING_MODEL")
 
     _require(settings.qdrant_url, "CURRICULUM_TUTOR_QDRANT_URL")
     _require(settings.qdrant_collection_name, "CURRICULUM_TUTOR_QDRANT_COLLECTION_NAME")

@@ -12,7 +12,8 @@ coverage/
 *.tsbuildinfo
 playwright-report/
 test-results/
-
+research_papers/
+.env.example
 # Python
 __pycache__/
 *.pyc

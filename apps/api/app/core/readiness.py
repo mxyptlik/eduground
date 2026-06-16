@@ -113,6 +113,23 @@ def check_openrouter() -> DependencyCheckResult:
         return _result("openrouter", started, False, f"OpenRouter check failed: {exc}")
 
 
+def check_gemini() -> DependencyCheckResult:
+    started = perf_counter()
+    if not settings.gemini_fallback_enabled:
+        return _result("gemini", started, True, "Gemini fallback is disabled", mode="disabled")
+    if not settings.gemini_api_key:
+        return _result("gemini", started, True, "Gemini fallback is enabled but no API key is configured", fallback_available=False)
+    headers = {"Accept": "application/json", "x-goog-api-key": settings.gemini_api_key}
+    try:
+        with traced_operation("readiness.gemini", metric_name="eduground_dependency_check", metric_labels={"dependency": "gemini"}):
+            response = httpx.get(f"{settings.gemini_base_url.rstrip('/')}/models", headers=headers, timeout=5.0)
+        if response.status_code >= 400:
+            return _result("gemini", started, False, f"Gemini returned {response.status_code}", status_code=response.status_code)
+        return _result("gemini", started, True, "Gemini models endpoint is reachable", status_code=response.status_code)
+    except Exception as exc:
+        return _result("gemini", started, False, f"Gemini check failed: {exc}")
+
+
 def check_clerk() -> DependencyCheckResult:
     started = perf_counter()
     if not settings.clerk_enabled:
@@ -197,6 +214,7 @@ def collect_dependency_checks() -> list[DependencyCheckResult]:
         check_redis(),
         check_qdrant(),
         check_openrouter(),
+        check_gemini(),
         check_clerk(),
         check_r2(),
         check_unstructured(),

@@ -30,6 +30,11 @@ class WorkerSettings(BaseSettings):
     openrouter_embedding_model: str = "openai/text-embedding-3-large"
     openrouter_http_referer: str | None = None
     openrouter_title: str | None = None
+    gemini_fallback_enabled: bool = True
+    gemini_api_key: str | None = None
+    gemini_base_url: str = "https://generativelanguage.googleapis.com/v1beta"
+    gemini_embedding_model: str = "gemini-embedding-001"
+    gemini_embedding_output_dimensionality: int = 3072
     unstructured_api_key: str | None = None
     unstructured_api_url: str = "https://api.unstructuredapp.io/general/v0/general"
     unstructured_ocr_strategy: str = "hi_res"

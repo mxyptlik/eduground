@@ -1,0 +1,613 @@
+{
+  "summary": {
+    "dataset": "apps\\evaluator\\app\\datasets\\eduground_100q.seed.json",
+    "sample_count": 100,
+    "passed": 40,
+    "failed": 60,
+    "pass_rate": 0.4,
+    "average_faithfulness_score": 0.4939,
+    "average_context_recall_score": 0.4939
+  },
+  "scores": [
+    {
+      "sample_key": "eduground-doc-001",
+      "faithfulness_score": 0.5897,
+      "context_recall_score": 0.5897,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-002",
+      "faithfulness_score": 0.2346,
+      "context_recall_score": 0.2346,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-003",
+      "faithfulness_score": 0.5143,
+      "context_recall_score": 0.5143,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-004",
+      "faithfulness_score": 0.6452,
+      "context_recall_score": 0.6452,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-005",
+      "faithfulness_score": 0.3529,
+      "context_recall_score": 0.3529,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-006",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-007",
+      "faithfulness_score": 0.75,
+      "context_recall_score": 0.75,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-008",
+      "faithfulness_score": 0.9333,
+      "context_recall_score": 0.9333,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-009",
+      "faithfulness_score": 0.4118,
+      "context_recall_score": 0.4118,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-010",
+      "faithfulness_score": 0.3385,
+      "context_recall_score": 0.3385,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-011",
+      "faithfulness_score": 0.4444,
+      "context_recall_score": 0.4444,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-012",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-013",
+      "faithfulness_score": 0.3864,
+      "context_recall_score": 0.3864,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-014",
+      "faithfulness_score": 0.3519,
+      "context_recall_score": 0.3519,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-015",
+      "faithfulness_score": 0.2568,
+      "context_recall_score": 0.2568,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-016",
+      "faithfulness_score": 0.4375,
+      "context_recall_score": 0.4375,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-017",
+      "faithfulness_score": 0.3393,
+      "context_recall_score": 0.3393,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-018",
+      "faithfulness_score": 0.88,
+      "context_recall_score": 0.88,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-019",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-020",
+      "faithfulness_score": 0.3056,
+      "context_recall_score": 0.3056,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-021",
+      "faithfulness_score": 0.4571,
+      "context_recall_score": 0.4571,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-022",
+      "faithfulness_score": 0.6786,
+      "context_recall_score": 0.6786,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-023",
+      "faithfulness_score": 0.8462,
+      "context_recall_score": 0.8462,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-024",
+      "faithfulness_score": 0.1418,
+      "context_recall_score": 0.1418,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-025",
+      "faithfulness_score": 0.1826,
+      "context_recall_score": 0.1826,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-026",
+      "faithfulness_score": 0.3276,
+      "context_recall_score": 0.3276,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-027",
+      "faithfulness_score": 0.44,
+      "context_recall_score": 0.44,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-028",
+      "faithfulness_score": 0.3607,
+      "context_recall_score": 0.3607,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-029",
+      "faithfulness_score": 0.4259,
+      "context_recall_score": 0.4259,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-030",
+      "faithfulness_score": 0.5,
+      "context_recall_score": 0.5,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-031",
+      "faithfulness_score": 0.6071,
+      "context_recall_score": 0.6071,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-032",
+      "faithfulness_score": 0.6667,
+      "context_recall_score": 0.6667,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-033",
+      "faithfulness_score": 0.5246,
+      "context_recall_score": 0.5246,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-034",
+      "faithfulness_score": 0.9048,
+      "context_recall_score": 0.9048,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-035",
+      "faithfulness_score": 0.85,
+      "context_recall_score": 0.85,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-036",
+      "faithfulness_score": 0.3333,
+      "context_recall_score": 0.3333,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-037",
+      "faithfulness_score": 0.2727,
+      "context_recall_score": 0.2727,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-038",
+      "faithfulness_score": 0.4634,
+      "context_recall_score": 0.4634,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-039",
+      "faithfulness_score": 0.931,
+      "context_recall_score": 0.931,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-040",
+      "faithfulness_score": 0.2581,
+      "context_recall_score": 0.2581,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-041",
+      "faithfulness_score": 0.2389,
+      "context_recall_score": 0.2389,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-042",
+      "faithfulness_score": 0.3509,
+      "context_recall_score": 0.3509,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-043",
+      "faithfulness_score": 0.215,
+      "context_recall_score": 0.215,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-044",
+      "faithfulness_score": 0.2769,
+      "context_recall_score": 0.2769,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-045",
+      "faithfulness_score": 0.5625,
+      "context_recall_score": 0.5625,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-046",
+      "faithfulness_score": 0.34,
+      "context_recall_score": 0.34,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-047",
+      "faithfulness_score": 0.3333,
+      "context_recall_score": 0.3333,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-048",
+      "faithfulness_score": 0.3878,
+      "context_recall_score": 0.3878,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-049",
+      "faithfulness_score": 0.1059,
+      "context_recall_score": 0.1059,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-050",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-051",
+      "faithfulness_score": 0.4222,
+      "context_recall_score": 0.4222,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-052",
+      "faithfulness_score": 0.5556,
+      "context_recall_score": 0.5556,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-053",
+      "faithfulness_score": 0.3725,
+      "context_recall_score": 0.3725,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-054",
+      "faithfulness_score": 0.6129,
+      "context_recall_score": 0.6129,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-055",
+      "faithfulness_score": 0.1856,
+      "context_recall_score": 0.1856,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-056",
+      "faithfulness_score": 0.2157,
+      "context_recall_score": 0.2157,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-057",
+      "faithfulness_score": 0.3077,
+      "context_recall_score": 0.3077,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-058",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-059",
+      "faithfulness_score": 0.4348,
+      "context_recall_score": 0.4348,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-060",
+      "faithfulness_score": 0.3455,
+      "context_recall_score": 0.3455,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-061",
+      "faithfulness_score": 0.5909,
+      "context_recall_score": 0.5909,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-062",
+      "faithfulness_score": 0.4231,
+      "context_recall_score": 0.4231,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-063",
+      "faithfulness_score": 0.5,
+      "context_recall_score": 0.5,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-064",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-065",
+      "faithfulness_score": 0.6508,
+      "context_recall_score": 0.6508,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-066",
+      "faithfulness_score": 0.25,
+      "context_recall_score": 0.25,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-067",
+      "faithfulness_score": 0.88,
+      "context_recall_score": 0.88,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-068",
+      "faithfulness_score": 0.5588,
+      "context_recall_score": 0.5588,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-069",
+      "faithfulness_score": 0.7297,
+      "context_recall_score": 0.7297,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-070",
+      "faithfulness_score": 0.3704,
+      "context_recall_score": 0.3704,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-071",
+      "faithfulness_score": 0.2778,
+      "context_recall_score": 0.2778,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-072",
+      "faithfulness_score": 0.1562,
+      "context_recall_score": 0.1562,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-073",
+      "faithfulness_score": 0.75,
+      "context_recall_score": 0.75,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-074",
+      "faithfulness_score": 0.4,
+      "context_recall_score": 0.4,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-075",
+      "faithfulness_score": 0.4722,
+      "context_recall_score": 0.4722,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-076",
+      "faithfulness_score": 0.4222,
+      "context_recall_score": 0.4222,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-077",
+      "faithfulness_score": 0.3506,
+      "context_recall_score": 0.3506,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-078",
+      "faithfulness_score": 0.2093,
+      "context_recall_score": 0.2093,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-079",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 1.0,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-080",
+      "faithfulness_score": 0.2523,
+      "context_recall_score": 0.2523,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-081",
+      "faithfulness_score": 0.5143,
+      "context_recall_score": 0.5143,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-082",
+      "faithfulness_score": 0.9211,
+      "context_recall_score": 0.9211,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-083",
+      "faithfulness_score": 0.25,
+      "context_recall_score": 0.25,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-084",
+      "faithfulness_score": 0.3333,
+      "context_recall_score": 0.3333,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-085",
+      "faithfulness_score": 0.4762,
+      "context_recall_score": 0.4762,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-086",
+      "faithfulness_score": 0.4565,
+      "context_recall_score": 0.4565,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-087",
+      "faithfulness_score": 0.7826,
+      "context_recall_score": 0.7826,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-088",
+      "faithfulness_score": 0.3778,
+      "context_recall_score": 0.3778,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-089",
+      "faithfulness_score": 0.3,
+      "context_recall_score": 0.3,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-090",
+      "faithfulness_score": 0.25,
+      "context_recall_score": 0.25,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-091",
+      "faithfulness_score": 0.1364,
+      "context_recall_score": 0.1364,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-092",
+      "faithfulness_score": 0.8,
+      "context_recall_score": 0.8,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-093",
+      "faithfulness_score": 0.5676,
+      "context_recall_score": 0.5676,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-094",
+      "faithfulness_score": 0.5,
+      "context_recall_score": 0.5,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-095",
+      "faithfulness_score": 0.8889,
+      "context_recall_score": 0.8889,
+      "pass_fail": true
+    },
+    {
+      "sample_key": "eduground-doc-096",
+      "faithfulness_score": 0.1486,
+      "context_recall_score": 0.1486,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-097",
+      "faithfulness_score": 0.3731,
+      "context_recall_score": 0.3731,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-098",
+      "faithfulness_score": 0.1605,
+      "context_recall_score": 0.1605,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-099",
+      "faithfulness_score": 0.4828,
+      "context_recall_score": 0.4828,
+      "pass_fail": false
+    },
+    {
+      "sample_key": "eduground-doc-100",
+      "faithfulness_score": 0.8214,
+      "context_recall_score": 0.8214,
+      "pass_fail": true
+    }
+  ]
+}

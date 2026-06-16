@@ -272,6 +272,33 @@ class Settings(BaseSettings):
         default=None,
         validation_alias=AliasChoices("CURRICULUM_TUTOR_OPENROUTER_TITLE", "OPENROUTER_TITLE"),
     )
+    gemini_fallback_enabled: bool = Field(
+        default=True,
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_FALLBACK_ENABLED", "GEMINI_FALLBACK_ENABLED"),
+    )
+    gemini_api_key: str | None = Field(
+        default=None,
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_API_KEY", "GEMINI_API_KEY"),
+    )
+    gemini_base_url: str = Field(
+        default="https://generativelanguage.googleapis.com/v1beta",
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_BASE_URL", "GEMINI_BASE_URL"),
+    )
+    gemini_chat_model: str = Field(
+        default="gemini-2.0-flash",
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_CHAT_MODEL", "GEMINI_CHAT_MODEL"),
+    )
+    gemini_embedding_model: str = Field(
+        default="gemini-embedding-001",
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_EMBEDDING_MODEL", "GEMINI_EMBEDDING_MODEL"),
+    )
+    gemini_embedding_output_dimensionality: int = Field(
+        default=3072,
+        validation_alias=AliasChoices(
+            "CURRICULUM_TUTOR_GEMINI_EMBEDDING_OUTPUT_DIMENSIONALITY",
+            "GEMINI_EMBEDDING_OUTPUT_DIMENSIONALITY",
+        ),
+    )
     reranker_enabled: bool = Field(
         default=False,
         validation_alias=AliasChoices("CURRICULUM_TUTOR_RERANKER_ENABLED", "RERANKER_ENABLED"),
