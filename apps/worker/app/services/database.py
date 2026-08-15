@@ -299,15 +299,34 @@ def finalize_job_success(*, context: IngestionContext, indexed_count: int) -> li
         old_point_ids = [row["qdrant_point_id"] for row in cursor.fetchall() if row.get("qdrant_point_id")]
         cursor.execute(
             """
-            DELETE FROM source_segments
-            WHERE source_id = %s AND source_version_id <> %s
+            DELETE FROM source_segments AS segments
+            WHERE segments.source_id = %s
+              AND segments.source_version_id <> %s
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM citations
+                  WHERE citations.source_segment_id = segments.id
+              )
             """,
             (context.source_id, context.source_version_id),
         )
         cursor.execute(
             """
-            DELETE FROM chunks
-            WHERE source_id = %s AND source_version_id <> %s
+            DELETE FROM chunks AS old_chunks
+            WHERE old_chunks.source_id = %s
+              AND old_chunks.source_version_id <> %s
+              AND NOT EXISTS (
+                  SELECT 1 FROM chunk_citations WHERE chunk_citations.chunk_id = old_chunks.id
+              )
+              AND NOT EXISTS (
+                  SELECT 1 FROM citations WHERE citations.chunk_id = old_chunks.id
+              )
+              AND NOT EXISTS (
+                  SELECT 1 FROM quiz_item_citations WHERE quiz_item_citations.chunk_id = old_chunks.id
+              )
+              AND NOT EXISTS (
+                  SELECT 1 FROM retrieval_trace_items WHERE retrieval_trace_items.chunk_id = old_chunks.id
+              )
             """,
             (context.source_id, context.source_version_id),
         )

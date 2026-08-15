@@ -18,7 +18,7 @@ from app.integrations.vectorstore.base import VectorStoreError
 from app.integrations.vectorstore.qdrant_adapter import QdrantClientConfig, QdrantVectorStore
 from app.models.content import Chunk, Source
 from app.models.learning import Note
-from app.models.enums import AnswerType, ChatRole, MessageStatus, NoteVisibility, RetrievalMode, SourceStatus
+from app.models.enums import AnswerType, ChatRole, MessageStatus, NoteVisibility, PolicyMode, RetrievalMode, SourceStatus
 from app.models.tutoring import AssistantAnswer, ChatMessage, Citation, RetrievalTrace, RetrievalTraceItem
 from app.policies.citation_policy import CitationPolicy
 from app.policies.response_mode_policy import resolve_policy_instructions
@@ -26,6 +26,7 @@ from app.policies.scoping import build_retrieval_filters
 from app.repositories.chat import ChatRepository
 from app.schemas.chat import AnswerResponse, CitationResponse, RetrievalTraceItemResponse, RetrievalTraceResponse
 from app.services.chat_retrieval_cache import CachedCandidate, ChatRetrievalCacheStore
+from app.services.prompt_library import compose_tutor_system_prompt
 
 logger = get_logger("app.retrieval")
 
@@ -52,6 +53,7 @@ class NoteContextRecord:
 class PreparedGroundedAnswer:
     session_id: str
     notebook_id: str
+    policy_mode: PolicyMode
     query_text: str
     filters: dict
     system_prompt: str
@@ -141,9 +143,10 @@ class AnswerQuestionWorkflow:
         return PreparedGroundedAnswer(
             session_id=session.id,
             notebook_id=session.notebook_id,
+            policy_mode=policy.mode,
             query_text=user_message.content_markdown,
             filters=filters,
-            system_prompt="\n".join(policy.system_rules),
+            system_prompt=compose_tutor_system_prompt(policy.mode),
             context=context,
             candidates=candidates,
             note_contexts=note_contexts,

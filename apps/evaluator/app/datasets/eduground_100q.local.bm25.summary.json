@@ -1,0 +1,138 @@
+{
+  "sample_count": 100,
+  "passed": 97,
+  "failed": 3,
+  "pass_rate": 0.97,
+  "average_faithfulness_score": 0.8996,
+  "average_context_recall_score": 0.9462,
+  "source_hit_at_5": 100,
+  "source_hit_at_5_rate": 1.0,
+  "expected_prefix_in_retrieved": 44,
+  "expected_prefix_in_retrieved_rate": 0.44,
+  "answer_types": {
+    "grounded_answer": 100
+  },
+  "total_citations": 500,
+  "average_citations_per_answer": 5,
+  "failed_samples": [
+    {
+      "sample_key": "eduground-doc-049",
+      "question": "What key point does the source make about Examples of Successful Entrepreneurs?",
+      "source_label": "Week 10 Entrepreneurial Marketing",
+      "faithfulness_score": 0.5517,
+      "context_recall_score": 0.1429,
+      "pass_fail": false,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 4"
+    },
+    {
+      "sample_key": "eduground-doc-050",
+      "question": "According to Week 12 Entrepreneurial Finance, what should a student know about Week 12 Entrepreneurial Finance?",
+      "source_label": "Week 12 Entrepreneurial Finance",
+      "faithfulness_score": 0.7297,
+      "context_recall_score": 0.0909,
+      "pass_fail": false,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7"
+    },
+    {
+      "sample_key": "eduground-doc-079",
+      "question": "According to Week 10 Entrepreneurial Marketing, what should a student know about Week 10 Entrepreneurial Marketing?",
+      "source_label": "Week 10 Entrepreneurial Marketing",
+      "faithfulness_score": 0.7297,
+      "context_recall_score": 0.3793,
+      "pass_fail": false,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7"
+    }
+  ],
+  "lowest_recall_samples": [
+    {
+      "sample_key": "eduground-doc-050",
+      "question": "According to Week 12 Entrepreneurial Finance, what should a student know about Week 12 Entrepreneurial Finance?",
+      "source_label": "Week 12 Entrepreneurial Finance",
+      "faithfulness_score": 0.7297,
+      "context_recall_score": 0.0909,
+      "pass_fail": false,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7"
+    },
+    {
+      "sample_key": "eduground-doc-049",
+      "question": "What key point does the source make about Examples of Successful Entrepreneurs?",
+      "source_label": "Week 10 Entrepreneurial Marketing",
+      "faithfulness_score": 0.5517,
+      "context_recall_score": 0.1429,
+      "pass_fail": false,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 4"
+    },
+    {
+      "sample_key": "eduground-doc-079",
+      "question": "According to Week 10 Entrepreneurial Marketing, what should a student know about Week 10 Entrepreneurial Marketing?",
+      "source_label": "Week 10 Entrepreneurial Marketing",
+      "faithfulness_score": 0.7297,
+      "context_recall_score": 0.3793,
+      "pass_fail": false,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7"
+    },
+    {
+      "sample_key": "eduground-doc-098",
+      "question": "What key point does the source make about Basic Principles of Cost Management?",
+      "source_label": "Project Cost Management",
+      "faithfulness_score": 0.7581,
+      "context_recall_score": 0.4545,
+      "pass_fail": true,
+      "first_citation": "Project Cost Management, page 10"
+    },
+    {
+      "sample_key": "eduground-doc-016",
+      "question": "What important concept is explained in SEN211 CSC411 TRADITIONAL MODELS SLIDES?",
+      "source_label": "SEN211 CSC411 TRADITIONAL MODELS SLIDES",
+      "faithfulness_score": 0.8772,
+      "context_recall_score": 0.4828,
+      "pass_fail": true,
+      "first_citation": "SEN211 CSC411 AGILE MODELS SLIDES, slide 4"
+    },
+    {
+      "sample_key": "eduground-doc-090",
+      "question": "What is Maintainable code?",
+      "source_label": "Software Dev Implementation Testing",
+      "faithfulness_score": 0.8667,
+      "context_recall_score": 0.6111,
+      "pass_fail": true,
+      "first_citation": "Software Dev Implementation Testing, slide 10"
+    },
+    {
+      "sample_key": "eduground-doc-056",
+      "question": "According to Module 3d CSC442 Sequence Analysis, what should a student know about BASE NUCLEOTIDES SEQUENCE ANALYSIS WITH PYTHON?",
+      "source_label": "Module 3d CSC442 Sequence Analysis",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 0.6667,
+      "pass_fail": true,
+      "first_citation": "Module 3c CSC442 Sequence Analysis, page 1"
+    },
+    {
+      "sample_key": "eduground-doc-015",
+      "question": "What important concept is explained in SEN211 CSC411 REQUIREMENTS AND SYSTEM DESIGN?",
+      "source_label": "SEN211 CSC411 REQUIREMENTS AND SYSTEM DESIGN",
+      "faithfulness_score": 0.7111,
+      "context_recall_score": 0.7,
+      "pass_fail": true,
+      "first_citation": "SEN211 CSC411 REQUIREMENTS AND SYSTEM DESIGN, slide 4"
+    },
+    {
+      "sample_key": "eduground-doc-096",
+      "question": "What key point does the source make about count_C = sequence.count(\"C\")?",
+      "source_label": "Module 3c CSC442 Sequence Analysis",
+      "faithfulness_score": 0.5349,
+      "context_recall_score": 0.7,
+      "pass_fail": true,
+      "first_citation": "Module 3c CSC442 Sequence Analysis, page 5"
+    },
+    {
+      "sample_key": "eduground-doc-057",
+      "question": "What key point does the source make about Processes in Project Procurement Management(Cont.)?",
+      "source_label": "Procurement Management",
+      "faithfulness_score": 1.0,
+      "context_recall_score": 0.7895,
+      "pass_fail": true,
+      "first_citation": "Procurement Management, page 5"
+    }
+  ]
+}

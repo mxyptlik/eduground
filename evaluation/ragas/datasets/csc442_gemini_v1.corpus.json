@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-08-14T23:09:19.875109+00:00",
+  "source_notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+  "evaluation_notebook_id": "a8fef64e-24a7-4d17-a032-3376589fbc93",
+  "source_count": 11,
+  "sources": [
+    {
+      "source_id": "46dbb2c4-bf89-4df7-ae7b-a18af94516c6",
+      "title": "Module 1 CSC442 Intro to CBL and BIF_compressed",
+      "sha256": "afcba3f5f1bd59274b572b811dcd970a10bced34f33a4799bae9683877d5773c",
+      "ingestion_job_id": "24f87ac8-0ca0-4778-bb43-316e486f4084"
+    },
+    {
+      "source_id": "f7fae35c-77e6-4a03-992f-44a604553179",
+      "title": "Module 2 CSC442 Biological Concepts_compressed-1-124",
+      "sha256": "c2db32b9d67d9eadacb5f807f7f27065048c896865c192750f4df24eb78cf14d",
+      "ingestion_job_id": "16b72cbc-5922-468d-b180-24c4f2c8d68e"
+    },
+    {
+      "source_id": "c30570fd-ab14-4ae5-add7-20c1fdb604a7",
+      "title": "Module 2b CSC442 Biological Concepts_compressed-125-195",
+      "sha256": "c872965a329ef3dc322117bb2d2c997366d86192a6e3482c5601f4894e7c54f1",
+      "ingestion_job_id": "eb42c73b-b167-4099-b70d-acef52f87144"
+    },
+    {
+      "source_id": "9bc80d36-7613-45b5-ad00-47073738af29",
+      "title": "Module 2c CSC442 Biological Concepts_compressed-196-272",
+      "sha256": "17998422856e06f46cf637aebc6b2eddf900ba4e68201bc88c7318e977ebe2e2",
+      "ingestion_job_id": "4d604d09-eb65-4ef8-8436-5fe5dc1f0439"
+    },
+    {
+      "source_id": "c72beeae-576f-4720-9cb1-8756d01e50d8",
+      "title": "Module 3a Transcription-Translation-WkSheet",
+      "sha256": "22997e1f1905eba55e161f7e1af0f96d3ca007e27d66c0f5f6f4bccadda1b7e5",
+      "ingestion_job_id": "a8f38392-aa5f-4744-86b2-b684c88e73da"
+    },
+    {
+      "source_id": "df7e6b12-f05a-4462-9dcc-84721883ebeb",
+      "title": "Module 3b DNA Mutations Practice Worksheet",
+      "sha256": "ae9774853cd50a4322168b75cf7737faf774e6e69cc35c550825679c21c4fdf5",
+      "ingestion_job_id": "425d36bf-e9b9-485e-a08a-5fe6a08d36a7"
+    },
+    {
+      "source_id": "6d331099-c25a-4de8-ba11-f9b4f86271d0",
+      "title": "Module 3c CSC442 Sequence Analysis",
+      "sha256": "f60147ff1215f2ec560ae9eba059c92c4a1c94672a29ba002ed24b241cf494d3",
+      "ingestion_job_id": "88f007f0-3904-4af2-acd6-61dd6e4da6ae"
+    },
+    {
+      "source_id": "9036e266-7afb-4a72-ae8f-fa4e7b0f8fc7",
+      "title": "Module 3d CSC442 Sequence Analysis",
+      "sha256": "7e1686df56048d084697281b690eeb51cbd6d1fc5ebd66e1fb84452042b12aef",
+      "ingestion_job_id": "34d861fc-0758-4e9e-ba13-51e9eb40b5d6"
+    },
+    {
+      "source_id": "f0921feb-9aa0-40ca-ae3a-3c140279ebab",
+      "title": "Module 4a CSC442 Biological Databases_compressed",
+      "sha256": "bdaa014fd0944e9a3fbae81078c703040884704f1e3490d404092b336e1684a9",
+      "ingestion_job_id": "25792233-b579-4380-9c88-c4bcf948ce97"
+    },
+    {
+      "source_id": "e42fc4ca-9c37-4317-9075-bae11e91e6cd",
+      "title": "Module 4b CSC442 Biological Databases",
+      "sha256": "5f44cd805bd78fe949bd0bbb9fa6b76f5ea4b41c11434041d286b8d5f625dfcc",
+      "ingestion_job_id": "ff974c88-fd1b-4cd4-9568-c8e2a6368214"
+    },
+    {
+      "source_id": "027d736d-8f2a-44e9-970e-29e884af65c0",
+      "title": "Module 5a CSC442 Sequence Alignment_compressed",
+      "sha256": "33ff1744f6e776dabf6da4135e56865d036f330903e38ceed581f62b2a3ea3bb",
+      "ingestion_job_id": "2494ffe8-7580-4755-a482-db85e8b5d967"
+    }
+  ]
+}

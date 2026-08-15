@@ -4,6 +4,9 @@ dist/
 build/
 .turbo/
 .vite/
+.video-output/
+.runlogs
+.venv
 coverage/
 .npm/
 .pnpm-store/
@@ -59,3 +62,5 @@ data/
 .agents/
 .npm-cache-uipro/
 diagrams/
+output/
+tools/document

@@ -1,0 +1,45 @@
+{
+  "framework": "RAGAS",
+  "ragas_version": "TO_BE_CAPTURED_FROM_SUCCESSFUL_RUN",
+  "python_version": "TO_BE_CAPTURED_FROM_SUCCESSFUL_RUN",
+  "evaluator_llm": {
+    "provider": "Google Gemini",
+    "model": "gemini-2.0-flash",
+    "temperature": 0.0,
+    "max_output_tokens": 2048,
+    "api_key_environment_variable": "GOOGLE_API_KEY"
+  },
+  "evaluator_embeddings": {
+    "provider": "Google Gemini",
+    "model": "gemini-embedding-001",
+    "output_dimensionality": 3072
+  },
+  "metrics": [
+    {
+      "name": "faithfulness",
+      "role": "primary",
+      "required_fields": ["user_input", "response", "retrieved_contexts"]
+    },
+    {
+      "name": "context_recall",
+      "role": "primary",
+      "required_fields": ["user_input", "reference", "retrieved_contexts"]
+    },
+    {
+      "name": "context_precision",
+      "role": "secondary",
+      "required_fields": ["user_input", "reference", "retrieved_contexts"]
+    },
+    {
+      "name": "answer_correctness",
+      "role": "secondary",
+      "required_fields": ["user_input", "response", "reference"]
+    }
+  ],
+  "execution": {
+    "sample_count": 100,
+    "retry_policy": "TO_BE_RECORDED",
+    "concurrency": "TO_BE_RECORDED",
+    "rate_limit_strategy": "TO_BE_RECORDED"
+  }
+}

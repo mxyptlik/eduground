@@ -47,6 +47,7 @@ class OpenRouterLLMConfig:
     model: str = "openai/gpt-4.1-mini"
     base_url: str = "https://openrouter.ai/api/v1"
     timeout_seconds: float = 60.0
+    max_output_tokens: int = 1536
     site_url: str | None = None
     app_name: str | None = None
     extra_headers: dict[str, str] = field(default_factory=dict)
@@ -59,6 +60,7 @@ class OpenRouterLLMConfig:
             model=settings.openrouter_chat_model or defaults.model,
             base_url=settings.openrouter_base_url or defaults.base_url,
             timeout_seconds=defaults.timeout_seconds,
+            max_output_tokens=settings.openrouter_max_output_tokens,
             site_url=settings.openrouter_http_referer or settings.web_base_url,
             app_name=settings.openrouter_title or settings.app_name,
         )
@@ -70,6 +72,7 @@ class GeminiLLMConfig:
     model: str = "gemini-2.0-flash"
     base_url: str = "https://generativelanguage.googleapis.com/v1beta"
     timeout_seconds: float = 60.0
+    max_output_tokens: int = 1536
 
     @classmethod
     def from_env(cls) -> "GeminiLLMConfig":
@@ -79,6 +82,7 @@ class GeminiLLMConfig:
             model=settings.gemini_chat_model or defaults.model,
             base_url=settings.gemini_base_url or defaults.base_url,
             timeout_seconds=defaults.timeout_seconds,
+            max_output_tokens=settings.gemini_max_output_tokens,
         )
 
 
@@ -170,7 +174,7 @@ def _message_content_to_text(content: Any) -> str:
     return str(content) if content is not None else ""
 
 
-def _to_gemini_payload(messages: list[dict[str, Any]]) -> dict[str, Any]:
+def _to_gemini_payload(messages: list[dict[str, Any]], *, max_output_tokens: int | None = None) -> dict[str, Any]:
     system_parts: list[dict[str, str]] = []
     contents: list[dict[str, Any]] = []
     for message in messages:
@@ -186,6 +190,8 @@ def _to_gemini_payload(messages: list[dict[str, Any]]) -> dict[str, Any]:
     payload: dict[str, Any] = {"contents": contents or [{"role": "user", "parts": [{"text": ""}]}]}
     if system_parts:
         payload["systemInstruction"] = {"parts": system_parts}
+    if max_output_tokens:
+        payload["generationConfig"] = {"maxOutputTokens": max_output_tokens}
     return payload
 
 
@@ -241,7 +247,7 @@ class OpenRouterLLMProvider(LLMProvider):
                 )
             response = _request_json(
                 f"{self.config.base_url.rstrip('/')}/chat/completions",
-                {"model": self.config.model, "messages": messages},
+                {"model": self.config.model, "messages": messages, "max_tokens": self.config.max_output_tokens},
                 _headers_from_config(self.config),
                 self.config.timeout_seconds,
             )
@@ -273,12 +279,18 @@ class OpenRouterLLMProvider(LLMProvider):
                     "POST",
                     f"{self.config.base_url.rstrip('/')}/chat/completions",
                     headers=_headers_from_config(self.config),
-                    json={"model": self.config.model, "messages": messages, "stream": True},
+                    json={
+                        "model": self.config.model,
+                        "messages": messages,
+                        "stream": True,
+                        "max_tokens": self.config.max_output_tokens,
+                    },
                     timeout=self.config.timeout_seconds,
                 ) as response:
                     if response.status_code >= 400:
+                        error_body = response.read().decode("utf-8", errors="replace")
                         raise LLMProviderError(
-                            f"OpenRouter request failed with status {response.status_code}: {response.text}",
+                            f"OpenRouter request failed with status {response.status_code}: {error_body}",
                             status_code=502 if response.status_code >= 500 else 424,
                             retryable=response.status_code >= 500 or response.status_code == 429,
                             details={"upstream_status_code": response.status_code},
@@ -349,7 +361,7 @@ class GeminiLLMProvider(LLMProvider):
             )
         response = _request_json(
             f"{self.config.base_url.rstrip('/')}/{_gemini_model_resource(self.config.model)}:generateContent",
-            _to_gemini_payload(messages),
+            _to_gemini_payload(messages, max_output_tokens=self.config.max_output_tokens),
             {
                 "x-goog-api-key": self.config.api_key,
                 "Content-Type": "application/json",

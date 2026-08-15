@@ -1,0 +1,662 @@
+[
+  {
+    "sample_key": "eduground-doc-001",
+    "question": "What are Genes?",
+    "expected_answer": "Genes are small sections of DNA within the genome that code for proteins They contain the instructions for our individual characteristics \u2013 like eye and hair colour",
+    "retrieved_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.\n\nEach gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135\n\nIntrinsic motivation\ncauses people to participate in an activity for their own enjoyment\nExtrinsic motivation\ncauses people to do something for a reward or to avoid a penalty\nFor example, some children take piano lessons for intrinsic motivation (they enjoy it) while others take them for extrinsic motivation (to get a reward or avoid punishment)\nIntrinsic and Extrinsic Motivation\nInformation Techn\n\nThe characteristic associated with a certain allele can\nsometimes be dominant or recessive.\nDominant alleles show their effect even if the individual only\nhas one copy of the allele (also known as being heterozygous).\nFor example, the allele for brown eyes is dominant, therefore\nyou only need one copy of the 'brown eye' allele to have brown\neyes (although, with two copies you will still have brown\n\nIf both alleles are dominant, it is called codominance.\nThe resulting characteristic is due to both alleles being\nexpressed equally.\nAn example of this is the blood group AB which is the result of\ncodominance of the A and B dominant alleles.\n141",
+    "model_answer": "\u2022 The purpose of genes is to store information. Genes come in different forms, called alleles. \u2022 The human genome contains 20,687 protein-coding genes.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 2b CSC442 Biological Concepts_compressed-125-195.pdf",
+    "source_label": "Module 2b CSC442 Biological Concepts compressed 125 195",
+    "locator": "page 5 section 1",
+    "topic": "that code for proteins. They contain the instructions",
+    "source_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "7d63845f-b011-4bd9-906c-1dfcdedc8d43",
+        "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+        "chunk_id": "1c0f177f-66ba-4260-bbb2-44782faed504",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 5"
+      },
+      {
+        "id": "97258edd-3cfa-4f75-8f8b-2cac10c7e85b",
+        "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+        "chunk_id": "452ee195-4df7-4c48-81e0-20e4c4df2e5f",
+        "source_segment_id": null,
+        "page_start": 11,
+        "page_end": 11,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Each gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 11"
+      },
+      {
+        "id": "ea39ae58-73e5-469e-a40f-6fb4a27e9f60",
+        "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+        "chunk_id": "75683414-6333-4732-b40a-2fa064dee5cc",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 8,
+        "slide_end": 8,
+        "quote_text": "Intrinsic motivation\ncauses people to participate in an activity for their own enjoyment\nExtrinsic motivation\ncauses people to do something for a reward or to avoid a penalty\nFor example, some children take piano lessons for intrinsic motivation (they enjoy it) while others take them for extrinsic motivation (to get a reward or avoid punishment)\nIntrinsic and Extrinsic Motivation\nInformation Techn",
+        "display_label": "Project Human Resources Management 2023, slide 8"
+      },
+      {
+        "id": "11c371ec-52a5-4be8-bcbf-af6330f5a5cb",
+        "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+        "chunk_id": "a3848f2e-43c8-4b97-9b54-7fcf23653496",
+        "source_segment_id": null,
+        "page_start": 16,
+        "page_end": 16,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "The characteristic associated with a certain allele can\nsometimes be dominant or recessive.\nDominant alleles show their effect even if the individual only\nhas one copy of the allele (also known as being heterozygous).\nFor example, the allele for brown eyes is dominant, therefore\nyou only need one copy of the 'brown eye' allele to have brown\neyes (although, with two copies you will still have brown",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 16"
+      },
+      {
+        "id": "54d5dc93-0941-444d-a6ec-268e701499ad",
+        "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+        "chunk_id": "73dc8f6f-e568-43eb-8414-e2f45e6de9b6",
+        "source_segment_id": null,
+        "page_start": 17,
+        "page_end": 17,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "If both alleles are dominant, it is called codominance.\nThe resulting characteristic is due to both alleles being\nexpressed equally.\nAn example of this is the blood group AB which is the result of\ncodominance of the A and B dominant alleles.\n141",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 17"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "227da9df-0c60-4861-a32b-d3fd4a949b7a",
+      "query_text": "What are Genes?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "84abcad2-94a6-490a-9ec0-625def746dd3",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 94,
+      "items": [
+        {
+          "chunk_id": "1c0f177f-66ba-4260-bbb2-44782faed504",
+          "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+          "initial_score": 0.486664,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "452ee195-4df7-4c48-81e0-20e4c4df2e5f",
+          "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+          "initial_score": 0.312348,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "75683414-6333-4732-b40a-2fa064dee5cc",
+          "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+          "initial_score": 0.213201,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "a3848f2e-43c8-4b97-9b54-7fcf23653496",
+          "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+          "initial_score": 0.197066,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "73dc8f6f-e568-43eb-8414-e2f45e6de9b6",
+          "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+          "initial_score": 0.164399,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-002",
+    "question": "What key point does the source make about CSC442?",
+    "expected_answer": "that form the sequence, and calculates the percentage nucleotide composition of the 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that",
+    "retrieved_context": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, \n\nCSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide\n\nWhat Is Software Development?\nSoftware development is the entire process of creating software, beginning from identifying a problem or need and ending with a fully functional system. It is a broad, end-to-end activity that encompasses multiple phases of the Software Development Life Cycle (SDLC).\nSoftware development includes:\nRequirements analysis\nSystem and software design\nCoding and programming\n\nThe characteristic associated with a certain allele can\nsometimes be dominant or recessive.\nDominant alleles show their effect even if the individual only\nhas one copy of the allele (also known as being heterozygous).\nFor example, the allele for brown eyes is dominant, therefore\nyou only need one copy of the 'brown eye' allele to have brown\neyes (although, with two copies you will still have brown\n\nProcurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+    "model_answer": "CSC442 COMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES MOODLE 3 SEQUENCE ANALYSIS WITH PYTHON 1) Writing Python programs for simple sequence analysis tasks (1) Write a unique program that 1) accepts a string of nucleotide-sequence, finds the total number of nucleotides that form the sequence, and calculates the percentage nucleotide composition of the sequence 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that form the sequence, and calculates the percentage nucleotide composition of the sequence.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 3c CSC442 Sequence Analysis.pdf",
+    "source_label": "Module 3c CSC442 Sequence Analysis",
+    "locator": "page 1 section 1",
+    "topic": "CSC442",
+    "source_context": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide-sequence, finds the total number of nucleotides that\nform the sequence, and calculates the percentage nucleotide composition of the\nsequence.\nYou are to submit your codes with detailed screenshots in a single ms-word file.\n2) Writing Python programs for simple sequence analysis tasks (2)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n2) processes a file of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n3) If it is a DNA sequence, your program should transcribe it into an RNA and print\nout both sequences.\n4) If it is an RNA sequence, your program should do reverse transcription of the\nsequence into a DNA and print out both sequences.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "d0462952-d661-4875-a4c5-ba2bf9100336",
+        "source_id": "d65a1f69-cfc6-4d81-897f-f9854ce422b3",
+        "chunk_id": "b7294989-3652-4c20-912d-dc9b11aa76b9",
+        "source_segment_id": null,
+        "page_start": 2,
+        "page_end": 2,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, ",
+        "display_label": "Week 12 Entrepreneurial Finance, page 2"
+      },
+      {
+        "id": "2cc7a124-6fc1-45b8-9995-56affa9093ca",
+        "source_id": "730871e0-2e29-483d-b2bb-91c1e358aced",
+        "chunk_id": "fae76ba7-7bb6-495c-a874-fe4a2bb21810",
+        "source_segment_id": null,
+        "page_start": 1,
+        "page_end": 1,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide",
+        "display_label": "Module 3c CSC442 Sequence Analysis, page 1"
+      },
+      {
+        "id": "f69c75f9-7e9d-4866-b979-3fc6da877753",
+        "source_id": "d6ac7f87-d564-49c9-89f2-3d482302d5f4",
+        "chunk_id": "d3ef4608-8403-447c-b875-0c61c4c8eecd",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 5,
+        "slide_end": 5,
+        "quote_text": "What Is Software Development?\nSoftware development is the entire process of creating software, beginning from identifying a problem or need and ending with a fully functional system. It is a broad, end-to-end activity that encompasses multiple phases of the Software Development Life Cycle (SDLC).\nSoftware development includes:\nRequirements analysis\nSystem and software design\nCoding and programming",
+        "display_label": "Software Dev Implementation Testing, slide 5"
+      },
+      {
+        "id": "b8454763-9e5c-408b-85c4-0d2ea69046a8",
+        "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+        "chunk_id": "a3848f2e-43c8-4b97-9b54-7fcf23653496",
+        "source_segment_id": null,
+        "page_start": 16,
+        "page_end": 16,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "The characteristic associated with a certain allele can\nsometimes be dominant or recessive.\nDominant alleles show their effect even if the individual only\nhas one copy of the allele (also known as being heterozygous).\nFor example, the allele for brown eyes is dominant, therefore\nyou only need one copy of the 'brown eye' allele to have brown\neyes (although, with two copies you will still have brown",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 16"
+      },
+      {
+        "id": "daf91549-3312-41ed-8e93-228956194901",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "8070c74b-137f-4117-a5fb-647074b9d4de",
+        "source_segment_id": null,
+        "page_start": 2,
+        "page_end": 2,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Procurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+        "display_label": "Procurement Management, page 2"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "a651fc47-17a3-419b-819d-f895f099dceb",
+      "query_text": "What key point does the source make about CSC442?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "84abcad2-94a6-490a-9ec0-625def746dd3",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 32,
+      "items": [
+        {
+          "chunk_id": "b7294989-3652-4c20-912d-dc9b11aa76b9",
+          "source_id": "d65a1f69-cfc6-4d81-897f-f9854ce422b3",
+          "initial_score": 0.132453,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "fae76ba7-7bb6-495c-a874-fe4a2bb21810",
+          "source_id": "730871e0-2e29-483d-b2bb-91c1e358aced",
+          "initial_score": 0.088045,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "d3ef4608-8403-447c-b875-0c61c4c8eecd",
+          "source_id": "d6ac7f87-d564-49c9-89f2-3d482302d5f4",
+          "initial_score": 0.082479,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "a3848f2e-43c8-4b97-9b54-7fcf23653496",
+          "source_id": "b47fd79d-3ce2-4d89-a699-d465299c02de",
+          "initial_score": 0.0,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "8070c74b-137f-4117-a5fb-647074b9d4de",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.0,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-003",
+    "question": "What does Procurement management involve?",
+    "expected_answer": "Procurement management involves the processes acquiring goods, services or results needed from external sources to successfully complete a project",
+    "retrieved_context": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3\n\nProcesses in Project Procurement Management(Cont.)\n\uf076Plan procurement management: This process involves identifying project needs and\ndetermining whether they should be procured.\n\uf076This involves the following:\n\uf076Assessing procurement needs, this is to determine the goods or services that must be\nprocured.\n\uf076Define procurement approach, to identify the type of contracts and procurement methods.\n\uf076Identi\n\nProcesses in Project Procurement Management\n\uf076Processes in procurement management consists of four major processes, these are:\ni.\nPlan procurement management\nii. Conduct procurements\niii. Control procurements\niv. Close procurements\n4\n\nProcurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2\n\nProcesses in Project Procurement Management(Cont.)\n\uf076Close Procurements: This process involves completing all procurement activities and\nformally closing contracts.\n\uf076Verify deliverables, this is to ensure that all goods or services meet contract specifications.\n\uf076Conduct final vendor evaluations by assessing supplier performance.\n\uf076Release payments and finalize contract documentation by complete all",
+    "model_answer": "\uf076Procurement management helps control costs and budgets. \uf076Procurement management ensures compliance with legal and contractual obligations. Importance of Procurement Management \uf076Procurement management ensures timely acquisition of necessary resources.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Procurement Management.pdf",
+    "source_label": "Procurement Management",
+    "locator": "page 2 section 1",
+    "topic": "\uf076Procurement management involves the processes acquiring goods, services or",
+    "source_context": "Procurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "b26eac39-3659-4e49-a78b-a2ab0b6fdf50",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "51203b08-0b08-4dcb-a1e0-cc63f38e160f",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3",
+        "display_label": "Procurement Management, page 3"
+      },
+      {
+        "id": "dcb42063-aeae-4404-9b7d-f92327d11801",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "b7582336-a88b-439f-8bef-97717f4790a8",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management(Cont.)\n\uf076Plan procurement management: This process involves identifying project needs and\ndetermining whether they should be procured.\n\uf076This involves the following:\n\uf076Assessing procurement needs, this is to determine the goods or services that must be\nprocured.\n\uf076Define procurement approach, to identify the type of contracts and procurement methods.\n\uf076Identi",
+        "display_label": "Procurement Management, page 5"
+      },
+      {
+        "id": "caa5cfae-20f1-41c4-9e33-f1361f09131b",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "d2c7d83e-79d0-4f30-892b-122091f32527",
+        "source_segment_id": null,
+        "page_start": 4,
+        "page_end": 4,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management\n\uf076Processes in procurement management consists of four major processes, these are:\ni.\nPlan procurement management\nii. Conduct procurements\niii. Control procurements\niv. Close procurements\n4",
+        "display_label": "Procurement Management, page 4"
+      },
+      {
+        "id": "5f73cc82-d591-4d61-9998-605870becb76",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "8070c74b-137f-4117-a5fb-647074b9d4de",
+        "source_segment_id": null,
+        "page_start": 2,
+        "page_end": 2,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Procurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+        "display_label": "Procurement Management, page 2"
+      },
+      {
+        "id": "922a743c-8f32-4941-811b-ab000f0eac54",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "63ac49ae-6487-4c4e-9b5c-8d46f7ea8bd0",
+        "source_segment_id": null,
+        "page_start": 8,
+        "page_end": 8,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management(Cont.)\n\uf076Close Procurements: This process involves completing all procurement activities and\nformally closing contracts.\n\uf076Verify deliverables, this is to ensure that all goods or services meet contract specifications.\n\uf076Conduct final vendor evaluations by assessing supplier performance.\n\uf076Release payments and finalize contract documentation by complete all ",
+        "display_label": "Procurement Management, page 8"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "2015bb3f-286b-4798-84a0-12a6180bf62c",
+      "query_text": "What does Procurement management involve?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "84abcad2-94a6-490a-9ec0-625def746dd3",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 19,
+      "items": [
+        {
+          "chunk_id": "51203b08-0b08-4dcb-a1e0-cc63f38e160f",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.675737,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "b7582336-a88b-439f-8bef-97717f4790a8",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.53376,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "d2c7d83e-79d0-4f30-892b-122091f32527",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.510754,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "8070c74b-137f-4117-a5fb-647074b9d4de",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.468293,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "63ac49ae-6487-4c4e-9b5c-8d46f7ea8bd0",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.278019,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-004",
+    "question": "What key point does the source make about The Importance of Human Resource Management?",
+    "expected_answer": "Many corporate executives have said, \u201cPeople are our most important asset\u201d People determine the success and failure of organizations and projects",
+    "retrieved_context": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2\n\nImportance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3\n\nProactive organizations are addressing workforce needs by\nimproving benefits\nredefining work hours and incentives\nfinding future workers\nImplications for the Future of IT Human Resource Management\nInformation Technology Project Management, Eighth Edition\n3\n\n\u2022 In biological systems that are capable\nof reproduction, we must first focus\non whether they are heritable;\n\u2022 specifically,\nsome\nmutations\naffect\nonly the individual that carries them,\nwhile others affect all of the carrier\norganism's\noffspring,\nand\nfurther\ndescendants.\n2\n01\n\nMaking the most effective use of the people involved with a project\nProcesses include\nPlanning human resource management:\nidentifying and documenting project roles, responsibilities, and reporting relationships\nAcquiring the project team:\ngetting the needed personnel assigned to and working on the project\nDeveloping the project team:\nbuilding individual and group skills to enhance project performa",
+    "model_answer": "Many corporate executives have said, \u201cPeople are our most important asset\u201d People determine the success and failure of organizations and projects The Importance of Human Resource Management Information Technology Project Management, Eighth Edition 2 Importance of Procurement Management \uf076Procurement management ensures timely acquisition of necessary resources. 2 01 Making the most effective use of the people involved with a project Processes include Planning human resource management: identifying and documenting project roles, responsibilities, and reporting relationships Acquiring the project team: getting the needed personnel assigned to and working on the project Developing the project team: building individual and group skills to enhance project performance Managing the project team: tracking team member performance, motivating team members, providing timely feedback, resolving issues and conflicts, and coordinating changes to help enhance project performance What is Project Human Resource Management?",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Project Human Resources Management 2023.pptx",
+    "source_label": "Project Human Resources Management 2023",
+    "locator": "slide 2 section 1",
+    "topic": "The Importance of Human Resource Management",
+    "source_context": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "d6e67fe4-455c-4ec6-8326-4c9841c44ad8",
+        "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+        "chunk_id": "8a0e9d8d-6683-4f68-83bf-52614deed737",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 2,
+        "slide_end": 2,
+        "quote_text": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2",
+        "display_label": "Project Human Resources Management 2023, slide 2"
+      },
+      {
+        "id": "30a8a06f-7581-4558-b776-92763d221554",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "51203b08-0b08-4dcb-a1e0-cc63f38e160f",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3",
+        "display_label": "Procurement Management, page 3"
+      },
+      {
+        "id": "55ea4dff-2c74-4ef9-8a69-c46b1b1066d1",
+        "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+        "chunk_id": "c7fcc71e-24a6-4375-b8d3-20c52b173314",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 3,
+        "slide_end": 3,
+        "quote_text": "Proactive organizations are addressing workforce needs by\nimproving benefits\nredefining work hours and incentives\nfinding future workers\nImplications for the Future of IT Human Resource Management\nInformation Technology Project Management, Eighth Edition\n3",
+        "display_label": "Project Human Resources Management 2023, slide 3"
+      },
+      {
+        "id": "b9cc3f7f-9048-43d6-bba8-a557d19eafc9",
+        "source_id": "4b1ff74e-78c3-4643-aec5-b2ec25eef99a",
+        "chunk_id": "94e5f9e2-a4f1-4aff-b029-402608be4c06",
+        "source_segment_id": null,
+        "page_start": 6,
+        "page_end": 6,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "\u2022 In biological systems that are capable\nof reproduction, we must first focus\non whether they are heritable;\n\u2022 specifically,\nsome\nmutations\naffect\nonly the individual that carries them,\nwhile others affect all of the carrier\norganism's\noffspring,\nand\nfurther\ndescendants.\n2\n01",
+        "display_label": "Module 2c CSC442 Biological Concepts compressed 196 272, page 6"
+      },
+      {
+        "id": "9ff1e8c2-924f-43a2-ad3d-8df201e3dac3",
+        "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+        "chunk_id": "2f5f9919-0eb3-495f-83bd-b61c9f5ee814",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 5,
+        "slide_end": 5,
+        "quote_text": "Making the most effective use of the people involved with a project\nProcesses include\nPlanning human resource management:\nidentifying and documenting project roles, responsibilities, and reporting relationships\nAcquiring the project team:\ngetting the needed personnel assigned to and working on the project\nDeveloping the project team:\nbuilding individual and group skills to enhance project performa",
+        "display_label": "Project Human Resources Management 2023, slide 5"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "407585f1-db67-4a8f-b9dc-8698fbb67b34",
+      "query_text": "What key point does the source make about The Importance of Human Resource Management?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "84abcad2-94a6-490a-9ec0-625def746dd3",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 25,
+      "items": [
+        {
+          "chunk_id": "8a0e9d8d-6683-4f68-83bf-52614deed737",
+          "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+          "initial_score": 0.456435,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "51203b08-0b08-4dcb-a1e0-cc63f38e160f",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.351123,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "c7fcc71e-24a6-4375-b8d3-20c52b173314",
+          "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+          "initial_score": 0.348155,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "94e5f9e2-a4f1-4aff-b029-402608be4c06",
+          "source_id": "4b1ff74e-78c3-4643-aec5-b2ec25eef99a",
+          "initial_score": 0.328798,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "2f5f9919-0eb3-495f-83bd-b61c9f5ee814",
+          "source_id": "7756ee50-e6a3-4d04-87dd-29d72e82c028",
+          "initial_score": 0.271538,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-005",
+    "question": "What important concept is explained in Week 12 Entrepreneurial Finance?",
+    "expected_answer": "Jeff Bezos commented that the U.S. has a strong \"risk capital system\" that fosters entrepreneurial success and enables startups",
+    "retrieved_context": "then these changes can be categorized as\nsomatic mutations.\nThe\nword\nsomatic\ncomes\nfrom\nthe\nGreek word soma which means \"body\", and\nsomatic mutations only affect the present\norganism's body.\nFor\nexample,\ncancer\nis\na\npotent\ns9omatic mutation that will affect a single\n\nProcesses in Project Procurement Management(Cont.)\n\uf076Control procurements: This process ensures that vendors adhere to the\nterms and conditions of the contract. This involves the following:\n\uf076Monitor vendor performance by tracking quality, cost and timelines.\n\uf076Manage contract changes to handle amendments and modifications.\n\uf076Ensure compliance this is to verify adherence to contract terms and regulato\n\nHow to Raise Funds\nBootstrapping\nSoft Financing\nSTAGE 1\nSTAGE 2\nPersonal funding,\ninternal resources\nFlexible terms, Low-cost,\nNo repayment\nSTAGE 3\nHard Financing\nCommercial terms,\nCollateral, Strong\nDocumentation\n\nWhat is Entrepreneurial Marketing?\n\uf097An entrepreneur is one who creates a new business in\nthe face of risk and uncertainty for achieving profit and\ngrowth opportunities and assembles the necessary\nresources\nto\ncapitalize\non\nthose\nopportunities\n(Scarborough, 2011).\n\uf097\u201cMarketing is an organizational function and a set\nof\nprocesses\nfor\ncreating, communicating, and\ndelivering value to customers and for \n\nProcesses in Project Procurement Management\n\uf076Processes in procurement management consists of four major processes, these are:\ni.\nPlan procurement management\nii. Conduct procurements\niii. Control procurements\niv. Close procurements\n4",
+    "model_answer": "\uf097Entrepreneurial Marketing is an act of creating a new business, so as to satisfy consumers\u2019 needs. 7 How to Raise Funds Bootstrapping Soft Financing STAGE 1 STAGE 2 Personal funding, internal resources Flexible terms, Low-cost, No repayment STAGE 3 Hard Financing Commercial terms, Collateral, Strong Documentation What is Entrepreneurial Marketing?",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Week 12 Entrepreneurial Finance.pdf",
+    "source_label": "Week 12 Entrepreneurial Finance",
+    "locator": "page 2 section 1",
+    "topic": "Introduction",
+    "source_context": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, and\ninfrastructure.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "e0e837c0-7ad9-40ec-941d-dd67353b5722",
+        "source_id": "4b1ff74e-78c3-4643-aec5-b2ec25eef99a",
+        "chunk_id": "01e6c964-6e54-4698-893f-b4d7ab02de37",
+        "source_segment_id": null,
+        "page_start": 9,
+        "page_end": 9,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "then these changes can be categorized as\nsomatic mutations.\nThe\nword\nsomatic\ncomes\nfrom\nthe\nGreek word soma which means \"body\", and\nsomatic mutations only affect the present\norganism's body.\nFor\nexample,\ncancer\nis\na\npotent\ns9omatic mutation that will affect a single",
+        "display_label": "Module 2c CSC442 Biological Concepts compressed 196 272, page 9"
+      },
+      {
+        "id": "bb8713b2-d42f-4eb5-9587-462d699f653d",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "b1afb02e-9508-4b1d-b38f-1a04acb15f42",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management(Cont.)\n\uf076Control procurements: This process ensures that vendors adhere to the\nterms and conditions of the contract. This involves the following:\n\uf076Monitor vendor performance by tracking quality, cost and timelines.\n\uf076Manage contract changes to handle amendments and modifications.\n\uf076Ensure compliance this is to verify adherence to contract terms and regulato",
+        "display_label": "Procurement Management, page 7"
+      },
+      {
+        "id": "a2f3b68d-62fd-45a5-9ff2-dba75fa95d47",
+        "source_id": "d65a1f69-cfc6-4d81-897f-f9854ce422b3",
+        "chunk_id": "ef0be05d-e5fe-4922-9150-57f720dd2c80",
+        "source_segment_id": null,
+        "page_start": 4,
+        "page_end": 4,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "How to Raise Funds\nBootstrapping\nSoft Financing\nSTAGE 1\nSTAGE 2\nPersonal funding,\ninternal resources\nFlexible terms, Low-cost,\nNo repayment\nSTAGE 3\nHard Financing\nCommercial terms,\nCollateral, Strong\nDocumentation",
+        "display_label": "Week 12 Entrepreneurial Finance, page 4"
+      },
+      {
+        "id": "77fa1f62-801f-49b7-ba4a-3cb9fe2b02a8",
+        "source_id": "4ae730ba-32df-4dd6-85d2-92081f8b5f1f",
+        "chunk_id": "6e0fc6e3-44d7-4e9b-8737-36572314cf49",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "What is Entrepreneurial Marketing?\n\uf097An entrepreneur is one who creates a new business in\nthe face of risk and uncertainty for achieving profit and\ngrowth opportunities and assembles the necessary\nresources\nto\ncapitalize\non\nthose\nopportunities\n(Scarborough, 2011).\n\uf097\u201cMarketing is an organizational function and a set\nof\nprocesses\nfor\ncreating, communicating, and\ndelivering value to customers and for ",
+        "display_label": "Week 10 Entrepreneurial Marketing, page 7"
+      },
+      {
+        "id": "afcc87bd-b7d9-43e5-a7e7-a7bb26950752",
+        "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+        "chunk_id": "d2c7d83e-79d0-4f30-892b-122091f32527",
+        "source_segment_id": null,
+        "page_start": 4,
+        "page_end": 4,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management\n\uf076Processes in procurement management consists of four major processes, these are:\ni.\nPlan procurement management\nii. Conduct procurements\niii. Control procurements\niv. Close procurements\n4",
+        "display_label": "Procurement Management, page 4"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "3e8d2c9c-d8f7-41de-bc08-62ad473ac254",
+      "query_text": "What important concept is explained in Week 12 Entrepreneurial Finance?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "84abcad2-94a6-490a-9ec0-625def746dd3",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 39,
+      "items": [
+        {
+          "chunk_id": "01e6c964-6e54-4698-893f-b4d7ab02de37",
+          "source_id": "4b1ff74e-78c3-4643-aec5-b2ec25eef99a",
+          "initial_score": 0.186772,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "b1afb02e-9508-4b1d-b38f-1a04acb15f42",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.163663,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "ef0be05d-e5fe-4922-9150-57f720dd2c80",
+          "source_id": "d65a1f69-cfc6-4d81-897f-f9854ce422b3",
+          "initial_score": 0.140028,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "6e0fc6e3-44d7-4e9b-8737-36572314cf49",
+          "source_id": "4ae730ba-32df-4dd6-85d2-92081f8b5f1f",
+          "initial_score": 0.139573,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "d2c7d83e-79d0-4f30-892b-122091f32527",
+          "source_id": "1de55797-27ca-4131-a92e-902f614ff4de",
+          "initial_score": 0.120386,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "evaluation_notebook_id": "a8fef64e-24a7-4d17-a032-3376589fbc93",
+  "jobs": [
+    {
+      "source_id": "46dbb2c4-bf89-4df7-ae7b-a18af94516c6",
+      "title": "Module 1 CSC442 Intro to CBL and BIF_compressed",
+      "job_id": "1f6c5f4e-e8a7-445b-b252-25677b0917ca",
+      "status": "retrying"
+    },
+    {
+      "source_id": "f7fae35c-77e6-4a03-992f-44a604553179",
+      "title": "Module 2 CSC442 Biological Concepts_compressed-1-124",
+      "job_id": "71c2363f-2293-4806-9c0b-05f07627d93a",
+      "status": "retrying"
+    },
+    {
+      "source_id": "c30570fd-ab14-4ae5-add7-20c1fdb604a7",
+      "title": "Module 2b CSC442 Biological Concepts_compressed-125-195",
+      "job_id": "54290d96-3430-419c-b463-a200e01ee71e",
+      "status": "retrying"
+    },
+    {
+      "source_id": "9bc80d36-7613-45b5-ad00-47073738af29",
+      "title": "Module 2c CSC442 Biological Concepts_compressed-196-272",
+      "job_id": "32829db3-c6b1-492d-9cea-753855e6d1de",
+      "status": "retrying"
+    },
+    {
+      "source_id": "c72beeae-576f-4720-9cb1-8756d01e50d8",
+      "title": "Module 3a Transcription-Translation-WkSheet",
+      "job_id": "a573088e-3974-4ab6-8550-b12e3a5e7f7e",
+      "status": "retrying"
+    },
+    {
+      "source_id": "df7e6b12-f05a-4462-9dcc-84721883ebeb",
+      "title": "Module 3b DNA Mutations Practice Worksheet",
+      "job_id": "e8ae4c46-1021-45bb-a992-deea13a2568b",
+      "status": "retrying"
+    },
+    {
+      "source_id": "6d331099-c25a-4de8-ba11-f9b4f86271d0",
+      "title": "Module 3c CSC442 Sequence Analysis",
+      "job_id": "7bbd15b8-a83e-48e5-94af-e7102beb93cd",
+      "status": "retrying"
+    },
+    {
+      "source_id": "9036e266-7afb-4a72-ae8f-fa4e7b0f8fc7",
+      "title": "Module 3d CSC442 Sequence Analysis",
+      "job_id": "ef8de007-a1a3-4577-9404-86fcdd1fe9c7",
+      "status": "retrying"
+    },
+    {
+      "source_id": "f0921feb-9aa0-40ca-ae3a-3c140279ebab",
+      "title": "Module 4a CSC442 Biological Databases_compressed",
+      "job_id": "3fff26ff-0f3e-4233-9f30-2e819a98e99f",
+      "status": "retrying"
+    },
+    {
+      "source_id": "e42fc4ca-9c37-4317-9075-bae11e91e6cd",
+      "title": "Module 4b CSC442 Biological Databases",
+      "job_id": "fa2a1ee9-c4f4-4bb9-8258-1f6cf8151ce5",
+      "status": "retrying"
+    },
+    {
+      "source_id": "027d736d-8f2a-44e9-970e-29e884af65c0",
+      "title": "Module 5a CSC442 Sequence Alignment_compressed",
+      "job_id": "b5676e32-ab57-45f7-9df6-2f58194aa9e5",
+      "status": "retrying"
+    }
+  ]
+}

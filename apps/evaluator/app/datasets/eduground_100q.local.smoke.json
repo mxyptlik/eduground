@@ -1,0 +1,266 @@
+[
+  {
+    "sample_key": "eduground-doc-001",
+    "question": "What are Genes?",
+    "expected_answer": "Genes are small sections of DNA within the genome that code for proteins They contain the instructions for our individual characteristics \u2013 like eye and hair colour",
+    "retrieved_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.\n\nEach gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135\n\nAlthough various types\nof\nmolecular\nchanges\nexist,\nthe\nword\n\"mutation\"\ntypically refers to a change that affects the\nnucleic acids.\nIn\ncellular\norganisms,\nthese\nnucleic\nacids are the building blocks of DNA, and\nin viruses they are the building\n\nDefinition of Key Terms\nSoftware Process:\nA structured set of activities required to develop a software system. These activities typically include specification, design, implementation, validation, and maintenance.\nSoftware Development Life Cycle (SDLC):\nA conceptual model that describes the stages involved in an information system development project, from an initial feasibility study through mai\n\n27\nwww covenantuniversity edu ng\nLearning objectives\nAfter this session, students should be able to:\n\u2022 Summarise the purpose of genome browsers, the types of\ndata available and the commonly used genome browsers\n\u2022 Explore genomic regions using the Ensembl genome\nbrowser\n\u2022 Appraise the Ensembl gene annotation pipeline,\ncombining manual and automatic annotation\n\u2022 Find information about genes in Ensem",
+    "model_answer": "\u2022 The purpose of genes is to store information. Genes come in different forms, called alleles. \u2022 The human genome contains 20,687 protein-coding genes.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 2b CSC442 Biological Concepts_compressed-125-195.pdf",
+    "source_label": "Module 2b CSC442 Biological Concepts compressed 125 195",
+    "locator": "page 5 section 1",
+    "topic": "that code for proteins. They contain the instructions",
+    "source_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "74d7e7ed-eb8c-4adc-b521-d3be8112b1e6",
+        "source_id": "ffd16219-5e10-4042-974d-8d4e980df018",
+        "chunk_id": "fbf3c05e-32f5-4ac5-b21f-3cde4f7e501e",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 5"
+      },
+      {
+        "id": "82167f76-2781-42a7-9816-8245cfed84c5",
+        "source_id": "ffd16219-5e10-4042-974d-8d4e980df018",
+        "chunk_id": "c280b919-bfcd-43b5-a361-a863f3a1d244",
+        "source_segment_id": null,
+        "page_start": 11,
+        "page_end": 11,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Each gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 11"
+      },
+      {
+        "id": "48387d2e-0e47-46a6-a191-a994af985e81",
+        "source_id": "c88e401c-60a0-4125-a280-d0ca88b1d3f9",
+        "chunk_id": "05de9e70-5b82-4a9d-8a97-f670959ab215",
+        "source_segment_id": null,
+        "page_start": 8,
+        "page_end": 8,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Although various types\nof\nmolecular\nchanges\nexist,\nthe\nword\n\"mutation\"\ntypically refers to a change that affects the\nnucleic acids.\nIn\ncellular\norganisms,\nthese\nnucleic\nacids are the building blocks of DNA, and\nin viruses they are the building",
+        "display_label": "Module 2c CSC442 Biological Concepts compressed 196 272, page 8"
+      },
+      {
+        "id": "30a8a3bf-e944-4a2b-a5ca-8a1ee9a525a4",
+        "source_id": "76b646cc-4a41-43f0-816a-733e6fabb048",
+        "chunk_id": "4a2f992a-c9f1-43b3-9aff-650f4c0591e7",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 7,
+        "slide_end": 7,
+        "quote_text": "Definition of Key Terms\nSoftware Process:\nA structured set of activities required to develop a software system. These activities typically include specification, design, implementation, validation, and maintenance.\nSoftware Development Life Cycle (SDLC):\nA conceptual model that describes the stages involved in an information system development project, from an initial feasibility study through mai",
+        "display_label": "SEN211 CSC411 TRADITIONAL MODELS SLIDES, slide 7"
+      },
+      {
+        "id": "cc20de83-70f9-4b62-93ea-72b418f475be",
+        "source_id": "4fc59f3b-91f5-4a6d-a1fa-da23f504f568",
+        "chunk_id": "55be865c-5c67-4c48-961e-5a168f6bc0b3",
+        "source_segment_id": null,
+        "page_start": 27,
+        "page_end": 27,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "27\nwww covenantuniversity edu ng\nLearning objectives\nAfter this session, students should be able to:\n\u2022 Summarise the purpose of genome browsers, the types of\ndata available and the commonly used genome browsers\n\u2022 Explore genomic regions using the Ensembl genome\nbrowser\n\u2022 Appraise the Ensembl gene annotation pipeline,\ncombining manual and automatic annotation\n\u2022 Find information about genes in Ensem",
+        "display_label": "Module 4a CSC442 Biological Databases compressed, page 27"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "726c867f-18ff-491b-83f0-a412c0cab202",
+      "query_text": "What are Genes?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "76b8da88-ca6c-4b41-bc84-bcac6962375b",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 71,
+      "items": [
+        {
+          "chunk_id": "fbf3c05e-32f5-4ac5-b21f-3cde4f7e501e",
+          "source_id": "ffd16219-5e10-4042-974d-8d4e980df018",
+          "initial_score": 0.46291,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "c280b919-bfcd-43b5-a361-a863f3a1d244",
+          "source_id": "ffd16219-5e10-4042-974d-8d4e980df018",
+          "initial_score": 0.320256,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "05de9e70-5b82-4a9d-8a97-f670959ab215",
+          "source_id": "c88e401c-60a0-4125-a280-d0ca88b1d3f9",
+          "initial_score": 0.174078,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "4a2f992a-c9f1-43b3-9aff-650f4c0591e7",
+          "source_id": "76b646cc-4a41-43f0-816a-733e6fabb048",
+          "initial_score": 0.127,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "55be865c-5c67-4c48-961e-5a168f6bc0b3",
+          "source_id": "4fc59f3b-91f5-4a6d-a1fa-da23f504f568",
+          "initial_score": 0.113961,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-002",
+    "question": "What key point does the source make about CSC442?",
+    "expected_answer": "that form the sequence, and calculates the percentage nucleotide composition of the 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that",
+    "retrieved_context": "Basic features of all cells\n2.\nCells contain cytoplasm\no\nAll materials / structures\ninside\nthe\nplasma\nmembrane\no\nLocation\nof\nmetabolic\nactivity\n(e.g.,\nenergy\nproduction\n/\nprotein\nsynthesis)\n7\n\ndescendants, they must:\n1) occur in cells that produce the next\ngeneration, and\n2) affect the hereditary material.\nUltimately,\nthe\ninterplay\nbetween\ninherited mutations and environmental\npressures generates diversity\namong\n202\n\nthen these changes can be categorized as\nsomatic mutations.\nThe\nword\nsomatic\ncomes\nfrom\nthe\nGreek word soma which means \"body\", and\nsomatic mutations only affect the present\norganism's body.\nFor\nexample,\ncancer\nis\na\npotent\ns9omatic mutation that will affect a single\n\nFrederick Herzberg wrote several famous books and articles about worker motivation. He distinguished between\nmotivational factors: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction\nhygiene factors: cause dissatisfaction if not present, but do not motivate workers to do more. Examples include larger salaries, more supervision, and a m\n\nHow to Manage Funds\nPlan\nSet Financial Goals,\nPrepare a Budget,\nForecast Cash Flow\n1\nReceive and\nAllocate\nBusiness Accounts\nClassify Expenses\n(fixed vs variable cost),\nSet Spending Limits,\nPrioritise Essentials\nexpenses\n2\nTrack and\nRecord\nTrack Cash Flow,\nReconcile Bank\nStatements\n3\nAnalyse\nCompare Actual vs.\nBudget, Profit Margin,\nLiquidity Ratio, Working\nCapital Management,\nPricing strategies an",
+    "model_answer": "Basic features of all cells 2.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 3c CSC442 Sequence Analysis.pdf",
+    "source_label": "Module 3c CSC442 Sequence Analysis",
+    "locator": "page 1 section 1",
+    "topic": "CSC442",
+    "source_context": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide-sequence, finds the total number of nucleotides that\nform the sequence, and calculates the percentage nucleotide composition of the\nsequence.\nYou are to submit your codes with detailed screenshots in a single ms-word file.\n2) Writing Python programs for simple sequence analysis tasks (2)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n2) processes a file of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n3) If it is a DNA sequence, your program should transcribe it into an RNA and print\nout both sequences.\n4) If it is an RNA sequence, your program should do reverse transcription of the\nsequence into a DNA and print out both sequences.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "2705fbdb-f577-4400-9b35-bfff008397c5",
+        "source_id": "e0255c9f-d7a4-4c2d-b6e6-6e68c52e498b",
+        "chunk_id": "e92b2bf5-8754-4932-bf6f-5368a2bafc2b",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Basic features of all cells\n2.\nCells contain cytoplasm\no\nAll materials / structures\ninside\nthe\nplasma\nmembrane\no\nLocation\nof\nmetabolic\nactivity\n(e.g.,\nenergy\nproduction\n/\nprotein\nsynthesis)\n7",
+        "display_label": "Module 2 CSC442 Biological Concepts compressed 1 124, page 7"
+      },
+      {
+        "id": "8d64b728-05d2-4bf9-bfc7-74e3c9fe0935",
+        "source_id": "c88e401c-60a0-4125-a280-d0ca88b1d3f9",
+        "chunk_id": "a0551171-e589-4308-9e26-25be9f95b681",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "descendants, they must:\n1) occur in cells that produce the next\ngeneration, and\n2) affect the hereditary material.\nUltimately,\nthe\ninterplay\nbetween\ninherited mutations and environmental\npressures generates diversity\namong\n202",
+        "display_label": "Module 2c CSC442 Biological Concepts compressed 196 272, page 7"
+      },
+      {
+        "id": "f710d4e6-fba1-4bff-aeda-dff85bc46b47",
+        "source_id": "c88e401c-60a0-4125-a280-d0ca88b1d3f9",
+        "chunk_id": "aaa334a5-b4cb-4639-9f14-feac31229e06",
+        "source_segment_id": null,
+        "page_start": 9,
+        "page_end": 9,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "then these changes can be categorized as\nsomatic mutations.\nThe\nword\nsomatic\ncomes\nfrom\nthe\nGreek word soma which means \"body\", and\nsomatic mutations only affect the present\norganism's body.\nFor\nexample,\ncancer\nis\na\npotent\ns9omatic mutation that will affect a single",
+        "display_label": "Module 2c CSC442 Biological Concepts compressed 196 272, page 9"
+      },
+      {
+        "id": "52ba9227-1243-4208-ab4c-8f33ce98ae74",
+        "source_id": "b212d2c0-2c2c-4d19-bd55-c645397f418c",
+        "chunk_id": "0560cb41-00f3-4d05-9431-b1685866dbc5",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 11,
+        "slide_end": 11,
+        "quote_text": "Frederick Herzberg wrote several famous books and articles about worker motivation. He distinguished between\nmotivational factors: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction\nhygiene factors: cause dissatisfaction if not present, but do not motivate workers to do more. Examples include larger salaries, more supervision, and a m",
+        "display_label": "Project Human Resources Management 2023, slide 11"
+      },
+      {
+        "id": "7c777217-40c0-4c52-afbe-9d40ffb45520",
+        "source_id": "0119fdf5-70cc-4b36-ba85-f30cbc3e2399",
+        "chunk_id": "d01a62a4-c282-4594-98c6-41dddd8f4a5d",
+        "source_segment_id": null,
+        "page_start": 8,
+        "page_end": 8,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "How to Manage Funds\nPlan\nSet Financial Goals,\nPrepare a Budget,\nForecast Cash Flow\n1\nReceive and\nAllocate\nBusiness Accounts\nClassify Expenses\n(fixed vs variable cost),\nSet Spending Limits,\nPrioritise Essentials\nexpenses\n2\nTrack and\nRecord\nTrack Cash Flow,\nReconcile Bank\nStatements\n3\nAnalyse\nCompare Actual vs.\nBudget, Profit Margin,\nLiquidity Ratio, Working\nCapital Management,\nPricing strategies an",
+        "display_label": "Week 12 Entrepreneurial Finance, page 8"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "fea5f816-c0d6-4a9a-bb8e-d72e79c3007d",
+      "query_text": "What key point does the source make about CSC442?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "76b8da88-ca6c-4b41-bc84-bcac6962375b",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 72,
+      "items": [
+        {
+          "chunk_id": "e92b2bf5-8754-4932-bf6f-5368a2bafc2b",
+          "source_id": "e0255c9f-d7a4-4c2d-b6e6-6e68c52e498b",
+          "initial_score": 0.204124,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "a0551171-e589-4308-9e26-25be9f95b681",
+          "source_id": "c88e401c-60a0-4125-a280-d0ca88b1d3f9",
+          "initial_score": 0.204124,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "aaa334a5-b4cb-4639-9f14-feac31229e06",
+          "source_id": "c88e401c-60a0-4125-a280-d0ca88b1d3f9",
+          "initial_score": 0.142857,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "0560cb41-00f3-4d05-9431-b1685866dbc5",
+          "source_id": "b212d2c0-2c2c-4d19-bd55-c645397f418c",
+          "initial_score": 0.114708,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "d01a62a4-c282-4594-98c6-41dddd8f4a5d",
+          "source_id": "0119fdf5-70cc-4b36-ba85-f30cbc3e2399",
+          "initial_score": 0.114708,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  }
+]

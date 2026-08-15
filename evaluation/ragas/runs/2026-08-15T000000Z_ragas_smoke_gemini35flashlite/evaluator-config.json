@@ -1,0 +1,12 @@
+{
+  "framework": "RAGAS",
+  "metrics": [
+    "faithfulness",
+    "context_recall"
+  ],
+  "evaluator_provider": "Google Gemini",
+  "evaluator_model": "gemini-3.5-flash-lite",
+  "max_retries": 2,
+  "concurrency": 1,
+  "run_id": "14971ee54cf94a59ab86f983a8ec9e80"
+}

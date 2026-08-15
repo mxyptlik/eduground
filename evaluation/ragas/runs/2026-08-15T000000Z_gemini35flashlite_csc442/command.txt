@@ -1,0 +1,1 @@
+tools\evaluation\collect_ragas_inputs.py --dataset evaluation\ragas\datasets\eduground_100q.gemini-v1.approved.json --notebook-id a8fef64e-24a7-4d17-a032-3376589fbc93 --run-dir evaluation\ragas\runs\2026-08-15T000000Z_gemini35flashlite_csc442 --delay-seconds 5

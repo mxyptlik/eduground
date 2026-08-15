@@ -15,6 +15,7 @@ from app.models.curriculum import Notebook
 from app.models.enums import NoteVisibility, PolicyMode, QuizGenerationMode, QuizItemType, QuizStatus
 from app.models.learning import Note, Quiz, QuizItem
 from app.policies.response_mode_policy import resolve_policy_instructions
+from app.services.prompt_library import compose_quiz_system_prompt, compose_tutor_system_prompt
 from app.workflows.answer_question import AnswerQuestionWorkflow, CandidateRecord, NoteContextRecord, PreparedGroundedAnswer
 
 MAX_QUIZ_GENERATION_ATTEMPTS = 3
@@ -118,9 +119,10 @@ class GenerateQuizWorkflow:
             return PreparedGroundedAnswer(
                 session_id=f"quiz:{notebook_id}:{user.id}",
                 notebook_id=notebook_id,
+                policy_mode=policy.mode,
                 query_text=retrieval_query,
                 filters={"notebook_id": notebook_id, "note_ids": selected_note_ids, "scope": "notes_only"},
-                system_prompt="\n".join(policy.system_rules),
+                system_prompt=compose_tutor_system_prompt(policy.mode),
                 context=self._build_context([], note_contexts),
                 candidates=[],
                 note_contexts=note_contexts,
@@ -150,6 +152,7 @@ class GenerateQuizWorkflow:
             prepared = PreparedGroundedAnswer(
                 session_id=prepared.session_id,
                 notebook_id=prepared.notebook_id,
+                policy_mode=prepared.policy_mode,
                 query_text=prepared.query_text,
                 filters={**prepared.filters, "note_ids": selected_note_ids},
                 system_prompt=prepared.system_prompt,
@@ -259,7 +262,8 @@ class GenerateQuizWorkflow:
         for index, note in enumerate(prepared.note_contexts, start=1):
             evidence_blocks.append(self._format_note_block(index, note))
         evidence_text = "\n\n".join(evidence_blocks) if evidence_blocks else prepared.context
-        system_prompt = (
+        policy_mode = getattr(prepared, "policy_mode", PolicyMode.TEACHING)
+        system_prompt = f"{compose_quiz_system_prompt(policy_mode)}\n\n" + (
             "You generate grounded multiple-choice quiz items for a study notebook. "
             "Only use the supplied evidence. Do not invent facts or outside examples. "
             "Keep the language clear, concise, and student-friendly. "
@@ -271,8 +275,6 @@ class GenerateQuizWorkflow:
             "Vary the focus of the questions across the evidence when possible. "
             "Do not wrap the JSON in markdown fences."
         )
-        if prepared.system_prompt.strip():
-            system_prompt = f"{prepared.system_prompt}\n\n{system_prompt}"
         user_prompt = (
             f"Notebook quiz title: {payload.title}\n"
             f"Difficulty: {payload.difficulty}\n"

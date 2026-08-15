@@ -1,5 +1,7 @@
 from types import SimpleNamespace
 
+import httpx
+
 from app.integrations.embeddings.base import OpenRouterEmbeddingConfig
 from app.integrations.embeddings.base import OpenRouterEmbeddingProvider
 from app.integrations.llm.base import OpenRouterLLMConfig
@@ -29,6 +31,29 @@ def test_llm_provider_uses_fallback_when_openrouter_key_is_missing() -> None:
 
     assert provider.generate_messages([{"role": "user", "content": "hello"}]) == "gemini answer"
     assert provider.generate(system_prompt="system", user_prompt="hello", context="") == "gemini answer"
+    assert list(provider.stream_messages([{"role": "user", "content": "hello"}])) == ["gemini stream"]
+
+
+def test_llm_provider_stream_error_body_can_fall_back(monkeypatch) -> None:
+    class FakeStreamResponse:
+        status_code = 401
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, traceback):
+            return False
+
+        def read(self) -> bytes:
+            return b'{"error":"bad key"}'
+
+    monkeypatch.setattr(httpx, "stream", lambda *args, **kwargs: FakeStreamResponse())
+    fallback = SimpleNamespace(
+        generate_messages=lambda messages: "gemini answer",
+        stream_messages=lambda messages: iter(["gemini stream"]),
+    )
+    provider = OpenRouterLLMProvider(OpenRouterLLMConfig(api_key="bad-key"), fallback=fallback)
+
     assert list(provider.stream_messages([{"role": "user", "content": "hello"}])) == ["gemini stream"]
 
 

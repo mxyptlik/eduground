@@ -1,0 +1,14 @@
+{
+  "run_id": "14971ee54cf94a59ab86f983a8ec9e80",
+  "created_at_utc": "2026-08-14T23:29:27.744016+00:00",
+  "dataset_id": "eduground-csc442-ragas-100q",
+  "dataset_version": "gemini-v1-draft",
+  "python_executable": "C:\\Users\\User\\Desktop\\eduground\\.venv\\Scripts\\python.exe",
+  "python_version": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "api_public_base_url": "http://localhost:8000",
+  "notes": [
+    "The collector uses the same ChatService and AnswerQuestionWorkflow as local API requests.",
+    "No API key, token, session cookie, or signed upload URL is retained in this run bundle."
+  ]
+}

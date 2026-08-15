@@ -1,0 +1,16 @@
+{
+  "framework": "RAGAS",
+  "ragas_version": "0.4.3",
+  "evaluator_provider": "Google Gemini",
+  "evaluator_model": "gemini-3.5-flash-lite",
+  "generated_at_utc": "2026-08-14T23:54:03.646488+00:00",
+  "sample_count": 1,
+  "completed_samples": 1,
+  "failed_samples": 0,
+  "average_faithfulness": 1.0,
+  "average_context_recall": 1.0,
+  "metrics": [
+    "faithfulness",
+    "context_recall"
+  ]
+}

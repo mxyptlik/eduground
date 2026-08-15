@@ -1,0 +1,662 @@
+[
+  {
+    "sample_key": "eduground-doc-001",
+    "question": "What are Genes?",
+    "expected_answer": "Genes are small sections of DNA within the genome that code for proteins They contain the instructions for our individual characteristics \u2013 like eye and hair colour",
+    "retrieved_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.\n\nEach gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135\n\n27\nwww covenantuniversity edu ng\nLearning objectives\nAfter this session, students should be able to:\n\u2022 Summarise the purpose of genome browsers, the types of\ndata available and the commonly used genome browsers\n\u2022 Explore genomic regions using the Ensembl genome\nbrowser\n\u2022 Appraise the Ensembl gene annotation pipeline,\ncombining manual and automatic annotation\n\u2022 Find information about genes in Ensem\n\nTHE FOLLOWING ARE THE FORMS OF BUSINESS ORGANIZATIONS IN NIGERIA, AS PROVIDED\nBY CAMA AND THE COMPANIES REGULATIONS 2021:\n1. Company (Private Company Limited by Shares, Public Company\nLimited by Shares, Company Limited by Guarantee, and Unlimited\nCompany)\n2. Limited Liability Partnership\n3. Limited Partnership\n4. Business Name\n5. Incorporated Trustee\nGenerally speaking, these organizations can be \n\nBasic Principles of Cost Management\n\uf097Most members of an executive board better\nunderstand and are more interested in financial\nterms than IT terms, so IT project managers must\nspeak their language\n\uf097Profits are revenues minus expenditures\n\uf097Profit margin is the ratio of revenues to profits\n\uf097$2 profit per $100 revenue \uf0e02% profit margin\n\uf097Life cycle costing considers the total cost of\nownership, or dev",
+    "model_answer": "\u2022 The purpose of genes is to store information. Genes come in different forms, called alleles. \u2022 The human genome contains 20,687 protein-coding genes.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 2b CSC442 Biological Concepts_compressed-125-195.pdf",
+    "source_label": "Module 2b CSC442 Biological Concepts compressed 125 195",
+    "locator": "page 5 section 1",
+    "topic": "that code for proteins. They contain the instructions",
+    "source_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "ce149c32-3577-42ba-92b2-31db37ef8366",
+        "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+        "chunk_id": "367ffae8-6564-4d5c-a77d-1830449621f7",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 5"
+      },
+      {
+        "id": "80dfd799-74e4-4df9-870c-69a50d6277cf",
+        "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+        "chunk_id": "3733ec20-663f-41f2-b8ce-c9dc3c47f32c",
+        "source_segment_id": null,
+        "page_start": 11,
+        "page_end": 11,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Each gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 11"
+      },
+      {
+        "id": "c4588c48-b65f-4b1f-8401-72687ce02652",
+        "source_id": "4e67b193-7c92-4573-8ef3-6e99b5e74fbb",
+        "chunk_id": "e70cbfed-e777-4a9f-954a-105c8ba3d3bc",
+        "source_segment_id": null,
+        "page_start": 27,
+        "page_end": 27,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "27\nwww covenantuniversity edu ng\nLearning objectives\nAfter this session, students should be able to:\n\u2022 Summarise the purpose of genome browsers, the types of\ndata available and the commonly used genome browsers\n\u2022 Explore genomic regions using the Ensembl genome\nbrowser\n\u2022 Appraise the Ensembl gene annotation pipeline,\ncombining manual and automatic annotation\n\u2022 Find information about genes in Ensem",
+        "display_label": "Module 4a CSC442 Biological Databases compressed, page 27"
+      },
+      {
+        "id": "045bb07b-ed2b-4378-b981-abe3a0521869",
+        "source_id": "d9f90449-29fc-4973-a229-5caa61116c38",
+        "chunk_id": "37b7ab37-3a55-4b02-8a33-e97e4af83e5a",
+        "source_segment_id": null,
+        "page_start": 6,
+        "page_end": 6,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "THE FOLLOWING ARE THE FORMS OF BUSINESS ORGANIZATIONS IN NIGERIA, AS PROVIDED\nBY CAMA AND THE COMPANIES REGULATIONS 2021:\n1. Company (Private Company Limited by Shares, Public Company\nLimited by Shares, Company Limited by Guarantee, and Unlimited\nCompany)\n2. Limited Liability Partnership\n3. Limited Partnership\n4. Business Name\n5. Incorporated Trustee\nGenerally speaking, these organizations can be ",
+        "display_label": "Week 13 Incorporating the Company Practical Steps and Issues Involved, page 6"
+      },
+      {
+        "id": "841be8f5-5414-4257-b32c-9f8f3037b734",
+        "source_id": "55a6d4a2-b736-4f55-ad95-f5736300d43c",
+        "chunk_id": "880dc2a8-d02d-4e33-8dbc-a93aed0a6b90",
+        "source_segment_id": null,
+        "page_start": 10,
+        "page_end": 10,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Basic Principles of Cost Management\n\uf097Most members of an executive board better\nunderstand and are more interested in financial\nterms than IT terms, so IT project managers must\nspeak their language\n\uf097Profits are revenues minus expenditures\n\uf097Profit margin is the ratio of revenues to profits\n\uf097$2 profit per $100 revenue \uf0e02% profit margin\n\uf097Life cycle costing considers the total cost of\nownership, or dev",
+        "display_label": "Project Cost Management, page 10"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "c9ca56f8-f2bb-43fb-9210-127ef329d8e8",
+      "query_text": "What are Genes?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "a68ff814-f0b2-4944-8d6b-5e020dab18d5",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 124,
+      "items": [
+        {
+          "chunk_id": "367ffae8-6564-4d5c-a77d-1830449621f7",
+          "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+          "initial_score": 6.24614,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "3733ec20-663f-41f2-b8ce-c9dc3c47f32c",
+          "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+          "initial_score": 5.564237,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "e70cbfed-e777-4a9f-954a-105c8ba3d3bc",
+          "source_id": "4e67b193-7c92-4573-8ef3-6e99b5e74fbb",
+          "initial_score": 3.331713,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "37b7ab37-3a55-4b02-8a33-e97e4af83e5a",
+          "source_id": "d9f90449-29fc-4973-a229-5caa61116c38",
+          "initial_score": 0.00513,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "880dc2a8-d02d-4e33-8dbc-a93aed0a6b90",
+          "source_id": "55a6d4a2-b736-4f55-ad95-f5736300d43c",
+          "initial_score": 0.004472,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-002",
+    "question": "What key point does the source make about CSC442?",
+    "expected_answer": "that form the sequence, and calculates the percentage nucleotide composition of the 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that",
+    "retrieved_context": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide\n\nThe Cell is the Basic Unit of Life\nA cell is the smallest unit that can carry on\nall of the processes of life\nAll living things - from the tiniest bacterium\nto the largest whale - are made up of one or\nmore cells\n3\n\nGene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.\n\nEach gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135\n\nIf the alleles of a particular gene are the same, the\norganism is described as homozygous for that gene.\nIf they are different the organism is described as\nheterozygous for that gene.\nAn individual\u2019s phenotype is determined by the\ncombination of alleles they have.\n138",
+    "model_answer": "CSC442 COMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES MOODLE 3 SEQUENCE ANALYSIS WITH PYTHON 1) Writing Python programs for simple sequence analysis tasks (1) Write a unique program that 1) accepts a string of nucleotide-sequence, finds the total number of nucleotides that form the sequence, and calculates the percentage nucleotide composition of the sequence 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that form the sequence, and calculates the percentage nucleotide composition of the sequence.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 3c CSC442 Sequence Analysis.pdf",
+    "source_label": "Module 3c CSC442 Sequence Analysis",
+    "locator": "page 1 section 1",
+    "topic": "CSC442",
+    "source_context": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide-sequence, finds the total number of nucleotides that\nform the sequence, and calculates the percentage nucleotide composition of the\nsequence.\nYou are to submit your codes with detailed screenshots in a single ms-word file.\n2) Writing Python programs for simple sequence analysis tasks (2)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n2) processes a file of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n3) If it is a DNA sequence, your program should transcribe it into an RNA and print\nout both sequences.\n4) If it is an RNA sequence, your program should do reverse transcription of the\nsequence into a DNA and print out both sequences.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "c1cb98f8-9e6c-4f1c-8221-36acdbb3e218",
+        "source_id": "9ef37edb-2a1a-45e3-a771-71660c955b95",
+        "chunk_id": "b0a875f0-7da5-4456-81bd-52a46f237a7b",
+        "source_segment_id": null,
+        "page_start": 1,
+        "page_end": 1,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide",
+        "display_label": "Module 3c CSC442 Sequence Analysis, page 1"
+      },
+      {
+        "id": "b1ec3ed9-a1b2-4025-8019-b5159d1e9123",
+        "source_id": "f2beea00-68da-456a-8298-1cf307e2a98b",
+        "chunk_id": "7adab8eb-6313-43e9-a7a6-ad7211722140",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "The Cell is the Basic Unit of Life\nA cell is the smallest unit that can carry on\nall of the processes of life\nAll living things - from the tiniest bacterium\nto the largest whale - are made up of one or\nmore cells\n3",
+        "display_label": "Module 2 CSC442 Biological Concepts compressed 1 124, page 3"
+      },
+      {
+        "id": "a2bed78f-2274-413b-8c1e-e77d29cffe8d",
+        "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+        "chunk_id": "367ffae8-6564-4d5c-a77d-1830449621f7",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 5"
+      },
+      {
+        "id": "da5ed99a-1403-4ba6-bd85-14cf405f9273",
+        "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+        "chunk_id": "3733ec20-663f-41f2-b8ce-c9dc3c47f32c",
+        "source_segment_id": null,
+        "page_start": 11,
+        "page_end": 11,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Each gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 11"
+      },
+      {
+        "id": "e4df8bf9-da98-41da-bbad-5eff1f533c34",
+        "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+        "chunk_id": "f67228a7-c277-44a5-bdb1-00a065b26472",
+        "source_segment_id": null,
+        "page_start": 14,
+        "page_end": 14,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "If the alleles of a particular gene are the same, the\norganism is described as homozygous for that gene.\nIf they are different the organism is described as\nheterozygous for that gene.\nAn individual\u2019s phenotype is determined by the\ncombination of alleles they have.\n138",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 14"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "3e494006-d008-4429-8d0c-e488d3184c3a",
+      "query_text": "What key point does the source make about CSC442?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "a68ff814-f0b2-4944-8d6b-5e020dab18d5",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 140,
+      "items": [
+        {
+          "chunk_id": "b0a875f0-7da5-4456-81bd-52a46f237a7b",
+          "source_id": "9ef37edb-2a1a-45e3-a771-71660c955b95",
+          "initial_score": 3.728722,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "7adab8eb-6313-43e9-a7a6-ad7211722140",
+          "source_id": "f2beea00-68da-456a-8298-1cf307e2a98b",
+          "initial_score": 1.0,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "367ffae8-6564-4d5c-a77d-1830449621f7",
+          "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+          "initial_score": 0.4,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "3733ec20-663f-41f2-b8ce-c9dc3c47f32c",
+          "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+          "initial_score": 0.4,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "f67228a7-c277-44a5-bdb1-00a065b26472",
+          "source_id": "c5502542-4280-4525-ab73-09bdab47824a",
+          "initial_score": 0.4,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-003",
+    "question": "What does Procurement management involve?",
+    "expected_answer": "Procurement management involves the processes acquiring goods, services or results needed from external sources to successfully complete a project",
+    "retrieved_context": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3\n\nProcesses in Project Procurement Management\n\uf076Processes in procurement management consists of four major processes, these are:\ni.\nPlan procurement management\nii. Conduct procurements\niii. Control procurements\niv. Close procurements\n4\n\nProcesses in Project Procurement Management(Cont.)\n\uf076Plan procurement management: This process involves identifying project needs and\ndetermining whether they should be procured.\n\uf076This involves the following:\n\uf076Assessing procurement needs, this is to determine the goods or services that must be\nprocured.\n\uf076Define procurement approach, to identify the type of contracts and procurement methods.\n\uf076Identi\n\nProcurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2\n\nProcesses in Project Procurement Management(Cont.)\n\uf076Close Procurements: This process involves completing all procurement activities and\nformally closing contracts.\n\uf076Verify deliverables, this is to ensure that all goods or services meet contract specifications.\n\uf076Conduct final vendor evaluations by assessing supplier performance.\n\uf076Release payments and finalize contract documentation by complete all",
+    "model_answer": "\uf076Procurement management helps control costs and budgets. \uf076Procurement management ensures compliance with legal and contractual obligations. Importance of Procurement Management \uf076Procurement management ensures timely acquisition of necessary resources.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Procurement Management.pdf",
+    "source_label": "Procurement Management",
+    "locator": "page 2 section 1",
+    "topic": "\uf076Procurement management involves the processes acquiring goods, services or",
+    "source_context": "Procurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "a59cc760-19bd-497f-a43c-4e9254c53495",
+        "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+        "chunk_id": "9ac2002a-2244-495b-a5a9-e4e611654ee5",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3",
+        "display_label": "Procurement Management, page 3"
+      },
+      {
+        "id": "01db1544-eb99-48a3-a3e7-34b543c83e8b",
+        "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+        "chunk_id": "e2fb6e1b-a0f8-4f10-8668-bbb88348a2fc",
+        "source_segment_id": null,
+        "page_start": 4,
+        "page_end": 4,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management\n\uf076Processes in procurement management consists of four major processes, these are:\ni.\nPlan procurement management\nii. Conduct procurements\niii. Control procurements\niv. Close procurements\n4",
+        "display_label": "Procurement Management, page 4"
+      },
+      {
+        "id": "80902479-edda-4b46-b413-2272ebb78044",
+        "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+        "chunk_id": "368f5a71-971d-437b-9994-7860f742deea",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management(Cont.)\n\uf076Plan procurement management: This process involves identifying project needs and\ndetermining whether they should be procured.\n\uf076This involves the following:\n\uf076Assessing procurement needs, this is to determine the goods or services that must be\nprocured.\n\uf076Define procurement approach, to identify the type of contracts and procurement methods.\n\uf076Identi",
+        "display_label": "Procurement Management, page 5"
+      },
+      {
+        "id": "47d9c39c-cebf-46f1-9569-cf963f1dca92",
+        "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+        "chunk_id": "4e3dd86b-54ee-4f0c-944c-81637f3097ad",
+        "source_segment_id": null,
+        "page_start": 2,
+        "page_end": 2,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Procurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+        "display_label": "Procurement Management, page 2"
+      },
+      {
+        "id": "c2e3605b-e448-4c87-b237-42a59ce1793e",
+        "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+        "chunk_id": "7a0c7c4e-6992-465f-9375-232d1678c5a0",
+        "source_segment_id": null,
+        "page_start": 8,
+        "page_end": 8,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Processes in Project Procurement Management(Cont.)\n\uf076Close Procurements: This process involves completing all procurement activities and\nformally closing contracts.\n\uf076Verify deliverables, this is to ensure that all goods or services meet contract specifications.\n\uf076Conduct final vendor evaluations by assessing supplier performance.\n\uf076Release payments and finalize contract documentation by complete all ",
+        "display_label": "Procurement Management, page 8"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "f4281535-3dde-495b-b596-7c23951e2d4f",
+      "query_text": "What does Procurement management involve?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "a68ff814-f0b2-4944-8d6b-5e020dab18d5",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 115,
+      "items": [
+        {
+          "chunk_id": "9ac2002a-2244-495b-a5a9-e4e611654ee5",
+          "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+          "initial_score": 9.961662,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "e2fb6e1b-a0f8-4f10-8668-bbb88348a2fc",
+          "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+          "initial_score": 9.485846,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "368f5a71-971d-437b-9994-7860f742deea",
+          "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+          "initial_score": 9.336772,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "4e3dd86b-54ee-4f0c-944c-81637f3097ad",
+          "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+          "initial_score": 8.713564,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "7a0c7c4e-6992-465f-9375-232d1678c5a0",
+          "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+          "initial_score": 7.475058,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-004",
+    "question": "What key point does the source make about The Importance of Human Resource Management?",
+    "expected_answer": "Many corporate executives have said, \u201cPeople are our most important asset\u201d People determine the success and failure of organizations and projects",
+    "retrieved_context": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2\n\nProactive organizations are addressing workforce needs by\nimproving benefits\nredefining work hours and incentives\nfinding future workers\nImplications for the Future of IT Human Resource Management\nInformation Technology Project Management, Eighth Edition\n3\n\nMaking the most effective use of the people involved with a project\nProcesses include\nPlanning human resource management:\nidentifying and documenting project roles, responsibilities, and reporting relationships\nAcquiring the project team:\ngetting the needed personnel assigned to and working on the project\nDeveloping the project team:\nbuilding individual and group skills to enhance project performa\n\nImportance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3\n\nImportance of Requirements Engineering\nRequirements Engineering\nis often described as the \u201cheart\u201d or \u201cbackbone\u201d of software development because it directly influences the success or failure of a project.\nStudies have shown that a significant percentage of software project failures stem from poor requirements management.\nA well-executed requirements engineering process:\nReduces project risks and mi",
+    "model_answer": "Many corporate executives have said, \u201cPeople are our most important asset\u201d People determine the success and failure of organizations and projects The Importance of Human Resource Management Information Technology Project Management, Eighth Edition 2 Proactive organizations are addressing workforce needs by improving benefits redefining work hours and incentives finding future workers Implications for the Future of IT Human Resource Management Information Technology Project Management, Eighth Edition 3 Making the most effective use of the people involved with a project Processes include Planning human resource management: identifying and documenting project roles, responsibilities, and reporting relationships Acquiring the project team: getting the needed personnel assigned to and working on the project Developing the project team: building individual and group skills to enhance project performance Managing the project team: tracking team member performance, motivating team members, providing timely feedback, resolving issues and conflicts, and coordinating changes to help enhance project performance What is Project Human Resource Management?",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Project Human Resources Management 2023.pptx",
+    "source_label": "Project Human Resources Management 2023",
+    "locator": "slide 2 section 1",
+    "topic": "The Importance of Human Resource Management",
+    "source_context": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "9a8606cf-d464-42b7-887b-cb38ff2946f0",
+        "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+        "chunk_id": "80654c87-5a25-4936-a8f8-aab45d2a47d2",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 2,
+        "slide_end": 2,
+        "quote_text": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2",
+        "display_label": "Project Human Resources Management 2023, slide 2"
+      },
+      {
+        "id": "d1adf58d-63e2-40de-8c8b-4ece70b9fe95",
+        "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+        "chunk_id": "cae2d7d1-7da4-47a7-b2a3-68559620087d",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 3,
+        "slide_end": 3,
+        "quote_text": "Proactive organizations are addressing workforce needs by\nimproving benefits\nredefining work hours and incentives\nfinding future workers\nImplications for the Future of IT Human Resource Management\nInformation Technology Project Management, Eighth Edition\n3",
+        "display_label": "Project Human Resources Management 2023, slide 3"
+      },
+      {
+        "id": "3f32b602-0293-46d5-b9dc-35cf9ba88fc6",
+        "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+        "chunk_id": "413a8bfd-9a8b-448c-97d6-8cad1e5a9bb5",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 5,
+        "slide_end": 5,
+        "quote_text": "Making the most effective use of the people involved with a project\nProcesses include\nPlanning human resource management:\nidentifying and documenting project roles, responsibilities, and reporting relationships\nAcquiring the project team:\ngetting the needed personnel assigned to and working on the project\nDeveloping the project team:\nbuilding individual and group skills to enhance project performa",
+        "display_label": "Project Human Resources Management 2023, slide 5"
+      },
+      {
+        "id": "e1e22e3d-c0f6-4e2c-b444-b4d6483332b5",
+        "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+        "chunk_id": "9ac2002a-2244-495b-a5a9-e4e611654ee5",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3",
+        "display_label": "Procurement Management, page 3"
+      },
+      {
+        "id": "7aab3916-a706-4088-886b-ac4ec285e803",
+        "source_id": "fcf9aed3-a047-4da9-9927-65eef10f198c",
+        "chunk_id": "92cab69e-0571-40b3-ac28-9ff19eaaa01d",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 5,
+        "slide_end": 5,
+        "quote_text": "Importance of Requirements Engineering\nRequirements Engineering\nis often described as the \u201cheart\u201d or \u201cbackbone\u201d of software development because it directly influences the success or failure of a project.\nStudies have shown that a significant percentage of software project failures stem from poor requirements management.\nA well-executed requirements engineering process:\nReduces project risks and mi",
+        "display_label": "SEN211 CSC411 REQUIREMENTS AND SYSTEM DESIGN, slide 5"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "3dfd863b-7c54-449a-aedb-ef8be6b25a97",
+      "query_text": "What key point does the source make about The Importance of Human Resource Management?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "a68ff814-f0b2-4944-8d6b-5e020dab18d5",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 217,
+      "items": [
+        {
+          "chunk_id": "80654c87-5a25-4936-a8f8-aab45d2a47d2",
+          "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+          "initial_score": 16.104107,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "cae2d7d1-7da4-47a7-b2a3-68559620087d",
+          "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+          "initial_score": 11.286174,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "413a8bfd-9a8b-448c-97d6-8cad1e5a9bb5",
+          "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+          "initial_score": 9.641008,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "9ac2002a-2244-495b-a5a9-e4e611654ee5",
+          "source_id": "deaecb2f-67a7-48af-9807-09dbc1514a9d",
+          "initial_score": 7.955565,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "92cab69e-0571-40b3-ac28-9ff19eaaa01d",
+          "source_id": "fcf9aed3-a047-4da9-9927-65eef10f198c",
+          "initial_score": 4.630311,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  },
+  {
+    "sample_key": "eduground-doc-005",
+    "question": "What important concept is explained in Week 12 Entrepreneurial Finance?",
+    "expected_answer": "Jeff Bezos commented that the U.S. has a strong \"risk capital system\" that fosters entrepreneurial success and enables startups",
+    "retrieved_context": "What is Entrepreneurial Marketing?\n\uf097An entrepreneur is one who creates a new business in\nthe face of risk and uncertainty for achieving profit and\ngrowth opportunities and assembles the necessary\nresources\nto\ncapitalize\non\nthose\nopportunities\n(Scarborough, 2011).\n\uf097\u201cMarketing is an organizational function and a set\nof\nprocesses\nfor\ncreating, communicating, and\ndelivering value to customers and for \n\nIntroduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, \n\nMany corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2\n\nPsychologists and management theorists have devoted much research and thought to the field of managing people at work\nImportant areas related to project management include\nmotivation\ninfluence and power\nEffectiveness\nEmotional intelligence\nLeadership\nKeys to Managing People\nInformation Technology Project Management, Eighth Edition\n7\n\nReasons for Cost Overruns\n\uf097Not emphasizing the importance of realistic project\ncost estimates from the outset\n\uf097Many of the original cost estimates for IT projects are\nlow to begin with and based on very unclear project\nrequirements\n\uf097Many IT professionals think preparing cost\nestimates is a job for accountants when in fact it is a\nvery demanding and important skill that project\nmanagers need to acq",
+    "model_answer": "\uf097Entrepreneurial Marketing is an act of creating a new business, so as to satisfy consumers\u2019 needs. has a strong \"risk capital system\" that fosters entrepreneurial success and enables startups to get seed capital, which is key to the high number of businesses in America He also noted that while the \"first mile\" of getting a business started is well-supported, the \"second mile\" of scaling the company is often harder, requiring more capital, talent, and infrastructure.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Week 12 Entrepreneurial Finance.pdf",
+    "source_label": "Week 12 Entrepreneurial Finance",
+    "locator": "page 2 section 1",
+    "topic": "Introduction",
+    "source_context": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, and\ninfrastructure.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "bfb8d8fe-2d93-40b0-a909-d600ef4e9c44",
+        "source_id": "b4aac8ec-684e-423a-85ef-8da697a932df",
+        "chunk_id": "fdd7066c-f77d-425c-a0a7-78f02211580c",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "What is Entrepreneurial Marketing?\n\uf097An entrepreneur is one who creates a new business in\nthe face of risk and uncertainty for achieving profit and\ngrowth opportunities and assembles the necessary\nresources\nto\ncapitalize\non\nthose\nopportunities\n(Scarborough, 2011).\n\uf097\u201cMarketing is an organizational function and a set\nof\nprocesses\nfor\ncreating, communicating, and\ndelivering value to customers and for ",
+        "display_label": "Week 10 Entrepreneurial Marketing, page 7"
+      },
+      {
+        "id": "668fe0e4-0a59-42e2-84f3-9bbf18298083",
+        "source_id": "9cd354b4-ee88-490d-bf4d-4866f7c1711c",
+        "chunk_id": "b74c576f-8ef0-4495-bcee-8f39d16a5928",
+        "source_segment_id": null,
+        "page_start": 2,
+        "page_end": 2,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, ",
+        "display_label": "Week 12 Entrepreneurial Finance, page 2"
+      },
+      {
+        "id": "1ed92573-9c36-4ec0-b42f-d80ebfd0964d",
+        "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+        "chunk_id": "80654c87-5a25-4936-a8f8-aab45d2a47d2",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 2,
+        "slide_end": 2,
+        "quote_text": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2",
+        "display_label": "Project Human Resources Management 2023, slide 2"
+      },
+      {
+        "id": "12ac0d50-b779-4e40-97d8-15434e11c884",
+        "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+        "chunk_id": "dc05e55a-bdac-4c8f-86d8-1cadc602e1be",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 7,
+        "slide_end": 7,
+        "quote_text": "Psychologists and management theorists have devoted much research and thought to the field of managing people at work\nImportant areas related to project management include\nmotivation\ninfluence and power\nEffectiveness\nEmotional intelligence\nLeadership\nKeys to Managing People\nInformation Technology Project Management, Eighth Edition\n7",
+        "display_label": "Project Human Resources Management 2023, slide 7"
+      },
+      {
+        "id": "93e24e9b-78f7-4a8d-8233-694c6c336e98",
+        "source_id": "55a6d4a2-b736-4f55-ad95-f5736300d43c",
+        "chunk_id": "43314aa9-7d6a-418d-adcb-3eca6efc9fa2",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Reasons for Cost Overruns\n\uf097Not emphasizing the importance of realistic project\ncost estimates from the outset\n\uf097Many of the original cost estimates for IT projects are\nlow to begin with and based on very unclear project\nrequirements\n\uf097Many IT professionals think preparing cost\nestimates is a job for accountants when in fact it is a\nvery demanding and important skill that project\nmanagers need to acq",
+        "display_label": "Project Cost Management, page 7"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "3e1edfb3-92f7-493b-b1dd-9a397ee2a2e0",
+      "query_text": "What important concept is explained in Week 12 Entrepreneurial Finance?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "a68ff814-f0b2-4944-8d6b-5e020dab18d5",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 151,
+      "items": [
+        {
+          "chunk_id": "fdd7066c-f77d-425c-a0a7-78f02211580c",
+          "source_id": "b4aac8ec-684e-423a-85ef-8da697a932df",
+          "initial_score": 6.583756,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "b74c576f-8ef0-4495-bcee-8f39d16a5928",
+          "source_id": "9cd354b4-ee88-490d-bf4d-4866f7c1711c",
+          "initial_score": 5.221066,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "80654c87-5a25-4936-a8f8-aab45d2a47d2",
+          "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+          "initial_score": 4.287087,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "dc05e55a-bdac-4c8f-86d8-1cadc602e1be",
+          "source_id": "7bb7a7ab-1378-4cff-8fa3-bbd5a0db07ad",
+          "initial_score": 3.931195,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "43314aa9-7d6a-418d-adcb-3eca6efc9fa2",
+          "source_id": "55a6d4a2-b736-4f55-ad95-f5736300d43c",
+          "initial_score": 3.080535,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    }
+  }
+]

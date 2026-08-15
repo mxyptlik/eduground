@@ -1,0 +1,161 @@
+{
+  "sample_count": 100,
+  "pass_rate": 0.0,
+  "passed": 0,
+  "failed": 100,
+  "average_faithfulness_score": 0.2744,
+  "average_context_recall_score": 0.1188,
+  "source_hit_at_5": 94,
+  "source_hit_at_5_rate": 0.94,
+  "expected_prefix_in_retrieved": 37,
+  "expected_prefix_in_retrieved_rate": 0.37,
+  "answer_types": {
+    "grounded_answer": 100
+  },
+  "total_citations": 500,
+  "average_citations_per_answer": 5,
+  "lowest_recall_samples": [
+    {
+      "sample_key": "eduground-doc-049",
+      "source_label": "Week 10 Entrepreneurial Marketing",
+      "faithfulness_score": 0.199,
+      "context_recall_score": 0.0058,
+      "first_citation": "Module 3c CSC442 Sequence Analysis, page 2"
+    },
+    {
+      "sample_key": "eduground-doc-019",
+      "source_label": "Week 12 Entrepreneurial Finance",
+      "faithfulness_score": 0.3061,
+      "context_recall_score": 0.0152,
+      "first_citation": "Week 13 Incorporating the Company Practical Steps and Issues Involved, page 8"
+    },
+    {
+      "sample_key": "eduground-doc-050",
+      "source_label": "Week 12 Entrepreneurial Finance",
+      "faithfulness_score": 0.435,
+      "context_recall_score": 0.0152,
+      "first_citation": "Week 13 Incorporating the Company Practical Steps and Issues Involved, page 8"
+    },
+    {
+      "sample_key": "eduground-doc-079",
+      "source_label": "Week 10 Entrepreneurial Marketing",
+      "faithfulness_score": 0.244,
+      "context_recall_score": 0.0187,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7"
+    },
+    {
+      "sample_key": "eduground-doc-014",
+      "source_label": "SEN211 CSC411 MODULE3 SLIDES",
+      "faithfulness_score": 0.1546,
+      "context_recall_score": 0.0191,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7"
+    },
+    {
+      "sample_key": "eduground-doc-002",
+      "source_label": "Module 3c CSC442 Sequence Analysis",
+      "faithfulness_score": 0.1111,
+      "context_recall_score": 0.027,
+      "first_citation": "Module 2c CSC442 Biological Concepts compressed 196 272, page 8"
+    },
+    {
+      "sample_key": "eduground-doc-057",
+      "source_label": "Procurement Management",
+      "faithfulness_score": 0.3609,
+      "context_recall_score": 0.0272,
+      "first_citation": "Procurement Management, page 5"
+    },
+    {
+      "sample_key": "eduground-doc-065",
+      "source_label": "Week 12 Entrepreneurial Finance",
+      "faithfulness_score": 0.2517,
+      "context_recall_score": 0.0273,
+      "first_citation": "Software Dev Implementation Testing, slide 7"
+    },
+    {
+      "sample_key": "eduground-doc-096",
+      "source_label": "Module 3c CSC442 Sequence Analysis",
+      "faithfulness_score": 0.2683,
+      "context_recall_score": 0.0292,
+      "first_citation": "Module 3c CSC442 Sequence Analysis, page 3"
+    },
+    {
+      "sample_key": "eduground-doc-098",
+      "source_label": "Project Cost Management",
+      "faithfulness_score": 0.4147,
+      "context_recall_score": 0.0331,
+      "first_citation": "Project Cost Management, page 10"
+    }
+  ],
+  "highest_faithfulness_samples": [
+    {
+      "sample_key": "eduground-doc-004",
+      "source_label": "Project Human Resources Management 2023",
+      "faithfulness_score": 0.6378,
+      "context_recall_score": 0.1575,
+      "first_citation": "Project Human Resources Management 2023, slide 2"
+    },
+    {
+      "sample_key": "eduground-doc-028",
+      "source_label": "Project Human Resources Management 2023",
+      "faithfulness_score": 0.581,
+      "context_recall_score": 0.125,
+      "first_citation": "Module 3c CSC442 Sequence Analysis, page 5"
+    },
+    {
+      "sample_key": "eduground-doc-094",
+      "source_label": "Module 2b CSC442 Biological Concepts compressed 125 195",
+      "faithfulness_score": 0.5,
+      "context_recall_score": 0.1074,
+      "first_citation": "Module 2b CSC442 Biological Concepts compressed 125 195, page 24"
+    },
+    {
+      "sample_key": "eduground-doc-008",
+      "source_label": "Module 2c CSC442 Biological Concepts compressed 196 272",
+      "faithfulness_score": 0.4715,
+      "context_recall_score": 0.2258,
+      "first_citation": "Module 2c CSC442 Biological Concepts compressed 196 272, page 10"
+    },
+    {
+      "sample_key": "eduground-doc-095",
+      "source_label": "Module 2c CSC442 Biological Concepts compressed 196 272",
+      "faithfulness_score": 0.4615,
+      "context_recall_score": 0.1832,
+      "first_citation": "Module 2c CSC442 Biological Concepts compressed 196 272, page 11"
+    },
+    {
+      "sample_key": "eduground-doc-009",
+      "source_label": "Module 3a Transcription Translation WkSheet",
+      "faithfulness_score": 0.4462,
+      "context_recall_score": 0.1591,
+      "first_citation": "Module 3a Transcription Translation WkSheet, page 2"
+    },
+    {
+      "sample_key": "eduground-doc-050",
+      "source_label": "Week 12 Entrepreneurial Finance",
+      "faithfulness_score": 0.435,
+      "context_recall_score": 0.0152,
+      "first_citation": "Week 13 Incorporating the Company Practical Steps and Issues Involved, page 8"
+    },
+    {
+      "sample_key": "eduground-doc-073",
+      "source_label": "Project Human Resources Management 2023",
+      "faithfulness_score": 0.422,
+      "context_recall_score": 0.1919,
+      "first_citation": "Project Human Resources Management 2023, slide 8"
+    },
+    {
+      "sample_key": "eduground-doc-098",
+      "source_label": "Project Cost Management",
+      "faithfulness_score": 0.4147,
+      "context_recall_score": 0.0331,
+      "first_citation": "Project Cost Management, page 10"
+    },
+    {
+      "sample_key": "eduground-doc-058",
+      "source_label": "Project Human Resources Management 2023",
+      "faithfulness_score": 0.4121,
+      "context_recall_score": 0.2449,
+      "first_citation": "Project Human Resources Management 2023, slide 5"
+    }
+  ]
+}

@@ -1,25 +1,39 @@
 {
   "tutor": {
-    "v1": "tutor/v1.md"
+    "active": "v2",
+    "v1": "tutor/v1.md",
+    "v2": "tutor/v2.md"
   },
   "quiz": {
-    "v1": "quiz/v1.md"
+    "active": "v2",
+    "v1": "quiz/v1.md",
+    "v2": "quiz/v2.md"
   },
   "citation": {
-    "v1": "citation/v1.md"
+    "active": "v2",
+    "v1": "citation/v1.md",
+    "v2": "citation/v2.md"
   },
   "guardrail": {
-    "v1": "guardrail/v1.md"
+    "active": "v2",
+    "v1": "guardrail/v1.md",
+    "v2": "guardrail/v2.md"
   },
   "policy": {
     "teaching": {
-      "v1": "policy/teaching/v1.md"
+      "active": "v2",
+      "v1": "policy/teaching/v1.md",
+      "v2": "policy/teaching/v2.md"
     },
     "assignment": {
-      "v1": "policy/assignment/v1.md"
+      "active": "v2",
+      "v1": "policy/assignment/v1.md",
+      "v2": "policy/assignment/v2.md"
     },
     "exam": {
-      "v1": "policy/exam/v1.md"
+      "active": "v2",
+      "v1": "policy/exam/v1.md",
+      "v2": "policy/exam/v2.md"
     }
   }
 }

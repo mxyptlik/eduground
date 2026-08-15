@@ -5,6 +5,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /workspace
 
+COPY packages/prompts ./packages/prompts
 COPY apps/api ./apps/api
 
 RUN pip install --no-cache-dir --upgrade pip && \

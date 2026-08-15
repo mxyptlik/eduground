@@ -1,0 +1,27 @@
+{
+  "run_target": "local_eduground_internal_workflow",
+  "api_public_base_url": "http://localhost:8000",
+  "workflow": "app.services.chat.ChatService.post_message",
+  "notebook_id": "a8fef64e-24a7-4d17-a032-3376589fbc93",
+  "vector_database": "Qdrant",
+  "qdrant_url": "http://localhost:6333",
+  "collection_name": "eduground_ragas_gemini_v1",
+  "retrieval_mode": "dense",
+  "top_k_requested": 5,
+  "reranker_enabled": false,
+  "chat_provider_chain": {
+    "primary": "openrouter",
+    "primary_model": "openai/gpt-4.1-mini",
+    "fallback_enabled": true,
+    "fallback": "gemini",
+    "fallback_model": "gemini-3.5-flash-lite"
+  },
+  "embedding_provider_chain": {
+    "primary": "openrouter",
+    "primary_model": "openai/text-embedding-3-large",
+    "fallback_enabled": true,
+    "fallback": "gemini",
+    "fallback_model": "gemini-embedding-001",
+    "fallback_output_dimensionality": 3072
+  }
+}

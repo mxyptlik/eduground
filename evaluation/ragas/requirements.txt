@@ -1,0 +1,7 @@
+# Direct dependencies verified in the local evaluation environment on 2026-08-14.
+# The completed run bundle will additionally retain `pip freeze` for full reproduction.
+ragas==0.4.3
+google-genai==2.18.1
+datasets==5.0.1
+jsonref==1.1.0
+langchain-google-vertexai==3.2.4

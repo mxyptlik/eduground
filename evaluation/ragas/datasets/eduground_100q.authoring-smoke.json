@@ -1,0 +1,105 @@
+{
+  "dataset_id": "eduground-ragas-100q",
+  "version": "v1-assisted-draft",
+  "created_at_utc": "2026-08-14T21:56:27.469323+00:00",
+  "source_manifest": [
+    {
+      "source_id": "5a7b333e-72a0-4273-a84f-91c9345e2480",
+      "source_label": "Module 1 CSC442 Intro to CBL and BIF_compressed",
+      "sha256": "afcba3f5f1bd59274b572b811dcd970a10bced34f33a4799bae9683877d5773c",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "page 1"
+    },
+    {
+      "source_id": "5314a6bf-057a-4cdd-8ebb-decbb2355efb",
+      "source_label": "Module 2 CSC442 Biological Concepts_compressed-1-124",
+      "sha256": "c2db32b9d67d9eadacb5f807f7f27065048c896865c192750f4df24eb78cf14d",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-16; pages 106-124; pages 14-37; pages 32-60; pages 58-74; pages 69-88; pages 88-107"
+    },
+    {
+      "source_id": "b25efc0a-3b19-4144-ad0e-67d633f4e548",
+      "source_label": "Module 2b CSC442 Biological Concepts_compressed-125-195",
+      "sha256": "c872965a329ef3dc322117bb2d2c997366d86192a6e3482c5601f4894e7c54f1",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-25; pages 24-44; pages 42-56; pages 55-71; pages 70-71"
+    },
+    {
+      "source_id": "9140d9f1-e1cb-4cf9-a722-ff5132b63473",
+      "source_label": "Module 2c CSC442 Biological Concepts_compressed-196-272",
+      "sha256": "17998422856e06f46cf637aebc6b2eddf900ba4e68201bc88c7318e977ebe2e2",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-27; pages 25-60; pages 57-75; pages 73-77"
+    },
+    {
+      "source_id": "f2ec89b2-5fe4-4b1b-85e1-f1dd7144a28a",
+      "source_label": "Module 3a Transcription-Translation-WkSheet",
+      "sha256": "22997e1f1905eba55e161f7e1af0f96d3ca007e27d66c0f5f6f4bccadda1b7e5",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-2"
+    },
+    {
+      "source_id": "023bc12c-5e5b-4b6d-b058-f896b5e82646",
+      "source_label": "Module 3b DNA Mutations Practice Worksheet",
+      "sha256": "ae9774853cd50a4322168b75cf7737faf774e6e69cc35c550825679c21c4fdf5",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "page 1; page 2; page 3; pages 1-2; pages 2-3"
+    },
+    {
+      "source_id": "6fa79960-a32c-4109-9d1b-e91ff5bddd3a",
+      "source_label": "Module 3c CSC442 Sequence Analysis",
+      "sha256": "f60147ff1215f2ec560ae9eba059c92c4a1c94672a29ba002ed24b241cf494d3",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-2; pages 2-3; pages 3-5; pages 5-6"
+    },
+    {
+      "source_id": "6af93d5f-36b0-4e18-adde-c922e32ab3d9",
+      "source_label": "Module 3d CSC442 Sequence Analysis",
+      "sha256": "7e1686df56048d084697281b690eeb51cbd6d1fc5ebd66e1fb84452042b12aef",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-7; pages 6-9; pages 8-10; pages 9-13"
+    },
+    {
+      "source_id": "9102d982-00da-4065-8ed8-808df1b0a84e",
+      "source_label": "Module 4a CSC442 Biological Databases_compressed",
+      "sha256": "bdaa014fd0944e9a3fbae81078c703040884704f1e3490d404092b336e1684a9",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-30; pages 29-36; pages 36-41; pages 39-47; pages 46-52; pages 51-53"
+    },
+    {
+      "source_id": "517826f5-52ef-48d1-a787-005c9a22dc12",
+      "source_label": "Module 4b CSC442 Biological Databases",
+      "sha256": "5f44cd805bd78fe949bd0bbb9fa6b76f5ea4b41c11434041d286b8d5f625dfcc",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "pages 1-3; pages 10-13; pages 13-15; pages 2-5; pages 4-10"
+    },
+    {
+      "source_id": "6f76a050-d94a-46fe-bab7-8fb835204783",
+      "source_label": "Module 5a CSC442 Sequence Alignment_compressed",
+      "sha256": "33ff1744f6e776dabf6da4135e56865d036f330903e38ceed581f62b2a3ea3bb",
+      "notebook_id": "21e28342-9083-4856-85b0-068b42c399f7",
+      "page_or_slide_range": "page 1"
+    }
+  ],
+  "samples": [
+    {
+      "question": "In bioinformatics, how do the concepts of \"similarity\" and \"homology\" differ from one another?",
+      "reference_answer": "Similarity refers to the degree of likeness between two sequences expressed as a percentage, whereas homology refers to the common evolutionary ancestry of two sequences based on an assessment of their similarity.",
+      "reference_contexts": [
+        "In bioinformatics, the word \u2018similarity\u2019 refers to the degree of likeness between two sequences and it expressed in percentage. However, the word \u2018homology\u2019 refers to the common evolutionary ancestry of two sequences based on an assessment of their similarity."
+      ],
+      "source_ids": [
+        "517826f5-52ef-48d1-a787-005c9a22dc12"
+      ],
+      "expected_locator": "pages 1-3",
+      "question_type": "source-grounded factual",
+      "difficulty": "medium",
+      "authoring_method": "Gemini source-bounded draft authoring",
+      "review_status": "draft",
+      "source_chunk_id": "e54844aa-7ddd-44f7-a3b0-05f9cc0adb30",
+      "supporting_quote": "In bioinformatics, the word \u2018similarity\u2019 refers to the degree of likeness between two sequences and it expressed in percentage. However, the word \u2018homology\u2019 refers to the common evolutionary ancestry of two sequences based on an assessment of their similarity.",
+      "sample_id": "eduground-ragas-001"
+    }
+  ],
+  "authoring_failures": []
+}

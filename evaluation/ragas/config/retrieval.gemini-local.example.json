@@ -1,0 +1,49 @@
+{
+  "run_target": "local_docker_eduground",
+  "application_workflow": "apps/api/app/workflows/answer_question.py",
+  "provider_routing": {
+    "chat": {
+      "requested_provider": "gemini_fallback",
+      "model": "gemini-2.0-flash",
+      "environment_variables": [
+        "CURRICULUM_TUTOR_GEMINI_FALLBACK_ENABLED=true",
+        "CURRICULUM_TUTOR_GEMINI_CHAT_MODEL=gemini-2.0-flash"
+      ]
+    },
+    "embeddings": {
+      "requested_provider": "gemini_fallback",
+      "model": "gemini-embedding-001",
+      "output_dimensionality": 3072,
+      "environment_variables": [
+        "CURRICULUM_TUTOR_GEMINI_EMBEDDING_MODEL=gemini-embedding-001",
+        "CURRICULUM_TUTOR_GEMINI_EMBEDDING_OUTPUT_DIMENSIONALITY=3072"
+      ]
+    },
+    "reranker": {
+      "enabled": false,
+      "reason": "The current application has an OpenRouter reranker only; no Gemini reranker is implemented."
+    }
+  },
+  "chunking": {
+    "implementation": "StructureAwareChunker",
+    "chunk_size_characters": 2000,
+    "chunk_overlap_characters": 200,
+    "source_file": "apps/api/app/services/source_processing.py"
+  },
+  "retrieval": {
+    "vector_database": "Qdrant",
+    "docker_image": "qdrant/qdrant:v1.13.1",
+    "collection_name": "TO_BE_CREATED_FOR_THIS_GEMINI_RUN",
+    "distance": "Cosine",
+    "application_retrieval_mode": "dense",
+    "top_k_requested": 5,
+    "filters": {
+      "notebook_id": "TO_BE_RECORDED",
+      "status": "indexed",
+      "source_ids": "OPTIONAL_TO_BE_RECORDED",
+      "module_ids": "OPTIONAL_TO_BE_RECORDED"
+    },
+    "hnsw_configuration": "Qdrant server default; the application code does not submit a custom HNSW configuration. Capture the live collection configuration in the run manifest.",
+    "index_provenance_rule": "All vectors in this collection must be created with the listed Gemini embedding model during this run."
+  }
+}

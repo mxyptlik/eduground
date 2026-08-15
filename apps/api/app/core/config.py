@@ -256,6 +256,10 @@ class Settings(BaseSettings):
         default="openai/gpt-4.1-mini",
         validation_alias=AliasChoices("CURRICULUM_TUTOR_OPENROUTER_CHAT_MODEL", "OPENROUTER_CHAT_MODEL"),
     )
+    openrouter_max_output_tokens: int = Field(
+        default=1536,
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_OPENROUTER_MAX_OUTPUT_TOKENS", "OPENROUTER_MAX_OUTPUT_TOKENS"),
+    )
     openrouter_rerank_model: str = Field(
         default="openai/gpt-4.1-mini",
         validation_alias=AliasChoices("CURRICULUM_TUTOR_OPENROUTER_RERANK_MODEL", "OPENROUTER_RERANK_MODEL"),
@@ -287,6 +291,10 @@ class Settings(BaseSettings):
     gemini_chat_model: str = Field(
         default="gemini-2.0-flash",
         validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_CHAT_MODEL", "GEMINI_CHAT_MODEL"),
+    )
+    gemini_max_output_tokens: int = Field(
+        default=1536,
+        validation_alias=AliasChoices("CURRICULUM_TUTOR_GEMINI_MAX_OUTPUT_TOKENS", "GEMINI_MAX_OUTPUT_TOKENS"),
     )
     gemini_embedding_model: str = Field(
         default="gemini-embedding-001",

@@ -1,0 +1,672 @@
+[
+  {
+    "sample_key": "eduground-doc-001",
+    "question": "What are Genes?",
+    "expected_answer": "Genes are small sections of DNA within the genome that code for proteins They contain the instructions for our individual characteristics \u2013 like eye and hair colour",
+    "retrieved_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.\n\nEach gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135\n\n27\nwww covenantuniversity edu ng\nLearning objectives\nAfter this session, students should be able to:\n\u2022 Summarise the purpose of genome browsers, the types of\ndata available and the commonly used genome browsers\n\u2022 Explore genomic regions using the Ensembl genome\nbrowser\n\u2022 Appraise the Ensembl gene annotation pipeline,\ncombining manual and automatic annotation\n\u2022 Find information about genes in Ensem\n\nBenefits and Drawbacks\na. Benefits:\nOffers a clear roadmap for growth\nImproves consistency and predictability\nHelps attract clients seeking quality certifications\nb. Drawbacks:\nCan be resource-intensive to implement\nRisk of bureaucracy if applied rigidly\nccodel.covenantuniversity.edu.ng\n10\n\nIntroduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent,",
+    "model_answer": "\u2022 The purpose of genes is to store information. Genes come in different forms, called alleles. \u2022 The human genome contains 20,687 protein-coding genes.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 2b CSC442 Biological Concepts_compressed-125-195.pdf",
+    "source_label": "Module 2b CSC442 Biological Concepts compressed 125 195",
+    "locator": "page 5 section 1",
+    "topic": "that code for proteins. They contain the instructions",
+    "source_context": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "1606696b-b289-4e35-bc6c-0f117f45a2c8",
+        "source_id": "5fda91f3-7e7e-4691-b8ac-c512df1e9f5b",
+        "chunk_id": "5f097293-0f58-494b-bca3-9e26586473be",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 5"
+      },
+      {
+        "id": "2934f5d3-ed32-4d52-8f00-02a2b8edd60a",
+        "source_id": "5fda91f3-7e7e-4691-b8ac-c512df1e9f5b",
+        "chunk_id": "5df8dd67-c5d2-4830-b166-132352d926fa",
+        "source_segment_id": null,
+        "page_start": 11,
+        "page_end": 11,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Each gene contains the information required to build\nspecific proteins needed in an organism.\nGenes come in different forms, called alleles.\nIn humans, alleles of particular genes come in pairs,\none on each chromosome (we have 23 pairs of\nchromosomes).\n135",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 11"
+      },
+      {
+        "id": "372add00-0c82-411c-acfd-0a3f9cc8c27a",
+        "source_id": "0f6c109f-a2bc-4dbd-963d-fd4bb072904e",
+        "chunk_id": "df218608-8373-4f48-a49a-222c0db77517",
+        "source_segment_id": null,
+        "page_start": 27,
+        "page_end": 27,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "27\nwww covenantuniversity edu ng\nLearning objectives\nAfter this session, students should be able to:\n\u2022 Summarise the purpose of genome browsers, the types of\ndata available and the commonly used genome browsers\n\u2022 Explore genomic regions using the Ensembl genome\nbrowser\n\u2022 Appraise the Ensembl gene annotation pipeline,\ncombining manual and automatic annotation\n\u2022 Find information about genes in Ensem",
+        "display_label": "Module 4a CSC442 Biological Databases compressed, page 27"
+      },
+      {
+        "id": "3f2e725b-92bf-4436-90dc-9098bb172ed5",
+        "source_id": "4977697b-5100-4c7a-8212-bfafd1cd4c80",
+        "chunk_id": "6ca74ad2-2124-4dee-82be-650c72dbda57",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 10,
+        "slide_end": 10,
+        "quote_text": "Benefits and Drawbacks\na. Benefits:\nOffers a clear roadmap for growth\nImproves consistency and predictability\nHelps attract clients seeking quality certifications\nb. Drawbacks:\nCan be resource-intensive to implement\nRisk of bureaucracy if applied rigidly\nccodel.covenantuniversity.edu.ng\n10",
+        "display_label": "SEN211 CSC411 MODULE3 SLIDES, slide 10"
+      },
+      {
+        "id": "391361d6-6d2e-41bd-9dd0-f99872b12554",
+        "source_id": "2418f6d4-7c0d-40bb-9872-23bf93219105",
+        "chunk_id": "fad5a900-9dd6-4342-87d0-7167f7aeeb51",
+        "source_segment_id": null,
+        "page_start": 2,
+        "page_end": 2,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, ",
+        "display_label": "Week 12 Entrepreneurial Finance, page 2"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "8aa3a68a-dc43-4b7b-8bf8-6cea8d940c77",
+      "query_text": "What are Genes?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "49ab9585-770d-4110-9778-7df1439a12b8",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 240,
+      "items": [
+        {
+          "chunk_id": "5f097293-0f58-494b-bca3-9e26586473be",
+          "source_id": "5fda91f3-7e7e-4691-b8ac-c512df1e9f5b",
+          "initial_score": 1.507129,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "5df8dd67-c5d2-4830-b166-132352d926fa",
+          "source_id": "5fda91f3-7e7e-4691-b8ac-c512df1e9f5b",
+          "initial_score": 1.167858,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "df218608-8373-4f48-a49a-222c0db77517",
+          "source_id": "0f6c109f-a2bc-4dbd-963d-fd4bb072904e",
+          "initial_score": 0.566468,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "6ca74ad2-2124-4dee-82be-650c72dbda57",
+          "source_id": "4977697b-5100-4c7a-8212-bfafd1cd4c80",
+          "initial_score": 0.344562,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "fad5a900-9dd6-4342-87d0-7167f7aeeb51",
+          "source_id": "2418f6d4-7c0d-40bb-9872-23bf93219105",
+          "initial_score": 0.250616,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    },
+    "eduground_end_to_end_latency_ms": 494,
+    "eduground_model_latency_ms": 2
+  },
+  {
+    "sample_key": "eduground-doc-002",
+    "question": "What key point does the source make about CSC442?",
+    "expected_answer": "that form the sequence, and calculates the percentage nucleotide composition of the 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that",
+    "retrieved_context": "The Cell is the Basic Unit of Life\nA cell is the smallest unit that can carry on\nall of the processes of life\nAll living things - from the tiniest bacterium\nto the largest whale - are made up of one or\nmore cells\n3\n\n5\nwww covenantuniversity edu ng\nBASE NUCLEOTIDES SEQUENCE ANALYSIS WITH PYTHON\nQuestion 1a: Complete the following steps to download the nucleotides sequence FASTA file format from\nNCBI for the gene that codes for the \u201chuman angiotensin-converting enzyme 2 (ACE2 HUMAN)\u201d receptor of\nthe severe acute respiratory syndrome-related coronavirus. You are to name the file \u201cSARS-COV_ACE2.fas\u201d.\n\u2022\nGo to the \n\nCSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide\n\n6\nwww covenantuniversity edu ng\nBASE NUCLEOTIDES SEQUENCE ANALYSIS WITH PYTHON\n\u2022\nfrom Bio import Entrez, SeqIO\n\u2022\n# Set your email address for NCBI API\n\u2022\nEntrez.email = \"osofuyeodundami@gmail.com\"\n\u2022\n# Define the gene and organism\n\u2022\nofficial_symbol = \"ACE2\"\n\u2022\norganism_name = \"Homo sapiens\"\n\u2022\n# Construct the query to search for the gene in NCBI\n\u2022\nquery = f\"{official_symbol}[Gene] AND {organism_name}[\n\n.\n1.Business name \u2013 a name, other than one\u2019s natural name, under which a person carries on\nbusiness. S. 868(1) CAMA - \u201cthe name or style under which any business is carried on,\nwhether in partnership or otherwise\u201d\n2.Sole proprietorship - business owned by one individual who can be a natural or artificial\nperson (per Sections 814(1)(c) and 814(1)(a) of CAMA). This business entity does not\nseparate",
+    "model_answer": "CSC442 COMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES MOODLE 3 SEQUENCE ANALYSIS WITH PYTHON 1) Writing Python programs for simple sequence analysis tasks (1) Write a unique program that 1) accepts a string of nucleotide-sequence, finds the total number of nucleotides that form the sequence, and calculates the percentage nucleotide composition of the sequence 2) processes a file of nucleotide-sequence, finds the total number of nucleotides that form the sequence, and calculates the percentage nucleotide composition of the sequence.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Module 3c CSC442 Sequence Analysis.pdf",
+    "source_label": "Module 3c CSC442 Sequence Analysis",
+    "locator": "page 1 section 1",
+    "topic": "CSC442",
+    "source_context": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide-sequence, finds the total number of nucleotides that\nform the sequence, and calculates the percentage nucleotide composition of the\nsequence.\nYou are to submit your codes with detailed screenshots in a single ms-word file.\n2) Writing Python programs for simple sequence analysis tasks (2)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n2) processes a file of nucleotide-sequence and outputs the type of sequence it is, be\nit DNA or mRNA\n3) If it is a DNA sequence, your program should transcribe it into an RNA and print\nout both sequences.\n4) If it is an RNA sequence, your program should do reverse transcription of the\nsequence into a DNA and print out both sequences.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "949e9097-0a96-4f52-a7e0-c2a24563c56a",
+        "source_id": "4da697af-538e-4e44-baed-f4abd5ce66fb",
+        "chunk_id": "ae650fc6-2727-474d-99f7-357431ec16dd",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "The Cell is the Basic Unit of Life\nA cell is the smallest unit that can carry on\nall of the processes of life\nAll living things - from the tiniest bacterium\nto the largest whale - are made up of one or\nmore cells\n3",
+        "display_label": "Module 2 CSC442 Biological Concepts compressed 1 124, page 3"
+      },
+      {
+        "id": "f3850fbc-515a-4e49-bd55-17a95c02969a",
+        "source_id": "0dcdef6e-cfa8-4d9a-b501-41db11b5a9c5",
+        "chunk_id": "bcf4bffe-2c1d-4d52-87ae-5573deb6ab6c",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "5\nwww covenantuniversity edu ng\nBASE NUCLEOTIDES SEQUENCE ANALYSIS WITH PYTHON\nQuestion 1a: Complete the following steps to download the nucleotides sequence FASTA file format from\nNCBI for the gene that codes for the \u201chuman angiotensin-converting enzyme 2 (ACE2 HUMAN)\u201d receptor of\nthe severe acute respiratory syndrome-related coronavirus. You are to name the file \u201cSARS-COV_ACE2.fas\u201d.\n\u2022\nGo to the ",
+        "display_label": "Module 3d CSC442 Sequence Analysis, page 5"
+      },
+      {
+        "id": "bb821a83-d9a0-40d8-878a-19744611318c",
+        "source_id": "ce746e36-df85-4639-bee6-896e1ca9c62a",
+        "chunk_id": "b8053cb7-e5c9-409e-8de4-eb62d29c6d8e",
+        "source_segment_id": null,
+        "page_start": 1,
+        "page_end": 1,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "CSC442\nCOMPUTATIONAL BIOLOGY AND INTERDISCIPLINARY STUDIES\nMOODLE 3\nSEQUENCE ANALYSIS WITH PYTHON\n1) Writing Python programs for simple sequence analysis tasks (1)\nWrite a unique program that\n1) accepts a string of nucleotide-sequence, finds the total number of nucleotides\nthat form the sequence, and calculates the percentage nucleotide composition of the\nsequence\n2) processes a file of nucleotide",
+        "display_label": "Module 3c CSC442 Sequence Analysis, page 1"
+      },
+      {
+        "id": "5ab0466c-1cb5-499b-b08a-d78f1cf58a96",
+        "source_id": "0dcdef6e-cfa8-4d9a-b501-41db11b5a9c5",
+        "chunk_id": "83273e71-a324-4cda-a695-5073d55ed6b4",
+        "source_segment_id": null,
+        "page_start": 6,
+        "page_end": 6,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "6\nwww covenantuniversity edu ng\nBASE NUCLEOTIDES SEQUENCE ANALYSIS WITH PYTHON\n\u2022\nfrom Bio import Entrez, SeqIO\n\u2022\n# Set your email address for NCBI API\n\u2022\nEntrez.email = \"osofuyeodundami@gmail.com\"\n\u2022\n# Define the gene and organism\n\u2022\nofficial_symbol = \"ACE2\"\n\u2022\norganism_name = \"Homo sapiens\"\n\u2022\n# Construct the query to search for the gene in NCBI\n\u2022\nquery = f\"{official_symbol}[Gene] AND {organism_name}[",
+        "display_label": "Module 3d CSC442 Sequence Analysis, page 6"
+      },
+      {
+        "id": "7cd921cf-1027-40a0-94fb-6f854cdfe7da",
+        "source_id": "d4782357-15e1-4e94-8280-2e7e1f03b712",
+        "chunk_id": "7e06ca9c-e254-4141-a626-e45ac19137ab",
+        "source_segment_id": null,
+        "page_start": 7,
+        "page_end": 7,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": ".\n1.Business name \u2013 a name, other than one\u2019s natural name, under which a person carries on\nbusiness. S. 868(1) CAMA - \u201cthe name or style under which any business is carried on,\nwhether in partnership or otherwise\u201d\n2.Sole proprietorship - business owned by one individual who can be a natural or artificial\nperson (per Sections 814(1)(c) and 814(1)(a) of CAMA). This business entity does not\nseparate ",
+        "display_label": "Week 13 Incorporating the Company Practical Steps and Issues Involved, page 7"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "540790a2-e8ec-44c8-a691-39152b9f51e3",
+      "query_text": "What key point does the source make about CSC442?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "49ab9585-770d-4110-9778-7df1439a12b8",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 165,
+      "items": [
+        {
+          "chunk_id": "ae650fc6-2727-474d-99f7-357431ec16dd",
+          "source_id": "4da697af-538e-4e44-baed-f4abd5ce66fb",
+          "initial_score": 1.190451,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "bcf4bffe-2c1d-4d52-87ae-5573deb6ab6c",
+          "source_id": "0dcdef6e-cfa8-4d9a-b501-41db11b5a9c5",
+          "initial_score": 0.809875,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "b8053cb7-e5c9-409e-8de4-eb62d29c6d8e",
+          "source_id": "ce746e36-df85-4639-bee6-896e1ca9c62a",
+          "initial_score": 0.767866,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "83273e71-a324-4cda-a695-5073d55ed6b4",
+          "source_id": "0dcdef6e-cfa8-4d9a-b501-41db11b5a9c5",
+          "initial_score": 0.692705,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "7e06ca9c-e254-4141-a626-e45ac19137ab",
+          "source_id": "d4782357-15e1-4e94-8280-2e7e1f03b712",
+          "initial_score": 0.525611,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    },
+    "eduground_end_to_end_latency_ms": 352,
+    "eduground_model_latency_ms": 6
+  },
+  {
+    "sample_key": "eduground-doc-003",
+    "question": "What does Procurement management involve?",
+    "expected_answer": "Procurement management involves the processes acquiring goods, services or results needed from external sources to successfully complete a project",
+    "retrieved_context": "Intrinsic motivation\ncauses people to participate in an activity for their own enjoyment\nExtrinsic motivation\ncauses people to do something for a reward or to avoid a penalty\nFor example, some children take piano lessons for intrinsic motivation (they enjoy it) while others take them for extrinsic motivation (to get a reward or avoid punishment)\nIntrinsic and Extrinsic Motivation\nInformation Techn\n\nFrederick Herzberg wrote several famous books and articles about worker motivation. He distinguished between\nmotivational factors: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction\nhygiene factors: cause dissatisfaction if not present, but do not motivate workers to do more. Examples include larger salaries, more supervision, and a m\n\nIn 2013 Yahoo\u2019s CEO issued a memo stating that employees could no longer work from home, causing quite a stir throughout the world\nDiebold\u2019s CEO took the opposite approach and started recruiting employees who wanted to work from home, luring the best and brightest workers from Yahoo and other companies cutting back on telecommuting\nThe Huffington Post believes that telecommuting has won, and even \n\nImportance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3\n\nWhat is Software Implementation?\nSoftware Implementation Focuses on:\nPutting the software into use\nEnsuring the system works correctly in its target environment\nExample\nImplementing the same Library Management System:\nInstalling the system on university servers\nConfiguring databases and user access\nMigrating existing book records\nTraining librarians on system usage\nccodel.covenantuniversity.edu.ng",
+    "model_answer": "\uf076Procurement management helps control costs and budgets. \uf076Procurement management ensures compliance with legal and contractual obligations. \uf076Procurement management reduces risks associated with third-party involvement.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Procurement Management.pdf",
+    "source_label": "Procurement Management",
+    "locator": "page 2 section 1",
+    "topic": "\uf076Procurement management involves the processes acquiring goods, services or",
+    "source_context": "Procurement Management\n\uf076Procurement management involves the processes acquiring goods, services or\nresults needed from external sources to successfully complete a project.\n\uf076It includes contract management and control processes required to develop\nand administer agreements with vendors, suppliers and contractors.\n2",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "63a6d2d9-b4e2-4d36-b60d-044c1cdf7372",
+        "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+        "chunk_id": "e9470e45-f6e8-4166-a0a4-2087f6940e95",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 8,
+        "slide_end": 8,
+        "quote_text": "Intrinsic motivation\ncauses people to participate in an activity for their own enjoyment\nExtrinsic motivation\ncauses people to do something for a reward or to avoid a penalty\nFor example, some children take piano lessons for intrinsic motivation (they enjoy it) while others take them for extrinsic motivation (to get a reward or avoid punishment)\nIntrinsic and Extrinsic Motivation\nInformation Techn",
+        "display_label": "Project Human Resources Management 2023, slide 8"
+      },
+      {
+        "id": "ed26d104-c237-40d9-b955-d7389fc68873",
+        "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+        "chunk_id": "f95c98bb-b204-49cf-b016-5032e4bcae30",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 11,
+        "slide_end": 11,
+        "quote_text": "Frederick Herzberg wrote several famous books and articles about worker motivation. He distinguished between\nmotivational factors: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction\nhygiene factors: cause dissatisfaction if not present, but do not motivate workers to do more. Examples include larger salaries, more supervision, and a m",
+        "display_label": "Project Human Resources Management 2023, slide 11"
+      },
+      {
+        "id": "aca59125-b137-4e63-9692-db9837c8eeae",
+        "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+        "chunk_id": "4afdfafe-55c7-4c7f-9411-3274d4e0de82",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 4,
+        "slide_end": 4,
+        "quote_text": "In 2013 Yahoo\u2019s CEO issued a memo stating that employees could no longer work from home, causing quite a stir throughout the world\nDiebold\u2019s CEO took the opposite approach and started recruiting employees who wanted to work from home, luring the best and brightest workers from Yahoo and other companies cutting back on telecommuting\nThe Huffington Post believes that telecommuting has won, and even ",
+        "display_label": "Project Human Resources Management 2023, slide 4"
+      },
+      {
+        "id": "62f67a28-faf4-4e61-a8c3-6f12e68cb91e",
+        "source_id": "e1c1701d-1ae2-47e8-9aaf-10b177482a34",
+        "chunk_id": "09ca76d5-f5f3-445d-b8ae-4ef8e83c1a99",
+        "source_segment_id": null,
+        "page_start": 3,
+        "page_end": 3,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Importance of Procurement Management\n\uf076Procurement management ensures timely acquisition of necessary resources.\n\uf076Procurement management helps control costs and budgets.\n\uf076Procurement\nmanagement\nreduces\nrisks\nassociated\nwith\nthird-party\ninvolvement.\n\uf076Procurement management ensures compliance with legal and contractual\nobligations.\n3",
+        "display_label": "Procurement Management, page 3"
+      },
+      {
+        "id": "3ea284d6-4330-4c8f-9286-99169e8ca05e",
+        "source_id": "7b3589f8-a5d6-45e7-a59d-24b2dd9c0d5c",
+        "chunk_id": "e46ac267-13d8-45e8-9840-d4bb5cec24e9",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 8,
+        "slide_end": 8,
+        "quote_text": "What is Software Implementation?\nSoftware Implementation Focuses on:\nPutting the software into use\nEnsuring the system works correctly in its target environment\nExample\nImplementing the same Library Management System:\nInstalling the system on university servers\nConfiguring databases and user access\nMigrating existing book records\nTraining librarians on system usage\nccodel.covenantuniversity.edu.ng",
+        "display_label": "Software Dev Implementation Testing, slide 8"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "d584941d-ae52-4a2f-8d82-ca6e4ec99a83",
+      "query_text": "What does Procurement management involve?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "49ab9585-770d-4110-9778-7df1439a12b8",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 180,
+      "items": [
+        {
+          "chunk_id": "e9470e45-f6e8-4166-a0a4-2087f6940e95",
+          "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+          "initial_score": 1.960897,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "f95c98bb-b204-49cf-b016-5032e4bcae30",
+          "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+          "initial_score": 1.85501,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "4afdfafe-55c7-4c7f-9411-3274d4e0de82",
+          "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+          "initial_score": 1.819105,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "09ca76d5-f5f3-445d-b8ae-4ef8e83c1a99",
+          "source_id": "e1c1701d-1ae2-47e8-9aaf-10b177482a34",
+          "initial_score": 1.708524,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "e46ac267-13d8-45e8-9840-d4bb5cec24e9",
+          "source_id": "7b3589f8-a5d6-45e7-a59d-24b2dd9c0d5c",
+          "initial_score": 1.641451,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    },
+    "eduground_end_to_end_latency_ms": 342,
+    "eduground_model_latency_ms": 2
+  },
+  {
+    "sample_key": "eduground-doc-004",
+    "question": "What key point does the source make about The Importance of Human Resource Management?",
+    "expected_answer": "Many corporate executives have said, \u201cPeople are our most important asset\u201d People determine the success and failure of organizations and projects",
+    "retrieved_context": "Benefits and Drawbacks\na. Benefits:\nOffers a clear roadmap for growth\nImproves consistency and predictability\nHelps attract clients seeking quality certifications\nb. Drawbacks:\nCan be resource-intensive to implement\nRisk of bureaucracy if applied rigidly\nccodel.covenantuniversity.edu.ng\n10\n\nMutations in egg or sperm (germ) cells\n(germinal or germline mutations) may\nresult in an individual offspring all of\nwhose cells carry the mutation, which\noften\nconfers\nsome\nserious\nmalfunction, as in the case of a human\ngenetic disease such as cystic fibrosis.\n205\n\nGene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.\n\ncount_C = sequence.count(\"C\")\npercentage_A = (count_A / nucleotide_count) * 100\npercentage_T = (count_T / nucleotide_count) * 100\npercentage_G = (count_G / nucleotide_count) * 100\npercentage_C = (count_C / nucleotide_count) * 100\nprint(\"Percentage composition:\")\nprint(\"A:\", round(percentage_A, 2), \"%\")\nprint(\"T:\", round(percentage_T, 2))\nprint(\"G:\", round(percentage_G, 2))\nprint(\"C:\", round(percen\n\nBasic Principles of Cost Management\n\uf097Most members of an executive board better\nunderstand and are more interested in financial\nterms than IT terms, so IT project managers must\nspeak their language\n\uf097Profits are revenues minus expenditures\n\uf097Profit margin is the ratio of revenues to profits\n\uf097$2 profit per $100 revenue \uf0e02% profit margin\n\uf097Life cycle costing considers the total cost of\nownership, or dev",
+    "model_answer": "Drawbacks: Can be resource-intensive to implement Risk of bureaucracy if applied rigidly ccodel.covenantuniversity.edu.ng 10 Mutations in egg or sperm (germ) cells (germinal or germline mutations) may result in an individual offspring all of whose cells carry the mutation, which often confers some serious malfunction, as in the case of a human genetic disease such as cystic fibrosis.",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Project Human Resources Management 2023.pptx",
+    "source_label": "Project Human Resources Management 2023",
+    "locator": "slide 2 section 1",
+    "topic": "The Importance of Human Resource Management",
+    "source_context": "Many corporate executives have said, \u201cPeople are our most important asset\u201d\nPeople determine the success and failure of organizations and projects\nThe Importance of Human Resource Management\nInformation Technology Project Management, Eighth Edition\n2",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "86890f4c-642a-4fd9-9c51-a719e7a280f1",
+        "source_id": "4977697b-5100-4c7a-8212-bfafd1cd4c80",
+        "chunk_id": "6ca74ad2-2124-4dee-82be-650c72dbda57",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 10,
+        "slide_end": 10,
+        "quote_text": "Benefits and Drawbacks\na. Benefits:\nOffers a clear roadmap for growth\nImproves consistency and predictability\nHelps attract clients seeking quality certifications\nb. Drawbacks:\nCan be resource-intensive to implement\nRisk of bureaucracy if applied rigidly\nccodel.covenantuniversity.edu.ng\n10",
+        "display_label": "SEN211 CSC411 MODULE3 SLIDES, slide 10"
+      },
+      {
+        "id": "910f8b1f-b7e7-480a-bd9e-8ffa6a4b5ca4",
+        "source_id": "4ca10ba1-bcaf-492c-9b19-dbafc468b07d",
+        "chunk_id": "b1f78d2b-6d78-4a64-a1e0-03d8d568eb0d",
+        "source_segment_id": null,
+        "page_start": 10,
+        "page_end": 10,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Mutations in egg or sperm (germ) cells\n(germinal or germline mutations) may\nresult in an individual offspring all of\nwhose cells carry the mutation, which\noften\nconfers\nsome\nserious\nmalfunction, as in the case of a human\ngenetic disease such as cystic fibrosis.\n205",
+        "display_label": "Module 2c CSC442 Biological Concepts compressed 196 272, page 10"
+      },
+      {
+        "id": "70ffe610-152f-44c6-8d41-f6222396bbef",
+        "source_id": "5fda91f3-7e7e-4691-b8ac-c512df1e9f5b",
+        "chunk_id": "5f097293-0f58-494b-bca3-9e26586473be",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Gene\n\u2022 Genes are small sections of DNA within the genome\nthat code for proteins. They contain the instructions\nfor our individual characteristics \u2013 like eye and hair\ncolour.\n\u2022 The purpose of genes is to store information.\n\u2022 The human genome contains 20,687 protein-coding\ngenes.",
+        "display_label": "Module 2b CSC442 Biological Concepts compressed 125 195, page 5"
+      },
+      {
+        "id": "22a4f034-55ae-412c-a963-c869024c1f6e",
+        "source_id": "ce746e36-df85-4639-bee6-896e1ca9c62a",
+        "chunk_id": "43325669-8623-4740-a962-874576fb2e21",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "count_C = sequence.count(\"C\")\npercentage_A = (count_A / nucleotide_count) * 100\npercentage_T = (count_T / nucleotide_count) * 100\npercentage_G = (count_G / nucleotide_count) * 100\npercentage_C = (count_C / nucleotide_count) * 100\nprint(\"Percentage composition:\")\nprint(\"A:\", round(percentage_A, 2), \"%\")\nprint(\"T:\", round(percentage_T, 2))\nprint(\"G:\", round(percentage_G, 2))\nprint(\"C:\", round(percen",
+        "display_label": "Module 3c CSC442 Sequence Analysis, page 5"
+      },
+      {
+        "id": "347a05ae-333d-406e-8b05-79b8674370df",
+        "source_id": "01666045-106c-4959-a6c3-4b93dcff96bf",
+        "chunk_id": "8a74ce34-0a23-40c3-8f38-2aad1b3d240d",
+        "source_segment_id": null,
+        "page_start": 10,
+        "page_end": 10,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Basic Principles of Cost Management\n\uf097Most members of an executive board better\nunderstand and are more interested in financial\nterms than IT terms, so IT project managers must\nspeak their language\n\uf097Profits are revenues minus expenditures\n\uf097Profit margin is the ratio of revenues to profits\n\uf097$2 profit per $100 revenue \uf0e02% profit margin\n\uf097Life cycle costing considers the total cost of\nownership, or dev",
+        "display_label": "Project Cost Management, page 10"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "ffef1581-fb0c-485b-bbb1-1c4d8cbe2186",
+      "query_text": "What key point does the source make about The Importance of Human Resource Management?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "49ab9585-770d-4110-9778-7df1439a12b8",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 165,
+      "items": [
+        {
+          "chunk_id": "6ca74ad2-2124-4dee-82be-650c72dbda57",
+          "source_id": "4977697b-5100-4c7a-8212-bfafd1cd4c80",
+          "initial_score": 4.095654,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "b1f78d2b-6d78-4a64-a1e0-03d8d568eb0d",
+          "source_id": "4ca10ba1-bcaf-492c-9b19-dbafc468b07d",
+          "initial_score": 2.886478,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "5f097293-0f58-494b-bca3-9e26586473be",
+          "source_id": "5fda91f3-7e7e-4691-b8ac-c512df1e9f5b",
+          "initial_score": 2.885945,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "43325669-8623-4740-a962-874576fb2e21",
+          "source_id": "ce746e36-df85-4639-bee6-896e1ca9c62a",
+          "initial_score": 2.865381,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "8a74ce34-0a23-40c3-8f38-2aad1b3d240d",
+          "source_id": "01666045-106c-4959-a6c3-4b93dcff96bf",
+          "initial_score": 2.857339,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    },
+    "eduground_end_to_end_latency_ms": 392,
+    "eduground_model_latency_ms": 2
+  },
+  {
+    "sample_key": "eduground-doc-005",
+    "question": "What important concept is explained in Week 12 Entrepreneurial Finance?",
+    "expected_answer": "Jeff Bezos commented that the U.S. has a strong \"risk capital system\" that fosters entrepreneurial success and enables startups",
+    "retrieved_context": "Psychologists and management theorists have devoted much research and thought to the field of managing people at work\nImportant areas related to project management include\nmotivation\ninfluence and power\nEffectiveness\nEmotional intelligence\nLeadership\nKeys to Managing People\nInformation Technology Project Management, Eighth Edition\n7\n\nSoft Financing\nGrants and Schemes\nCompetitions,\nHackathons\nAngel investors,\nCrowdfunding\nNo or low Interest\nLoan, suppliers\ncredit\n01\n02\n03\n04\nPROBLEMS\n\nThe Benefits of Entrepreneurship\nThe primary benefits entrepreneurs enjoy\ninclude the opportunity to:\n\uf097Create their own destiny\n\uf097Make a difference\n\uf097Reach their full potential\n\uf097Generate impressive profits\n\uf097Contribute to society and be recognized\nfor their efforts\n\uf097Do what they enjoy and have fun at it!\n\nChallenges of Entrepreneurship\n\uf097Uncertainty of income\n\uf097Risk of losing your entire investment\n\uf097Long hours and hard work\n\uf097Lower quality of life until the business gets\nestablished\n\uf097High levels of stress\n\uf097Complete responsibility\n\uf097Discouragement\n\nHow to Manage Funds\nPlan\nSet Financial Goals,\nPrepare a Budget,\nForecast Cash Flow\n1\nReceive and\nAllocate\nBusiness Accounts\nClassify Expenses\n(fixed vs variable cost),\nSet Spending Limits,\nPrioritise Essentials\nexpenses\n2\nTrack and\nRecord\nTrack Cash Flow,\nReconcile Bank\nStatements\n3\nAnalyse\nCompare Actual vs.\nBudget, Profit Margin,\nLiquidity Ratio, Working\nCapital Management,\nPricing strategies an",
+    "model_answer": "Psychologists and management theorists have devoted much research and thought to the field of managing people at work Important areas related to project management include motivation influence and power Effectiveness Emotional intelligence Leadership Keys to Managing People Information Technology Project Management, Eighth Edition 7 Soft Financing Grants and Schemes Competitions, Hackathons Angel investors, Crowdfunding No or low Interest Loan, suppliers credit 01 02 03 04 PROBLEMS The Benefits of Entrepreneurship The primary benefits entrepreneurs enjoy include the opportunity to: \uf097Create their own destiny \uf097Make a difference \uf097Reach their full potential \uf097Generate impressive profits \uf097Contribute to society and be recognized for their efforts \uf097Do what they enjoy and have fun at it!",
+    "source_file": "C:\\Users\\User\\Downloads\\Telegram Desktop\\Week 12 Entrepreneurial Finance.pdf",
+    "source_label": "Week 12 Entrepreneurial Finance",
+    "locator": "page 2 section 1",
+    "topic": "Introduction",
+    "source_context": "Introduction\nJeff Bezos commented that the U.S. has a strong \"risk capital\nsystem\" that fosters entrepreneurial success and enables startups\nto get seed capital, which is key to the high number of businesses\nin America\nHe also noted that while the \"first mile\" of getting a business\nstarted is well-supported, the \"second mile\" of scaling the\ncompany is often harder, requiring more capital, talent, and\ninfrastructure.",
+    "generation_note": "Seed sample: model_answer and retrieved_context should be replaced by deployed Eduground run output before final scoring.",
+    "eduground_answer_type": "grounded_answer",
+    "eduground_refusal_reason": null,
+    "eduground_citations": [
+      {
+        "id": "b5cbaa74-ecc0-483e-bf48-0f9ad94b6c16",
+        "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+        "chunk_id": "93861aee-547f-4a7c-98c8-dec048dbcd61",
+        "source_segment_id": null,
+        "page_start": null,
+        "page_end": null,
+        "slide_start": 7,
+        "slide_end": 7,
+        "quote_text": "Psychologists and management theorists have devoted much research and thought to the field of managing people at work\nImportant areas related to project management include\nmotivation\ninfluence and power\nEffectiveness\nEmotional intelligence\nLeadership\nKeys to Managing People\nInformation Technology Project Management, Eighth Edition\n7",
+        "display_label": "Project Human Resources Management 2023, slide 7"
+      },
+      {
+        "id": "80c9d26d-7e0a-45b8-a2e8-0db5032a5dbf",
+        "source_id": "2418f6d4-7c0d-40bb-9872-23bf93219105",
+        "chunk_id": "5e583416-c425-4b9b-ba29-0a87f0723ee7",
+        "source_segment_id": null,
+        "page_start": 6,
+        "page_end": 6,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Soft Financing\nGrants and Schemes\nCompetitions,\nHackathons\nAngel investors,\nCrowdfunding\nNo or low Interest\nLoan, suppliers\ncredit\n01\n02\n03\n04\nPROBLEMS",
+        "display_label": "Week 12 Entrepreneurial Finance, page 6"
+      },
+      {
+        "id": "e9be4f59-179c-4abc-ba59-4c8d5bf49176",
+        "source_id": "4e051f4a-0209-4941-8bcd-9e7a150f0f2d",
+        "chunk_id": "4f3c41b6-32ae-45f7-8d2b-4686ba447b40",
+        "source_segment_id": null,
+        "page_start": 5,
+        "page_end": 5,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "The Benefits of Entrepreneurship\nThe primary benefits entrepreneurs enjoy\ninclude the opportunity to:\n\uf097Create their own destiny\n\uf097Make a difference\n\uf097Reach their full potential\n\uf097Generate impressive profits\n\uf097Contribute to society and be recognized\nfor their efforts\n\uf097Do what they enjoy and have fun at it!",
+        "display_label": "Week 10 Entrepreneurial Marketing, page 5"
+      },
+      {
+        "id": "867588b4-ff58-4555-986f-0d87d725045c",
+        "source_id": "4e051f4a-0209-4941-8bcd-9e7a150f0f2d",
+        "chunk_id": "35330765-ca23-48bd-9b15-24530d06cf01",
+        "source_segment_id": null,
+        "page_start": 6,
+        "page_end": 6,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "Challenges of Entrepreneurship\n\uf097Uncertainty of income\n\uf097Risk of losing your entire investment\n\uf097Long hours and hard work\n\uf097Lower quality of life until the business gets\nestablished\n\uf097High levels of stress\n\uf097Complete responsibility\n\uf097Discouragement",
+        "display_label": "Week 10 Entrepreneurial Marketing, page 6"
+      },
+      {
+        "id": "8647df8e-4858-42ee-b66e-2748fff96928",
+        "source_id": "2418f6d4-7c0d-40bb-9872-23bf93219105",
+        "chunk_id": "0615b4c6-1a49-4104-86da-e0653af12b17",
+        "source_segment_id": null,
+        "page_start": 8,
+        "page_end": 8,
+        "slide_start": null,
+        "slide_end": null,
+        "quote_text": "How to Manage Funds\nPlan\nSet Financial Goals,\nPrepare a Budget,\nForecast Cash Flow\n1\nReceive and\nAllocate\nBusiness Accounts\nClassify Expenses\n(fixed vs variable cost),\nSet Spending Limits,\nPrioritise Essentials\nexpenses\n2\nTrack and\nRecord\nTrack Cash Flow,\nReconcile Bank\nStatements\n3\nAnalyse\nCompare Actual vs.\nBudget, Profit Margin,\nLiquidity Ratio, Working\nCapital Management,\nPricing strategies an",
+        "display_label": "Week 12 Entrepreneurial Finance, page 8"
+      }
+    ],
+    "eduground_retrieval_trace": {
+      "id": "8bffb921-dc68-4a6d-92f3-270e182993a9",
+      "query_text": "What important concept is explained in Week 12 Entrepreneurial Finance?",
+      "retrieval_mode": "dense",
+      "filters_json": {
+        "notebook_id": "49ab9585-770d-4110-9778-7df1439a12b8",
+        "status": "indexed"
+      },
+      "top_k_requested": 5,
+      "top_k_used": 5,
+      "reranker_used": false,
+      "latency_ms": 194,
+      "items": [
+        {
+          "chunk_id": "93861aee-547f-4a7c-98c8-dec048dbcd61",
+          "source_id": "c9025f36-9af9-46a7-b000-58c2eaf1daab",
+          "initial_score": 4.328254,
+          "rank_before": 1,
+          "rank_after": 1,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "5e583416-c425-4b9b-ba29-0a87f0723ee7",
+          "source_id": "2418f6d4-7c0d-40bb-9872-23bf93219105",
+          "initial_score": 3.311233,
+          "rank_before": 2,
+          "rank_after": 2,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "4f3c41b6-32ae-45f7-8d2b-4686ba447b40",
+          "source_id": "4e051f4a-0209-4941-8bcd-9e7a150f0f2d",
+          "initial_score": 2.212244,
+          "rank_before": 3,
+          "rank_after": 3,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "35330765-ca23-48bd-9b15-24530d06cf01",
+          "source_id": "4e051f4a-0209-4941-8bcd-9e7a150f0f2d",
+          "initial_score": 2.212031,
+          "rank_before": 4,
+          "rank_after": 4,
+          "was_used_in_context": true
+        },
+        {
+          "chunk_id": "0615b4c6-1a49-4104-86da-e0653af12b17",
+          "source_id": "2418f6d4-7c0d-40bb-9872-23bf93219105",
+          "initial_score": 1.332608,
+          "rank_before": 5,
+          "rank_after": 5,
+          "was_used_in_context": true
+        }
+      ]
+    },
+    "eduground_end_to_end_latency_ms": 359,
+    "eduground_model_latency_ms": 1
+  }
+]

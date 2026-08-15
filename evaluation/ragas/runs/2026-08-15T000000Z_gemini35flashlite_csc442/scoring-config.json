@@ -1,0 +1,25 @@
+{
+  "framework": "RAGAS",
+  "ragas_version": "0.4.3",
+  "metrics": [
+    "faithfulness",
+    "context_recall"
+  ],
+  "metric_execution": "ragas.metrics.collections direct asynchronous ascore()",
+  "evaluator_provider": "Google Gemini",
+  "evaluator_model": "gemini-3.5-flash-lite",
+  "gemini_adapter": "instructor.from_genai(..., use_async=True)",
+  "sample_count": 100,
+  "input_file": "evaluation\\ragas\\runs\\2026-08-15T000000Z_gemini35flashlite_csc442\\ragas-inputs.jsonl",
+  "input_sha256": "dc52d2a24af4bdf408b7f00dd6ffb5f7ed5e8773ab8649a5f16466558124b5f1",
+  "max_retries": 0,
+  "retry_delay_seconds": 15.0,
+  "sample_delay_seconds": 12.0,
+  "packages": {
+    "ragas": "0.4.3",
+    "google-genai": "2.18.1",
+    "instructor": "1.15.4",
+    "jsonref": "1.1.0"
+  },
+  "generated_at_utc": "2026-08-14T23:55:44.324418+00:00"
+}

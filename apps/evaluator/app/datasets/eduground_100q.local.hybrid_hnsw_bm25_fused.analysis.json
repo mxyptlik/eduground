@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "dataset": "apps\\evaluator\\app\\datasets\\eduground_100q.local.hybrid_hnsw_bm25_fused.json",
+    "sample_count": 100,
+    "passed": 97,
+    "failed": 3,
+    "pass_rate": 0.97,
+    "average_faithfulness_score": 0.9033,
+    "average_context_recall_score": 0.9352,
+    "average_answer_relevance_proxy": 0.6285,
+    "average_citation_support": 0.9033,
+    "citation_presence_rate": 1.0,
+    "source_hit_at_5": 100,
+    "source_hit_at_5_rate": 1.0,
+    "retrieval_latency_ms_average": 167.02,
+    "retrieval_latency_ms_p50": 145.0,
+    "retrieval_latency_ms_p95": 259.0,
+    "end_to_end_latency_ms_average": 357.99,
+    "end_to_end_latency_ms_p50": 329.0,
+    "end_to_end_latency_ms_p95": 548.0,
+    "model_latency_ms_average": 3.88,
+    "model_latency_ms_p50": 3.0,
+    "model_latency_ms_p95": 9.0
+  },
+  "failed_samples": [
+    {
+      "sample_key": "eduground-doc-049",
+      "question": "What key point does the source make about Examples of Successful Entrepreneurs?",
+      "expected_source": "Week 10 Entrepreneurial Marketing",
+      "faithfulness": 0.5517,
+      "context_recall": 0.1429,
+      "answer_relevance_proxy": 0.25,
+      "citation_support": 0.5517,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 4",
+      "reason": "low context recall, low answer relevance proxy"
+    },
+    {
+      "sample_key": "eduground-doc-050",
+      "question": "According to Week 12 Entrepreneurial Finance, what should a student know about Week 12 Entrepreneurial Finance?",
+      "expected_source": "Week 12 Entrepreneurial Finance",
+      "faithfulness": 0.7297,
+      "context_recall": 0.0909,
+      "answer_relevance_proxy": 0.1136,
+      "citation_support": 0.7297,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7",
+      "reason": "low context recall, low answer relevance proxy"
+    },
+    {
+      "sample_key": "eduground-doc-079",
+      "question": "According to Week 10 Entrepreneurial Marketing, what should a student know about Week 10 Entrepreneurial Marketing?",
+      "expected_source": "Week 10 Entrepreneurial Marketing",
+      "faithfulness": 0.7193,
+      "context_recall": 0.3793,
+      "answer_relevance_proxy": 0.2602,
+      "citation_support": 0.7193,
+      "first_citation": "Week 10 Entrepreneurial Marketing, page 7",
+      "reason": "low context recall, low answer relevance proxy"
+    }
+  ]
+}
