@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Eduground · Review instructions</title>
+  <style>
+    :root{--ink:#1c1917;--muted:#57534e;--line:#e7e5e4;--bg:#faf9f7;--accent:#b45309;--card:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    header{padding:28px 24px 8px;max-width:860px;margin:0 auto}
+    .eyebrow{font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+    h1{font-size:30px;margin:6px 0 2px}
+    h1 .dot{color:var(--accent)}
+    .sub{color:var(--muted);margin:0 0 6px}
+    main{max-width:860px;margin:0 auto;padding:8px 24px 60px}
+    section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:14px 0}
+    h2{font-size:17px;margin:0 0 10px}
+    h2 .n{display:inline-block;background:var(--ink);color:#fff;border-radius:999px;font-size:12px;padding:2px 9px;margin-right:8px}
+    ol,ul{margin:8px 0;padding-left:22px}
+    li{margin:4px 0}
+    code{background:#f5f5f4;border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:13px}
+    a.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;padding:10px 16px;border-radius:8px;font-weight:600;margin:6px 8px 6px 0}
+    a.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+    .callout{border-left:4px solid var(--accent);background:#fffbeb;padding:10px 14px;border-radius:6px;margin:10px 0}
+    .muted{color:var(--muted);font-size:13.5px}
+    table{border-collapse:collapse;width:100%;margin:8px 0;font-size:14px}
+    th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+    th{background:#f5f5f4}
+    .warn{background:#fef2f2;border-left-color:#b91c1c}
+  </style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">EDUGROUND / EVALUATION LAB</div>
+  <h1>Review instructions<span class="dot">.</span></h1>
+  <p class="sub">Read the evidence. Make the decision. Keep the record. Everything happens in your browser.</p>
+</header>
+<main>
+
+<section>
+  <h2><span class="n">1</span>Download the review materials</h2>
+  <p>Download the ZIP once and unzip it to a folder you can find again:</p>
+  <a class="btn" href="downloads/eduground-review-inputs.zip" download>Download review inputs (ZIP)</a>
+  <p class="muted">Inside: one <code>&lt;course&gt;.dataset.json</code>, one <code>&lt;course&gt;.evidence.json</code> and one <code>&lt;course&gt;.similarity.json</code> per course, plus a similarity cheat-sheet and README.</p>
+</section>
+
+<section>
+  <h2><span class="n">2</span>Open the review workspace</h2>
+  <a class="btn alt" href="index.html">Open review workspace</a>
+  <p class="muted">No account needed. Decision data stays in your browser; nothing is uploaded anywhere.</p>
+</section>
+
+<section>
+  <h2><span class="n">3</span>Import your assigned course files</h2>
+  <ol>
+    <li>In the workspace click <b>“Import datasets, evidence or review bundle”</b>.</li>
+    <li>Select the files for your assigned course(s): the <code>.dataset.json</code> <b>and</b> the <code>.evidence.json</code> (and, optionally, the <code>.similarity.json</code>).</li>
+    <li><b>In a hurry?</b> You can select <b>every file in the ZIP at once</b> — all courses in a single import — and then work through them with the <b>Course</b> filter. Importing one course at a time behaves identically.</li>
+    <li>You will see a confirmation like <i>“Complete indexed evidence loaded for …”</i> — that is required to see the full source chunks.</li>
+  </ol>
+  <div class="callout"><b>Session rule:</b> evidence files must be re-imported every time you fully close or reopen the browser. Your review decisions are kept and restored automatically.</div>
+</section>
+
+<section>
+  <h2><span class="n">4</span>Review each question</h2>
+  <ol>
+    <li>Click a question row to open it: you will see the question, the corrected-reference box, the cited quote, and the <b>full indexed source chunk</b> (the cited quote is highlighted in yellow inside it).</li>
+    <li>Check the claim against the source: <i>does the quoted passage genuinely support the question and its reference answer?</i></li>
+    <li>Set a <b>Decision</b>: <code>Accept</code>, <code>Flag</code> or <code>Reject</code>. Enter your <b>reviewer name</b>. For Accept, tick the attestation checkbox. Flags and rejections require notes explaining why.</li>
+    <li>Press <b>Save review</b>. You can edit your decision later; every revision is recorded.</li>
+  </ol>
+  <table>
+    <tr><th>Badge</th><th>Meaning</th></tr>
+    <tr><td><b>⚠ sim 0.54</b></td><td>Soft similarity alarm: the question/answer scored low semantic similarity to its quoted sentence. It is <b>not</b> an error — read it adversarially (especially check that the quote really supports the question). Broad “synthesis” questions legitimately score lower.</td></tr>
+    <tr><td>No badge</td><td>Routine review. Still verify the claim; the alarm cannot see logic errors.</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2><span class="n">5</span>Export and return your review</h2>
+  <ol>
+    <li>When finished (or periodically as backup), click <b>“Export review bundle”</b> — it downloads one JSON file containing all your decisions.</li>
+    <li>Return that JSON file by email to <a href="mailto:favoursam49@gmail.com">favoursam49@gmail.com</a> in the same message as the course(s) you reviewed.</li>
+    <li>Optional: <b>“Export table CSV”</b> gives a spreadsheet view.</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="n">6</span>Troubleshooting</h2>
+  <ul>
+    <li><b>The full chunk is not shown</b> → the evidence file for that course is not imported in this session. Import <code>&lt;course&gt;.evidence.json</code>.</li>
+    <li><b>“This dataset is already imported”</b> → normal when re-selecting files; your decisions are preserved.</li>
+    <li><b>Wrong or lost decisions</b> → every choice autosaves to this browser; use “Export review bundle” before switching computers.</li>
+  </ul>
+</section>
+
+<section class="warn" style="border-left:4px solid #b91c1c;background:#fef2f2">
+  <h2><span class="n">7</span>Data handling</h2>
+  <p>Review materials contain course content. Keep them on your device, do not redistribute them, and return only the exported review bundle.</p>
+</section>
+
+</main>
+</body>
+</html>

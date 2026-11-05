@@ -1,0 +1,130 @@
+{
+  "version": "1.0",
+  "schedules": [
+    {
+      "provider": "openrouter",
+      "model": "moonshotai/kimi-k2.6",
+      "operation": "author",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://openrouter.ai/api/v1/models captured 2026-09-30; pricing fields converted per 1M tokens",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.65000000",
+          "quantity": 1000000
+        },
+        {
+          "unit": "output_tokens",
+          "amount": "3.41000000",
+          "quantity": 1000000
+        }
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen2.5-vl-72b-instruct",
+      "operation": "visual_understanding",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://openrouter.ai/api/v1/models captured 2026-09-30; pricing fields converted per 1M tokens",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.8000000",
+          "quantity": 1000000
+        },
+        {
+          "unit": "output_tokens",
+          "amount": "1.000000",
+          "quantity": 1000000
+        }
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3.7-flash",
+      "operation": "answer",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://openrouter.ai/api/v1/models captured 2026-09-30; pricing fields converted per 1M tokens",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.03000000",
+          "quantity": 1000000
+        },
+        {
+          "unit": "output_tokens",
+          "amount": "0.13000000",
+          "quantity": 1000000
+        }
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/text-embedding-3-large",
+      "operation": "ingestion_embedding",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "OpenRouter /api/v1/embeddings capability probe 2026-09-30: HTTP 200, returned model text-embedding-3-large, usage.cost 1.3e-07 USD for 1 prompt token (equivalent to $0.13 per 1M tokens); route requested as openai/text-embedding-3-large",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.13",
+          "quantity": 1000000
+        }
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/text-embedding-3-large",
+      "operation": "query_embedding",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "OpenRouter /api/v1/embeddings capability probe 2026-09-30: HTTP 200, returned model text-embedding-3-large, usage.cost 1.3e-07 USD for 1 prompt token (equivalent to $0.13 per 1M tokens); route requested as openai/text-embedding-3-large",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.13",
+          "quantity": 1000000
+        }
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/text-embedding-3-large",
+      "operation": "relevance_embedding",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "OpenRouter /api/v1/embeddings capability probe 2026-09-30: HTTP 200, returned model text-embedding-3-large, usage.cost 1.3e-07 USD for 1 prompt token (equivalent to $0.13 per 1M tokens); route requested as openai/text-embedding-3-large",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.13",
+          "quantity": 1000000
+        }
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "operation": "judge",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://openrouter.ai/api/v1/models captured 2026-10-07; pricing fields converted per 1M tokens",
+      "prices": [
+        {
+          "unit": "input_tokens",
+          "amount": "0.05000000",
+          "quantity": 1000000
+        },
+        {
+          "unit": "output_tokens",
+          "amount": "1.20000000",
+          "quantity": 1000000
+        }
+      ]
+    }
+  ]
+}

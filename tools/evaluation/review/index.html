@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Eduground · Dataset review</title>
+  <link rel="stylesheet" href="review.css">
+  <style>
+.sim-badge{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:999px;background:#fde68a;color:#7c2d12;font-size:11px;font-weight:600;white-space:nowrap}
+.sim-note{opacity:.9}
+.sim-flagged{color:#b45309;font-weight:700}
+.passage{white-space:pre-wrap;line-height:1.55;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:6px;padding:10px 12px;margin:6px 0}
+mark.quote-mark{background:#fde68a;color:#111827;padding:0 2px;border-radius:3px;box-shadow:inset 0 0 0 1px #f59e0b}
+  </style>
+</head>
+<body>
+<header><div><span class="eyebrow">EDUGROUND / EVALUATION LAB</span><h1>Dataset review<span class="dot">.</span></h1><p>Read the evidence. Make the decision. Keep the record.</p></div><span class="local-badge">LOCAL WORKSPACE</span></header>
+<main>
+  <section class="toolbar" aria-label="Workspace actions">
+    <button id="import-files" class="primary">Import datasets, evidence or review bundle</button><input id="files" type="file" accept=".json,application/json" multiple hidden>
+    <button id="export-json">Export review bundle</button><button id="export-csv">Export table CSV</button>
+    <button id="demo" class="quiet">Try example</button><button id="clear" class="quiet danger">Clear local workspace</button><a href="instructions.html" class="quiet" style="display:inline-flex;align-items:center;text-decoration:none;padding:8px 12px;border:1px solid #e7e5e4;border-radius:8px;color:#1c1917;background:#fff">Instructions &amp; downloads</a>
+  </section>
+  <p class="notice">Local review only. Imported “approved” labels start as Pending. Import an evidence packet to inspect full indexed chunks; re-import it each browser session. Export review JSON to back up decisions; nothing is sent to a model.</p>
+  <div id="message" role="status" aria-live="polite">Import one JSON dataset per course to begin.</div>
+  <section class="stats" aria-label="Review progress"><div><strong id="total">0</strong><span>QUESTIONS</span></div><div><strong id="accepted">0</strong><span>ACCEPTED</span></div><div><strong id="flagged">0</strong><span>FLAGGED</span></div><div><strong id="remaining">0</strong><span>PENDING</span></div><div><strong id="rejected">0</strong><span>REJECTED</span></div></section>
+  <section class="filters" aria-label="Filter questions">
+    <label>Course<select id="course"><option value="">All courses</option></select></label>
+    <label>Decision<select id="decision-filter"><option value="">All decisions</option><option>Pending</option><option>Accept</option><option>Flag</option><option>Reject</option></select></label>
+    <label class="search">Find a question<input id="search" type="search" placeholder="Question ID, wording or reference…"></label>
+    <label>Your reviewer name<input id="reviewer" placeholder="Full name" autocomplete="name"></label>
+  </section>
+  <div class="table-wrap"><table><caption class="sr-only">Question review decisions by course</caption><thead><tr><th>Course / Question ID</th><th>Question</th><th>Decision</th><th>Corrected reference</th><th>Supporting passages</th><th>Required changes</th><th>Reviewer</th><th>Date (UTC)</th></tr></thead><tbody id="rows"></tbody></table></div>
+  <div class="pagination"><span id="page-info">No questions</span><div><button id="previous">Previous</button><button id="next">Next</button></div></div>
+  <section id="empty" class="empty"><span class="eyebrow">01 / START WITH A COURSE</span><h2>Your review queue starts here.</h2><p>Import a dataset with a <code>samples</code> array. Questions, references, source passages and locators stay together. You can add all 17 courses and work through them in smaller batches.</p></section>
+</main>
+<dialog id="editor" aria-labelledby="editor-title">
+  <form id="review-form">
+    <div class="editor-header"><div><span id="item-id" class="eyebrow"></span><h2 id="editor-title">Review question</h2></div><button type="button" id="close">Close</button></div>
+    <div class="editor-grid"><section>
+      <label>Course code <small>Applies to this imported dataset</small><input id="edit-course" required maxlength="120"></label>
+      <label>Question <textarea id="edit-question" rows="3" required></textarea></label>
+      <label>Corrected reference <small>Starts with the original answer; optional for unanswerable questions</small><textarea id="edit-reference" rows="5" required></textarea></label>
+      <label id="legacy-evidence-field">Supporting passages <small>One passage per block, separated by a blank line. Corrections will need source validation.</small><textarea id="edit-evidence" rows="6" required></textarea></label>
+      <div id="structured-evidence" hidden></div>
+      <label>Required changes / review notes<textarea id="edit-notes" rows="3" placeholder="Explain a rejection or flag; describe corrections when needed."></textarea></label>
+    </section><aside>
+      <h3>Original evidence</h3><p class="muted">Check the original document as well. Imported quotes are evidence to inspect, not proof that a question is valid.</p>
+      <div id="source-info"></div><div id="source-passages"></div>
+      <details><summary>Original question and reference</summary><pre id="original"></pre></details>
+      <details><summary>Saved review history</summary><div id="history"></div></details>
+    </aside></div>
+    <div class="editor-footer"><div class="decision-fields"><label>Decision<select id="edit-decision"><option>Pending</option><option>Accept</option><option>Flag</option><option>Reject</option></select></label><label>Reviewer<input id="edit-reviewer" required placeholder="Full name"></label></div>
+      <label class="check"><input id="attest" type="checkbox">I checked the question, reference and supporting source evidence for this revision.</label>
+      <p id="form-error" role="alert"></p><div class="save-row"><small>Edits are recorded when you save. Acceptance requires the checkbox; flags and rejections require notes.</small><button class="primary" type="submit">Save review</button></div>
+    </div>
+  </form>
+</dialog>
+<footer>EDUGROUND RESEARCH WORKSPACE <span>Browser draft + portable JSON · no account required</span></footer>
+<script type="module" src="review.mjs"></script>
+</body></html>

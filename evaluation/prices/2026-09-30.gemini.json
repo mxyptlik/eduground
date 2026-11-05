@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "schedules": [
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "operation": "visual_understanding",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing captured 2026-09-30; Standard paid tier, gemini-3.5-flash: input $1.50/1M tokens, output incl. thinking tokens $9.00/1M tokens. Image inputs bill as input tokens.",
+      "prices": [
+        {"unit": "input_tokens", "amount": "1.50", "quantity": 1000000},
+        {"unit": "output_tokens", "amount": "9.00", "quantity": 1000000}
+      ]
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "operation": "answer",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing captured 2026-09-30; Standard paid tier, gemini-3.5-flash: input $1.50/1M tokens, output incl. thinking tokens $9.00/1M tokens.",
+      "prices": [
+        {"unit": "input_tokens", "amount": "1.50", "quantity": 1000000},
+        {"unit": "output_tokens", "amount": "9.00", "quantity": 1000000}
+      ]
+    }
+  ]
+}

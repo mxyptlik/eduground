@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "schedules": [
+    {
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "operation": "ocr_vision",
+      "effective_from": "2026-09-30T00:00:00+00:00",
+      "currency": "USD",
+      "source": "https://openrouter.ai/deepseek/deepseek-v4.1-flash checked 2026-09-30; conservative per-token reservation bound uses the highest listed provider rate (USD 0.60/M input, USD 2.40/M output). OpenRouter-reported cost settles the ledger; recheck provider rates before live use.",
+      "prices": [
+        {"unit": "input_tokens", "amount": "0.60", "quantity": 1000000},
+        {"unit": "output_tokens", "amount": "2.40", "quantity": 1000000}
+      ]
+    }
+  ]
+}
