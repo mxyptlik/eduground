@@ -4,7 +4,6 @@ dist/
 build/
 .turbo/
 .vite/
-.video-output/
 .runlogs
 .venv
 coverage/
@@ -15,14 +14,14 @@ coverage/
 *.tsbuildinfo
 playwright-report/
 test-results/
-research_papers/
-.env.example
+
 # Python
 __pycache__/
 *.pyc
 .pyo
 .pyd
 .pytest_cache/
+pytest-cache-files-*/
 .mypy_cache/
 .ruff_cache/
 .venv/
@@ -54,6 +53,32 @@ data/
 *.sqlite
 *.sqlite3
 
+# Local source documents and generated media/reports
+/Courses/
+/papers/
+/research papers/
+research_papers/
+/.video/
+.video-output/
+output/
+/outputs/
+/.tmp/
+*.stackdump
+
+# Evaluation: keep intake metadata, authoring plans, reviewer decisions,
+# frozen releases, reports, RAGAS run bundles, code, and price registries
+# available for review and commit. Extracts, conversions, and runs stay local.
+/evaluation/authoring/evidence/
+/evaluation/authoring/review-input/
+/evaluation/authoring/similarity/
+/evaluation/course_intake/converted_ppt/
+/evaluation/course_intake/replaced_ppt_originals/
+/evaluation/live_smoke/
+/evaluation/local_corpus/
+/evaluation/pilot/
+/evaluation/runs/
+/evaluation/test_runs/
+
 # Local tooling and agent artifacts
 .skill-installs/
 .thesis-analysis/
@@ -62,5 +87,4 @@ data/
 .agents/
 .npm-cache-uipro/
 diagrams/
-output/
 tools/document
