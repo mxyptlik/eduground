@@ -34,7 +34,7 @@ class FakeRepository:
     def __init__(self, messages):
         self._messages = messages
 
-    def list_messages_for_session(self, session_id: str):
+    def list_recent_messages_for_session(self, session_id: str, limit: int):
         return self._messages
 
 

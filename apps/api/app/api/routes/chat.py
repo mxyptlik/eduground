@@ -9,6 +9,7 @@ from fastapi.responses import StreamingResponse
 from app.api.deps import DBSession, get_current_user
 from app.schemas.chat import AnswerResponse, ChatMessageCreate, ChatSessionCreate, ChatSessionResponse, CitationResponse
 from app.services.chat import ChatService
+from app.services.admission import generation_slot
 
 router = APIRouter()
 
@@ -23,7 +24,7 @@ def get_chat_session(session_id: UUID, db: DBSession, user=Depends(get_current_u
     return ChatSessionResponse.model_validate(ChatService(db).get_session(str(session_id), user))
 
 
-@router.post("/chat/sessions/{session_id}/messages", response_model=AnswerResponse)
+@router.post("/chat/sessions/{session_id}/messages", response_model=AnswerResponse, dependencies=[Depends(generation_slot)])
 def post_chat_message(session_id: UUID, payload: ChatMessageCreate, db: DBSession, user=Depends(get_current_user)) -> AnswerResponse:
     _, answer = ChatService(db).post_message(
         str(session_id),
@@ -35,7 +36,7 @@ def post_chat_message(session_id: UUID, payload: ChatMessageCreate, db: DBSessio
     return answer
 
 
-@router.post("/chat/sessions/{session_id}/messages/stream")
+@router.post("/chat/sessions/{session_id}/messages/stream", dependencies=[Depends(generation_slot)])
 def stream_chat_message(session_id: UUID, payload: ChatMessageCreate, db: DBSession, user=Depends(get_current_user)) -> StreamingResponse:
     events = ChatService(db).stream_message(
         str(session_id),
@@ -51,6 +52,8 @@ def stream_chat_message(session_id: UUID, payload: ChatMessageCreate, db: DBSess
                 yield json.dumps(event, ensure_ascii=True) + "\n"
         except Exception as exc:
             yield json.dumps({"type": "error", "data": {"message": str(exc)}}, ensure_ascii=True) + "\n"
+        finally:
+            events.close()
 
     return StreamingResponse(event_stream(), media_type="application/x-ndjson")
 

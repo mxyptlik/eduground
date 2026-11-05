@@ -10,7 +10,7 @@ from app.jobs import ingestion as ingestion_jobs
 def test_process_source_ingestion_job_accepts_ids_only() -> None:
     parameters = list(signature(ingestion_jobs.process_source_ingestion_job.fn).parameters)
 
-    assert parameters == ["job_id", "source_id", "source_version_id", "institution_id"]
+    assert parameters == ["job_id", "source_id", "source_version_id", "institution_id", "direct"]
 
 
 def test_process_source_ingestion_job_is_registered_under_expected_actor_name() -> None:
@@ -80,7 +80,7 @@ def test_process_source_ingestion_job_runs_worker_owned_pipeline(monkeypatch) ->
     monkeypatch.setattr(ingestion_jobs, "normalize_document", lambda document: document)
     monkeypatch.setattr(ingestion_jobs, "build_chunks", lambda *args, **kwargs: [chunk])
     monkeypatch.setattr(ingestion_jobs, "replace_segments_and_chunks", lambda **kwargs: [persisted_chunk])
-    monkeypatch.setattr(ingestion_jobs, "embed_texts", lambda texts: [[0.1, 0.2]])
+    monkeypatch.setattr(ingestion_jobs, "embed_texts", lambda texts, **kwargs: [[0.1, 0.2]])
     monkeypatch.setattr(ingestion_jobs, "ensure_collection", lambda vector_size: None)
     monkeypatch.setattr(ingestion_jobs, "upsert_points", lambda points: upserted_points.extend(points))
     monkeypatch.setattr(ingestion_jobs, "finalize_job_success", lambda **kwargs: ["old-point-1"])

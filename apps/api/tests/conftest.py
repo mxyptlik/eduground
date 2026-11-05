@@ -17,6 +17,7 @@ from fastapi.testclient import TestClient
 # Keep tests independent from external Postgres/psycopg availability.
 os.environ.setdefault("CURRICULUM_TUTOR_DATABASE_URL", "sqlite:///./curriculum_tutor_test.db")
 os.environ.setdefault("DATABASE_URL", "sqlite:///./curriculum_tutor_test.db")
+os.environ.setdefault("CURRICULUM_TUTOR_GENERATION_ADMISSION_ENABLED", "false")
 
 from app.api.deps import RequestAuthContext
 from app.core.config import settings

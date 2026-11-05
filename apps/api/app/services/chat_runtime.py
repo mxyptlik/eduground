@@ -7,6 +7,7 @@ from typing import Any
 
 from app.core.errors import DependencyUnavailableError
 from app.core.logging import get_logger
+from app.core.observability import histogram
 from app.models.tutoring import ChatMessage, ChatSession
 from app.schemas.chat import AnswerResponse
 from app.services.chat_memory import ChatMemoryStore, StoredChatMessage, message_to_openai_dict
@@ -59,6 +60,7 @@ class TutorChatRuntime:
         selected_source_ids: list[str],
         selected_module_ids: list[str],
     ) -> AnswerResponse:
+        started = perf_counter()
         prepared = self.workflow.prepare_grounded_answer(
             session=session,
             user_message=user_message,
@@ -67,7 +69,7 @@ class TutorChatRuntime:
         )
         answer_text = self.workflow.generate_answer_text(
             prepared=prepared,
-            conversation_history=self.memory_store.get_session_history(session.id).messages,
+            conversation_history=self._prior_history(session.id, user_message.content_markdown),
         )
         answer = self.workflow.persist_answer(
             session=session,
@@ -75,7 +77,8 @@ class TutorChatRuntime:
             prepared=prepared,
             answer_markdown=answer_text,
         )
-        self.memory_store.refresh_session_history(session.id)
+        self.memory_store.clear_session_history(session.id)
+        histogram("eduground_answer_completion_ms", (perf_counter() - started) * 1000, labels={"mode": "buffered"})
         return answer
 
     def stream_answer(
@@ -86,6 +89,7 @@ class TutorChatRuntime:
         selected_source_ids: list[str],
         selected_module_ids: list[str],
     ) -> Generator[dict[str, Any], None, StreamedTutorAnswer]:
+        request_started = perf_counter()
         yield {
             "type": "status",
             "data": {
@@ -113,9 +117,11 @@ class TutorChatRuntime:
         chunks: list[str] = []
         for delta in self.workflow.stream_answer_text(
             prepared=prepared,
-            conversation_history=self.memory_store.get_session_history(session.id).messages,
+            conversation_history=self._prior_history(session.id, user_message.content_markdown),
         ):
             if delta:
+                if not chunks:
+                    histogram("eduground_answer_first_content_ms", (perf_counter() - request_started) * 1000, labels={"mode": "stream"})
                 chunks.append(delta)
                 yield {"type": "content", "data": delta}
         answer_text = "".join(chunks).strip()
@@ -125,10 +131,20 @@ class TutorChatRuntime:
             prepared=prepared,
             answer_markdown=answer_text,
         )
-        self.memory_store.refresh_session_history(session.id)
+        self.memory_store.clear_session_history(session.id)
+        histogram("eduground_answer_completion_ms", (perf_counter() - request_started) * 1000, labels={"mode": "stream"})
         latency_ms = int((perf_counter() - started) * 1000)
         yield {"type": "final", "data": answer.model_dump(mode="json")}
         return StreamedTutorAnswer(answer=answer, streamed_text=answer_text, latency_ms=latency_ms)
+
+    def _prior_history(self, session_id: str, current_question: str) -> list[StoredChatMessage]:
+        # The current user turn is committed before retrieval. The prompt builder
+        # appends it as the grounded question, so exclude that final SQL/Redis turn.
+        history = self.memory_store.get_session_history(session_id).messages
+        if (history and history[-1].type == "human" and history[-1].content
+                and current_question.endswith(history[-1].content)):
+            return history[:-1]
+        return history
 
 
 def build_prompt_messages(

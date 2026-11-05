@@ -1,6 +1,8 @@
 from __future__ import annotations
+from contextlib import contextmanager
 
 from sqlalchemy.orm import Session
+from app.models.enums import ChatRole, MessageStatus
 
 from app.models.tutoring import AssistantAnswer, ChatMessage, ChatSession, Citation, RetrievalTrace, RetrievalTraceItem
 
@@ -9,6 +11,29 @@ from app.models.tutoring import AssistantAnswer, ChatMessage, ChatSession, Citat
 class ChatRepository:
     def __init__(self, db: Session) -> None:
         self.db = db
+        self._atomic = False
+
+    @contextmanager
+    def atomic_answer(self):
+        """Commit the complete answer graph once; rollback every row on failure."""
+        self._atomic = True
+        try:
+            yield
+            self.db.commit()
+        except BaseException:
+            self.db.rollback()
+            raise
+        finally:
+            self._atomic = False
+
+    def _persist(self, rows):
+        self.db.add_all(rows)
+        if self._atomic:
+            self.db.flush()
+        else:
+            self.db.commit()
+            for row in rows:
+                self.db.refresh(row)
 
     def create_session(self, session: ChatSession) -> ChatSession:
         self.db.add(session)
@@ -23,15 +48,11 @@ class ChatRepository:
         return self.db.get(ChatMessage, message_id)
 
     def create_message(self, message: ChatMessage) -> ChatMessage:
-        self.db.add(message)
-        self.db.commit()
-        self.db.refresh(message)
+        self._persist([message])
         return message
 
     def save_message(self, message: ChatMessage) -> ChatMessage:
-        self.db.add(message)
-        self.db.commit()
-        self.db.refresh(message)
+        self._persist([message])
         return message
 
     def list_messages_for_session(self, session_id: str) -> list[ChatMessage]:
@@ -43,29 +64,28 @@ class ChatRepository:
         )
 
     def save_answer(self, answer: AssistantAnswer) -> AssistantAnswer:
-        self.db.add(answer)
-        self.db.commit()
-        self.db.refresh(answer)
+        self._persist([answer])
         return answer
 
+    def list_recent_messages_for_session(self, session_id: str, limit: int) -> list[ChatMessage]:
+        rows = (self.db.query(ChatMessage)
+                .filter(ChatMessage.chat_session_id == session_id,
+                        ChatMessage.role.in_([ChatRole.USER, ChatRole.ASSISTANT]),
+                        ChatMessage.status == MessageStatus.COMPLETE)
+                .order_by(ChatMessage.created_at.desc(), ChatMessage.id.desc())
+                .limit(limit).all())
+        return list(reversed(rows))
+
     def save_trace(self, trace: RetrievalTrace) -> RetrievalTrace:
-        self.db.add(trace)
-        self.db.commit()
-        self.db.refresh(trace)
+        self._persist([trace])
         return trace
 
     def save_trace_items(self, items: list[RetrievalTraceItem]) -> list[RetrievalTraceItem]:
-        self.db.add_all(items)
-        self.db.commit()
-        for item in items:
-            self.db.refresh(item)
+        self._persist(items)
         return items
 
     def save_citations(self, citations: list[Citation]) -> list[Citation]:
-        self.db.add_all(citations)
-        self.db.commit()
-        for citation in citations:
-            self.db.refresh(citation)
+        self._persist(citations)
         return citations
 
     def get_citations_for_message(self, message_id: str) -> list[Citation]:

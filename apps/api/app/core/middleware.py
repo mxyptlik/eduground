@@ -53,7 +53,7 @@ class RequestContextMiddleware(BaseHTTPMiddleware):
 
         duration_ms = int((monotonic() - started) * 1000)
         route = request.scope.get("route")
-        route_label = getattr(route, "path", request.url.path)
+        route_label = getattr(route, "path", "__unmatched__")
         response.headers.setdefault("X-Request-Id", request_id)
         counter(
             "eduground_http_requests_total",

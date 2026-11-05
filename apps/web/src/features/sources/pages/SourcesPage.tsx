@@ -128,11 +128,14 @@ export function SourcesPage() {
   const [loading, setLoading] = useState(true);
   const [busySourceId, setBusySourceId] = useState<string | null>(null);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [uploadFiles, setUploadFiles] = useState<File[]>([]);
   const [sourceTitle, setSourceTitle] = useState("");
   const [creating, setCreating] = useState(false);
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const refreshRequestIdRef = useRef(0);
+  const pollingInFlightRef = useRef(false);
+  const lastRevisionRef = useRef<string | null>(null);
 
   async function refreshSources(notebookId: string, options?: { silent?: boolean }) {
     const requestId = ++refreshRequestIdRef.current;
@@ -149,9 +152,10 @@ export function SourcesPage() {
         setSources(sourceList);
       }
     } catch (loadError) {
-      if (!silent && requestId === refreshRequestIdRef.current) {
+      if (requestId === refreshRequestIdRef.current) {
         setError(getDisplayErrorMessage(loadError, "Unable to load sources."));
       }
+      throw loadError;
     } finally {
       if (!silent && requestId === refreshRequestIdRef.current) {
         setLoading(false);
@@ -160,6 +164,7 @@ export function SourcesPage() {
   }
 
   useEffect(() => {
+    lastRevisionRef.current = null;
     if (!selectedNotebookId) {
       setSources([]);
       setLoading(false);
@@ -167,7 +172,7 @@ export function SourcesPage() {
       return;
     }
 
-    void refreshSources(selectedNotebookId);
+    void refreshSources(selectedNotebookId).catch(() => {});
   }, [selectedNotebookId]);
 
   const hasProcessingSources = sources.some((source) => isProcessingSource(source));
@@ -178,12 +183,37 @@ export function SourcesPage() {
     }
 
     const notebookId = selectedNotebookId;
-    const intervalId = window.setInterval(() => {
-      void refreshSources(notebookId, { silent: true });
-    }, SOURCE_POLL_INTERVAL_MS);
+    let cancelled = false;
+    let failures = 0;
+    let timeoutId: number;
+    async function poll() {
+      if (cancelled) return;
+      if (!document.hidden && !pollingInFlightRef.current) {
+        pollingInFlightRef.current = true;
+        try {
+          const { revision } = await apiClient.getSourcesRevision(notebookId);
+          if (cancelled) return;
+          if (lastRevisionRef.current !== revision) {
+            await refreshSources(notebookId, { silent: true });
+            if (cancelled) return;
+            lastRevisionRef.current = revision;
+          }
+          failures = 0;
+        } catch {
+          failures = Math.min(failures + 1, 4);
+        } finally {
+          pollingInFlightRef.current = false;
+        }
+      }
+      if (!cancelled) timeoutId = window.setTimeout(poll,
+        SOURCE_POLL_INTERVAL_MS * 2 ** failures + Math.random() * 500);
+    }
+    timeoutId = window.setTimeout(poll, SOURCE_POLL_INTERVAL_MS);
 
     return () => {
-      window.clearInterval(intervalId);
+      cancelled = true;
+      window.clearTimeout(timeoutId);
+      refreshRequestIdRef.current += 1;
     };
   }, [selectedNotebookId, hasProcessingSources]);
 
@@ -205,7 +235,9 @@ export function SourcesPage() {
   );
 
   function handleFileChange(event: ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0] ?? null;
+    const files = Array.from(event.target.files ?? []);
+    setUploadFiles(files);
+    const file = files[0] ?? null;
     setSelectedFile(file);
     if (file && !sourceTitle.trim()) {
       const nameWithoutExtension = file.name.replace(/\.[^.]+$/, "");
@@ -213,10 +245,38 @@ export function SourcesPage() {
     }
   }
 
+  async function registerSourceForFile(file: File): Promise<Source> {
+    const checksum = await hashFile(file);
+    const mimeType = inferMimeType(file);
+    const uploadUrl = await apiClient.uploadSourceObjectWithFallback(selectedNotebookId!, {
+      filename: file.name,
+      mime_type: mimeType,
+      byte_size: file.size,
+      checksum_sha256: checksum,
+    }, file);
+    const title = uploadFiles.length > 1
+      ? file.name.replace(/\.[^.]+$/, "")
+      : sourceTitle.trim() || file.name;
+    const source = await apiClient.createSource(selectedNotebookId!, {
+      upload_intent_id: uploadUrl.upload_intent_id,
+      source_type: inferSourceType(file.name),
+      title,
+      original_filename: file.name,
+      storage_key: uploadUrl.storage_key,
+      mime_type: mimeType,
+      checksum_sha256: checksum,
+      byte_size: file.size,
+      language_code: "en",
+    });
+    setSources((current) => [source, ...current.filter((entry) => entry.id !== source.id)]);
+    return source;
+  }
+
   async function handleCreateSource(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const files = uploadFiles.length > 0 ? uploadFiles : selectedFile ? [selectedFile] : [];
 
-    if (!selectedNotebookId || !selectedFile) {
+    if (!selectedNotebookId || files.length === 0) {
       setError("Choose a file first.");
       return;
     }
@@ -225,45 +285,40 @@ export function SourcesPage() {
     setError(null);
     setStatusMessage(null);
 
+    const registered: string[] = [];
+    const failed: string[] = [];
     try {
-      const checksum = await hashFile(selectedFile);
-      const mimeType = inferMimeType(selectedFile);
-      const uploadUrl = await apiClient.uploadSourceObjectWithFallback(selectedNotebookId, {
-        filename: selectedFile.name,
-        mime_type: mimeType,
-        byte_size: selectedFile.size,
-        checksum_sha256: checksum,
-      }, selectedFile);
-
-      const source = await apiClient.createSource(selectedNotebookId, {
-        upload_intent_id: uploadUrl.upload_intent_id,
-        source_type: inferSourceType(selectedFile.name),
-        title: sourceTitle.trim() || selectedFile.name,
-        original_filename: selectedFile.name,
-        storage_key: uploadUrl.storage_key,
-        mime_type: mimeType,
-        checksum_sha256: checksum,
-        byte_size: selectedFile.size,
-        language_code: "en",
-      });
-      await refreshNotebooks();
-      setSources((current) => [source, ...current.filter((entry) => entry.id !== source.id)]);
-      setSelectedFile(null);
-      setSourceTitle("");
-      setStatusMessage(
-        `Source queued for ingestion. Current status: ${source.status}. ${source.latest_job ? `Latest job ${source.latest_job.status}.` : ""}`.trim(),
-      );
-    } catch (actionError) {
-      if (actionError instanceof ApiError && actionError.code === "failed_source_exists") {
-        const details = actionError.details as FailedSourceConflictDetails | undefined;
-        if (details?.existing_source_id) {
-          void refreshSources(selectedNotebookId, { silent: true });
+      for (const file of files) {
+        try {
+          await registerSourceForFile(file);
+          registered.push(file.name);
+        } catch (actionError) {
+          if (actionError instanceof ApiError && actionError.code === "failed_source_exists") {
+            const details = actionError.details as FailedSourceConflictDetails | undefined;
+            if (details?.existing_source_id) {
+              void refreshSources(selectedNotebookId, { silent: true }).catch(() => {});
+            }
+            setError(actionError.message || "This file already exists as a failed source; retry that row instead.");
+            setStatusMessage("The source list was refreshed so you can retry the failed row.");
+            return;
+          }
+          failed.push(file.name);
+          setError(getDisplayErrorMessage(actionError, `Unable to register ${file.name}.`));
         }
-        setError(actionError.message || "This file already exists as a failed source; retry that row instead.");
-        setStatusMessage("The source list was refreshed so you can retry the failed row.");
-        return;
       }
-      setError(getDisplayErrorMessage(actionError, "Unable to register source for this notebook."));
+      await refreshNotebooks();
+      setSelectedFile(null);
+      setUploadFiles([]);
+      setSourceTitle("");
+      if (registered.length > 0) {
+        setStatusMessage(
+          files.length === 1
+            ? `Source queued for ingestion. Current status: ${registered[0]}.`
+            : `${registered.length} of ${files.length} sources queued for ingestion${failed.length ? `; failed: ${failed.join(", ")}` : ""}.`,
+        );
+      } else if (failed.length > 0) {
+        setStatusMessage(`No sources were queued. Failed: ${failed.join(", ")}.`);
+      }
     } finally {
       setCreating(false);
     }
@@ -327,12 +382,15 @@ export function SourcesPage() {
             <input
               type="file"
               accept=".pdf,.docx,.pptx,.txt,.md"
+              multiple
               onChange={handleFileChange}
               disabled={!selectedNotebook || creating}
             />
-            {selectedFile ? (
+            {uploadFiles.length > 0 ? (
               <p className="muted">
-                {selectedFile.name} | {(selectedFile.size / 1024).toFixed(1)} KB
+                {uploadFiles.length === 1
+                  ? `${uploadFiles[0].name} | ${(uploadFiles[0].size / 1024).toFixed(1)} KB`
+                  : `${uploadFiles.length} files selected: ${uploadFiles.slice(0, 3).map((file) => file.name).join(", ")}${uploadFiles.length > 3 ? ", …" : ""}`}
               </p>
             ) : null}
             <button className="cta-button" type="submit" disabled={!selectedNotebook || creating}>

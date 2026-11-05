@@ -3,9 +3,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import UTC, datetime
 import re
+import hashlib
+import json
 from time import perf_counter
 from typing import Any
 
+from sqlalchemy import or_
 from sqlalchemy.orm import Session
 
 from app.core.config import settings
@@ -16,7 +19,7 @@ from app.integrations.llm.base import OpenRouterLLMProvider
 from app.integrations.rerank.openrouter_adapter import OpenRouterRerankerProvider, RerankerProviderError
 from app.integrations.vectorstore.base import VectorStoreError
 from app.integrations.vectorstore.qdrant_adapter import QdrantClientConfig, QdrantVectorStore
-from app.models.content import Chunk, Source
+from app.models.content import Chunk, Source, SourceVersion
 from app.models.learning import Note
 from app.models.enums import AnswerType, ChatRole, MessageStatus, NoteVisibility, PolicyMode, RetrievalMode, SourceStatus
 from app.models.tutoring import AssistantAnswer, ChatMessage, Citation, RetrievalTrace, RetrievalTraceItem
@@ -29,6 +32,7 @@ from app.services.chat_retrieval_cache import CachedCandidate, ChatRetrievalCach
 from app.services.prompt_library import compose_tutor_system_prompt
 
 logger = get_logger("app.retrieval")
+_UNSET = object()
 
 
 @dataclass(slots=True)
@@ -61,15 +65,25 @@ class PreparedGroundedAnswer:
     candidates: list[CandidateRecord]
     note_contexts: list[NoteContextRecord]
     retrieval_started_at: float
+    retrieval_duration_ms: int = 0
 
 
 class AnswerQuestionWorkflow:
-    def __init__(self, db: Session) -> None:
+    def __init__(
+        self, db: Session, *, llm=None, embeddings=None, vector_store=None,
+        reranker=_UNSET, retrieval_cache=None, candidate_k: int = 5,
+        rerank_depth: int | None = None,
+    ) -> None:
+        """Optional evaluation dependencies leave ordinary chat defaults intact."""
+        if isinstance(candidate_k, bool) or candidate_k < 1 or candidate_k > 100:
+            raise ValueError("candidate_k must be between 1 and 100")
+        if rerank_depth is not None and (isinstance(rerank_depth, bool) or rerank_depth < 1 or rerank_depth > candidate_k):
+            raise ValueError("rerank_depth must be between 1 and candidate_k")
         self.db = db
         self.chats = ChatRepository(db)
-        self.llm = OpenRouterLLMProvider()
-        self.embeddings = OpenRouterEmbeddingProvider()
-        self.vector_store = QdrantVectorStore(
+        self.llm = llm if llm is not None else OpenRouterLLMProvider()
+        self.embeddings = embeddings if embeddings is not None else OpenRouterEmbeddingProvider()
+        self.vector_store = vector_store if vector_store is not None else QdrantVectorStore(
             QdrantClientConfig(
                 url=settings.qdrant_url,
                 api_key=settings.qdrant_api_key,
@@ -79,9 +93,11 @@ class AnswerQuestionWorkflow:
                 distance="Cosine",
             )
         )
-        self.reranker = OpenRouterRerankerProvider() if settings.reranker_enabled else None
+        self.reranker = (OpenRouterRerankerProvider() if settings.reranker_enabled else None) if reranker is _UNSET else reranker
         self.citation_policy = CitationPolicy(minimum_coverage=1.0)
-        self.retrieval_cache = ChatRetrievalCacheStore()
+        self.retrieval_cache = retrieval_cache if retrieval_cache is not None else ChatRetrievalCacheStore()
+        self.candidate_k = candidate_k
+        self.rerank_depth = rerank_depth if rerank_depth is not None else settings.reranker_top_n
 
     def run(self, *, session, user_message, selected_source_ids: list[str], selected_module_ids: list[str]) -> AnswerResponse:
         prepared = self.prepare_grounded_answer(
@@ -114,14 +130,15 @@ class AnswerQuestionWorkflow:
                 module_ids=selected_module_ids,
             )
             policy = resolve_policy_instructions(session.policy_mode_snapshot)
-            candidates = self._get_cached_candidates(session.id, user_message.content_markdown, filters)
+            cache_filters = self._cache_filters(filters)
+            candidates = self._get_cached_candidates(session.id, user_message.content_markdown, cache_filters)
             if candidates is None:
                 candidates = self._retrieve_candidate_chunks(filters, user_message.content_markdown)
                 if candidates:
                     self.retrieval_cache.set(
                         session_id=session.id,
                         query_text=user_message.content_markdown,
-                        filters=filters,
+                        filters=cache_filters,
                         candidates=[
                             CachedCandidate(
                                 chunk_id=item.chunk.id,
@@ -139,6 +156,7 @@ class AnswerQuestionWorkflow:
                 user_id=session.user_id,
                 query_text=user_message.content_markdown,
             )
+            candidates, note_contexts = self._select_context_records(candidates, note_contexts)
             context = self._build_context(candidates, note_contexts)
         return PreparedGroundedAnswer(
             session_id=session.id,
@@ -151,6 +169,7 @@ class AnswerQuestionWorkflow:
             candidates=candidates,
             note_contexts=note_contexts,
             retrieval_started_at=started,
+            retrieval_duration_ms=int((perf_counter() - started) * 1000),
         )
 
     def generate_answer_text(self, *, prepared: PreparedGroundedAnswer, conversation_history: list[Any]) -> str:
@@ -162,6 +181,7 @@ class AnswerQuestionWorkflow:
             context=prepared.context,
             question=prepared.query_text,
         )
+        self.release_read_transaction()
         return self.llm.generate_messages(prompt_messages).strip()
 
     def stream_answer_text(self, *, prepared: PreparedGroundedAnswer, conversation_history: list[Any]):
@@ -173,10 +193,23 @@ class AnswerQuestionWorkflow:
             context=prepared.context,
             question=prepared.query_text,
         )
+        self.release_read_transaction()
         yield from self.llm.stream_messages(prompt_messages)
 
+    def release_read_transaction(self) -> None:
+        # All evidence columns have been materialized. Detach before rollback so
+        # downstream citation formatting cannot reopen a transaction lazily.
+        if self.db.new or self.db.dirty or self.db.deleted:
+            raise RuntimeError("Cannot release a read transaction with pending writes")
+        self.db.expunge_all()
+        self.db.rollback()
+
     def persist_answer(self, *, session, user_message, prepared: PreparedGroundedAnswer, answer_markdown: str) -> AnswerResponse:
-        latency_ms = int((perf_counter() - prepared.retrieval_started_at) * 1000)
+        with self.chats.atomic_answer():
+            return self._persist_answer(session=session, user_message=user_message, prepared=prepared, answer_markdown=answer_markdown)
+
+    def _persist_answer(self, *, session, user_message, prepared: PreparedGroundedAnswer, answer_markdown: str) -> AnswerResponse:
+        latency_ms = prepared.retrieval_duration_ms
         histogram(
             "eduground_retrieval_latency_ms",
             latency_ms,
@@ -211,7 +244,7 @@ class AnswerQuestionWorkflow:
             query_text=prepared.query_text,
             query_embedding_model=settings.openrouter_embedding_model,
             retrieval_mode=RetrievalMode.DENSE,
-            top_k_requested=5,
+            top_k_requested=self.candidate_k,
             top_k_used=len(prepared.candidates),
             filters_json=prepared.filters,
             reranker_used=reranker_used,
@@ -329,10 +362,11 @@ class AnswerQuestionWorkflow:
         if not cached:
             return None
         hydrated: list[CandidateRecord] = []
+        chunks, sources = self._load_candidates([item.chunk_id for item in cached], [item.source_id for item in cached])
         for item in cached:
-            chunk = self.db.get(Chunk, item.chunk_id)
-            source = self.db.get(Source, item.source_id)
-            if chunk is None or source is None or source.status != SourceStatus.INDEXED:
+            chunk = chunks.get(item.chunk_id)
+            source = sources.get(item.source_id)
+            if not self._candidate_in_scope(chunk, source, filters):
                 return None
             hydrated.append(
                 CandidateRecord(
@@ -356,7 +390,7 @@ class AnswerQuestionWorkflow:
         if not query_vectors:
             return []
         try:
-            search_results = self.vector_store.search(query_vectors[0], filters, top_k=5)
+            search_results = self.vector_store.search(query_vectors[0], filters, top_k=getattr(self, "candidate_k", 5))
         except VectorStoreError as exc:
             logger.warning(
                 "Vector search unavailable, continuing with LLM fallback",
@@ -374,15 +408,20 @@ class AnswerQuestionWorkflow:
             )
             return []
         candidates: list[CandidateRecord] = []
+        payloads = [result.get("payload") or {} for result in search_results]
+        chunks, sources = self._load_candidates(
+            [p["chunk_id"] for p in payloads if p.get("chunk_id")],
+            [p["source_id"] for p in payloads if p.get("source_id")],
+        )
         for result in search_results:
             payload = result.get("payload") or {}
             chunk_id = payload.get("chunk_id")
             source_id = payload.get("source_id")
             if not chunk_id or not source_id:
                 continue
-            chunk = self.db.get(Chunk, chunk_id)
-            source = self.db.get(Source, source_id)
-            if chunk is None or source is None or source.status != SourceStatus.INDEXED:
+            chunk = chunks.get(chunk_id)
+            source = sources.get(source_id)
+            if not self._candidate_in_scope(chunk, source, filters):
                 continue
             candidates.append(
                 CandidateRecord(
@@ -397,7 +436,7 @@ class AnswerQuestionWorkflow:
         if not candidates or self.reranker is None:
             return candidates
         try:
-            rerank_count = min(settings.reranker_top_n, len(candidates))
+            rerank_count = min(getattr(self, "rerank_depth", settings.reranker_top_n), len(candidates))
             rerank_inputs = [
                 {
                     "chunk": item.chunk,
@@ -433,6 +472,33 @@ class AnswerQuestionWorkflow:
             )
             return candidates
 
+    def _load_candidates(self, chunk_ids: list[str], source_ids: list[str]):
+        chunks = (self.db.query(Chunk).join(SourceVersion, Chunk.source_version_id == SourceVersion.id)
+                  .join(Source, Chunk.source_id == Source.id)
+                  .filter(Chunk.id.in_(set(chunk_ids)), SourceVersion.version_number == Source.version_number)
+                  .all()) if chunk_ids else []
+        sources = self.db.query(Source).filter(Source.id.in_(set(source_ids))).all() if source_ids else []
+        return {row.id: row for row in chunks}, {row.id: row for row in sources}
+
+    @staticmethod
+    def _candidate_in_scope(chunk, source, filters):
+        return (chunk is not None and source is not None and source.status == SourceStatus.INDEXED
+                and chunk.source_id == source.id and source.notebook_id == filters.get("notebook_id")
+                and (not filters.get("source_ids") or source.id in filters["source_ids"])
+                and (not filters.get("module_ids") or chunk.module_id in filters["module_ids"]))
+
+    def _cache_filters(self, filters):
+        # A new/deleted/reindexed source invalidates retrieval, including queries
+        # whose formerly cached candidates themselves did not change.
+        digest = hashlib.sha256()
+        rows = (self.db.query(Source.id, Source.version_number, Source.status)
+                .filter(Source.notebook_id == filters["notebook_id"]).order_by(Source.id).yield_per(100))
+        for row in rows:
+            digest.update(json.dumps([row.id, row.version_number, row.status]).encode())
+        return {**filters, "_corpus": digest.hexdigest(), "_candidate_k": self.candidate_k,
+                "_rerank_depth": self.rerank_depth, "_reranker": settings.openrouter_rerank_model if self.reranker else None,
+                "_embedding": settings.openrouter_embedding_model}
+
     def _build_display_label(self, source: Source, chunk: Chunk) -> str:
         if chunk.start_slide:
             return f"{source.title}, slide {chunk.start_slide}"
@@ -452,6 +518,23 @@ class AnswerQuestionWorkflow:
             parts.append(f"Notebook note: {note.title}\n{note.content_markdown}")
         return "\n\n".join(part for part in parts if part.strip())
 
+    @staticmethod
+    def _select_context_records(candidates, note_contexts):
+        remaining = settings.answer_context_max_chars
+        selected_candidates = []
+        selected_notes = []
+        for item in candidates:
+            cost = len(item.chunk.text) + 2
+            if cost <= remaining:
+                selected_candidates.append(item)
+                remaining -= cost
+        for item in note_contexts:
+            cost = len(item.title) + len(item.content_markdown) + 18
+            if cost <= remaining:
+                selected_notes.append(item)
+                remaining -= cost
+        return selected_candidates, selected_notes
+
     def _retrieve_note_context(self, *, notebook_id: str, user_id: str, query_text: str) -> list[NoteContextRecord]:
         query_terms = self._extract_query_terms(query_text)
         if not query_terms:
@@ -460,7 +543,8 @@ class AnswerQuestionWorkflow:
             self.db.query(Note)
             .filter(Note.notebook_id == notebook_id)
             .filter(Note.converted_source_id.is_(None))
-            .all()
+            .filter(or_(Note.visibility != NoteVisibility.PRIVATE, Note.author_user_id == user_id))
+            .yield_per(100)
         )
         ranked: list[NoteContextRecord] = []
         for note in notes:
@@ -480,6 +564,9 @@ class AnswerQuestionWorkflow:
                     score=score,
                 )
             )
+            if len(ranked) > 3:
+                ranked.sort(key=lambda item: item.score, reverse=True)
+                ranked.pop()
         ranked.sort(key=lambda item: item.score, reverse=True)
         return ranked[:3]
 

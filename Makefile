@@ -14,7 +14,7 @@ bootstrap:
 	@echo "Install workspace dependencies, then run 'make up' and the app targets below."
 	@echo "API: $$env:PYTHONPATH='apps/api'; python -m uvicorn app.main:app --reload --reload-dir apps/api --reload-exclude .venv --reload-exclude node_modules --host localhost --port 8000"
 	@echo "Reseed: $$env:PYTHONPATH='apps/api'; python -m app.scripts.reseed"
-	@echo "Worker: $$env:PYTHONPATH='apps/worker'; python -m dramatiq app.jobs.ingestion app.jobs.maintenance"
+	@echo "Worker: $$env:PYTHONPATH='apps/worker'; python -m dramatiq app.jobs.ingestion app.jobs.batching app.jobs.maintenance"
 	@echo "Web: npm.cmd run --workspace $(WEB_WORKSPACE) dev"
 	@echo "Evaluator: $$env:PYTHONPATH='apps/evaluator'; python -m app.main"
 
@@ -49,7 +49,7 @@ api-reseed:
 	@powershell -NoProfile -Command "$$env:PYTHONPATH='apps/api'; python -m app.scripts.reseed"
 
 worker-dev:
-	@powershell -NoProfile -Command "$$processes = if ($$env:CURRICULUM_TUTOR_WORKER_PROCESSES) { $$env:CURRICULUM_TUTOR_WORKER_PROCESSES } else { '2' }; $$threads = if ($$env:CURRICULUM_TUTOR_WORKER_THREADS) { $$env:CURRICULUM_TUTOR_WORKER_THREADS } else { '4' }; $$env:PYTHONPATH='apps/worker'; python -m dramatiq --processes $$processes --threads $$threads app.jobs.ingestion app.jobs.maintenance"
+	@powershell -NoProfile -Command "$$processes = if ($$env:CURRICULUM_TUTOR_WORKER_PROCESSES) { $$env:CURRICULUM_TUTOR_WORKER_PROCESSES } else { '2' }; $$threads = if ($$env:CURRICULUM_TUTOR_WORKER_THREADS) { $$env:CURRICULUM_TUTOR_WORKER_THREADS } else { '4' }; $$env:PYTHONPATH='apps/worker'; python -m dramatiq --processes $$processes --threads $$threads app.jobs.ingestion app.jobs.batching app.jobs.maintenance"
 
 web-dev:
 	npm.cmd run --workspace $(WEB_WORKSPACE) dev

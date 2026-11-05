@@ -61,6 +61,22 @@ describe("ApiClient", () => {
     });
   });
 
+  it("loads bounded source pages into one list", async () => {
+    const fetchMock = vi.fn().mockImplementation((url: URL) => {
+      const offset = Number(url.searchParams.get("offset"));
+      const page = offset === 0
+        ? Array.from({ length: 100 }, (_, index) => ({ id: `source-${index}` }))
+        : [{ id: "source-100" }];
+      return Promise.resolve(new Response(JSON.stringify(page), { status: 200 }));
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const sources = await client.listSources("notebook-1");
+    expect(sources).toHaveLength(101);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect((fetchMock.mock.calls[1][0] as URL).searchParams.get("offset")).toBe("100");
+  });
+
   it("falls back to FastAPI detail strings when the standardized shape is absent", async () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue(
       new Response(JSON.stringify({ detail: "Missing Clerk session token" }), {

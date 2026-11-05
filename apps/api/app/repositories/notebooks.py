@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 
 from app.models.curriculum import Notebook, NotebookMembership
 from app.models.content import Source
@@ -42,6 +43,17 @@ class NotebookRepository:
             .filter(Source.notebook_id == notebook_id, Source.deleted_at.is_(None))
             .count()
         )
+
+    def counts_for_notebooks(self, notebook_ids: list[str]):
+        if not notebook_ids:
+            return {}, {}
+        sources = dict(self.db.query(Source.notebook_id, func.count(Source.id))
+                       .filter(Source.notebook_id.in_(notebook_ids), Source.deleted_at.is_(None))
+                       .group_by(Source.notebook_id).all())
+        learners = dict(self.db.query(NotebookMembership.notebook_id, func.count(NotebookMembership.id))
+                        .filter(NotebookMembership.notebook_id.in_(notebook_ids))
+                        .group_by(NotebookMembership.notebook_id).all())
+        return sources, learners
 
     def learner_count(self, notebook_id: str) -> int:
         return self.db.query(NotebookMembership).filter(NotebookMembership.notebook_id == notebook_id).count()

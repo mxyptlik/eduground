@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sqlalchemy import desc
+from sqlalchemy import desc, func
 from sqlalchemy.orm import aliased
 from sqlalchemy.orm import Session
 
@@ -39,12 +39,14 @@ class SourceRepository:
     def get_by_storage_key(self, storage_key: str) -> Source | None:
         return self.db.query(Source).filter(Source.storage_key == storage_key).first()
 
-    def list_for_notebook(self, notebook_id: str) -> list[Source]:
+    def list_for_notebook(self, notebook_id: str, *, limit: int = 100, offset: int = 0) -> list[Source]:
         return (
             self.db.query(Source)
             .filter(Source.notebook_id == notebook_id)
             .filter(Source.deleted_at.is_(None))
-            .order_by(Source.created_at.desc())
+            .order_by(Source.created_at.desc(), Source.id.desc())
+            .limit(limit)
+            .offset(offset)
             .all()
         )
 
@@ -159,30 +161,15 @@ class SourceRepository:
     def list_latest_jobs_for_sources(self, source_ids: list[str]) -> dict[str, IngestionJob]:
         if not source_ids:
             return {}
-        latest_job = aliased(IngestionJob)
-        latest_timestamp_rows = (
+        ranked = (
             self.db.query(
-                IngestionJob.source_id.label("source_id"),
-                IngestionJob.created_at.label("created_at"),
-            )
-            .filter(IngestionJob.source_id.in_(source_ids))
-            .order_by(IngestionJob.source_id.asc(), IngestionJob.created_at.desc())
-            .all()
+                IngestionJob.id.label("id"),
+                func.row_number().over(
+                    partition_by=IngestionJob.source_id,
+                    order_by=(IngestionJob.created_at.desc(), IngestionJob.id.desc()),
+                ).label("position"),
+            ).filter(IngestionJob.source_id.in_(source_ids)).subquery()
         )
-        latest_created_at_by_source: dict[str, object] = {}
-        for row in latest_timestamp_rows:
-            latest_created_at_by_source.setdefault(row.source_id, row.created_at)
-        if not latest_created_at_by_source:
-            return {}
-        jobs = (
-            self.db.query(latest_job)
-            .filter(latest_job.source_id.in_(list(latest_created_at_by_source.keys())))
-            .order_by(latest_job.created_at.desc())
-            .all()
-        )
-        results: dict[str, IngestionJob] = {}
-        for job in jobs:
-            expected_created_at = latest_created_at_by_source.get(job.source_id)
-            if expected_created_at is not None and job.created_at == expected_created_at and job.source_id not in results:
-                results[job.source_id] = job
-        return results
+        jobs = (self.db.query(IngestionJob).join(ranked, IngestionJob.id == ranked.c.id)
+                .filter(ranked.c.position == 1).all())
+        return {job.source_id: job for job in jobs}

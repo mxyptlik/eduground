@@ -35,7 +35,22 @@ def ensure_collection(vector_size: int) -> None:
 def upsert_points(points: list[dict]) -> None:
     if not points:
         return
-    _request("PUT", f"{_collection_url()}/points", {"points": points})
+    size = max(1, settings.vector_upsert_max_points)
+    written: list[str] = []
+    try:
+        for offset in range(0, len(points), size):
+            group = points[offset:offset + size]
+            _request("PUT", f"{_collection_url()}/points?wait=true", {"points": group})
+            written.extend(str(point["id"]) for point in group)
+    except Exception:
+        if written:
+            try:
+                delete_points(written)
+            except Exception:
+                # Caller marks the source failed; deterministic point IDs make
+                # an explicit cleanup/reindex possible after Qdrant recovers.
+                pass
+        raise
 
 
 def delete_points(point_ids: list[str]) -> None:

@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from typing import Any
 import json
 from urllib import error, request
+from app.integrations.connections import pooled_urlopen, http_client
 
 import httpx
 
@@ -51,6 +52,8 @@ class OpenRouterLLMConfig:
     site_url: str | None = None
     app_name: str | None = None
     extra_headers: dict[str, str] = field(default_factory=dict)
+    include_usage: bool = False
+    reasoning: dict[str, Any] | None = None
 
     @classmethod
     def from_env(cls) -> "OpenRouterLLMConfig":
@@ -86,6 +89,18 @@ class GeminiLLMConfig:
         )
 
 
+@dataclass(frozen=True, slots=True)
+class LLMCallResult:
+    """Optional non-streaming telemetry; the string API remains unchanged."""
+
+    text: str
+    gateway: str
+    requested_model: str
+    response_model: str | None
+    request_id: str | None
+    usage: dict[str, Any] | None
+
+
 def _request_json(
     url: str,
     payload: dict[str, Any],
@@ -103,7 +118,7 @@ def _request_json(
             metric_name="eduground_provider_call",
             metric_labels={"provider": provider, "operation": operation},
         ):
-            with request.urlopen(req, timeout=timeout_seconds) as response:
+            with pooled_urlopen(req, timeout=timeout_seconds) as response:
                 raw = response.read().decode("utf-8")
     except error.HTTPError as exc:  # pragma: no cover - exercised through integration tests
         detail = exc.read().decode("utf-8", errors="replace")
@@ -239,21 +254,38 @@ class OpenRouterLLMProvider(LLMProvider):
 
     def generate_messages(self, messages: list[dict[str, Any]]) -> str:
         try:
-            if not self.config.api_key:
-                raise DependencyUnavailableError(
-                    code="openrouter_api_key_missing",
-                    message="OpenRouter API key is not configured",
-                    provider="openrouter",
-                )
-            response = _request_json(
-                f"{self.config.base_url.rstrip('/')}/chat/completions",
-                {"model": self.config.model, "messages": messages, "max_tokens": self.config.max_output_tokens},
-                _headers_from_config(self.config),
-                self.config.timeout_seconds,
-            )
-            return _extract_message_text(response).strip()
+            return self.generate_messages_with_result(messages).text
         except (DependencyUnavailableError, LLMProviderError) as exc:
             return self._generate_messages_with_fallback(messages, exc)
+
+    def generate_messages_with_result(self, messages: list[dict[str, Any]]) -> LLMCallResult:
+        """Return response identity and usage; no silent fallback for controlled runs."""
+        if not self.config.api_key:
+            raise DependencyUnavailableError(
+                code="openrouter_api_key_missing",
+                message="OpenRouter API key is not configured",
+                provider="openrouter",
+            )
+        payload = {"model": self.config.model, "messages": messages, "max_tokens": self.config.max_output_tokens}
+        if self.config.reasoning:
+            # Optional per-role reasoning control (cap or disable the thinking
+            # budget for extraction-style batches).
+            payload["reasoning"] = dict(self.config.reasoning)
+        if self.config.include_usage:
+            payload["usage"] = {"include": True}
+        response = _request_json(
+            f"{self.config.base_url.rstrip('/')}/chat/completions",
+            payload,
+            _headers_from_config(self.config),
+            self.config.timeout_seconds,
+        )
+        return LLMCallResult(
+            text=_extract_message_text(response).strip(), gateway="openrouter",
+            requested_model=self.config.model,
+            response_model=response.get("model") if isinstance(response.get("model"), str) else None,
+            request_id=response.get("id") if isinstance(response.get("id"), str) else None,
+            usage=response.get("usage") if isinstance(response.get("usage"), dict) else None,
+        )
 
     def stream_messages(self, messages: list[dict[str, Any]]) -> Iterator[str]:
         try:
@@ -275,7 +307,7 @@ class OpenRouterLLMProvider(LLMProvider):
             metric_labels={"provider": "openrouter", "operation": "llm.stream"},
         ):
             try:
-                with httpx.stream(
+                with http_client().stream(
                     "POST",
                     f"{self.config.base_url.rstrip('/')}/chat/completions",
                     headers=_headers_from_config(self.config),
@@ -353,6 +385,10 @@ class GeminiLLMProvider(LLMProvider):
         )
 
     def generate_messages(self, messages: list[dict[str, Any]]) -> str:
+        return self.generate_messages_with_result(messages).text
+
+    def generate_messages_with_result(self, messages: list[dict[str, Any]]) -> LLMCallResult:
+        """Return response identity and raw usage without changing callers."""
         if not self.config.api_key:
             raise DependencyUnavailableError(
                 code="gemini_api_key_missing",
@@ -370,7 +406,13 @@ class GeminiLLMProvider(LLMProvider):
             self.config.timeout_seconds,
             provider="gemini",
         )
-        return _extract_gemini_text(response).strip()
+        return LLMCallResult(
+            text=_extract_gemini_text(response).strip(), gateway="gemini",
+            requested_model=self.config.model,
+            response_model=response.get("modelVersion") if isinstance(response.get("modelVersion"), str) else None,
+            request_id=response.get("responseId") if isinstance(response.get("responseId"), str) else None,
+            usage=response.get("usageMetadata") if isinstance(response.get("usageMetadata"), dict) else None,
+        )
 
     def stream_messages(self, messages: list[dict[str, Any]]) -> Iterator[str]:
         yield self.generate_messages(messages)

@@ -223,9 +223,9 @@ class SourceService:
             ) from exc
         return self._hydrate_source(source)
 
-    def list_sources(self, notebook_id: str, user: User) -> list[Source]:
+    def list_sources(self, notebook_id: str, user: User, *, limit: int = 100, offset: int = 0) -> list[Source]:
         require_notebook_access(self.notebooks.get_membership(notebook_id, user.id))
-        sources = self.sources.list_for_notebook(notebook_id)
+        sources = self.sources.list_for_notebook(notebook_id, limit=limit, offset=offset)
         return self._hydrate_sources(sources)
 
     def list_jobs(self, source_id: str, user: User) -> list[IngestionJob]:

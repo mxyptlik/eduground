@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from typing import Any
 import json
 from urllib import error, request
+from app.integrations.connections import pooled_urlopen, http_client
 
 from app.core.config import settings
 from app.core.errors import DependencyUnavailableError, ProviderRequestError
@@ -97,7 +98,7 @@ def _request_json(
             metric_name="eduground_provider_call",
             metric_labels={"provider": provider, "operation": "embeddings.embed"},
         ):
-            with request.urlopen(req, timeout=timeout_seconds) as response:
+            with pooled_urlopen(req, timeout=timeout_seconds) as response:
                 raw = response.read().decode("utf-8")
     except error.HTTPError as exc:  # pragma: no cover - exercised through integration tests
         detail = exc.read().decode("utf-8", errors="replace")
@@ -137,9 +138,11 @@ class EmbeddingProvider(ABC):
 
 
 class OpenRouterEmbeddingProvider(EmbeddingProvider):
-    def __init__(self, config: OpenRouterEmbeddingConfig | None = None, fallback: EmbeddingProvider | None = None) -> None:
+    def __init__(self, config: OpenRouterEmbeddingConfig | None = None, fallback: EmbeddingProvider | None = None,
+                 *, requester=None) -> None:
         self.config = config or OpenRouterEmbeddingConfig.from_env()
         self.fallback = fallback or (GeminiEmbeddingProvider() if settings.gemini_fallback_enabled else None)
+        self._request_json = requester
 
     def embed(self, texts: list[str]) -> list[list[float]]:
         if not texts:
@@ -151,7 +154,7 @@ class OpenRouterEmbeddingProvider(EmbeddingProvider):
                     message="OpenRouter API key is not configured",
                     provider="openrouter",
                 )
-            response = _request_json(
+            response = (self._request_json or _request_json)(
                 f"{self.config.base_url.rstrip('/')}/embeddings",
                 {"model": self.config.model, "input": texts},
                 _headers_from_config(self.config),
@@ -193,8 +196,9 @@ def _gemini_model_resource(model: str) -> str:
 
 
 class GeminiEmbeddingProvider(EmbeddingProvider):
-    def __init__(self, config: GeminiEmbeddingConfig | None = None) -> None:
+    def __init__(self, config: GeminiEmbeddingConfig | None = None, *, requester=None) -> None:
         self.config = config or GeminiEmbeddingConfig.from_env()
+        self._request_json = requester
 
     def embed(self, texts: list[str]) -> list[list[float]]:
         if not texts:
@@ -216,7 +220,7 @@ class GeminiEmbeddingProvider(EmbeddingProvider):
                 for text in texts
             ]
         }
-        response = _request_json(
+        response = (self._request_json or _request_json)(
             f"{self.config.base_url.rstrip('/')}/{model}:batchEmbedContents",
             payload,
             {

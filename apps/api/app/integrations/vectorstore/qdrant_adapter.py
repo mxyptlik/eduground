@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from typing import Any
 import json
 from urllib import error, request
+from app.integrations.connections import pooled_urlopen, http_client
 
 from app.core.config import settings
 from app.core.errors import DependencyUnavailableError
@@ -27,7 +28,7 @@ def _request_json(
             metric_name="eduground_provider_call",
             metric_labels={"provider": "qdrant", "operation": method.lower()},
         ):
-            with request.urlopen(req, timeout=timeout_seconds) as response:
+            with pooled_urlopen(req, timeout=timeout_seconds) as response:
                 raw = response.read().decode("utf-8")
     except error.HTTPError as exc:  # pragma: no cover - exercised through integration tests
         detail = exc.read().decode("utf-8", errors="replace")
@@ -142,7 +143,8 @@ class QdrantVectorStore(VectorStore):
         )
 
     def search(self, vector: list[float], filters: dict, top_k: int) -> list[dict]:
-        self._ensure_collection()
+        # Search itself validates collection existence and vector dimensions.
+        # Collection creation belongs to indexing, not the serving hot path.
         body: dict[str, Any] = {
             "vector": vector,
             "limit": top_k,

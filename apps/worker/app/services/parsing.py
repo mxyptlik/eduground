@@ -4,11 +4,13 @@ import io
 import re
 from pathlib import Path
 
+from app.services.figures import scanned_page_ratio
 from app.services.types import NormalizedDocument, NormalizedSegment
 
 PAGE_OR_SLIDE_RE = re.compile(r"^(page|slide)\s+(\d+)\b[:\-\s]*", re.IGNORECASE)
 MARKDOWN_HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
 LIST_ITEM_RE = re.compile(r"^\s*(?:[-*+]\s+|\d+[.)]\s+|[ivxlcdm]+\.\s+)", re.IGNORECASE)
+PDF_PAGE_MARKER_RE = re.compile(r"^[ \t]*Page[ \t]+\d+[ \t]*$", re.IGNORECASE | re.MULTILINE)
 
 
 def _flush_block(
@@ -253,9 +255,26 @@ def _parse_pptx(raw_bytes: bytes) -> tuple[str, str]:
 
 
 def parse_source_bytes(raw_bytes: bytes, filename: str) -> NormalizedDocument:
+    from app.settings import settings
+    if settings.parsing_isolation_enabled:
+        from app.services.parse_process import parse_isolated
+        return parse_isolated(raw_bytes, filename, settings.parsing_timeout_seconds)
+    return _parse_source_bytes(raw_bytes, filename)
+
+
+def _parse_source_bytes(raw_bytes: bytes, filename: str) -> NormalizedDocument:
     suffix = Path(filename).suffix.lower()
+    page_count = 0
+    scan_ratio: float | None = None
+    requires_fallback_ocr = False
     if suffix == ".pdf":
         text, method = _parse_pdf(raw_bytes)
+        page_count = len(PDF_PAGE_MARKER_RE.findall(text))
+        scan_ratio = scanned_page_ratio(raw_bytes, filename, max_pages=32)
+        # PDF parsers insert page labels even when no page has extractable text.
+        # Those labels must not prevent the ingestion pipeline from invoking OCR.
+        extracted_body = PDF_PAGE_MARKER_RE.sub("", text).strip()
+        requires_fallback_ocr = not extracted_body or (scan_ratio is not None and scan_ratio >= 0.5)
     elif suffix == ".docx":
         text, method = _parse_docx(raw_bytes)
     elif suffix == ".pptx":
@@ -268,5 +287,7 @@ def parse_source_bytes(raw_bytes: bytes, filename: str) -> NormalizedDocument:
     return NormalizedDocument(
         text=text.strip(),
         segments=segments,
-        metadata={"extraction_method": method, "requires_fallback_ocr": suffix == ".pdf" and not text.strip()},
+        metadata={"extraction_method": method, "requires_fallback_ocr": requires_fallback_ocr,
+                  "scanned_page_ratio": scan_ratio,
+                  "scanned_page_ratio_sampled": suffix == ".pdf" and page_count > 32},
     )

@@ -6,6 +6,7 @@ import json
 from typing import Any
 
 from redis import Redis
+from app.integrations.connections import redis_client
 from redis.exceptions import RedisError
 
 from app.core.config import settings
@@ -111,20 +112,20 @@ class ChatMemoryStore:
             content = item.get("content")
             if isinstance(message_type, str) and isinstance(content, str):
                 stored_messages.append(StoredChatMessage(type=message_type, content=content))
-        return stored_messages
+        return self._bounded(stored_messages)
 
     def _store_messages(self, session_id: str, messages: Sequence[StoredChatMessage]) -> None:
         client = self._client()
         if client is None:
             return
         try:
-            payload = json.dumps([{"type": message.type, "content": message.content} for message in messages])
+            payload = json.dumps([{"type": message.type, "content": message.content} for message in self._bounded(messages)])
             client.set(self._key(session_id), payload, ex=settings.chat_memory_ttl_seconds)
         except RedisError:
             self._mark_redis_failed("Failed to persist tutor chat memory")
 
     def _replay_messages_from_sql(self, session_id: str) -> list[StoredChatMessage]:
-        sql_messages = self.repository.list_messages_for_session(session_id)
+        sql_messages = self.repository.list_recent_messages_for_session(session_id, settings.chat_history_max_messages)
         replayed: list[StoredChatMessage] = []
         for message in sql_messages:
             if message.status not in {MessageStatus.COMPLETE, MessageStatus.STREAMING}:
@@ -133,7 +134,19 @@ class ChatMemoryStore:
                 replayed.append(_human_message(message.content_markdown))
             elif message.role == ChatRole.ASSISTANT and message.content_markdown.strip():
                 replayed.append(_ai_message(message.content_markdown))
-        return replayed
+        return self._bounded(replayed)
+
+    def _bounded(self, messages: Sequence[StoredChatMessage]) -> list[StoredChatMessage]:
+        # Keep newest complete messages within both independent limits.
+        remaining = settings.chat_history_max_chars
+        kept = []
+        for message in reversed(list(messages)[-settings.chat_history_max_messages:]):
+            if remaining <= 0:
+                break
+            text = message.content[-remaining:]
+            kept.append(StoredChatMessage(type=message.type, content=text))
+            remaining -= len(text)
+        return list(reversed(kept))
 
     def _client(self) -> Redis | None:
         if self._redis_failed:
@@ -141,8 +154,7 @@ class ChatMemoryStore:
         if self._redis_client is not None:
             return self._redis_client
         try:
-            self._redis_client = Redis.from_url(settings.redis_url, decode_responses=True)
-            self._redis_client.ping()
+            self._redis_client = redis_client()
             return self._redis_client
         except RedisError:
             self._mark_redis_failed("Redis is unavailable for tutor chat memory")

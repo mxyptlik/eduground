@@ -8,6 +8,7 @@ import logging
 from threading import Lock
 from time import perf_counter
 from typing import Any
+import json
 
 from app.core.config import settings
 from app.core.runtime import RuntimeConfigurationError
@@ -28,7 +29,7 @@ def _normalize_labels(labels: dict[str, Any] | None = None) -> tuple[tuple[str, 
 def _format_label_set(labels: tuple[tuple[str, str], ...]) -> str:
     if not labels:
         return ""
-    rendered = ",".join(f'{key}="{value}"' for key, value in labels)
+    rendered = ",".join(f"{key}={json.dumps(value)}" for key, value in labels)
     return "{" + rendered + "}"
 
 

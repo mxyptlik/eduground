@@ -73,6 +73,7 @@ def test_grounded_user_message_marks_evidence_as_untrusted_data() -> None:
 def test_answer_workflow_uses_the_composed_external_tutor_prompt() -> None:
     workflow = AnswerQuestionWorkflow.__new__(AnswerQuestionWorkflow)
     workflow._get_cached_candidates = lambda *_args, **_kwargs: []
+    workflow._cache_filters = lambda filters: filters
     workflow._retrieve_note_context = lambda **_kwargs: []
     workflow._build_context = lambda *_args, **_kwargs: ""
     session = type(

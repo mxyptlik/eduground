@@ -1,12 +1,13 @@
 from __future__ import annotations
 
+import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
-from fastapi.responses import PlainTextResponse
+from fastapi.responses import JSONResponse, PlainTextResponse
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from app.api.router import api_router
@@ -27,6 +28,7 @@ from app.db.init_db import initialize_database
 from app.schemas.common import DependencyStatusResponse, HealthResponse, ReadinessResponse
 
 configure_logging("api")
+logger = logging.getLogger("app.main")
 
 
 @asynccontextmanager
@@ -34,7 +36,11 @@ async def lifespan(app: FastAPI):
     validate_runtime_configuration()
     configure_observability(service="api", fastapi_app=app)
     initialize_database()
-    yield
+    try:
+        yield
+    finally:
+        from app.integrations.connections import close_connections
+        close_connections()
 
 app = FastAPI(
     title="Curriculum Tutor API",
@@ -42,6 +48,32 @@ app = FastAPI(
     description="RAG-first tutoring backend with notebook scoping and citations.",
     lifespan=lifespan,
 )
+
+
+@app.middleware("http")
+async def internal_errors_keep_cors_headers(request: Request, call_next):
+    """Convert unhandled exceptions into a 500 that still carries CORS headers.
+
+    Starlette handles ``Exception`` in ServerErrorMiddleware, which sits outside
+    the CORS middleware, so a bare 500 reaches the browser without
+    ``Access-Control-Allow-Origin`` and surfaces as a misleading CORS/network
+    failure. Catching here (inside CORS) keeps the real status visible.
+    """
+    try:
+        return await call_next(request)
+    except Exception:
+        logger.exception("Unhandled application error", extra={"extra_json": {"path": request.url.path}})
+        return JSONResponse(
+            status_code=500,
+            content={
+                "code": "internal_error",
+                "message": "Internal server error.",
+                "retryable": False,
+                "request_id": getattr(request.state, "request_id", None),
+            },
+        )
+
+
 if settings.app_env.lower() in {"production", "staging"}:
     app.add_middleware(TrustedHostMiddleware, allowed_hosts=settings.trusted_host_list or ["localhost", "127.0.0.1"])
 app.add_middleware(

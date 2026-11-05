@@ -30,3 +30,11 @@ This is a grounded tutoring source with enough content to create chunks for the 
 
 Closing paragraph with extra tokens so chunk construction has stable material to work with.
 """
+
+
+@pytest.fixture(autouse=True)
+def _disable_ingestion_batching_by_default(monkeypatch):
+    """Tests must not depend on the developer's .env; batching is opt-in per test."""
+    from app.settings import settings
+
+    monkeypatch.setattr(settings, "ingestion_batch_enabled", False)

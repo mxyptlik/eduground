@@ -89,14 +89,17 @@ def validate_filename(value: str, *, field_name: str = "filename") -> str:
     normalized = normalize_text(value, field_name=field_name, max_length=255)
     if any(separator in normalized for separator in ("/", "\\", ":", "*", "?", "\"", "<", ">", "|")):
         raise ValueError(f"{field_name} contains invalid path characters")
-    if ".." in normalized:
+    # Reject real traversal sequences (".."), not ellipses ("...") or dotted
+    # names like "notes..v2.pdf": only an isolated double-dot is traversal.
+    if re.search(r"(?<!\.)\.\.(?!\.)", normalized) or normalized in {".", ".."}:
         raise ValueError(f"{field_name} cannot contain path traversal sequences")
     return normalized
 
 
 def validate_storage_key(value: str) -> str:
     normalized = normalize_text(value, field_name="storage_key", max_length=512)
-    if normalized.startswith("/") or "\\" in normalized or ".." in normalized or "//" in normalized:
+    if (normalized.startswith("/") or "\\" in normalized or "//" in normalized
+            or re.search(r"(?<!\.)\.\.(?!\.)", normalized)):
         raise ValueError("storage_key is invalid")
     return normalized
 

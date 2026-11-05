@@ -114,7 +114,7 @@ source .venv/Scripts/activate
 export CURRICULUM_TUTOR_WORKER_PROCESSES="${CURRICULUM_TUTOR_WORKER_PROCESSES:-2}"
 export CURRICULUM_TUTOR_WORKER_THREADS="${CURRICULUM_TUTOR_WORKER_THREADS:-4}"
 export PYTHONPATH=apps/worker
-python -m dramatiq --processes "$CURRICULUM_TUTOR_WORKER_PROCESSES" --threads "$CURRICULUM_TUTOR_WORKER_THREADS" app.jobs.ingestion app.jobs.maintenance
+python -m dramatiq --processes "$CURRICULUM_TUTOR_WORKER_PROCESSES" --threads "$CURRICULUM_TUTOR_WORKER_THREADS" app.jobs.ingestion app.jobs.batching app.jobs.maintenance
 ```
 
 Web:

@@ -1,8 +1,10 @@
 from __future__ import annotations
+import hashlib
+import json
 
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, Header, HTTPException, Request, Response, status
+from fastapi import APIRouter, Depends, Header, HTTPException, Query, Request, Response, status
 
 from app.api.deps import DBSession, get_current_user
 from app.core.config import settings
@@ -10,6 +12,10 @@ from app.core.errors import ProviderRequestError
 from app.integrations.storage.factory import get_local_storage_for_signed_routes
 from app.schemas.sources import IngestionJobResponse, SourceCreate, SourceResponse, SourceReindexRequest, UploadUrlRequest, UploadUrlResponse
 from app.services.sources import SourceService
+from app.models.content import Source
+from app.policies.rbac import require_notebook_access
+from app.repositories.notebooks import NotebookRepository
+from app.repositories.sources import SourceRepository
 
 router = APIRouter()
 
@@ -82,8 +88,32 @@ def create_source(notebook_id: UUID, payload: SourceCreate, db: DBSession, user=
 
 
 @router.get("/notebooks/{notebook_id}/sources", response_model=list[SourceResponse])
-def list_sources(notebook_id: UUID, db: DBSession, user=Depends(get_current_user)) -> list[SourceResponse]:
-    return [SourceResponse.model_validate(source) for source in SourceService(db).list_sources(str(notebook_id), user)]
+def list_sources(notebook_id: UUID, db: DBSession, limit: int = Query(100, ge=1, le=200),
+                 offset: int = Query(0, ge=0), user=Depends(get_current_user)) -> list[SourceResponse]:
+    return [SourceResponse.model_validate(source) for source in SourceService(db).list_sources(
+        str(notebook_id), user, limit=limit, offset=offset)]
+
+
+@router.get("/notebooks/{notebook_id}/sources/revision")
+def source_revision(notebook_id: UUID, db: DBSession, user=Depends(get_current_user)) -> dict[str, str]:
+    scoped_id = str(notebook_id)
+    require_notebook_access(NotebookRepository(db).get_membership(scoped_id, user.id))
+    digest = hashlib.sha256()
+    source_ids = []
+    rows = (db.query(Source.id, Source.status, Source.version_number, Source.updated_at)
+            .filter(Source.notebook_id == scoped_id).order_by(Source.id).yield_per(100))
+    for row in rows:
+        source_ids.append(row.id)
+        digest.update(json.dumps([row.id, row.status, row.version_number, row.updated_at.isoformat()]).encode())
+    repository = SourceRepository(db)
+    jobs = {}
+    for offset in range(0, len(source_ids), 500):
+        jobs.update(repository.list_latest_jobs_for_sources(source_ids[offset:offset + 500]))
+    for source_id in sorted(jobs):
+        job = jobs[source_id]
+        digest.update(json.dumps([source_id, job.id, job.status, job.stage,
+                                  job.chunk_count, job.embedded_count, job.indexed_count]).encode())
+    return {"revision": digest.hexdigest()}
 
 
 @router.get("/sources/{source_id}", response_model=SourceResponse)

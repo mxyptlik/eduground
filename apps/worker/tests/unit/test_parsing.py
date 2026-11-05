@@ -29,3 +29,18 @@ def test_parse_text_source_marks_plain_text_extraction() -> None:
     assert document.text == "plain text body"
     assert document.metadata["extraction_method"] == "plain-text"
     assert document.metadata["requires_fallback_ocr"] is False
+
+
+def test_image_only_pdf_requests_ocr_despite_generated_page_markers() -> None:
+    import fitz
+
+    image = fitz.Pixmap(fitz.csRGB, fitz.IRect(0, 0, 8, 8)).tobytes("png")
+    pdf = fitz.open()
+    page = pdf.new_page()
+    page.insert_image(page.rect, stream=image)
+
+    document = parse_source_bytes(pdf.tobytes(), "scanned.pdf")
+
+    assert document.metadata["extraction_method"] in {"pdfplumber", "pymupdf", "pypdf"}
+    assert document.metadata["scanned_page_ratio"] == 1.0
+    assert document.metadata["requires_fallback_ocr"] is True

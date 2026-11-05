@@ -10,7 +10,7 @@ def test_run_ingestion_pipeline_indexes_chunks(monkeypatch, markdown_source_byte
     upserted_points: list[dict] = []
     telemetry.reset_test_state()
 
-    monkeypatch.setattr(pipeline, "embed_texts", lambda texts: [[0.1, 0.2, 0.3] for _ in texts])
+    monkeypatch.setattr(pipeline, "embed_texts", lambda texts, **kwargs: [[0.1, 0.2, 0.3] for _ in texts])
     monkeypatch.setattr(pipeline, "ensure_collection", lambda size: ensured_sizes.append(size))
     monkeypatch.setattr(pipeline, "upsert_points", lambda points: upserted_points.extend(points))
 
@@ -59,8 +59,8 @@ def test_run_ingestion_pipeline_invokes_ocr_on_fallback(monkeypatch) -> None:
         return first_pass if filename == "scan.pdf" else second_pass
 
     monkeypatch.setattr(pipeline, "parse_source_bytes", fake_parse)
-    monkeypatch.setattr(pipeline, "run_ocr", lambda raw_bytes, filename, mime_type: "Recovered OCR text")
-    monkeypatch.setattr(pipeline, "embed_texts", lambda texts: [[0.1, 0.2] for _ in texts])
+    monkeypatch.setattr(pipeline, "run_ocr", lambda raw_bytes, filename, mime_type, **kwargs: "Recovered OCR text")
+    monkeypatch.setattr(pipeline, "embed_texts", lambda texts, **kwargs: [[0.1, 0.2] for _ in texts])
     monkeypatch.setattr(pipeline, "ensure_collection", lambda size: None)
     monkeypatch.setattr(pipeline, "upsert_points", lambda points: None)
 
@@ -79,7 +79,7 @@ def test_run_ingestion_pipeline_invokes_ocr_on_fallback(monkeypatch) -> None:
 
 
 def test_run_ingestion_pipeline_is_deterministic_for_point_ids(monkeypatch, markdown_source_bytes: bytes) -> None:
-    monkeypatch.setattr(pipeline, "embed_texts", lambda texts: [[0.1, 0.2] for _ in texts])
+    monkeypatch.setattr(pipeline, "embed_texts", lambda texts, **kwargs: [[0.1, 0.2] for _ in texts])
     monkeypatch.setattr(pipeline, "ensure_collection", lambda size: None)
     monkeypatch.setattr(pipeline, "upsert_points", lambda points: None)
 

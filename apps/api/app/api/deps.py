@@ -144,11 +144,19 @@ def get_auth_context(
         user=user,
         membership=membership,
         active_organization_id=active_organization_header or session.active_organization_id,
-        auth_user=auth_service.build_auth_user(
+        auth_user=(auth_service.build_auth_user(
             user=user,
             active_membership=membership,
             active_organization_id=active_organization_header or session.active_organization_id,
-        ),
+        ) if request.url.path == f"{settings.api_prefix}/auth/me" else AuthUser(
+            id=user.id,
+            email=user.email,
+            display_name=user.display_name,
+            institution_id=user.institution_id,
+            role=membership.role if membership else None,
+            external_subject_id=user.external_subject_id,
+            active_organization_id=active_organization_header or session.active_organization_id,
+        )),
     )
 
 

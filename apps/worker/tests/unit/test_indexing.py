@@ -30,6 +30,8 @@ def test_build_qdrant_payload_carries_scope_metadata() -> None:
 
 
 def test_build_qdrant_point_uses_source_version_scoped_id() -> None:
+    from uuid import NAMESPACE_URL, uuid5
+
     chunk = ChunkRecord(
         chunk_index=7,
         text="A chunk",
@@ -49,6 +51,17 @@ def test_build_qdrant_point_uses_source_version_scoped_id() -> None:
         source_version_id="version-1",
     )
 
-    assert point["id"] == "version-1:7"
+    # Qdrant accepts only UUID/int point IDs; the UUIDv5 derivation keeps the
+    # ID deterministic and scoped to source version + chunk index.
+    assert point["id"] == str(uuid5(NAMESPACE_URL, "version-1:7"))
+    other_version = build_qdrant_point(
+        chunk,
+        [0.1, 0.2, 0.3],
+        notebook_id="notebook-1",
+        institution_id="institution-1",
+        source_id="source-1",
+        source_version_id="version-2",
+    )
+    assert other_version["id"] != point["id"]
     assert point["vector"] == [0.1, 0.2, 0.3]
     assert point["payload"]["source_version_id"] == "version-1"

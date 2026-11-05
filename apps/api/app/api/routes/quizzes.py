@@ -7,6 +7,7 @@ from fastapi import APIRouter, Depends, Response, status
 from app.api.deps import DBSession, get_current_user
 from app.schemas.quizzes import QuizAttemptResponse, QuizAttemptSubmit, QuizGenerateRequest, QuizItemResponse, QuizResponse
 from app.services.quizzes import QuizService
+from app.services.admission import generation_slot
 
 router = APIRouter()
 
@@ -28,7 +29,7 @@ def list_quizzes(notebook_id: UUID, db: DBSession, user=Depends(get_current_user
     ]
 
 
-@router.post("/notebooks/{notebook_id}/quizzes/generate", response_model=QuizResponse)
+@router.post("/notebooks/{notebook_id}/quizzes/generate", response_model=QuizResponse, dependencies=[Depends(generation_slot)])
 def generate_quiz(notebook_id: UUID, payload: QuizGenerateRequest, db: DBSession, user=Depends(get_current_user)) -> QuizResponse:
     service = QuizService(db)
     quiz = service.generate(str(notebook_id), payload, user)

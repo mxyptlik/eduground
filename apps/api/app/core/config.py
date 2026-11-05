@@ -328,6 +328,19 @@ class Settings(BaseSettings):
         validation_alias=AliasChoices("CURRICULUM_TUTOR_UNSTRUCTURED_OCR_STRATEGY", "UNSTRUCTURED_OCR_STRATEGY"),
     )
 
+    generation_admission_enabled: bool = Field(default=True, validation_alias="CURRICULUM_TUTOR_GENERATION_ADMISSION_ENABLED")
+    generation_max_concurrent: int = Field(default=8, ge=1, validation_alias="CURRICULUM_TUTOR_GENERATION_MAX_CONCURRENT")
+    generation_max_per_user: int = Field(default=2, ge=1, validation_alias="CURRICULUM_TUTOR_GENERATION_MAX_PER_USER")
+    generation_max_per_org: int = Field(default=8, ge=1, validation_alias="CURRICULUM_TUTOR_GENERATION_MAX_PER_ORG")
+    generation_lease_seconds: int = Field(default=120, ge=30, validation_alias="CURRICULUM_TUTOR_GENERATION_LEASE_SECONDS")
+    generation_admission_wait_seconds: float = Field(default=0.0, ge=0, le=30, validation_alias="CURRICULUM_TUTOR_GENERATION_ADMISSION_WAIT_SECONDS")
+    chat_history_max_messages: int = Field(default=40, ge=2, le=500, validation_alias="CURRICULUM_TUTOR_CHAT_HISTORY_MAX_MESSAGES")
+    chat_history_max_chars: int = Field(default=24000, ge=1000, validation_alias="CURRICULUM_TUTOR_CHAT_HISTORY_MAX_CHARS")
+    answer_context_max_chars: int = Field(default=32000, ge=1000, validation_alias="CURRICULUM_TUTOR_ANSWER_CONTEXT_MAX_CHARS")
+    provider_max_connections: int = Field(default=32, ge=1, validation_alias="CURRICULUM_TUTOR_PROVIDER_MAX_CONNECTIONS")
+    provider_pool_timeout_seconds: float = Field(default=5.0, gt=0, validation_alias="CURRICULUM_TUTOR_PROVIDER_POOL_TIMEOUT_SECONDS")
+    redis_socket_timeout_seconds: float = Field(default=2.0, gt=0, validation_alias="CURRICULUM_TUTOR_REDIS_SOCKET_TIMEOUT_SECONDS")
+
     @property
     def cors_origin_list(self) -> list[str]:
         return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]

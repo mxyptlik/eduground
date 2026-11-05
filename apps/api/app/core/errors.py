@@ -152,7 +152,14 @@ def request_validation_exception_handler(request: Request, exc: RequestValidatio
         code="validation_error",
         message="Request validation failed",
         retryable=False,
-        details=exc.errors(),
+        details=[
+            {
+                **{key: value for key, value in entry.items() if key != "ctx"},
+                **({"ctx": {name: str(item) for name, item in entry["ctx"].items()}}
+                   if isinstance(entry.get("ctx"), dict) else {}),
+            }
+            for entry in exc.errors()
+        ],
     )
 
 

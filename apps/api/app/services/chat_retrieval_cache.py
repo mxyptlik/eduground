@@ -7,6 +7,7 @@ import json
 from typing import Any
 
 from redis import Redis
+from app.integrations.connections import redis_client
 from redis.exceptions import RedisError
 
 from app.core.config import settings
@@ -111,8 +112,7 @@ class ChatRetrievalCacheStore:
         if self._redis_client is not None:
             return self._redis_client
         try:
-            self._redis_client = Redis.from_url(settings.redis_url, decode_responses=True)
-            self._redis_client.ping()
+            self._redis_client = redis_client()
             return self._redis_client
         except RedisError:
             self._mark_redis_failed("Redis is unavailable for tutor chat retrieval cache")

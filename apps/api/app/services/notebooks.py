@@ -50,6 +50,7 @@ class NotebookService:
 
     def list_for_user(self, user: User) -> list[dict]:
         notebooks = self.repository.list_for_user(user.id)
+        source_counts, learner_counts = self.repository.counts_for_notebooks([n.id for n in notebooks])
         return [
             {
                 "id": notebook.id,
@@ -60,8 +61,8 @@ class NotebookService:
                 "visibility": notebook.visibility,
                 "policy_mode": notebook.policy_mode,
                 "course_offering_id": notebook.course_offering_id,
-                "source_count": self.repository.source_count(notebook.id),
-                "learner_count": self.repository.learner_count(notebook.id),
+                "source_count": source_counts.get(notebook.id, 0),
+                "learner_count": learner_counts.get(notebook.id, 0),
             }
             for notebook in notebooks
         ]

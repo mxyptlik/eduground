@@ -127,9 +127,18 @@ export class ApiClient {
     const timeoutMs = options.timeoutMs ?? 12_000;
     const timeoutHandle = window.setTimeout(() => controller.abort(), timeoutMs);
     let response: Response;
+    let token: string | null | undefined;
+    let activeOrganizationId: string | null | undefined;
     try {
-      const token = await this.authContext.getToken?.();
-      const activeOrganizationId = this.authContext.getActiveOrganizationId?.();
+      token = await this.authContext.getToken?.();
+      activeOrganizationId = await this.authContext.getActiveOrganizationId?.();
+    } catch {
+      throw new ApiError("Unable to refresh your sign-in session. Sign out and back in, then retry.", 0, {
+        code: "auth_unavailable",
+        retryable: true,
+      });
+    }
+    try {
       response = await fetch(this.createUrl(path, options.query), {
         ...options,
         signal: controller.signal,
@@ -148,7 +157,7 @@ export class ApiClient {
           retryable: true,
         });
       }
-      throw new ApiError(`Unable to reach API at ${this.baseUrl}. Check that the backend is running and CORS matches your web URL.`, 0, {
+      throw new ApiError(`Unable to reach API at ${this.baseUrl}${path}. Check that the backend is running and CORS matches your web URL.`, 0, {
         code: "network_unreachable",
         retryable: true,
       });
@@ -184,9 +193,18 @@ export class ApiClient {
     const timeoutMs = options.timeoutMs ?? 60_000;
     const timeoutHandle = window.setTimeout(() => controller.abort(), timeoutMs);
     let response: Response;
+    let token: string | null | undefined;
+    let activeOrganizationId: string | null | undefined;
     try {
-      const token = await this.authContext.getToken?.();
-      const activeOrganizationId = this.authContext.getActiveOrganizationId?.();
+      token = await this.authContext.getToken?.();
+      activeOrganizationId = await this.authContext.getActiveOrganizationId?.();
+    } catch {
+      throw new ApiError("Unable to refresh your sign-in session. Sign out and back in, then retry.", 0, {
+        code: "auth_unavailable",
+        retryable: true,
+      });
+    }
+    try {
       response = await fetch(this.createUrl(path, options.query), {
         ...options,
         signal: controller.signal,
@@ -206,7 +224,7 @@ export class ApiClient {
           retryable: true,
         });
       }
-      throw new ApiError(`Unable to reach API at ${this.baseUrl}. Check that the backend is running and CORS matches your web URL.`, 0, {
+      throw new ApiError(`Unable to reach API at ${this.baseUrl}${path}. Check that the backend is running and CORS matches your web URL.`, 0, {
         code: "network_unreachable",
         retryable: true,
       });
@@ -288,10 +306,22 @@ export class ApiClient {
     });
   }
 
-  listSources(notebookId: string) {
-    return this.request<Source[]>(`/api/notebooks/${notebookId}/sources`, {
-      timeoutMs: 45_000,
-    });
+  async listSources(notebookId: string): Promise<Source[]> {
+    const pageSize = 100;
+    const byId = new Map<string, Source>();
+    for (let offset = 0; ; offset += pageSize) {
+      const page = await this.request<Source[]>(`/api/notebooks/${notebookId}/sources`, {
+        query: { limit: pageSize, offset },
+        timeoutMs: 45_000,
+      });
+      for (const source of page) byId.set(source.id, source);
+      if (page.length < pageSize) break;
+    }
+    return [...byId.values()];
+  }
+
+  getSourcesRevision(notebookId: string) {
+    return this.request<{ revision: string }>(`/api/notebooks/${notebookId}/sources/revision`);
   }
 
   createSourceUploadUrl(

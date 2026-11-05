@@ -52,6 +52,7 @@ class ChatService:
         return session
 
     def post_message(self, session_id: str, content_markdown: str, *, selected_source_ids: list[str], selected_module_ids: list[str], user: User) -> tuple[ChatMessage, AnswerResponse]:
+        actor_user_id = user.id
         session = self.get_session(session_id, user)
         message = ChatMessage(
             chat_session_id=session.id,
@@ -61,6 +62,7 @@ class ChatService:
             created_at=datetime.now(UTC),
         )
         message = self.chats.create_message(message)
+        self.memory_store.clear_session_history(session.id)
         try:
             answer = self.runtime.answer(
                 session=session,
@@ -72,7 +74,7 @@ class ChatService:
             raise
         except RuntimeError as exc:
             raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=str(exc)) from exc
-        self.audit.record(actor_user_id=user.id, action_type="chat.message.create", resource_type="chat_message", resource_id=message.id, notebook_id=session.notebook_id)
+        self.audit.record(actor_user_id=actor_user_id, action_type="chat.message.create", resource_type="chat_message", resource_id=message.id, notebook_id=session.notebook_id)
         return message, answer
 
     def stream_message(
@@ -94,6 +96,7 @@ class ChatService:
         )
         message = self.chats.create_message(message)
         self.audit.record(actor_user_id=user.id, action_type="chat.message.create", resource_type="chat_message", resource_id=message.id, notebook_id=session.notebook_id)
+        self.memory_store.clear_session_history(session.id)
         return self.runtime.stream_answer(
             session=session,
             user_message=message,
