@@ -1,0 +1,14 @@
+# Shared-storage prerequisites for replicas. Run migrations once before rollout.
+# Scrape each API replica independently; the in-process metrics are not aggregated.
+services:
+  api:
+    command: python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1 --timeout-graceful-shutdown 90
+    environment:
+      CURRICULUM_TUTOR_AUTO_CREATE_SCHEMA: "false"
+      CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_FALLBACK_ENABLED: "false"
+      CURRICULUM_TUTOR_GENERATION_ADMISSION_ENABLED: "true"
+      CURRICULUM_TUTOR_DATABASE_POOL_SIZE: "5"
+      CURRICULUM_TUTOR_DATABASE_MAX_OVERFLOW: "5"
+  worker:
+    environment:
+      CURRICULUM_TUTOR_OBJECT_STORAGE_LOCAL_FALLBACK_ENABLED: "false"

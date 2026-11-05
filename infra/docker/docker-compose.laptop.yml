@@ -1,0 +1,23 @@
+# Merge after docker-compose.dev.yml. Benchmark starting point, not a capacity claim.
+services:
+  api:
+    command: python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1 --timeout-graceful-shutdown 90
+    mem_limit: 768m
+    environment:
+      CURRICULUM_TUTOR_DATABASE_POOL_SIZE: "5"
+      CURRICULUM_TUTOR_DATABASE_MAX_OVERFLOW: "5"
+      CURRICULUM_TUTOR_GENERATION_MAX_CONCURRENT: "8"
+      CURRICULUM_TUTOR_GENERATION_MAX_PER_USER: "2"
+      CURRICULUM_TUTOR_GENERATION_ADMISSION_WAIT_SECONDS: "2"
+      CURRICULUM_TUTOR_PROVIDER_MAX_CONNECTIONS: "16"
+  worker:
+    command: python -m dramatiq --processes 1 --threads 1 app.jobs.ingestion app.jobs.maintenance
+    mem_limit: 3g
+    environment:
+      CURRICULUM_TUTOR_INGESTION_BATCH_WORKERS: "1"
+      CURRICULUM_TUTOR_INGESTION_BATCH_MAX_FILES: "4"
+      CURRICULUM_TUTOR_PARSING_ISOLATION_ENABLED: "true"
+      CURRICULUM_TUTOR_PARSING_TIMEOUT_SECONDS: "300"
+      CURRICULUM_TUTOR_EMBEDDING_MAX_INPUTS: "64"
+      CURRICULUM_TUTOR_EMBEDDING_MAX_INPUT_BYTES: "65536"
+      CURRICULUM_TUTOR_VECTOR_UPSERT_MAX_POINTS: "128"
