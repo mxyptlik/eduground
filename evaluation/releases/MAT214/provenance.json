@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "43cbe0408789843de42d7613cf38827f7939d86996b779ef4ddfbb585bea5f46",
+  "course_id": "MAT214",
+  "review_records": [
+    {
+      "sample_id": "MAT214-66d4d20d4aeec364",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:48:45.487Z",
+      "revision": 1,
+      "review_content_hash": "99aa4c7ffd5b76192f8e0524cf15cfd61382a18c4f046c1e6651fff2befdeabd"
+    },
+    {
+      "sample_id": "MAT214-631e598ee3a89d18",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:48:59.949Z",
+      "revision": 1,
+      "review_content_hash": "4bb70174d426f174a3b9a65d47b5f7a109d93a5b5d0f52d76feb04a4ee1216ac"
+    },
+    {
+      "sample_id": "MAT214-b56468e39c5a86b0",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:50:26.525Z",
+      "revision": 1,
+      "review_content_hash": "e6ee26ac765956a19bfacdd3981a0e7599f408857010355fefd42e13ef95264d"
+    },
+    {
+      "sample_id": "MAT214-9b3e75b3a1ab1364",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:50:45.819Z",
+      "revision": 1,
+      "review_content_hash": "970b57406789c4718aef07b0997092d87fb6701c89b01f0403e4696c67379182"
+    },
+    {
+      "sample_id": "MAT214-e27df1895cd8c7c3",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:50:59.225Z",
+      "revision": 1,
+      "review_content_hash": "f25c4a9a9e198debaca22e30a5ac97c06c245cb65d69f7b98e2139b1c914e925"
+    },
+    {
+      "sample_id": "MAT214-ad4f6a02b27fcb81",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:51:19.302Z",
+      "revision": 1,
+      "review_content_hash": "65e574642ea73384e62a4a33d8f438f45b02e0e58cfab1bb3c1713c006f840b8"
+    },
+    {
+      "sample_id": "MAT214-4f1df71432546111",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:52:31.419Z",
+      "revision": 1,
+      "review_content_hash": "41b1d585137fe9a59b6c372332bb80154515535472063ed440077afee4876e09"
+    },
+    {
+      "sample_id": "MAT214-62429b20e0b80014",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:52:41.204Z",
+      "revision": 1,
+      "review_content_hash": "f2b250c1f0949374b64b3833f896dac92fc1c0fbcaed4abadf043b33e91a3282"
+    },
+    {
+      "sample_id": "MAT214-26601fa066554b7e",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:53:00.288Z",
+      "revision": 1,
+      "review_content_hash": "7e194379caba2f6edc23da8ccc36bbf19290c33a0c2a130fc6d65b07904e33b0"
+    },
+    {
+      "sample_id": "MAT214-0ee80ee19024d384",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:53:38.879Z",
+      "revision": 1,
+      "review_content_hash": "1eaa08bc7b7826820bbadab8237ace4477ae0f28569edb680b7db0c3512bc5f2"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

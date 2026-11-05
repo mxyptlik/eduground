@@ -1,0 +1,375 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Project-Management",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Project-Management",
+  "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+      "source_label": "Project Human Resources Management 2023",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "9a93b6242f93f99bf3f1c1484e7dacea771dde0de0796530559c62acc15d19ed",
+      "version_number": 1,
+      "original_filename": "Project Human Resources Management 2023.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1690838e-a284-4e6b-8012-10933bfe8182",
+      "source_label": "Project Quality Management 2023-24",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "8932b9046920d19d95dd6a42202ecf18b96c608e72ea860c954e62326c89d26e",
+      "version_number": 1,
+      "original_filename": "Project Quality Management 2023-24.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2faf19ae-a3c9-44a4-bbbd-4250b125413d",
+      "source_label": "Scope Management 2025",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "efd78eb951fe3d73ab2e48700d41e858fd13850f6163cb17c99f0919aadba9cf",
+      "version_number": 1,
+      "original_filename": "Scope Management 2025.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6e46a8be-e141-4652-8fee-2053c69daac4",
+      "source_label": "Project Integration 2025",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "a9374545b2103252d34002d2b4fa51389d3d76cbc881f7a106acb2e6be898016",
+      "version_number": 1,
+      "original_filename": "Project Integration 2025.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6f5e0d1e-ef46-4a6a-88ca-a56120c1560b",
+      "source_label": "MIS415_Project Human Resource_Mgt_PT2",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "d5aeb3bb84c161c17b1f9937bfaf508d45f14e0e622717581a4f61e093c2aecb",
+      "version_number": 1,
+      "original_filename": "MIS415_Project Human Resource_Mgt_PT2.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "91a36b2f-f7b7-40dd-a1f7-f75b3de90dc4",
+      "source_label": "Project Time Management",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "cd4c00b27ffa8cc1da0912f904013d7d306bd7a336b3a4ccc5624103c60a83d0",
+      "version_number": 1,
+      "original_filename": "Project Time Management.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a997999f-6d7f-4ee4-b75b-60658bfda00c",
+      "source_label": "MIS415_PM_Project_process_group_part2 (1)",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "2e8364d37762039aae5afdd5cf27e794c7d7651a8a51cdd6eac2c750d289000d",
+      "version_number": 1,
+      "original_filename": "MIS415_PM_Project_process_group_part2 (1).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "bb110cc0-dae7-45db-9fe2-6fb045a9b98d",
+      "source_label": "Project Risk Management 2020-21",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "2420e1b580056a3f1b54aed0f249a632d5fcda8d9e40836e13c70d3b9e85b0bd",
+      "version_number": 1,
+      "original_filename": "Project Risk Management 2020-21.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d72b7b0a-2603-47a3-9938-b81e33f16638",
+      "source_label": "MIS415_Project Quality Management",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "333a1e483425e03b267f1f57bbbd91a7b20ceb833da4306315cabfdbee13f146",
+      "version_number": 1,
+      "original_filename": "MIS415_Project Quality Management.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "ec214b2c-d9d0-435c-9e91-d529cd493c5c",
+      "source_label": "Introduction to PM",
+      "notebook_id": "f6c70e04-068c-4d3a-b356-fe105bf2c4f4",
+      "sha256": "23adc78e87da8efe17ec01ec39053575d91f329b5dda43d6dc8deaa2920ee202",
+      "version_number": 1,
+      "original_filename": "Introduction to PM.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Project-Management-7726f4560ae0582f",
+      "question": "What are the four processes included in Project Human Resource Management?",
+      "reference_answer": "Planning human resource management, acquiring the project team, developing the project team, and managing the project team.",
+      "evidence": [
+        {
+          "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+          "chunk_id": "890b540b-28a2-41d0-8404-de5938807acc",
+          "quote": "Making the most effective use of the people involved with a project Processes include Planning human resource management: identifying and documenting project roles, responsibilities, and reporting relationships Acquiring the project team: getting the needed personnel assigned to and working on the project Developing the project team: building individual and group skills to enhance project performance Managing the project team: tracking team member performance, motivating team members, providing timely feedback, resolving issues and conflicts, and coordinating changes to help enhance project performance",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-8c2b4849d0f79594",
+      "question": "What does the SMART criteria state that milestones should be?",
+      "reference_answer": "Specific, Measurable, Assignable, Realistic, and Time-framed.",
+      "evidence": [
+        {
+          "source_id": "91a36b2f-f7b7-40dd-a1f7-f75b3de90dc4",
+          "chunk_id": "706b0b37-7815-40e0-90d9-35e4aa5ab542",
+          "quote": "Milestones should be: Specific Measurable Assignable Realistic Time-framed",
+          "locator": "slide 28",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-0261885b9bdb7d40",
+      "question": "What are the three main processes of Project Quality Management?",
+      "reference_answer": "Quality Planning, Quality Assurance, and Quality Control.",
+      "evidence": [
+        {
+          "source_id": "d72b7b0a-2603-47a3-9938-b81e33f16638",
+          "chunk_id": "3cdbfe3d-76fd-46ea-8527-8c8a3e877bb6",
+          "quote": "It comprises of three main processes: Quality Planning, Quality Assurance, and Quality Control.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-8dd5ee78ad0b1835",
+      "question": "According to Maslow's theory described in the text, what enables humans to make independent choices and control their destiny?",
+      "reference_answer": "Unique qualities that humans possess.",
+      "evidence": [
+        {
+          "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+          "chunk_id": "890b540b-28a2-41d0-8404-de5938807acc",
+          "quote": "Abraham Maslow argued that humans possess unique qualities that enable them to make independent choices, thus giving them control of their destiny",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-ad91f83abea55672",
+      "question": "How do Herzberg's motivational and hygiene factors differ in their effects on workers, and what are the core assumptions that distinguish McGregor's Theory X from Theory Y?",
+      "reference_answer": "Herzberg distinguished motivational factors—achievement, recognition, the work itself, responsibility, advancement, and growth—which produce job satisfaction, from hygiene factors, which cause dissatisfaction if absent but do not motivate workers to do more (e.g., larger salaries, supervision, attractive work environment). McGregor's Theory X assumes workers dislike and avoid work and must be coerced or controlled, whereas Theory Y assumes individuals consider work as natural as play or rest and enjoy the satisfaction of esteem and self-actualization needs.",
+      "evidence": [
+        {
+          "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+          "chunk_id": "6a0e04bf-75db-474b-8a82-d31810cac6b7",
+          "quote": "He distinguished between motivational factors: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction hygiene factors: cause dissatisfaction if not present, but do not motivate workers to do more. Examples include larger salaries, more supervision, and a more attractive work environment",
+          "locator": "slide 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+          "chunk_id": "6a0e04bf-75db-474b-8a82-d31810cac6b7",
+          "quote": "Theory X: assumes workers dislike and avoid work, so managers must use coercion, threats and various control schemes to get workers to meet objectives Theory Y: assumes individuals consider work as natural as play or rest and enjoy the satisfaction of esteem and self-actualization needs",
+          "locator": "slide 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-c0f8198ee95f089f",
+      "question": "In project time management, how are early and late start and finish times calculated during critical path analysis, and how do free slack and total slack differ?",
+      "reference_answer": "A forward pass determines early start and finish dates, where the earliest start equals the largest earliest finish of immediate predecessors (ES = largest EF of immediate predecessors) and earliest finish equals earliest start plus activity time. A backward pass determines late start and finish dates, where the latest finish equals the smallest latest start of following activities (LF = smallest LS of following activities) and latest start equals latest finish minus activity time. Free slack is the time an activity can be delayed without delaying the early start of immediately following activities, while total slack is the time an activity may be delayed without delaying the planned project finish date.",
+      "evidence": [
+        {
+          "source_id": "91a36b2f-f7b7-40dd-a1f7-f75b3de90dc4",
+          "chunk_id": "57fa2f30-a2df-49b2-8290-2f167f958c7c",
+          "quote": "A forward pass through the network diagram determines the early start and finish dates A backward pass determines the late start and finish dates",
+          "locator": "slide 36",
+          "evidence_group": null
+        },
+        {
+          "source_id": "91a36b2f-f7b7-40dd-a1f7-f75b3de90dc4",
+          "chunk_id": "57fa2f30-a2df-49b2-8290-2f167f958c7c",
+          "quote": "Earliest start = Largest of the earliest finish times of immediate predecessors ES = Largest EF of immediate predecessors",
+          "locator": "slide 36",
+          "evidence_group": null
+        },
+        {
+          "source_id": "91a36b2f-f7b7-40dd-a1f7-f75b3de90dc4",
+          "chunk_id": "57fa2f30-a2df-49b2-8290-2f167f958c7c",
+          "quote": "Latest finish time = Smallest of latest start times for following activities LF = Smallest LS of following activities",
+          "locator": "slide 36",
+          "evidence_group": null
+        },
+        {
+          "source_id": "91a36b2f-f7b7-40dd-a1f7-f75b3de90dc4",
+          "chunk_id": "57fa2f30-a2df-49b2-8290-2f167f958c7c",
+          "quote": "Free slack or free float is the amount of time an activity can be delayed without delaying the early start of any immediately following activities Total slack or total float is the amount of time an activity may be delayed from its early start without delaying the planned project finish date",
+          "locator": "slide 36",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-3bfe39a624ad2f98",
+      "question": "What is the role of the Work Breakdown Structure (WBS), decomposition, and work packages in defining project scope, and what constitutes the scope baseline?",
+      "reference_answer": "A WBS is a deliverable-oriented grouping of project work that defines total scope and provides the foundation for planning and managing schedules, costs, resources, and changes. Decomposition subdivides deliverables into smaller pieces, and a work package is the lowest-level task in the WBS. The scope baseline consists of the approved project scope statement and its associated WBS and WBS dictionary.",
+      "evidence": [
+        {
+          "source_id": "2faf19ae-a3c9-44a4-bbbd-4250b125413d",
+          "chunk_id": "05094dc0-3ae4-476f-86fb-d2e544d7795a",
+          "quote": "A WBS is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project WBS is a foundation document that provides the basis for planning and managing project schedules, costs, resources, and changes Decomposition is subdividing project deliverables into smaller pieces A work package is a task at the lowest level of the WBS",
+          "locator": "slide 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2faf19ae-a3c9-44a4-bbbd-4250b125413d",
+          "chunk_id": "05094dc0-3ae4-476f-86fb-d2e544d7795a",
+          "quote": "The scope baseline includes the approved project scope statement and its associated WBS and WBS dictionary",
+          "locator": "slide 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-b7f66f036cace5ca",
+      "question": "According to Thamhain and Wilemon, which influence methods are associated with project success and failure, and what types of power are identified in the text?",
+      "reference_answer": "Projects are more likely to succeed when project managers influence through expertise and work challenge, and more likely to fail when they rely too heavily on authority, money, and penalty. The types of power identified are coercive, legitimate, expert, reward, and referent.",
+      "evidence": [
+        {
+          "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+          "chunk_id": "6a0e04bf-75db-474b-8a82-d31810cac6b7",
+          "quote": "Projects are more likely to succeed when project managers influence with expertise work challenge Projects are more likely to fail when project managers rely too heavily on authority money penalty",
+          "locator": "slide 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0a83116c-8794-41b0-900c-1533db64c101",
+          "chunk_id": "6a0e04bf-75db-474b-8a82-d31810cac6b7",
+          "quote": "Types of power include Coercive Legitimate Expert Reward Referent",
+          "locator": "slide 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-a2e2e6571a48a0fb",
+      "question": "How does the text explain the division between the project manager and technical manager roles on the Manhattan Project, and how does this historical example relate to the modern conceptual distinction between leadership and management roles in project management?",
+      "reference_answer": "The text describes the Manhattan Project as the first project to use “modern” project management, noting that it had a separate project manager (General Leslie Groves) and a technical manager (Dr. Robert Oppenheimer). It further notes that the military realized scientists and other technical specialists often did not have the desire or the necessary skills to manage large projects. This historical separation of strategic oversight and technical execution aligns with the modern distinction that a leader focuses on long-term goals and big-picture objectives while inspiring people to reach those goals, whereas a manager deals with the day-to-day details of meeting specific goals. Consequently, the text explains that project managers today often take on the role of both leader and manager.",
+      "evidence": [
+        {
+          "source_id": "ec214b2c-d9d0-435c-9e91-d529cd493c5c",
+          "chunk_id": "cb6af8e5-acd3-4464-853d-b2bc6420e102",
+          "quote": " Most people consider the Manhattan Project to be the first\nproject to use “modern” project management\n This three-year, $2 billion (in 1946 dollars)\nproject had a separate project manager\n(General Leslie Groves) and a technical manager\n(Dr. Robert Oppenheimer)",
+          "locator": "page 45",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ec214b2c-d9d0-435c-9e91-d529cd493c5c",
+          "chunk_id": "cb6af8e5-acd3-4464-853d-b2bc6420e102",
+          "quote": "The military realized that scientists and other technical •\nspecialists often did not have the desire or the necessary skills\nto manage large projects",
+          "locator": "page 45",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ec214b2c-d9d0-435c-9e91-d529cd493c5c",
+          "chunk_id": "99c7f921-0ffa-4d13-b636-82e3d61f2092",
+          "quote": " A leader focuses on long-term goals and big-picture\nobjectives while inspiring people to reach those goals\n A manager deals with the day-to-day details of meeting\nspecific goals\n Project managers often take on the role of both leader and\nmanager",
+          "locator": "page 38",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Project-Management-d35f4d99df5666dc",
+      "question": "How do Robert Butrick’s suggested principles of project management relate to the specific competencies identified in the text as most important for large projects, high uncertainty projects, and very novel projects?",
+      "reference_answer": "Robert Butrick suggests that organizations make sure projects are driven by strategy and fit business strategy, and that they engage stakeholders at all stages while encouraging teamwork and commitment. These principles correspond to the situational skills described in the text: for large projects, planning, people skills, verbal communication, and team-building skills are most important to execute complex strategic initiatives; for high uncertainty projects, risk management, expectation management, and planning skills are most important to maintain strategic control and stakeholder confidence amid uncertainty; and for very novel projects, having vision and goals, self-confidence, expectations management, and listening skills are most important to engage stakeholders and define strategic direction when outcomes are unknown.",
+      "evidence": [
+        {
+          "source_id": "ec214b2c-d9d0-435c-9e91-d529cd493c5c",
+          "chunk_id": "6f61fd5b-ca65-4b8a-a0ef-23a7bda9bd0c",
+          "quote": " Robert Butrick, author of The Project Workout, suggests that\norganizations need to follow basic principles of project\nmanagement, including these two mentioned earlier in this\nchapter\n Make sure your projects are driven by your strategy; be\nable to demonstrate how each project you undertake fits\nyour business strategy, and screen out unwanted projects as\nsoon as possible\n Engage your stakeholders; ignoring stakeholders often leads\nto project failure\n Be sure to engage stakeholders at all stages of a project,\nand encourage teamwork and commitment at all times",
+          "locator": "page 31",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ec214b2c-d9d0-435c-9e91-d529cd493c5c",
+          "chunk_id": "99c7f921-0ffa-4d13-b636-82e3d61f2092",
+          "quote": "Different Skills Needed in Different\nSituations\n\n Large projects: leadership, relevant prior experience, planning,\npeople skills, verbal communication, and team-building skills\nare most important\n High uncertainty projects: risk management, expectation\nmanagement, leadership, people skills, and planning skills are\nmost important\n Very novel projects: leadership, people skills, having vision and\ngoals, self-confidence, expectations management, and listening\nskills are most important",
+          "locator": "page 38",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

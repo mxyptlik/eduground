@@ -1,0 +1,40 @@
+{
+  "course_id": "Total-man-concept",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "da06d044-dfd6-483b-80e5-f3bb528266c3",
+        "0d8651b2-ec11-4cdf-b689-6b1bbbdcd0a8",
+        "bbdc6dc3-5af5-4063-8d4e-9203cb600260",
+        "a3260dc0-36c8-48ac-8aa3-07d0570abbce"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "fc24a596-8ab8-408c-902d-5528d0d576f1",
+        "d449d65f-a10c-4bb6-aff6-2b713dbc55a2",
+        "8e48df2c-0fca-4dbe-a4fe-560bf31a5c40",
+        "e1b2942f-bbce-4ed4-90b7-a6619a4da4e7"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "35d8995b-c315-433f-8501-588ea50d13b1",
+        "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+        "c13507d5-81f9-4550-a756-a4c8aaa39fab"
+      ]
+    }
+  ]
+}

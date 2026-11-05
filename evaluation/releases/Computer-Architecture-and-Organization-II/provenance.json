@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "c71f94fa1fd5965c471dc7f2ce24e738e0fecbd288d349269ae90d17cd28410a",
+  "course_id": "Computer-Architecture-and-Organization-II",
+  "review_records": [
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-db0e7487f4983e34",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:43:43.606Z",
+      "revision": 1,
+      "review_content_hash": "3c4b30f8c53a8ea3cad3d08c19e9e544e37225b8ef920882d189bbc0463b9eb7"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-3d16bd860f556a63",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:44:04.941Z",
+      "revision": 1,
+      "review_content_hash": "934f5dd5164d73e0c369bc46501e62edbed128630b0fdee4c282610053040224"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-1af40c95cce25c2d",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:44:55.991Z",
+      "revision": 1,
+      "review_content_hash": "a2acf4d56df4126867d08444cfb20afee7dd38ad972ed57ad1e9e31ac87088aa"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-3551f404cba800dd",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:45:17.790Z",
+      "revision": 1,
+      "review_content_hash": "6e925c98151fa72e7a5955ffade7b98f305aea1c82ce2c3a5bb76be6d6bbeb83"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-7d74ba14be00a384",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:46:14.589Z",
+      "revision": 1,
+      "review_content_hash": "2692d1408da4be7fbecfc0c7887da95331734cdae3ef5bb575112a037338fb79"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-69a1df9bb9c6675c",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:54:30.852Z",
+      "revision": 1,
+      "review_content_hash": "1d679e755faab10825c21671437fe329303be6896013c693f2c019ff1a1f083e"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-33459c8f4fe6d722",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:55:37.650Z",
+      "revision": 1,
+      "review_content_hash": "0716be0c92034b316264d4b3b0de527a9fa9979cbfa3e86d49bb9c0898fd5a7d"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-5dcc2c5789c8c181",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:56:02.041Z",
+      "revision": 1,
+      "review_content_hash": "bb2c4277e399ec85f608cdac72168d738ae4457cca347deea67de7df3e2db745"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-b5a8cd28008fe99e",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:56:52.746Z",
+      "revision": 1,
+      "review_content_hash": "7523b25ef30995e205d46d5e49b4bb96746839aac1e3bf1de4ced5975a1abd93"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-dae8653a3d2d30b2",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:01:12.638Z",
+      "revision": 1,
+      "review_content_hash": "69ff279c64a3fb497671ece34836784101aae9359a7c4886390e8e261182b00a"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

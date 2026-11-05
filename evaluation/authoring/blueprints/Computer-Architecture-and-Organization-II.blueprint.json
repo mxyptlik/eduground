@@ -1,0 +1,40 @@
+{
+  "course_id": "Computer-Architecture-and-Organization-II",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "939987be-5229-4fbd-845c-156b13987f1c",
+        "5c9e07ef-3a39-464c-a7c9-17bbf5b9e937",
+        "7464ffb2-1479-498a-a210-f160ea53b6f6",
+        "a83787ec-1e8e-43a2-b047-fc1c0926178c"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+        "f36ee31d-5a28-4020-ac67-243912e04f3b",
+        "bc15b64d-ecda-47a1-bbdb-e35fd4b7eb2d",
+        "63de32fd-e114-41a3-864e-194272a1c127"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "599b325d-bf9b-48a4-b826-07ceabc33884",
+        "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+        "20e17ffd-82f3-40ab-925f-4c640739d75e"
+      ]
+    }
+  ]
+}

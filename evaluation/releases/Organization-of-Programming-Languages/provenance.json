@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "5b68139fcfad77a3ee32072714e7bccb1b59649a7fa16914213056da5cc1ced3",
+  "course_id": "Organization-of-Programming-Languages",
+  "review_records": [
+    {
+      "sample_id": "Organization-of-Programming-Languages-80d17d48672063fb",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:12:33.667Z",
+      "revision": 1,
+      "review_content_hash": "d2d4643af0737e17b0cd6cb3a059a95d97a980647666676c2e1bf318d373f35f"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-fd1a2c94628fc4d9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:12:49.631Z",
+      "revision": 1,
+      "review_content_hash": "5ca675e6cdea47931d94ed3c02b465c1db265a8001847f181b52e19b3c920b5b"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-353398df50b5fa77",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:13:07.766Z",
+      "revision": 1,
+      "review_content_hash": "1dd5329a843293f89ac79b75a20ee8052cf1f7049aca4ac9e5c92d2e5ac15f8f"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-4fa5785619c37741",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:13:25.332Z",
+      "revision": 1,
+      "review_content_hash": "88e13c179771bf955597ecc5a2b1a4fa3591ec03da89002c92e5d74ff789244a"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-1e7cc23e14f67a95",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:13:45.694Z",
+      "revision": 1,
+      "review_content_hash": "c271d3e39edca2f9e8cb3e31c9721dd567cdd820157b991ec7bed83ba452965a"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-adf718152dcc1d84",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:15:42.659Z",
+      "revision": 1,
+      "review_content_hash": "2526c29cfdac537101762c2d9ca66ac449ba8e3a93ee45fde3515c003a4dbb45"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-31638bb689dc4093",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:18:24.785Z",
+      "revision": 1,
+      "review_content_hash": "46ab4f10377448e787d6812a515fe3b421e45476fcf96a40c350d5d3b2f71808"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-487a855379a5119b",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:19:21.479Z",
+      "revision": 1,
+      "review_content_hash": "2c65bdc887ee551db0a326235b290b2fad036d1478bb25434b46f3cce5e0be5e"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-f9dabad19a000f81",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:19:52.921Z",
+      "revision": 1,
+      "review_content_hash": "28c866b61ebbc12e5d02e7433b08e85adc73621b88311ac2d029a0d8a2056d77"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-1fd72e656d49b08e",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:21:50.708Z",
+      "revision": 1,
+      "review_content_hash": "b64f812bab761b38a3f5671e786dd2b1063ee357c93088ce2be386cdb7532a4e"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

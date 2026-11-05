@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "104011fbb1c47482bb7f2b32d21b5ed5d5394363ac8ff2721b7566973913325f",
+  "course_id": "System-analysis-and-design",
+  "review_records": [
+    {
+      "sample_id": "System-analysis-and-design-dcbf0c20176131f9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:11:30.544Z",
+      "revision": 1,
+      "review_content_hash": "a4812710335c25e6c9367c9e0cfb4ec206bb3381d2131ab154ced26b2321bc4f"
+    },
+    {
+      "sample_id": "System-analysis-and-design-56a20e88c8c0ff25",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:11:45.023Z",
+      "revision": 1,
+      "review_content_hash": "60cb1c87996d34cd06426fe6a73876690a955a6072936232a2807f492f14b973"
+    },
+    {
+      "sample_id": "System-analysis-and-design-6d3c8679820baa29",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:12:01.660Z",
+      "revision": 1,
+      "review_content_hash": "41b18d247767926b0f3ff449d46b89b190b5d35b975a622800b3e583380e0264"
+    },
+    {
+      "sample_id": "System-analysis-and-design-7725876862b235ab",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:12:09.862Z",
+      "revision": 1,
+      "review_content_hash": "09456108ad3334ee6d01febf00f7cfa6a80f9413c75274a17b23eff6243a59d1"
+    },
+    {
+      "sample_id": "System-analysis-and-design-d8540c79476625c0",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:12:26.318Z",
+      "revision": 1,
+      "review_content_hash": "7d135f413a9c789984aa4f52715b8a85723590f443c5b667335f6320043057d5"
+    },
+    {
+      "sample_id": "System-analysis-and-design-59addf8990adacf8",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:12:41.060Z",
+      "revision": 1,
+      "review_content_hash": "c664c25870a50771b9b4b28369ce18baffe40300228991106329e5f8056f836e"
+    },
+    {
+      "sample_id": "System-analysis-and-design-4c3a6cd38389c5d3",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:12:54.006Z",
+      "revision": 1,
+      "review_content_hash": "f1d41b20738a27cfd16c5b151e8e0caae76f87225280eb8c6f832a8a27b845bf"
+    },
+    {
+      "sample_id": "System-analysis-and-design-9c11bd2f539351fe",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:13:14.390Z",
+      "revision": 1,
+      "review_content_hash": "b83896a15070890732b5503e3b91358974723f77be912d8f328ea075110f0190"
+    },
+    {
+      "sample_id": "System-analysis-and-design-5575513d551a19c8",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:13:43.364Z",
+      "revision": 1,
+      "review_content_hash": "e0a610746257758c6d12f6c3a9be62afd6185fc4ec0d505620aa575d8b318bfc"
+    },
+    {
+      "sample_id": "System-analysis-and-design-0a21c485d377b770",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:13:59.230Z",
+      "revision": 1,
+      "review_content_hash": "9ddf72e8c2d5c6186c069038a90584d007d137a5016568ccabf94225226b257e"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

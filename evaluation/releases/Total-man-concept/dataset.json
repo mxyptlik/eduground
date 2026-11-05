@@ -1,0 +1,401 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Total-man-concept",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Total-man-concept",
+  "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+      "source_label": "TMC421_521_LectureFour_Effective_Communication_In_Marriage",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "2e54dc3dde4fefc2e98537657a80ed4f9b6515e0751ba5cd918f84b0b6fd81e9",
+      "version_number": 1,
+      "original_filename": "TMC421_521_LectureFour_Effective_Communication_In_Marriage.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "0d3a7643-b3d1-4590-847a-7ed3f1ac7b96",
+      "source_label": "TMC421_521_Lecture_Six_Understanding_Family_Responsibilities_Part1",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "ebadb2d849e1fafe4492e5eeec2f4127ee44cf4e4ee0320b726725916c63d9ac",
+      "version_number": 1,
+      "original_filename": "TMC421_521_Lecture_Six_Understanding_Family_Responsibilities_Part1.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1a6005a6-324e-43e8-8472-99aa741225d0",
+      "source_label": "TMC421_521_LectureFive_Strengthening_the_Marital_Union",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "f565420082edc985686af32910e1580b7dd591bc33a08e7b999910c73df649aa",
+      "version_number": 1,
+      "original_filename": "TMC421_521_LectureFive_Strengthening_the_Marital_Union.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1dba26f2-9e11-4d07-bd30-28f8e21e822f",
+      "source_label": "TMC421_521-LectureTwo-Principles-Courtship",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "03bb682727aac993811f0fb8ace5197eab8391ba677dd047ebb3252ce09dd567",
+      "version_number": 1,
+      "original_filename": "TMC421_521-LectureTwo-Principles-Courtship.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4c68b270-d208-4041-8a35-9964d7439db1",
+      "source_label": "TMC421_521_LectureSeven_Family_and_Spiritual_Warfare",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "f63c57f58cc2a0968fbd30b8698ad59d88c832a80cabbb75dcdd7c4ca436b9ff",
+      "version_number": 1,
+      "original_filename": "TMC421_521_LectureSeven_Family_and_Spiritual_Warfare.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d2f5827e-7cdd-44ae-92f2-a07264ad9158",
+      "source_label": "TMC421_521_LectureNine_Examining_the_Causes_and_Prevention_of_Divorce",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "a01a83d93377171d6e84fe50822862a3e8a70386f331258bb2b22e1c15b1090d",
+      "version_number": 1,
+      "original_filename": "TMC421_521_LectureNine_Examining_the_Causes_and_Prevention_of_Divorce.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+      "source_label": "TMC421_521_LectureThree_HealthyMarriage",
+      "notebook_id": "28ef4234-2fdc-4780-8b75-27aff144fdcf",
+      "sha256": "d2724178f4c070fcea8e9d3b7627782fa22ac375f201e13e274ab359259cbc22",
+      "version_number": 1,
+      "original_filename": "TMC421_521_LectureThree_HealthyMarriage.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Total-man-concept-7828a46d1d91f9be",
+      "question": "According to the lecture on effective communication in marriage, what is described as 'the bond of friendship' in marriage?",
+      "reference_answer": "Communication is the bond of friendship in marriage.",
+      "evidence": [
+        {
+          "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+          "chunk_id": "da06d044-dfd6-483b-80e5-f3bb528266c3",
+          "quote": "Communication is the bond of friendship in\nrelationship marriage challenges are rooted",
+          "locator": "page 2",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-cbaa32d75d262671",
+      "question": "What biblical definition of courtship is given in the lecture on courtship principles?",
+      "reference_answer": "Courtship is the period between when two people of opposite sex agree to get married and when they actually get married.",
+      "evidence": [
+        {
+          "source_id": "1dba26f2-9e11-4d07-bd30-28f8e21e822f",
+          "chunk_id": "bbdc6dc3-5af5-4063-8d4e-9203cb600260",
+          "quote": "Courtship is the period between when two people of opposite\nsex agree to get married and when they actually get married.",
+          "locator": "page 2",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-b8ca2770d26ab629",
+      "question": "According to the lecture on family responsibilities, what two tools combined produce 'Godly Children'?",
+      "reference_answer": "Love + Control = Godly Children",
+      "evidence": [
+        {
+          "source_id": "0d3a7643-b3d1-4590-847a-7ed3f1ac7b96",
+          "chunk_id": "0d8651b2-ec11-4cdf-b689-6b1bbbdcd0a8",
+          "quote": "Two Tools. One Outcome.\n\nLove + Control = Godly Children",
+          "locator": "page 14",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-439936382a5f9ac9",
+      "question": "In the lecture on family and spiritual warfare, what is identified as 'Weapon #1' for guarding the foundation of marriage?",
+      "reference_answer": "The Full Armour of God",
+      "evidence": [
+        {
+          "source_id": "4c68b270-d208-4041-8a35-9964d7439db1",
+          "chunk_id": "a3260dc0-36c8-48ac-8aa3-07d0570abbce",
+          "quote": "Weapon #1 — The Full Armour of God",
+          "locator": "page 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-89f699c3d0f4d257",
+      "question": "How does the concept of 'Real' versus 'Peripheral' communication relate to the broader theme that 'assumptions are the termites of relationships' in marriage communication?",
+      "reference_answer": "The 'Real' versus 'Peripheral' framework and the 'termites of relationships' concept both address the same fundamental problem: surface-level engagement destroys marital connection. Peripheral questions ('How are you?', 'Have you eaten?') represent assumption-driven communication where spouses presume they already know each other's state. Real questions ('What's been weighing on you lately?', 'How are you doing — really?') embody the 'cure' of asking rather than assuming. Both concepts emphasize that curiosity replaced by conclusion—assumption—leads to invisible deterioration ('termites work invisibly — until the structure collapses'), while intentional, heart-level inquiry prevents the 'funeral oration' of 'I thought you knew...'",
+      "evidence": [
+        {
+          "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+          "chunk_id": "fc24a596-8ab8-408c-902d-5528d0d576f1",
+          "quote": "Peripheral (surface) Real (heart-level)\n\nHow are you? What's been weighing on you lately?\n\nHave you eaten? What dream have I forgotten to ask about?\n\nWhere are you? Have I hurt you recently without knowing?\n\nHow was work? How are you doing — really?\n\nAsk real questions so you don't become\n\na question mark.",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+          "chunk_id": "fc24a596-8ab8-408c-902d-5528d0d576f1",
+          "quote": "Assumptions are the termites of\n\nrelationships — Faith A. Oyedepo\n\nTermites work invisibly — until the structure\n\ncollapses\n\n\"I thought you knew...\" is the funeral oration of When in\n\nmany marriages doubt, ask.\n\nNever assume. Assumption replaces curiosity with conclusion\n\nThe cure is one word: Ask— Assumption is\n\nthe lazy substitute for conversation.",
+          "locator": "page 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-f751ddb563298ae7",
+      "question": "Why might the 'Two-Word Miracle' of gratitude be particularly critical in light of the 'Most Common Love Language Mistake' where spouses speak the language they want to receive rather than what their partner needs?",
+      "reference_answer": "The 'Two-Word Miracle' ('Thank You') serves as a universal translation tool that bridges the love language gap. When a husband performs 'Acts of Service' but his wife needs 'Quality Time,' his efforts go unappreciated not because they lack value, but because they land in an untranslated form. Gratitude ('Good words are worth much and cost little') acknowledges the intent behind the act regardless of love language mismatch. Without gratitude, the cycle accelerates: 'Husbands stop providing when efforts are never appreciated' and 'Wives grow weary when they can never please.' The appreciation creates a bridge—'Gratitude is fuel'—that sustains connection even when primary love languages differ, preventing both partners from the paradox where 'Both love each other deeply / Both feel unloved — because they / are speaking past each other.'",
+      "evidence": [
+        {
+          "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+          "chunk_id": "fc24a596-8ab8-408c-902d-5528d0d576f1",
+          "quote": "The Most Common\n\nLove Language Mistake\n\nWe speak the language we want to RECEIVE\n\n— not the one our spouse NEEDS.\n\nHe works himself ragged providing\n\nThis is not a love (Acts of Service) failure. It is a\n\nShe feels unloved because he never TRANSLATION\n\njust sits with her (Quality Time) failure.\n\nBoth love each other deeply\n\nBoth feel unloved — because they\n\nare speaking past each other",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+          "chunk_id": "fc24a596-8ab8-408c-902d-5528d0d576f1",
+          "quote": "Though made up of just two words, saying 'Thank You'\n\ncan bring a lot of joy and peace to the home.\" — Faith A. Oyedepo\n\nHusbands stop providing when efforts are\n\nnever appreciated\n\nWives grow weary when they can never please\n\nGratitude is fuel; Ingratitude is sabotage\n\nGood words are worth much and cost little",
+          "locator": "page 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-77352a6236c78cda",
+      "question": "How does the distinction between three levels of listening—biological hearing, surface listening, and active/empathic listening—connect to the courtship principle that 'if you talk together, you stay together'?",
+      "reference_answer": "The listening hierarchy reveals why merely 'talking together' during courtship is insufficient without genuine comprehension. Biological 'Hearing' and 'Surface Listening: Hearing words while planning your reply' create the illusion of communication without understanding. The courtship mandate to discuss openly 'Vision, Mission, Purpose, and Calling,' 'Family Background, Temperament,' and 'Communication styles' requires 'Active Listening: \"What I hear you saying is...\"' and 'Empathic Listening: Hearing the feeling beneath the words.' Without these intentional forms, couples enter marriage with unexamined assumptions—'the TERMITES of relationships'—that later collapse the structure. The courtship phase 'Essential 1 — Seek to Understand' with its reference to 'Understanding is a wellspring of life' depends entirely on moving beyond biological hearing to intentional listening that captures both content and emotional subtext.",
+      "evidence": [
+        {
+          "source_id": "0b64feae-6164-46c6-9372-7a09f1576360",
+          "chunk_id": "fc24a596-8ab8-408c-902d-5528d0d576f1",
+          "quote": "Hearing is Biological. Listening is Intentional\n\nSurface Listening: Hearing words while planning\n\nyour reply\n\nActive Listening: \"What I hear you saying is...\"\n\nEmpathic Listening: Hearing the feeling\n\nbeneath the words\n\nLet every man be swift to hear, slow to\n\nspeak, slow to wrath.\" — James 1:19",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "1dba26f2-9e11-4d07-bd30-28f8e21e822f",
+          "chunk_id": "8e48df2c-0fca-4dbe-a4fe-560bf31a5c40",
+          "quote": "\"Understanding is a wellspring of life Assumptions are\n\nunto him that hath it.\" — Pro 16:22 the TERMITES of\n\nrelationships.\n\nDuring Courtship, discuss openly: If you talk\n\nVision, Mission, Purpose, and Calling together, you stay\n\ntogether. Family Background, Temperament, & Friends",
+          "locator": "page 6",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-e9444bbf141dfb08",
+      "question": "How does the architectural metaphor 'God Holds the Blueprint. You Do the Building' interact with the foundational emphasis on courtship as establishing 'how your home will stand'?",
+      "reference_answer": "The architectural metaphor creates a trilogy of responsibility: God provides the design (blueprint), courtship establishes the foundation, and the couple executes the ongoing construction. The Psalm 11:3 principle—'If the foundation be destroyed, what can the righteous do?'—places courtship as the non-negotiable base upon which all later building depends. The '5 Pillars of Family Responsibilities' (Foundation, Roles, Finances, Extended Family, Parenting) represent the structural elements that follow from proper foundation-laying. Yet the Hebrews 3:4 quote—'For every house is builded by some man; but he that built all things is God'—establishes that human agency ('You are the variable') operates within divine design. The courtship phase's 'Non-Negotiable Prerequisites' (New Birth, Spiritual Compatibility, Mental Compatibility, Physical Compatibility, Pure Motive) are thus both human discernment tasks and alignment with God's blueprint, making 'the success or failure of the future home' a product of whether couples 'consciously' make marriage happen through obedience to principles that precede and transcend individual preference.",
+      "evidence": [
+        {
+          "source_id": "1dba26f2-9e11-4d07-bd30-28f8e21e822f",
+          "chunk_id": "8e48df2c-0fca-4dbe-a4fe-560bf31a5c40",
+          "quote": "If the foundation be destroyed, what can the righteous do? — Psa 11:3\n\nHow you handle Courtship determines how your home will stand\n\nThe success or failure of the A wrong approach to\n\nfuture home depends largely courtship has a negative\n\non the Courtship impact on marriage\n\nThe right approach lays a Knowing who to marry is not\n\nproper Biblical Foundation the end of marriage\n\n— it is just the Beginning. Most marital challenges are\n\nrooted in a Faulty courtship",
+          "locator": "page 6",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0d3a7643-b3d1-4590-847a-7ed3f1ac7b96",
+          "chunk_id": "d449d65f-a10c-4bb6-aff6-2b713dbc55a2",
+          "quote": "You Are the Architect\n\nGod Holds the Blueprint. You Do the Building.\n\n\"For every house is builded by some man; but\n\nhe that built all things is God.\" — Heb 3:4\n\nGod's side of the covenant is\n\nconstant — He never changes \"The destiny of a\n\nYou are the variable — your marriage is in the\n\nobedience unlocks the blessing hands of the couple\n\nthemselves.\" The home you build today shapes\n\n— Dr. Oyedepo the generation that follows",
+          "locator": "page 20",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-1006ef5f06d7f1a3",
+      "question": "How does the lecture integrate the warning about 'little foxes' with the Foundation, Wisdom, and Covenant pillars of a Healthy Marriage, and how is this protective resolve expressed in the concluding declaration?",
+      "reference_answer": "The lecture warns that 'little foxes' like ignorance of God's Word spoil marriages, noting that 'Problems thrive where God's Word has no place.' This threat is countered structurally by the Foundation pillar, which requires making 'God & His Word the centre of your home,' and by the Wisdom pillar, which counsels building 'with knowledge, meditation, and wise planning' to guard against subtle attacks. The Covenant pillar calls spouses to 'Understand and fulfil your role faithfully.' These structural protections are personally ratified in the concluding declaration, where the couple affirms, 'My marriage is a Covenant of God,' resolves, 'I will build with Wisdom and guard my home from every attack,' and declares, 'No little fox shall Spoil our Vine.'",
+      "evidence": [
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "35d8995b-c315-433f-8501-588ea50d13b1",
+          "quote": "Take us the foxes, the little foxes, that spoil the vines —SOS 2:15",
+          "locator": "page 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "35d8995b-c315-433f-8501-588ea50d13b1",
+          "quote": "Ignorance of the Word | Problems thrive where God's Word has no place",
+          "locator": "page 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Foundation Make God & His Word the centre of your home",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Wisdom Build with knowledge, meditation, and wise planning",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Covenant Understand and fulfil your role faithfully",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "c13507d5-81f9-4550-a756-a4c8aaa39fab",
+          "quote": "My marriage is a Covenant of God.",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "c13507d5-81f9-4550-a756-a4c8aaa39fab",
+          "quote": "I will build with Wisdom and guard my home from every attack.",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "c13507d5-81f9-4550-a756-a4c8aaa39fab",
+          "quote": "No little fox shall Spoil our Vine.",
+          "locator": "page 18",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Total-man-concept-1627af0d44d11b4b",
+      "question": "According to the lecture, how does the biblical mandate for godly offspring, the first key to child training, and the examples of Timothy and Jesus relate to the Foundation and Wisdom pillars of a Healthy Marriage?",
+      "reference_answer": "The lecture anchors parenting in the biblical mandate that 'He sought a godly offspring from your union,' stating that 'Children are not just blessings — they are Responsibilities.' The first key to effective child training is to 'Plant God's Word in them early & consistently,' which directly reflects the Foundation pillar's command to 'Make God & His Word the centre of your home.' The exemplary outcomes of Timothy—shaped by Lois and Eunice to become a bishop well-reported by all brethren—and Jesus—shaped by Mary and Joseph to produce the greatest ministry in human history—illustrate the fruit of this Word-centered foundation. These parenting imperatives are further sustained by the Wisdom pillar, which requires building the home 'with knowledge, meditation, and wise planning,' thereby integrating child training into the overall architecture of a healthy marriage.",
+      "evidence": [
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "35d8995b-c315-433f-8501-588ea50d13b1",
+          "quote": "He sought a godly offspring from your union.”",
+          "locator": "page 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Children are not just blessings — they are Responsibilities.",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "The Word — Plant God's Word in them early & consistently",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Timothy Lois & Eunice A bishop well-reported by all brethren",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Jesus Mary & Joseph The greatest ministry in human history",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Foundation Make God & His Word the centre of your home",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "e97c4ec2-b21d-4a3c-b637-ba37c49a6e96",
+          "chunk_id": "0005eb67-8fcc-4c0b-b172-2c751d63fede",
+          "quote": "Wisdom Build with knowledge, meditation, and wise planning",
+          "locator": "page 14",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

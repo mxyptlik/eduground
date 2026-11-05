@@ -1,0 +1,407 @@
+{
+  "schema_version": 2,
+  "dataset_id": "System-analysis-and-design",
+  "version": "draft-1+human-reviewed",
+  "course_id": "System-analysis-and-design",
+  "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "067173a6-5660-4942-aeca-2e5df7df517c",
+      "source_label": "Lecture 6_ERD",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "b8ed5ae80fff92c9fd855da9cb061007b7fdaf6350c03760573ed6bb10b5c0a1",
+      "version_number": 1,
+      "original_filename": "Lecture 6_ERD.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3ac22631-80be-4995-8bee-9c0a25b2598c",
+      "source_label": "Lecture 7 OOP-",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "cf3e770aa322545265447afcc43bbf8df1f599947ab2fddfed2f183fed4608bb",
+      "version_number": 1,
+      "original_filename": "Lecture 7 OOP-.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3b31c1c5-2eee-494f-ac06-103f69e93f64",
+      "source_label": "CSC317- LECTURE 4",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "471e6d6183ac73c107aa6b9168d48349583ff09b3e927cbd70c253c75c4cdb5f",
+      "version_number": 1,
+      "original_filename": "CSC317- LECTURE 4.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6315ccee-486d-43c2-ae77-ae75bdac6617",
+      "source_label": "CSC317- LECTURE 2",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "a3f97993bd9897577189612d7e38dea68440bc00424c8681fe2768c3f69cf8f9",
+      "version_number": 1,
+      "original_filename": "CSC317- LECTURE 2.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "75c73cd4-f6a7-46f2-b9f6-b52ecda95e20",
+      "source_label": "CSC317- LECTURE 1",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "c2f71978d8e981e124a943c29f3d299726db14c33132a722b358e034aad2c1c1",
+      "version_number": 1,
+      "original_filename": "CSC317- LECTURE 1.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7f297a3a-148b-4c1d-b2bc-560335ced08d",
+      "source_label": "CSC317- LECTURE 5",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "c2607d6245d35a6f05c35c96f29f236a738b0229394f8a29ab040560f530f9d7",
+      "version_number": 1,
+      "original_filename": "CSC317- LECTURE 5.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8211e3a0-46c5-4bcd-841f-1d3e66c072c8",
+      "source_label": "CSC317- LECTURE 3 (1)",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "6fcbf18a12a500bbdfe8a396d9cc26edc97f5ff016e735539e9a5231b597194d",
+      "version_number": 1,
+      "original_filename": "CSC317- LECTURE 3 (1).pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9235fb56-6892-4d88-8ea0-5dca49a3de01",
+      "source_label": "UML Diagrams",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "4c12661e677a480dd6d63deb9f3b361df41205433b9f6d442e3f2c756160b875",
+      "version_number": 1,
+      "original_filename": "UML Diagrams.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+      "source_label": "DFD 2021",
+      "notebook_id": "3cfad1dc-0df9-4ae4-b803-9de26b5efd5f",
+      "sha256": "8a310a62175a74622a14153218e8329d322853b3094cf026cfbcaa15609dc0bd",
+      "version_number": 1,
+      "original_filename": "DFD 2021.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "System-analysis-and-design-dcbf0c20176131f9",
+      "question": "What is an Entity Relationship Diagram (ERD)?",
+      "reference_answer": "An ERD is a data modeling technique used in software engineering to produce a conceptual data model of an information system. ERDs illustrate the logical structure of databases.",
+      "evidence": [
+        {
+          "source_id": "067173a6-5660-4942-aeca-2e5df7df517c",
+          "chunk_id": "ee38a3b6-0152-4ab8-a7c7-5f96c956b2ba",
+          "quote": "ERD is a data modeling technique used in software engineering to produce a conceptual data model of an information system. So, ERDs illustrate the logical structure of databases.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-56a20e88c8c0ff25",
+      "question": "What are the three main components of an Entity Relationship Diagram and what do they correspond to in a database?",
+      "reference_answer": "The three main components are Entity (corresponds to table), Attribute (corresponds to column), and Relationship (corresponds to line).",
+      "evidence": [
+        {
+          "source_id": "067173a6-5660-4942-aeca-2e5df7df517c",
+          "chunk_id": "ee38a3b6-0152-4ab8-a7c7-5f96c956b2ba",
+          "quote": "Entity  table\nAttribute  column\nRelationship  line",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-6d3c8679820baa29",
+      "question": "What is the difference between a predictive approach and an adaptive approach to the Systems Development Life Cycle (SDLC)?",
+      "reference_answer": "A predictive approach assumes that the development process can be planned and organized in advance, while an adaptive approach is more flexible and assumes that the project cannot be planned out completely in advance but must be modified as it progresses.",
+      "evidence": [
+        {
+          "source_id": "6315ccee-486d-43c2-ae77-ae75bdac6617",
+          "chunk_id": "7a71ba8e-1ad8-46a8-936d-9a81bc275e42",
+          "quote": "A predictive approach is an approach that assumes that the development process can be planned and organized in advance and that the new information system can be developed according to the plan.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6315ccee-486d-43c2-ae77-ae75bdac6617",
+          "chunk_id": "7a71ba8e-1ad8-46a8-936d-9a81bc275e42",
+          "quote": "Adaptive approach an SDLC approach that is more flexible, assuming that the project cannot be planned out completely in advance but must be modified as it progresses.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-7725876862b235ab",
+      "question": "What do Data Flow Diagrams (DFDs) show, and what do flowcharts show?",
+      "reference_answer": "DFDs show the flow of data through a system, while flowcharts show the flow of control (sequence and transfer of control).",
+      "evidence": [
+        {
+          "source_id": "7f297a3a-148b-4c1d-b2bc-560335ced08d",
+          "chunk_id": "9a1075f6-e492-4b21-8892-a34aabc42872",
+          "quote": "DFDs show the flow of data through a system\nFlowcharts show the flow of control (sequence and transfer of control)",
+          "locator": "slide 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-d8540c79476625c0",
+      "question": "How do data stores in Data Flow Diagrams relate to entities in Entity-Relationship Diagrams, and what naming convention distinguishes them?",
+      "reference_answer": "Data stores depicted on a DFD store all instances of data entities that are shown on an ERD. While data stores are named with plural nouns because they contain all instances of a data entity, entities in an ERD are named with singular nouns because each entity type represents a single class of object.",
+      "evidence": [
+        {
+          "source_id": "7f297a3a-148b-4c1d-b2bc-560335ced08d",
+          "chunk_id": "e6eb2a8f-7b02-4b24-abd5-e3f79420edf6",
+          "quote": "Data stores depicted on a DFD store all instances of data entities (depicted on an ERD) Named with plural noun",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "7f297a3a-148b-4c1d-b2bc-560335ced08d",
+          "chunk_id": "e6eb2a8f-7b02-4b24-abd5-e3f79420edf6",
+          "quote": "Emphasize that a data store contains all instances of a data entity (from the data model). That is why data store names are plurals (as contrasted to data entity names that are singular).",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "067173a6-5660-4942-aeca-2e5df7df517c",
+          "chunk_id": "460fe68b-8352-4669-899f-3ec2de82a442",
+          "quote": "Entity: Represented by a rectangle, with its name on the top. The name is singular (entity) rather than plural (entities).",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-59addf8990adacf8",
+      "question": "How do predictive and adaptive approaches to the System Development Life Cycle (SDLC) differ in their treatment of project activities?",
+      "reference_answer": "Predictive approaches map out the overall structure of the project upfront through sequential groups of activities such as planning, analysis, design, and implementation. In contrast, adaptive approaches repeatedly cycle through development activities; for example, the spiral model iterates until the project is completed, and incremental development puts parts of the system into operation early through successive iterations.",
+      "evidence": [
+        {
+          "source_id": "6315ccee-486d-43c2-ae77-ae75bdac6617",
+          "chunk_id": "aef2ee34-cb80-40ae-8154-5b8061bb8bb0",
+          "quote": "In predictive approaches, the first group of activities, usually called the project planning activities where we plan, organize, and schedule the project. These activities map out the overall structure of the project.",
+          "locator": "slide 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6315ccee-486d-43c2-ae77-ae75bdac6617",
+          "chunk_id": "aef2ee34-cb80-40ae-8154-5b8061bb8bb0",
+          "quote": "Spiral model - an adaptive SDLC approach that cycles over and over again through development activities until the project is completed.",
+          "locator": "slide 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6315ccee-486d-43c2-ae77-ae75bdac6617",
+          "chunk_id": "aef2ee34-cb80-40ae-8154-5b8061bb8bb0",
+          "quote": "With this approach, you complete parts of the system in a few iterations and then put the system into operation for users.",
+          "locator": "slide 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-4c3a6cd38389c5d3",
+      "question": "What is the purpose of business rules in entity-relationship modeling, and what structural requirement distinguishes finalized business rules from drafts?",
+      "reference_answer": "Business rules are used to define entities, attributes, relationships, and constraints, and data is considered significant only after business rules are defined. Finalized business rules must be bi-directional, meaning they are expressed in two sentences rather than one.",
+      "evidence": [
+        {
+          "source_id": "067173a6-5660-4942-aeca-2e5df7df517c",
+          "chunk_id": "460fe68b-8352-4669-899f-3ec2de82a442",
+          "quote": "Business Rules are used to define entities, attributes, relationships and constraints. Usually though they are used for the organization that stores or uses data to be an explanation of a policy, procedure, or principle. The data can be considered significant only after business rules are defined.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "067173a6-5660-4942-aeca-2e5df7df517c",
+          "chunk_id": "460fe68b-8352-4669-899f-3ec2de82a442",
+          "quote": "Finalized business rules must be bi-directional. Draft: one sentence Finalized: two sentences",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-9c11bd2f539351fe",
+      "question": "What is the relationship between decomposition and levels of abstraction in process modeling?",
+      "reference_answer": "Decomposition is the act of breaking a system into sub-components. Each level of abstraction reveals more or less detail about the system, and decomposition diagrams—also called hierarchy charts—are used to depict this breakdown.",
+      "evidence": [
+        {
+          "source_id": "7f297a3a-148b-4c1d-b2bc-560335ced08d",
+          "chunk_id": "e6eb2a8f-7b02-4b24-abd5-e3f79420edf6",
+          "quote": "Decomposition – the act of breaking a system into sub-components. Each level of abstraction reveals more or less detail.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "7f297a3a-148b-4c1d-b2bc-560335ced08d",
+          "chunk_id": "e6eb2a8f-7b02-4b24-abd5-e3f79420edf6",
+          "quote": "Decomposition diagram – a tool used to depict the decomposition of a system. Also called hierarchy chart.",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-5575513d551a19c8",
+      "question": "How do the criteria for retaining only logical processes, the principle of balancing during functional decomposition, and the data-flow naming conventions collectively help prevent a gray hole when a DFD is exploded into successive child diagrams?",
+      "reference_answer": "Logical process models must omit any processes that merely move or route data, leaving only processes that transform data through computations, decisions, sorting, filtering, report generation, triggering, or use of stored data. Balancing requires that every input and output of a parent process is conserved when it is decomposed into a child diagram. Data flow names must be descriptive singular nouns or noun phrases, using adjectives and adverbs to show how processing has changed the data. Together, these rules ensure that each process in a child diagram has a clearly defined, sufficient set of transformed inputs to produce its declared outputs, thereby avoiding a gray hole—where inputs are insufficient to produce the output due to misnamed elements or incomplete facts.",
+      "evidence": [
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "b94b5be9-82a4-430f-a220-e1d89522234d",
+          "quote": "You should be left only with logical processes that: Perform computations (e.g., calculate grade point average) Make decisions (determine availability of ordered products) Sort, filter or otherwise summarize data (identify overdue invoices) Organize data into useful information (e.g., generate a report or answer a question) Trigger other processes (e.g., turn on the furnace or instruct a robot) Use stored data (create, read, update or delete a record)",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "b94b5be9-82a4-430f-a220-e1d89522234d",
+          "quote": "Logical process models omit any processes that do nothing more than move or route data, thus leaving the data unchanged.",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "b94b5be9-82a4-430f-a220-e1d89522234d",
+          "quote": "When decomposing a DFD, you must conserve inputs and outputs from processes at the next level of decomposition. This is called Balancing.",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "5fd9c490-26d2-4938-ba48-c2470983fbe1",
+          "quote": "A gray hole is when the inputs of a process are insufficient to produce the output. (most common)",
+          "locator": "slide 31",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "5fd9c490-26d2-4938-ba48-c2470983fbe1",
+          "quote": "There are several possible causes including: (1) a misnamed process, (2) misnamed inputs and/or outputs, or (3) incomplete facts.",
+          "locator": "slide 31",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "5fd9c490-26d2-4938-ba48-c2470983fbe1",
+          "quote": "Data Flow Names: Should discourage premature commitment to any possible implementation. Should be descriptive nouns and noun phrases that are singular, as opposed to plural. Should be unique. Use adjectives and adverbs to help to describe how processing has changed a data flow.",
+          "locator": "slide 31",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "System-analysis-and-design-0a21c485d377b770",
+      "question": "When exploding a context diagram through successive levels of DFDs until only primitive processes remain, how does the combination of balancing and the exclusion of purely data-routing processes ensure that the resulting process descriptions can actually be implemented by application programs?",
+      "reference_answer": "The DFD creation methodology requires exploding parent diagrams into child diagrams until only primitive processes remain, which are then implemented by application programs. Functional decomposition must conserve all inputs and outputs from a parent process at the next level, so balancing preserves every data flow required at lower levels. Simultaneously, logical process models must omit any processes that do nothing more than move or route data, ensuring that every retained process transforms data in some substantive way. These two constraints guarantee that when a programmer receives a primitive process, the preserved and transformed input data flows are sufficient to produce the required output data flows, making program implementation feasible.",
+      "evidence": [
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "85a7aa06-d062-40e3-9616-4448e6817aec",
+          "quote": "Create Diagram 1, 2, …, n DFDs that represent “explosions” of Diagram 0, 1, …, n-1 DFDs until a diagram has only “primitive” processes . Create process descriptions to be implemented by application programs: queries, macros, reports, programming languages.",
+          "locator": "slide 22",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "b94b5be9-82a4-430f-a220-e1d89522234d",
+          "quote": "When decomposing a DFD, you must conserve inputs and outputs from processes at the next level of decomposition. This is called Balancing.",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "b94b5be9-82a4-430f-a220-e1d89522234d",
+          "quote": "Logical process models omit any processes that do nothing more than move or route data, thus leaving the data unchanged.",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "b1cc4ebd-ae05-47a2-852b-8a7a55bfbaa1",
+          "chunk_id": "5fd9c490-26d2-4938-ba48-c2470983fbe1",
+          "quote": "Once handed to a programmer, the input data flows to a process (to be implemented as a program) must be sufficient to produce the output data flows.",
+          "locator": "slide 31",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

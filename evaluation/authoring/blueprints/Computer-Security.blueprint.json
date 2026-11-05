@@ -1,0 +1,40 @@
+{
+  "course_id": "Computer-Security",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "65a5e800-5c0c-4949-ab4c-509456e218eb",
+        "e5057158-436a-434d-8f01-1576d5d8f3af",
+        "9a1ea089-8e13-4802-a287-ac881488485d",
+        "ea994345-dcd3-4917-8c90-a81db4eb2b48"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "793954c7-2cde-4db5-8ca8-38e9966cde06",
+        "2e12825f-adfb-4d35-96a3-f66b005a7ca9",
+        "c68a4bd9-1448-4e73-a05c-51b6114960d7",
+        "e83b072b-18a4-45cd-b9ad-0ff71490f12d"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+        "f274bd4b-f6f4-45f5-9234-ad5ef2497ad1",
+        "022fd9d1-2699-42b2-aa21-b8d9185924f1"
+      ]
+    }
+  ]
+}

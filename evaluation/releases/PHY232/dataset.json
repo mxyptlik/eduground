@@ -1,0 +1,473 @@
+{
+  "schema_version": 2,
+  "dataset_id": "PHY232",
+  "version": "draft-1+human-reviewed",
+  "course_id": "PHY232",
+  "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "0f51c57e-09ec-4b2e-b073-50dca5384e22",
+      "source_label": "PHY232Electric Circuit and Electronics Lecture 9 2021",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "df03349c2804a7f0f8255f3e39cd2a00344d3c667584fd3cd6472e2292d5d346",
+      "version_number": 1,
+      "original_filename": "PHY232Electric Circuit and Electronics Lecture 9 2021.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "17dbece2-def6-4d20-8485-fe79789f4947",
+      "source_label": "PHY232_Oscillator Circuits",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "1d0e0bf2496a2841e5b5260f13d38cca3169c9b82ce474381d5f950df1d9ebc4",
+      "version_number": 1,
+      "original_filename": "PHY232_Oscillator Circuits .pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1b01fc09-8efb-4696-bab1-268b4db59419",
+      "source_label": "PHY232_Transistors Versus Vacuum Tubes",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "2726613fd907afdb234f8abe63367d8a259456c0cba2b94a5ffdfd6b6709f06c",
+      "version_number": 1,
+      "original_filename": "PHY232_Transistors Versus Vacuum Tubes .pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "27167526-8f6e-4e02-a88e-a950010f45a0",
+      "source_label": "Electric Circuit and Electronics 2",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "6a65cc5c6b3b4fc9e73b8da5a75c4295fd06e34be8c9bc2d1aab9e728d72cc53",
+      "version_number": 1,
+      "original_filename": "Electric Circuit and Electronics 2.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "33143aac-e84e-415c-8001-8a4a9c06c6a4",
+      "source_label": "PHY232_Electron Emission",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "9c4a1b54a99df6dc7da87287e5df5d2ec9e2edbf544784cec3c1f754f1261ba4",
+      "version_number": 1,
+      "original_filename": "PHY232_Electron Emission.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3f4be761-851d-4ff3-85a2-00b9dbde36b5",
+      "source_label": "Electric Circuit CLASS 5 and 6 UP",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "0786caedd5561a5b383a336bbef2e810da496ebdfc661bbf2d3c7db6d51d1be5",
+      "version_number": 1,
+      "original_filename": "Electric Circuit CLASS 5 and 6 UP.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "47c7edca-5d6a-490c-9d31-08375482c4c6",
+      "source_label": "Electric Circuit and Electronics 3 and 4",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "ff51616a6c621410a7f6ec2b7c630fa2b396dc97aa5e220511fcc313ad09a1b5",
+      "version_number": 1,
+      "original_filename": "Electric Circuit and Electronics 3 and 4.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4ca04b4b-6e46-415d-a59d-d5e46586bb35",
+      "source_label": "Electric Circuit and Electronics 1",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "ab40803535d58466c229bc454384d6311931d45371ff2ecdb20eb00618ab7245",
+      "version_number": 1,
+      "original_filename": "Electric Circuit and Electronics 1.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "5e9c6193-56cd-41b2-a0e0-27ec0f1928b9",
+      "source_label": "Electric Circuit CLASS 7 and 8 UP",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "75f91f8cc156bdf0db2b353e59909b9578503b7f7c3ed56c73362a573145a94e",
+      "version_number": 1,
+      "original_filename": "Electric Circuit CLASS 7 and 8 UP.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7e5307c8-ac7f-4da6-b799-70ffa1244991",
+      "source_label": "PHY 232 - Electric Circuit CLASS 4 Additional",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "be8c22b843469c950e73be71d709400b0cf74aff79e792b2c192728ea28050f4",
+      "version_number": 1,
+      "original_filename": "PHY 232 - Electric Circuit CLASS 4 Additional.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "92bc0890-37d5-4ff7-9fab-a7dff9b47fd4",
+      "source_label": "PHY 232 - Electric Circuit CLASS 7 and 8 2021",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "d87dc5ce869393a7b998c320458773542b666e2ad9c9d9e23cb21630a08874b1",
+      "version_number": 1,
+      "original_filename": "PHY 232 - Electric Circuit CLASS 7 and 8 2021.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a8954f45-b234-48ac-87d3-046d121e2d6b",
+      "source_label": "PHY 232 - Electric Circuit CLASS 5 and 6 UP",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "a59c99c851de52ad1b73305ebda790a3533cbe85efa54be0fba559ecd17f2cb6",
+      "version_number": 1,
+      "original_filename": "PHY 232 - Electric Circuit CLASS 5 and 6 UP.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "ad41b7db-39d9-410e-9b0a-d81f22f6aac3",
+      "source_label": "PHY232_P-N Junction",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "a8ad9df9cec9e0a95b5fcd263fcaeb8153fa0294bac2d93d3b13ea680a2513e9",
+      "version_number": 1,
+      "original_filename": "PHY232_P-N Junction .pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "b0225f94-8ab3-4112-a97e-997d861be6a3",
+      "source_label": "PHY232 Lecture 8",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "6e30d05fd0099da3f94ee7dc38467dfb038d7f2cbbcfd4a7e566574dd9906bb5",
+      "version_number": 1,
+      "original_filename": "PHY232 Lecture 8.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c19cd507-87cf-483f-a0d5-b7993826b477",
+      "source_label": "PHY232_Transistor",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "1062ded0ba363a293290b6870056ab13ad7ec25b97b40ccc0c95022d4b1d9dab",
+      "version_number": 1,
+      "original_filename": "PHY232_Transistor .pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+      "source_label": "Electric Circuit CLASS 11 and 12 UP",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "d570eafdee1807c1458eea0958d94155f3c2880cf5ce42ff6630c240a5a5c269",
+      "version_number": 1,
+      "original_filename": "Electric Circuit CLASS 11 and 12 UP.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fae2304a-10d0-4d42-bb57-80dc504bf8ce",
+      "source_label": "Electric Circuit CLASS 9 and 10 UP",
+      "notebook_id": "ad3286d8-1f98-45ae-82d4-8278aac1fc3a",
+      "sha256": "df0c3c1f4d941fe668608c1ab555aa0c7bf98ff46e2cdf4bc05a62709ce379d0",
+      "version_number": 1,
+      "original_filename": "Electric Circuit CLASS 9 and 10 UP.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "PHY232-41a63eb65e45c54d",
+      "question": "What does KCL stand for?",
+      "reference_answer": "Kirchhoff's Current Law",
+      "evidence": [
+        {
+          "source_id": "0f51c57e-09ec-4b2e-b073-50dca5384e22",
+          "chunk_id": "f5d7bfab-8eb0-4455-831a-3ceba37406f2",
+          "quote": "Kirchhoff’s Current Law\n\nOr KCL for short",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-08e9baa6d592612f",
+      "question": "What is KVL based upon?",
+      "reference_answer": "conservation of energy",
+      "evidence": [
+        {
+          "source_id": "0f51c57e-09ec-4b2e-b073-50dca5384e22",
+          "chunk_id": "f5d7bfab-8eb0-4455-831a-3ceba37406f2",
+          "quote": "Kirchhoff’s Voltage Law\n\nOr KVL for short Based upon conservation of energy – the algebraic sum of voltages dropped across components around a loop is zero.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-1ad96488a43756ae",
+      "question": "How many valence electrons does an N-type dopant have?",
+      "reference_answer": "5",
+      "evidence": [
+        {
+          "source_id": "33143aac-e84e-415c-8001-8a4a9c06c6a4",
+          "chunk_id": "d761b713-56d9-4e43-a4ee-34b984753d3d",
+          "quote": "Donor (N-type) impurities: dopant with 5\nvalence electrons (e.g. P, As, Sb)",
+          "locator": "page 63",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-fd90fe5123d5da13",
+      "question": "What happens when XL = XC in an RLC series circuit?",
+      "reference_answer": "The phase angle ϕ is zero, and the circuit behaves like a purely resistive circuit with current and voltage in phase, and the power factor is unity.",
+      "evidence": [
+        {
+          "source_id": "47c7edca-5d6a-490c-9d31-08375482c4c6",
+          "chunk_id": "a4da095e-54bf-4e0b-b60e-0ce94f349e26",
+          "quote": "When X = X , the phase angle ϕ is zero, as a L C\nresult, the circuit behaves like a purely resistive\ncircuit. In this type of circuit, the current and\nvoltage are in phase with each other. The value of\npower factor is unity.",
+          "locator": "page 81",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-111299f38b2f861f",
+      "question": "When applying Kirchhoff's Voltage Law (KVL) to a loop containing resistors and sources, how can the voltage across a component be classified differently depending on traversal direction, and what convention governs the polarity assignment for a resistor?",
+      "reference_answer": "Depending on the loop traversal direction, the same component voltage can be treated as either a voltage drop or a voltage rise; for example, moving clockwise around a loop, VR3 can be a voltage drop while VR2 is a voltage rise. For resistors, the passive sign convention applies, meaning the positive sign of the voltage drop is assigned to the end of the resistor where current enters.",
+      "evidence": [
+        {
+          "source_id": "0f51c57e-09ec-4b2e-b073-50dca5384e22",
+          "chunk_id": "0337217f-3f9c-4798-8884-556a3b0b4e51",
+          "quote": "Moving clockwise around the loop: VR3 is a voltage drop. The voltage associated with I1 is a voltage drop. VR2 is a voltage rise.",
+          "locator": "slide 16",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0f51c57e-09ec-4b2e-b073-50dca5384e22",
+          "chunk_id": "0337217f-3f9c-4798-8884-556a3b0b4e51",
+          "quote": "Since R3 is a resistor, passive convention means that the positive sign of the voltage drop will be assigned to the end of R3 where current enters the resistor.",
+          "locator": "slide 16",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-e031efbe300690d4",
+      "question": "In a series RLC circuit, how do the instantaneous voltages across the pure inductor and pure capacitor relate to each other in terms of phase, and what determines whether the overall circuit current leads or lags the source voltage?",
+      "reference_answer": "The instantaneous voltage across the pure inductor and the instantaneous voltage across the pure capacitor are 180° out-of-phase and in opposition to each other. The overall phase difference depends upon the reactive value of the components being used; when the phase angle θ is positive, the overall reactance is inductive and the current lags the source voltage.",
+      "evidence": [
+        {
+          "source_id": "3f4be761-851d-4ff3-85a2-00b9dbde36b5",
+          "chunk_id": "06d17e0d-d5c6-4348-b1c4-c83be63420ae",
+          "quote": "Therefore, V and V are 180o “out-of-phase” L C and in opposition to each other.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "3f4be761-851d-4ff3-85a2-00b9dbde36b5",
+          "chunk_id": "06d17e0d-d5c6-4348-b1c4-c83be63420ae",
+          "quote": "Their Phase Difference, Φ depends upon the reactive value of the components being used and hopefully by now we know that reactance, ( X ) is zero if the circuit element is resistive, positive if the circuit element is inductive and negative if it is capacitive thus giving their resulting impedances as:",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "3f4be761-851d-4ff3-85a2-00b9dbde36b5",
+          "chunk_id": "06d17e0d-d5c6-4348-b1c4-c83be63420ae",
+          "quote": "Since the phase angle θ is calculated as a positive value of 57.5o the overall reactance of the circuit must be inductive. As we have taken the current vector as our reference vector in a series RLC circuit, then the current “lags” the source voltage by 57.5o .",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-61bf5913d44fb45e",
+      "question": "Why are complex numbers necessary in electrical engineering for analyzing AC circuits, and how can they be represented graphically to model rotating phasors?",
+      "reference_answer": "Complex numbers are necessary because they allow complex equations to be solved with numbers that are the square roots of negative numbers, which is especially needed when dealing with frequency-dependent sinusoidal sources and vectors. They can be represented graphically on an Argand diagram—a complex plane with four quadrants—where a rotating phasor appears as a point whose radius equals the phasor magnitude, completing a full circle every 2π/ω seconds.",
+      "evidence": [
+        {
+          "source_id": "4ca04b4b-6e46-415d-a59d-d5e46586bb35",
+          "chunk_id": "78e1762e-afd6-43b9-a5df-0366d55869b6",
+          "quote": "But real numbers are not the only kind of numbers we need to use especially when dealing with frequency dependent sinusoidal sources and vectors. As well as using normal or real numbers, Complex Numbers were introduced to allow complex equations to be solved with numbers that are the square roots of negative numbers, √-1.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "4ca04b4b-6e46-415d-a59d-d5e46586bb35",
+          "chunk_id": "78e1762e-afd6-43b9-a5df-0366d55869b6",
+          "quote": "Both the real and imaginary parts of a complex number in the rectangular form can be either a positive number or a negative number, then both the real and imaginary axis must also extend in both the positive and negative directions. This then produces a complex plane with four quadrants called an Argand Diagram as shown below.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "4ca04b4b-6e46-415d-a59d-d5e46586bb35",
+          "chunk_id": "78e1762e-afd6-43b9-a5df-0366d55869b6",
+          "quote": "The Argand diagram above can also be used to represent a rotating phasor as a point in the complex plane whose radius is given by the magnitude of the phasor will draw a full circle around it for every 2π/ω seconds.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-21b102a121b45931",
+      "question": "What are the main practical advantages of using a parallel connection for lamps in electrical installations, and what corresponding disadvantage does it have compared with a series connection?",
+      "reference_answer": "A parallel connection allows the addition of further similar lamps without affecting the brightness of the other lamps, which is why it is the most widely used arrangement in electrical installations. The corresponding disadvantage is that more cable is required for parallel connection than for a series one.",
+      "evidence": [
+        {
+          "source_id": "92bc0890-37d5-4ff7-9fab-a7dff9b47fd4",
+          "chunk_id": "2af60812-aec5-42a8-a0a2-ace2c1954cc1",
+          "quote": "The addition of further similar lamps in parallel does not affect the brightness of the other lamps.",
+          "locator": "page 29",
+          "evidence_group": null
+        },
+        {
+          "source_id": "92bc0890-37d5-4ff7-9fab-a7dff9b47fd4",
+          "chunk_id": "2af60812-aec5-42a8-a0a2-ace2c1954cc1",
+          "quote": "More cable is required for parallel connection than for a series one.",
+          "locator": "page 29",
+          "evidence_group": null
+        },
+        {
+          "source_id": "92bc0890-37d5-4ff7-9fab-a7dff9b47fd4",
+          "chunk_id": "2af60812-aec5-42a8-a0a2-ace2c1954cc1",
+          "quote": "The parallel connection of lamps is the most widely used in electrical installations.",
+          "locator": "page 29",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-2cba17c6f34a18ba",
+      "question": "How do the preliminary examples of open-circuit voltage determination establish the electrical principles that justify step (ii) of the Thevenin’s theorem procedure, and why does step (i) explicitly require removing the branch resistance before determining this voltage?",
+      "reference_answer": "The materials show that open-circuit voltage across terminals reflects the available potential when no load current flows: in one case it equals 10 V because no current flows through a 2 Ω resistor and hence no voltage drop occurs, and in the other it is found by voltage division across a 6 Ω resistor because the terminals are open. Step (i) removes the branch resistance to create this exact open-circuit condition, and step (ii) determines the open-circuit voltage E across the break, thereby capturing the equivalent driving potential for that branch without the load connected.",
+      "evidence": [
+        {
+          "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+          "chunk_id": "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+          "quote": "The open-circuit voltage, E, across terminals AB in the Fig. below is equal to 10 V, since no current flows through the 2 Ω resistor and hence no voltage drop occurs.",
+          "locator": "page 25",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+          "chunk_id": "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+          "quote": "The open-circuit voltage, E, across terminals AB in the Fig. (a) below is the same as the voltage across the 6 Ω resistor. The circuit may be redrawn as shown in Fig. (b).",
+          "locator": "page 25",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+          "chunk_id": "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+          "quote": "• by voltage division in a series circuit, i.e. E = 30 V",
+          "locator": "page 25",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+          "chunk_id": "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+          "quote": "The procedure adopted when using Thevenin’s theorem is summarized below. To determine the current in any branch of an active network (i.e. one containing a source of e.m.f.): i. remove the resistance R from that branch, ii. determine the open-circuit voltage, E, across the break,",
+          "locator": "page 25",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "PHY232-f2056c012a9eec72",
+      "question": "According to the classification of d.c. circuit analysis approaches in the materials, the superposition theorem is listed under the direct method, while Thevenin’s theorem is presented among circuit theorems. How does the procedural description of Thevenin’s theorem demonstrate that it operates as a network reduction method, and what specific step in its procedure most clearly distinguishes it from direct methods like superposition?",
+      "reference_answer": "The materials define network reduction methods as approaches that convert the original network into a much simpler equivalent circuit for rapid calculation, whereas direct methods leave the network in its original form; superposition is explicitly listed as a direct method. Thevenin’s theorem demonstrates network reduction because its statement requires that all other e.m.f.’s be removed and represented by the internal resistances of the sources, and its procedure then removes each source of e.m.f., replaces them by their internal resistances, and determines the resistance r ‘looking-in’ at the break—effectively reducing the entire network to a simpler equivalent circuit before analyzing the branch of interest.",
+      "evidence": [
+        {
+          "source_id": "fae2304a-10d0-4d42-bb57-80dc504bf8ce",
+          "chunk_id": "9fe25ab7-f50b-4188-a425-7695d11450d8",
+          "quote": "(i) Direct Method: The network is left in its original form while determining its different voltages and currents. Approaches are usually restricted to fairly simple circuits which include: Kirchhoff’s laws, Loop analysis, Nodal analysis, and Superposition theorem.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fae2304a-10d0-4d42-bb57-80dc504bf8ce",
+          "chunk_id": "9fe25ab7-f50b-4188-a425-7695d11450d8",
+          "quote": "(ii) Network Reduction Method: Here, the original network is converted into a much simpler equivalent circuit for rapid calculation of different quantities.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+          "chunk_id": "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+          "quote": "The current in any branch of a network is that which would result if an e.m.f. equal to the p.d. across a break made in the branch, were introduced into the branch, all other e.m.f.’s being removed and represented by the internal resistances of the sources.",
+          "locator": "page 25",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d6fc2c64-871b-4ed9-a441-fef53effb4fd",
+          "chunk_id": "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+          "quote": "iii. remove each source of e.m.f. and replace them by their internal resistances and then determine the resistance, r, ‘looking-in’ at the break,",
+          "locator": "page 25",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Leadership-devlopment",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Leadership-devlopment",
+  "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+      "source_label": "DLD221_LectureEight_Conflict_Management_and_Negotiation_in_Leadership",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "94c72c1024580605e88f4c45c1299c5f3406b7f0befb57f0059ae9bbef801318",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureEight_Conflict_Management_and_Negotiation_in_Leadership.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+      "source_label": "DLD221_LectureSeven_Ethics_Integrity_And_Anti_corruption_Leadership",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "5c38ac5c30d57f1e78cefa994b18c4353101397bd93620857f18687f1d207d9e",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureSeven_Ethics_Integrity_And_Anti_corruption_Leadership.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2b2a878b-f222-4feb-ac52-a77a35463018",
+      "source_label": "DLD221_LectureThree_Leading_Transformation",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "8b10b336cdad6e03647a3d7d53765442b538738e1f5e686cf908e7e7bdd1786e",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureThree_Leading_Transformation.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2d8d1835-77df-44fc-af23-9fbffaab60f8",
+      "source_label": "DLD221_LectureSix_TeamLeadership_Workplace_Dynamics",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "9e3b7725d697e4eb6ef330586836b6db97b95e6266b27caba6f7efe9f75122af",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureSix_TeamLeadership_Workplace_Dynamics.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "b0265d3d-3f8e-4717-8555-65401da9673c",
+      "source_label": "DLD221_LectureNine_Leading_and_Managing_Change",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "7389b9b53027b37ee193b2c01e791ce5cd809092fa4bcea016959b756c4a907f",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureNine_Leading_and_Managing_Change.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c3b88542-f766-487e-8b40-5388b2c9607b",
+      "source_label": "DLD221_LectureFour_Boardroom-Ethics-and-Governance",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "2f38a2310ce43dcdd1f57cfcc8b6baee8c8c9bdef9a38951fe5c5b489ccfcca4",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureFour_Boardroom-Ethics-and-Governance.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+      "source_label": "DLD221_LectureFive_NonProfit_Leadership_and_Social_Change",
+      "notebook_id": "25b5ec46-e657-440a-8ab2-941873297951",
+      "sha256": "1b59ddc0b569714aea2cafd4722544bfbaf80d0edca75f65b56a3e021f6ac521",
+      "version_number": 1,
+      "original_filename": "DLD221_LectureFive_NonProfit_Leadership_and_Social_Change.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Leadership-devlopment-56c5e53f9426ff5c",
+      "question": "According to the lecture, what percentage of average time do managers spend managing conflict-related issues?",
+      "reference_answer": "40%",
+      "evidence": [
+        {
+          "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+          "chunk_id": "67dbcf4d-eee7-458b-b828-ea2d726160c9",
+          "quote": "40% — average time managers spend managing conflict-related issues (Raines)",
+          "locator": "page 2",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-ef62aa40fb7fd9e8",
+      "question": "How do Roger Fisher, William Ury, and Bruce Patton define negotiation in their work \"Getting to Yes\"?",
+      "reference_answer": "a basic means of getting what you want from others.",
+      "evidence": [
+        {
+          "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+          "chunk_id": "67dbcf4d-eee7-458b-b828-ea2d726160c9",
+          "quote": "a basic means of getting what you want from others.",
+          "locator": "page 2",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-dc88a390860a8132",
+      "question": "What fine was imposed on Siemens AG in 2008, according to the lecture?",
+      "reference_answer": "$1.6 billion",
+      "evidence": [
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "01f5375d-3786-45c2-8383-63a47775441f",
+          "quote": "Fine: $1.6 billion",
+          "locator": "page 19",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-45cc6656e379ec10",
+      "question": "In the Vietnam Case (Jerry Sternin, 1990) discussed in the lecture, what percentage of children were better nourished after six months?",
+      "reference_answer": "65%",
+      "evidence": [
+        {
+          "source_id": "b0265d3d-3f8e-4717-8555-65401da9673c",
+          "chunk_id": "68d5caec-2654-4f31-8b92-10fd25bdb606",
+          "quote": "Result: 65% of children better nourished in 6 months",
+          "locator": "page 21",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-9ef766380a0f29ab",
+      "question": "How does Fisher, Ury, and Patton's instruction to 'Ask why, not just what' when distinguishing interests from positions directly challenge the zero-sum thinking that leads leaders to assume conflict is inherently win-lose?",
+      "reference_answer": "Zero-sum thinking assumes that in conflict 'what I gain, You lose,' which shrinks the solution space and turns negotiation into combat. By contrast, asking 'why' surfaces underlying interests—defined as needs, desires, concerns, and fears—showing that positions are merely one answer to those needs. This shift opens room to brainstorm options neither side imagined, thereby expanding the pie rather than fighting over it.",
+      "evidence": [
+        {
+          "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+          "chunk_id": "b722361c-b965-4e8b-a0d7-36e6d45bcdcc",
+          "quote": "Ask why, not just what",
+          "locator": "page 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+          "chunk_id": "b722361c-b965-4e8b-a0d7-36e6d45bcdcc",
+          "quote": "Most leaders assume conflict is Zero-sum.",
+          "locator": "page 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+          "chunk_id": "b722361c-b965-4e8b-a0d7-36e6d45bcdcc",
+          "quote": "Interests are needs, desires, concerns, and fears.",
+          "locator": "page 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0e7bde6a-55a6-4ca0-9b50-b5344d74e4be",
+          "chunk_id": "b722361c-b965-4e8b-a0d7-36e6d45bcdcc",
+          "quote": "Positions are merely one answer to those needs.",
+          "locator": "page 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-29e0bb6b5200c018",
+      "question": "Why does Robert Klitgaard's formula indicate that good character is necessary but not sufficient to prevent corruption, and how do the anti-corruption pillars of modelling personally and transparency reflect this systems perspective?",
+      "reference_answer": "Klitgaard's formula, Corruption = (Monopoly + Discretion) − Accountability, frames corruption as a systems problem: when one person controls and decides without accountability, corruption becomes probable regardless of individual morality. Because of this structural reality, a leader must personally model integrity ('No double standards — ever') and also embed transparency ('Open books. Open processes') into the system. Character alone cannot compensate for missing structural accountability.",
+      "evidence": [
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Corruption = (Monopoly + Discretion) − Accountability",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Good character is necessary. It is not sufficient.",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Model personally No double standards — ever",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Transparency Open books. Open processes.",
+          "locator": "page 26",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-b8cc495a9a584b76",
+      "question": "According to Burns's (1978) framework, why is transactional leadership described as 'corruption-prone' while transforming leadership is described as 'corruption structurally dissonant'?",
+      "reference_answer": "Transactional leadership operates through an 'exchange of benefit for compliance' and 'appeals to self-interest,' which structurally invites corruption because treating leadership as a transaction makes bribery simply the next transaction. Transforming leadership, by contrast, elevates 'both leader and follower elevated morally' and 'appeals to higher values,' making self-serving exchange logically inconsistent with its core mechanism and therefore structurally dissonant with corruption.",
+      "evidence": [
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Exchange of benefit for compliance",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Appeals to self-interest",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Corruption-prone",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2954aecc-eae8-44de-9beb-537971be035c",
+          "chunk_id": "96a1c146-87db-438d-b681-f7749505b231",
+          "quote": "Corruption structurally dissonant",
+          "locator": "page 26",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-c15806ef7f084874",
+      "question": "How does Dr. Oyedepo's principle that 'Strategy Tells You What to Do. Character Determines Whether You Will' explain the divergent transformation outcomes of SARS and Sears, particularly with respect to vision and long-term discipline?",
+      "reference_answer": "The principle asserts that strategy is inadequate without the character to execute it consistently. SARS succeeded because its leadership maintained a 'clear institutional purpose' and the discipline to 'stay the course' over a decade, reflecting the covenant terms of vision and diligence. Sears failed because it 'never credibly defined' a vision and 'pivoted to short-term fixes,' revealing that without character-driven commitment and stable leadership, strategic direction collapses.",
+      "evidence": [
+        {
+          "source_id": "b0265d3d-3f8e-4717-8555-65401da9673c",
+          "chunk_id": "06e7da00-5f27-49ec-8281-9718436e0180",
+          "quote": "Strategy Tells You What to Do. Character Determines Whether You Will.",
+          "locator": "page 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2b2a878b-f222-4feb-ac52-a77a35463018",
+          "chunk_id": "43043ca2-56ef-45c6-8eac-6aa5b22ef208",
+          "quote": "Vision Clear institutional purpose Never credibly defined",
+          "locator": "page 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2b2a878b-f222-4feb-ac52-a77a35463018",
+          "chunk_id": "43043ca2-56ef-45c6-8eac-6aa5b22ef208",
+          "quote": "Long-term discipline Stayed the course Pivoted to short-term fixes",
+          "locator": "page 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2b2a878b-f222-4feb-ac52-a77a35463018",
+          "chunk_id": "43043ca2-56ef-45c6-8eac-6aa5b22ef208",
+          "quote": "Leadership stability Consistent over a decade Frequent change",
+          "locator": "page 37",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-7a16562421ef88a6",
+      "question": "How does the lecture contrast the stewardship model of leadership with founder syndrome, and what structural and discipline-based safeguards does it prescribe to keep an organization aligned with its cause rather than its founder?",
+      "reference_answer": "The lecture defines stewardship by the principle that the leader is a steward, not an owner, and that the mission belongs to the cause. This directly opposes founder syndrome, in which the founder confuses themselves with the mission, authority is concentrated rather than distributed, and the board becomes decorative rather than deliberative, leaving the organization unable to function without the founder. To prevent this, the lecture recommends distributing authority from year one and building a board that can fire the leader. It also prescribes discipline in saying no and regular mission audits to prevent the gradual opportunistic creep of mission drift.",
+      "evidence": [
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "8ca3a616-3d13-4a5b-ab15-187eec2338ca",
+          "quote": "The leader is a Steward, not an Owner.",
+          "locator": "page 16",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "8ca3a616-3d13-4a5b-ab15-187eec2338ca",
+          "quote": "The mission belongs to the cause",
+          "locator": "page 16",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "The organization becomes so dependent on its\nfounder that it cannot function without them",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "Authority is concentrated, not distributed",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "The board is decorative, not deliberative",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "The founder confuses themselves with the mission",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "Prevention: distribute authority from year one. Build a\nboard that can fire you.",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "Prevention: discipline in saying no,\nregular mission audits.",
+          "locator": "page 24",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Leadership-devlopment-66070271f6559c30",
+      "question": "How does the lecture reconcile the tension between the imperative to measure impact and the reality that important changes resist quantification, and what does this imply about how leaders should sustain themselves over the long term?",
+      "reference_answer": "The lecture warns that some of the most important changes—such as restored dignity, healed relationships, civic awakening, and cultural shifts—resist dashboards, so leaders must not pretend that everything important can be quantified. At the same time, it notes that a depleted leader makes worse decisions, treats people more harshly, and loses moral authority, and it frames self-care as a leadership responsibility rather than a private hobby. These ideas fit within a broader argument that non-profit work is rarely efficient and never glamorous, exists precisely because governments cannot reach every gap and markets will not serve every need, and therefore requires leaders who sustain themselves for the long term rather than relying on quantifiable proof or fame.",
+      "evidence": [
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "Some of the most important changes resist dashboards.",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b7884c09-7159-43ca-b0cd-2f3df5764175",
+          "quote": "Restored dignity Healed relationships Civic awakening Cultural shifts",
+          "locator": "page 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "8ca3a616-3d13-4a5b-ab15-187eec2338ca",
+          "quote": "A depleted leader makes worse decisions,\ntreats people more harshly, and loses moral\nauthority.",
+          "locator": "page 16",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "8ca3a616-3d13-4a5b-ab15-187eec2338ca",
+          "quote": "It is a leadership responsibility, not a private\nhobby",
+          "locator": "page 16",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b8247cdd-e821-43f6-84f5-264e63700046",
+          "quote": "The work will rarely be efficient — and\nnever glamorous",
+          "locator": "page 33",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f0caf5ad-8345-4789-8bc2-db7739713ab6",
+          "chunk_id": "b8247cdd-e821-43f6-84f5-264e63700046",
+          "quote": "Governments CANNOT reach every gap\nMarkets will NOT serve every need",
+          "locator": "page 33",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

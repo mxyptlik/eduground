@@ -1,0 +1,491 @@
+{
+  "schema_version": 2,
+  "dataset_id": "MAT214",
+  "version": "draft-1+human-reviewed",
+  "course_id": "MAT214",
+  "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "13f70290-4867-4a20-8c46-8787e73eebbd",
+      "source_label": "MAT214 VECTOR SPACE",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "44e68d41cc4acf6a350f0606d764cf67d6353d2816b654192c09f82f6aca86b6",
+      "version_number": 1,
+      "original_filename": "MAT214 VECTOR SPACE.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "156dd211-5006-4471-81a0-77c98dae7230",
+      "source_label": "DETERMINANTS",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "c0802e07127276262ce4414d76be84b07ffa614e19277c40dfc7c57a9fccc442",
+      "version_number": 1,
+      "original_filename": "DETERMINANTS.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1ac777f2-7263-43bc-b615-f99135aadf94",
+      "source_label": "Linear Independence and Linear Dependence",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "e7580052a02243aa50820a3a2ce1df6e29e8d23ae467851bdfae593d4bbe5874",
+      "version_number": 1,
+      "original_filename": "Linear Independence and Linear Dependence.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1c38a674-d66a-4f97-b1a6-4045a6f481df",
+      "source_label": "DETERMINANT and INVERSE of MATRIX(1)",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "29cde3f6d7a2d846c870b986ed024ee81e8ea6e6e9b9475dbf61c39544944be4",
+      "version_number": 1,
+      "original_filename": "DETERMINANT and INVERSE of MATRIX(1).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4464b025-b8e7-47e1-a75b-335f6e1d77e0",
+      "source_label": "DETERMINANT and INVERSE of MATRIX",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "c37d734a7a47aefa52e94777f60fbf7c67d2fcfa76a420032563cc4b5014ac51",
+      "version_number": 1,
+      "original_filename": "DETERMINANT and INVERSE of MATRIX.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4800ed6f-2d42-4339-ab22-fb18044958bb",
+      "source_label": "Echelon matrix",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "d243671e13f534de752ab47fe354ee58ba782a6f29b2019f509bc3d4db92bdcd",
+      "version_number": 1,
+      "original_filename": "Echelon matrix.docx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "621325f5-544e-4be9-aaf5-248c339d1a6a",
+      "source_label": "sec4_1",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "47fd67317e8885e4ee16137abeba9fe53d1099a01102a9440085e8b48f231743",
+      "version_number": 1,
+      "original_filename": "sec4_1.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7038be63-cf21-4c1b-90a0-700cad89979b",
+      "source_label": "Elementary Operations on Matrices(1)",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "f330cc54ba5500c45e0112edb19cd766db7930d6b834b6af81d5666f1077d3b4",
+      "version_number": 1,
+      "original_filename": "Elementary Operations on Matrices(1).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7263d2db-c66c-4f3c-9151-9896e55c86b5",
+      "source_label": "LINEAR COMBINATION",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "c24dabe53ebef3d2811d7d9d43168d8b3175109032682fb5ac13ede5cdb3a711",
+      "version_number": 1,
+      "original_filename": "LINEAR COMBINATION.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7656c554-399b-4d06-a7be-a0f37d0fab3e",
+      "source_label": "SYSTEM OF LINEAR EQUATIONS",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "948e4df40721b7d895220f1e28f7b020e2566241aa3cd7fa6216c16b324ce4f7",
+      "version_number": 1,
+      "original_filename": "SYSTEM OF LINEAR EQUATIONS.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7acdf729-3217-4706-aec2-abb20602f5b5",
+      "source_label": "MAT 214 Course Compact_18_19",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "5ba1fbaf7e5269afcf732050812f22b5ab4492c9e3fe34f2a91d8d1c03d8e7e6",
+      "version_number": 1,
+      "original_filename": "MAT 214 Course Compact_18_19.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8c72a679-4fbf-4175-b235-69751f3c0240",
+      "source_label": "Steps to Reduce a Matrix to Row Echelon Form",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "25ccb743b29be04f5a9756ba3547ba30c814a9f18e0ca546bbbb617bf98f959c",
+      "version_number": 1,
+      "original_filename": "Steps to Reduce a Matrix to Row Echelon Form.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8e580a76-3507-473c-8e64-c9553989e74d",
+      "source_label": "Homogeneous and Nonhomgeneous Systems",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "a26348be935a8bc193dd8ced336ddebc3974e44620a0ba5ec91f4cc78c456d30",
+      "version_number": 1,
+      "original_filename": "Homogeneous and Nonhomgeneous Systems.docx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9503cac8-13e4-44c5-a4ef-a13efb31e1d1",
+      "source_label": "EigenValue and Eigen Vector",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "7e3c34ba225c74d37c31746e56283f3dc9acec1465dcdb60f72c899f1dc60d66",
+      "version_number": 1,
+      "original_filename": "EigenValue and Eigen Vector.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "bb9b7739-5f0d-4488-9fde-16503b3ea930",
+      "source_label": "mat214 linear mapping",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "6d16e550aeae2c99ff4d34077fb8a25a8a52a9ea4dd7dd9753d11c1ff2977d1c",
+      "version_number": 1,
+      "original_filename": "mat214 linear mapping.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "bfaa1ed3-cbe6-4765-9293-7933c0848f50",
+      "source_label": "ECHELON and RANK of the MATRIX",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "6e6f656e536557ee744333deb2b28ba1343a41db3f270a8071cb33a611cbb86a",
+      "version_number": 1,
+      "original_filename": "ECHELON and RANK of the MATRIX.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "cc650412-52cf-4e84-94d5-ac8ef3b72b67",
+      "source_label": "Echelon matrices",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "d55f646c4f2c0df2078b783cf97aae95237ec76afe239be8713fc78733651043",
+      "version_number": 1,
+      "original_filename": "Echelon matrices.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "db3b6af6-0f03-4dbd-b19c-ef43bfe61481",
+      "source_label": "EIGEN VALUES",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "2542efd3125c2e0a85f1d8eaa0d1583a79837e9ddc23f40dceae548a8e999edb",
+      "version_number": 1,
+      "original_filename": "EIGEN VALUES.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "e100d92a-e09f-4116-83ec-a84568a83ccb",
+      "source_label": "DEFINITION OF MATRIX AND MATRIX ALGEBRA",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "6476066e14c3e8d6297c7494d7e986f061804b9b88f53b7d35bbbc635e453064",
+      "version_number": 1,
+      "original_filename": "DEFINITION OF MATRIX AND MATRIX ALGEBRA.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "f8526392-0954-4e09-bcb0-54eefeb48e52",
+      "source_label": "Rank of a Matrix1",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "6ff957423e6226f8651faa0460a5dc3239252a7e59b0d55b3c85076dad262ff2",
+      "version_number": 1,
+      "original_filename": "Rank of a Matrix1.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fa62f4f4-8f36-4015-83c0-6493474be552",
+      "source_label": "BASIS AND DIMENSION",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "96dd86735dc54d8dda671f26b5a31bd27ae84d10f784baac886e980b2d47152c",
+      "version_number": 1,
+      "original_filename": "BASIS AND DIMENSION.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fdb64ea9-ef57-4802-b9eb-acc3758b5b96",
+      "source_label": "SYSTEM OF LINEAR EQUATIONS (2)",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "6e24a9a4575177eda5e8934c3cde59b4774dfb5fc68d065e094f91bf39023ffc",
+      "version_number": 1,
+      "original_filename": "SYSTEM OF LINEAR EQUATIONS (2).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+      "source_label": "LINEAR TRANSFORMATION",
+      "notebook_id": "d218a0db-6abb-49ec-8484-64ff46bb6672",
+      "sha256": "c3355d819c59e82d0da5b4057fa200ba18690257413591d8da2861212cb9a913",
+      "version_number": 1,
+      "original_filename": "LINEAR TRANSFORMATION.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "MAT214-66d4d20d4aeec364",
+      "question": "What is the definition of a groupoid?",
+      "reference_answer": "A set A on which a binary operation * is defined is called Groupoid. In other words a Groupoid is closed under a given binary operation which is written as (A,*) for the groupoid A.",
+      "evidence": [
+        {
+          "source_id": "13f70290-4867-4a20-8c46-8787e73eebbd",
+          "chunk_id": "a390e056-5d56-4bd7-85dc-286c276acc0b",
+          "quote": "A set A on which a binary operation * Is defined is\ncalled Groupoid. In other words a Groupoid is closed\nunder a given binary operation which is written as\n(A,*) for the groupoid A.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-631e598ee3a89d18",
+      "question": "When are the columns of matrix A linearly independent?",
+      "reference_answer": "The columns of matrix A are linearly independent if and only if the equation Ax = 0 has only the trivial solution.",
+      "evidence": [
+        {
+          "source_id": "1ac777f2-7263-43bc-b615-f99135aadf94",
+          "chunk_id": "5230fa85-122f-4c60-b128-598fcdb944dd",
+          "quote": "Thus, the columns of matrix A are linearly independent if\nand only if the equation has only the trivial A x  0\nsolution.",
+          "locator": "page 6",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-b56468e39c5a86b0",
+      "question": "What condition must be met for two matrices A and B to be added or subtracted?",
+      "reference_answer": "Matrices A and B can be added or subtracted only when they have the same order.",
+      "evidence": [
+        {
+          "source_id": "7038be63-cf21-4c1b-90a0-700cad89979b",
+          "chunk_id": "a710837f-2118-40b9-ac1a-789c73b50f72",
+          "quote": "LetA=(a)andB=(b)bematrices,thesecanbeaddedorsubtractedonlywhenthey ij ij havethesameorder.",
+          "locator": "page 4",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-9b3e75b3a1ab1364",
+      "question": "What are the three kinds of elementary matrix operations?",
+      "reference_answer": "1. Interchange two rows (or columns). 2. Multiply each element in a row (or column) by a non-zero number. 3. Multiply a row (or column) by a non-zero number and add the result to another row (or column).",
+      "evidence": [
+        {
+          "source_id": "7038be63-cf21-4c1b-90a0-700cad89979b",
+          "chunk_id": "a710837f-2118-40b9-ac1a-789c73b50f72",
+          "quote": "1.Interchangetworows(orcolumns).\n\n2.Multiplyeachelementinarow(orcolumn)byanon-zeronumber.\n\n3.Multiplyarow(orcolumn)byanon-zeronumberandaddtheresulttoanother\nrow(orcolumn).",
+          "locator": "page 4",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-e27df1895cd8c7c3",
+      "question": "What are the three types of elementary row operations defined for matrices, and how do they form the basis for defining row equivalence between two matrices?",
+      "reference_answer": "The three elementary row operations are: (1) interchanging rows i and j, (2) multiplying row i by a nonzero scalar s, and (3) adding s times row i to row j. A matrix A is said to be row equivalent to a matrix B if B can be obtained from A by performing a finite sequence of these elementary row operations.",
+      "evidence": [
+        {
+          "source_id": "7038be63-cf21-4c1b-90a0-700cad89979b",
+          "chunk_id": "88257400-baa3-4005-a86e-d83bea2a1f7d",
+          "quote": "1.Interchangerows i and j R <-->R i j 2.Multiplyrow i by s,where s ≠0 sR -->R i i 3.Add s timesrow i torow j sR +R -->R i j j",
+          "locator": "page 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bfaa1ed3-cbe6-4765-9293-7933c0848f50",
+          "chunk_id": "948a36b5-add6-41cf-aae9-62c5e5b84b92",
+          "quote": "matrix A is said to be row equivalent to matrix , written as A B if B can be obtained from A by performing a finite sequence of elementary row operations on A.",
+          "locator": "page 11",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-ad4f6a02b27fcb81",
+      "question": "What is the conceptual relationship between the linear independence of the columns of a matrix A and the solutions to the homogeneous equation Ax = 0?",
+      "reference_answer": "Each linear dependence relation among the columns of A corresponds to a nontrivial solution of Ax = 0. Consequently, the columns of matrix A are linearly independent if and only if the equation Ax = 0 has only the trivial solution.",
+      "evidence": [
+        {
+          "source_id": "1ac777f2-7263-43bc-b615-f99135aadf94",
+          "chunk_id": "4b1f3d6c-9262-4b02-b06b-c21de71e5334",
+          "quote": "Each linear dependence relation among the columns of A corresponds to a nontrivial solution of . A x  0",
+          "locator": "page 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "1ac777f2-7263-43bc-b615-f99135aadf94",
+          "chunk_id": "4b1f3d6c-9262-4b02-b06b-c21de71e5334",
+          "quote": "Thus, the columns of matrix A are linearly independent if and only if the equation has only the trivial A x  0 solution.",
+          "locator": "page 8",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-4f1df71432546111",
+      "question": "Why is the reduced row echelon form of a matrix unique, whereas an ordinary row echelon form obtained via elementary row operations is not necessarily unique?",
+      "reference_answer": "A row echelon matrix resulting from elementary row operations is not necessarily unique because a different set of row operations could yield a different row echelon matrix. However, every matrix A is row equivalent to a unique matrix in row canonical form, which means the reduced row echelon matrix is unique.",
+      "evidence": [
+        {
+          "source_id": "bfaa1ed3-cbe6-4765-9293-7933c0848f50",
+          "chunk_id": "948a36b5-add6-41cf-aae9-62c5e5b84b92",
+          "quote": "The row echelon matrix that results from a series of elementary row operations is not necessarily unique. A different set of row operations could result in a different row echelon matrix. However, the reduced row echelon matrix is unique; each matrix has only one reduced row echelon matrix.",
+          "locator": "page 11",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bfaa1ed3-cbe6-4765-9293-7933c0848f50",
+          "chunk_id": "948a36b5-add6-41cf-aae9-62c5e5b84b92",
+          "quote": "Theorem 2: every matrix A is row equivalent to a unique matrix in row canonical form.",
+          "locator": "page 11",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-62429b20e0b80014",
+      "question": "What condition characterizes the linear dependence of a set containing exactly two vectors, and how does this relate to the concept of one vector being a scalar multiple of the other?",
+      "reference_answer": "A set containing exactly two vectors is linearly dependent if at least one of the vectors is a multiple of the other. The same set is linearly independent if and only if neither of the vectors is a multiple of the other.",
+      "evidence": [
+        {
+          "source_id": "1ac777f2-7263-43bc-b615-f99135aadf94",
+          "chunk_id": "4b1f3d6c-9262-4b02-b06b-c21de71e5334",
+          "quote": " A set of two vectors {v , v } is linearly dependent if 1 2 at least one of the vectors is a multiple of the other.  The set is linearly independent if and only if neither of the vectors is a multiple of the other.",
+          "locator": "page 8",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-26601fa066554b7e",
+      "question": "The source distinguishes between two uses of the term “linear.” How does it contrast a “linear function” (whose graph is a line) with a “linear transformation” from R into R, and how does Theorem 4.2 demonstrate that functions defined by matrices fit the latter category?",
+      "reference_answer": "The source notes that a “linear function” may simply be one whose graph is a line, but such a function is not a linear transformation from R into R if it fails to preserve vector addition and scalar multiplication. By contrast, the source states that a linear transformation is operation preserving. Theorem 4.2 establishes that any function defined by an m×n matrix is a linear transformation from Rn into Rm; therefore matrix-defined functions automatically satisfy the operation-preserving requirements and fall into the category of linear transformations rather than merely “linear” functions in the graph sense.",
+      "evidence": [
+        {
+          "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+          "chunk_id": "0627699c-1967-482d-8fc4-5ae5d5f7ac02",
+          "quote": "(1) is called a linear function because its graph is a line. But\n(2) is not a linear transformation from a vector space R into R because it preserves neither vector addition nor scalar multiplication.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+          "chunk_id": "0627699c-1967-482d-8fc4-5ae5d5f7ac02",
+          "quote": "(1) A linear transformation is said to be operation preserving.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+          "chunk_id": "0627699c-1967-482d-8fc4-5ae5d5f7ac02",
+          "quote": "Thm 4.2: (The linear transformation given by a matrix)\nLet A be an mn matrix. The function T defined by\n\nis a linear transformation from Rn into Rm.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT214-0ee80ee19024d384",
+      "question": "According to the provided table of linear transformations, the definition of onto, and Theorem 4.4, for which transformations does the range equal the co-domain, and what pattern in the rank values distinguishes these from the non-onto transformations?",
+      "reference_answer": "The definition states that T is onto W exactly when range(T)=W, and Theorem 4.4 confirms that the range is always a subspace of W. The table marks (a) T:R3→R3 and (c) T:R3→R2 as onto; their ranks are 3 and 2, respectively, which equal the second integer of the codomain notation (R3 and R2). Transformations (b) T:R2→R3 and (d) T:R3→R3 are not onto; both have rank 2, which is smaller than the second integer of their codomain notation (R3). Therefore, the range equals the co-domain exactly when the rank matches that integer, while the lower rank in (b) and (d) yields a range that is a subspace of W but not equal to W.",
+      "evidence": [
+        {
+          "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+          "chunk_id": "6c7b7442-c8bd-4691-8167-cc0886d3ef80",
+          "quote": "| T:Rn→Rm | dim(domain of T) | rank(T) | nullity(T) | 1-1 | onto | | --- | --- | --- | --- | --- | --- | | (a)T:R3→R3 | 3 | 3 | 0 | Yes | Yes | | (b)T:R2→R3 | 2 | 2 | 0 | Yes | No | | (c)T:R3→R2 | 3 | 2 | 1 | No | Yes | | (d)T:R3→R3 | 3 | 2 | 1 | No | No |",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+          "chunk_id": "6c7b7442-c8bd-4691-8167-cc0886d3ef80",
+          "quote": "i.e., T is onto W when range(T)=W.",
+          "locator": "slide 15",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fde11f1a-2cf2-44aa-a948-24887e6143ad",
+          "chunk_id": "6c7b7442-c8bd-4691-8167-cc0886d3ef80",
+          "quote": "The range of T is a subspace of W",
+          "locator": "slide 15",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

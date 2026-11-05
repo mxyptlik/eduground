@@ -1,0 +1,516 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Networking",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Networking",
+  "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "03a9356a-98b2-4466-a5c0-38023523ef0d",
+      "source_label": "CSC424_Transmission Media_2026",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "e26fcc247a27e171c708b458575926aaafc2b604b8ba36f718facf22c40ff238",
+      "version_number": 1,
+      "original_filename": "CSC424_Transmission Media_2026.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2acfe672-aecc-4c9b-b478-52efc8efba9d",
+      "source_label": "Digital Transmission_2_Modulation_2025",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "99861a30f33f4d65dcae3e908a0cc48a91f115fe577e297c4b9fd5ce96b9ed6a",
+      "version_number": 1,
+      "original_filename": "Digital Transmission_2_Modulation_2025.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3eeeae89-157b-4faf-9ee0-3895939e1a05",
+      "source_label": "CSC 424_Error Control_2025",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "6abc53c23e6604d8a16ab8d55563977a95f0b9d724d085ce45ae59349b9f5d98",
+      "version_number": 1,
+      "original_filename": "CSC 424_Error Control_2025.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7f973d40-0780-4e60-9130-71b1322f3904",
+      "source_label": "CSC424_Satellite Communications_2025",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "d9c7f90fe8a878788827ea60af6676cdac2b5e28f42e2a4c43f3cc9c981f7617",
+      "version_number": 1,
+      "original_filename": "CSC424_Satellite Communications_2025.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8498319b-074d-4a48-8f4d-20804c151158",
+      "source_label": "Descriptions of OSI RM Layers_2026",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "62dd19debc816d8d9c32b6a1b09d1640b94d10a7d329e77d3d30558dd594a22f",
+      "version_number": 1,
+      "original_filename": "Descriptions of OSI RM Layers_2026.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "89cc2061-9979-43fd-b795-93eb61705f38",
+      "source_label": "Signal Impairment_2026",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "a827e97ef755382d2403eb753d1d31c592dba393d198f3775997c8a7d375846f",
+      "version_number": 1,
+      "original_filename": "Signal Impairment_2026.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8b8fb7c3-5457-4968-9792-032f8cb360b8",
+      "source_label": "Digital Transmission (3)_Multiplexing_2024",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "381ead96685cf7955b68c4af85e3c8da6fef0e7b5e23913c737f147d6f341965",
+      "version_number": 1,
+      "original_filename": "Digital Transmission (3)_Multiplexing_2024.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "b35f953d-b1b9-4ecc-91e5-22638e6758a9",
+      "source_label": "CSC424_Lecture 1_2026F",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "5b5a9c93b7b985f0e45c5341ccbd661f7db79dbd43737206e2b1d4121d4df6d7",
+      "version_number": 1,
+      "original_filename": "CSC424_Lecture 1_2026F.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "b3d3a117-2d3a-434a-bc22-4e972b57e47c",
+      "source_label": "Protocols  How it Works_Lecture 2_2026",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "a324ad0461e7ab55f9c2311976ccd1ab45d8fdd95ef33fb29a4fe74fdba063bd",
+      "version_number": 1,
+      "original_filename": "Protocols  How it Works_Lecture 2_2026.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c50c6c0b-fa92-4758-947a-e6f3b6649cce",
+      "source_label": "Network Components, Features  and Models_2025",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "95a05bd01c9954f4914cb3e5ef7600919161fe3eb30de6ffad563d9aa79a1e69",
+      "version_number": 1,
+      "original_filename": "Network Components, Features  and Models_2025.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d328437b-3fe7-45d1-9b8c-3076354580a1",
+      "source_label": "IP Addressing  Network Address Translation_2",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "f7bf65572a7e8cb72ff12317dd812fe0ac4f6c1e15c9bd787f714de47735480e",
+      "version_number": 1,
+      "original_filename": "IP Addressing  Network Address Translation_2.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d51c057c-a3a4-424e-9152-5ec873748788",
+      "source_label": "IP Addressing  Network Address Translation_2024",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "6f528681824ec8d4161dc2f6e2e407014a95c03a8302357649bbb1272771441a",
+      "version_number": 1,
+      "original_filename": "IP Addressing  Network Address Translation_2024.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d54b8007-0909-483f-ba8d-37dfb4f467bd",
+      "source_label": "Standards Process_Lecture 3_2024",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "225ecb41f917e70e545692373c11e33ede8e27c636c876900a6925de60fc0eb9",
+      "version_number": 1,
+      "original_filename": "Standards Process_Lecture 3_2024.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "f2f2f2aa-b588-4000-913e-a5b639ab41cd",
+      "source_label": "Interconnecting Devices_Lecture 5_2024",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "4fcaceaa17120288439b87c3438cea96eaee8ecbb5bab0a614bb8ab09fe3b0c5",
+      "version_number": 1,
+      "original_filename": "Interconnecting Devices_Lecture 5_2024.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+      "source_label": "CSC424_Lecture 7_Digital Transmission (1)_2026",
+      "notebook_id": "878d3b6d-d1b3-4a11-9fc0-a296621efb99",
+      "sha256": "b33d0b8e099cb3b3ac1b59f43125937aa08a55bf277a36867d62520b011f867b",
+      "version_number": 1,
+      "original_filename": "CSC424_Lecture 7_Digital Transmission (1)_2026.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Networking-9d990dfe6e120b92",
+      "question": "What are the two main classifications of transmission media mentioned in the lecture?",
+      "reference_answer": "Bounded media (Wired, Guided) and Unbounded media (Wireless, Unguided)",
+      "evidence": [
+        {
+          "source_id": "03a9356a-98b2-4466-a5c0-38023523ef0d",
+          "chunk_id": "eba9c345-7906-404d-8ebd-a37a9db96139",
+          "quote": "Transmission media are classified into Bounded media (Wired, Guided) Unbounded media (Wireless, Unguided)",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-e385567812540929",
+      "question": "What is the frequency range of radio waves?",
+      "reference_answer": "3KHz – 1GHz",
+      "evidence": [
+        {
+          "source_id": "03a9356a-98b2-4466-a5c0-38023523ef0d",
+          "chunk_id": "eba9c345-7906-404d-8ebd-a37a9db96139",
+          "quote": "Frequency Range:3KHz – 1GHz",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-8557b0ee9780ad14",
+      "question": "What device is used for combining and splitting light sources in Wavelength-Division Multiplexing?",
+      "reference_answer": "A prism",
+      "evidence": [
+        {
+          "source_id": "8b8fb7c3-5457-4968-9792-032f8cb360b8",
+          "chunk_id": "4edba6e7-eb64-4673-8bcf-b67bbd32f47d",
+          "quote": "The combining and splitting of light sources are easily handled by a prism",
+          "locator": "slide 23",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-eaf077806e928334",
+      "question": "What is a subnet called when a packet is received at each intermediate router in its entirety, stored there until the required output line is free, and then forwarded?",
+      "reference_answer": "A store-and-forward or packet-switched subnet",
+      "evidence": [
+        {
+          "source_id": "c50c6c0b-fa92-4758-947a-e6f3b6649cce",
+          "chunk_id": "d9145600-0efb-4ffe-a7ae-6cb382c15dbd",
+          "quote": "When a packet is sent from one router to another via one or more intermediate routers, the packet is received at each intermediate router in its entirety, stored there until the required output line is free, and then forwarded. A subnet organized according to this principle is called a store-and-forward or packet-switched subnet.",
+          "locator": "slide 53",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-8d7859cb1185579c",
+      "question": "Why does error correction require more redundant bits than error detection, and what additional capability must the receiver possess?",
+      "reference_answer": "Error correction requires more redundant bits than error detection because detection only requires identifying that a received codeword is invalid, while correction requires finding or guessing the original codeword sent. The receiver must know exactly which bit in the frame is corrupted to execute error-correcting code and auto-recover.",
+      "evidence": [
+        {
+          "source_id": "3eeeae89-157b-4faf-9ee0-3895939e1a05",
+          "chunk_id": "1ba6c0c2-602f-4c9d-8663-93a144499d15",
+          "quote": "To correct the error in data frame, the receiver must know (detect) exactly which bit in the frame is corrupted.",
+          "locator": "page 61",
+          "evidence_group": null
+        },
+        {
+          "source_id": "3eeeae89-157b-4faf-9ee0-3895939e1a05",
+          "chunk_id": "1ba6c0c2-602f-4c9d-8663-93a144499d15",
+          "quote": "In error detection, the receiver needs to know only that the received codeword is invalid;\n▪ In error correction the receiver needs to find (or guess) the original codeword sent\n▪ We can say that we need more redundant bits for error correction than for error detection.",
+          "locator": "page 61",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-6831001596acf2fd",
+      "question": "How does the relationship between bandwidth and frequency explain why microwave transmission can simultaneously handle voice, data, and video, and what structural feature of bounded media achieves a similar performance benefit through a different mechanism?",
+      "reference_answer": "Microwave has wider bandwidth, which corresponds to higher frequency, enabling it to handle large amounts of data and simultaneous transmission of voice, data, and video. Bounded media achieves improved signal strength and enhanced performance over distance through shielding, cladding, and/or insulation that binds the signal within the core medium.",
+      "evidence": [
+        {
+          "source_id": "03a9356a-98b2-4466-a5c0-38023523ef0d",
+          "chunk_id": "39040e34-783c-476e-98a6-9a8d0f1e4f74",
+          "quote": "Higher bandwidth  higher frequency  can handle large amounts of data",
+          "locator": "slide 13",
+          "evidence_group": null
+        },
+        {
+          "source_id": "03a9356a-98b2-4466-a5c0-38023523ef0d",
+          "chunk_id": "39040e34-783c-476e-98a6-9a8d0f1e4f74",
+          "quote": "Has wider bandwidth and hence it can be used for simultaneous transmission of voice, data, video",
+          "locator": "slide 13",
+          "evidence_group": null
+        },
+        {
+          "source_id": "03a9356a-98b2-4466-a5c0-38023523ef0d",
+          "chunk_id": "39040e34-783c-476e-98a6-9a8d0f1e4f74",
+          "quote": "Bounded media  refers to the fact that some form of shield, cladding, and/or insulation is employed to bind the signal within the core medium This improves signal strength over a distance and enhances performance of the transmission system in the process.",
+          "locator": "slide 13",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-a1f119c1ee3aac6c",
+      "question": "What fundamental difference between TDM and FDM explains why TDM is better suited for digital data, and what inherent inefficiency in synchronous TDM arises from this time-sharing approach?",
+      "reference_answer": "TDM shares time while FDM shares a portion of bandwidth. TDM is better suited for digital data because it uses discrete time slots rather than continuous frequency bands. The inherent inefficiency in synchronous TDM is that some time slots may not be used by some transmitting devices, leading to underutilization of the link capacity and waste.",
+      "evidence": [
+        {
+          "source_id": "8b8fb7c3-5457-4968-9792-032f8cb360b8",
+          "chunk_id": "4e092d27-dd92-496b-89fa-8f5a9852efcd",
+          "quote": "In TDM, time is shared as against the FDM where a portion of the bandwidth is shared.",
+          "locator": "slide 32",
+          "evidence_group": null
+        },
+        {
+          "source_id": "8b8fb7c3-5457-4968-9792-032f8cb360b8",
+          "chunk_id": "4e092d27-dd92-496b-89fa-8f5a9852efcd",
+          "quote": "TDM is better suited for digital data",
+          "locator": "slide 32",
+          "evidence_group": null
+        },
+        {
+          "source_id": "8b8fb7c3-5457-4968-9792-032f8cb360b8",
+          "chunk_id": "4e092d27-dd92-496b-89fa-8f5a9852efcd",
+          "quote": "Some time slots may not be used by some transmitters, leading to underutilization of the link, which is wasteful. Hence, this method is otherwise referred to as synchronous TDM.",
+          "locator": "slide 32",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-aba0006b6f01a38f",
+      "question": "How does CIDR's use of 1-bit increments address the wastefulness of classful addressing, and what does the number after the slash represent in CIDR notation?",
+      "reference_answer": "CIDR addresses wastefulness by allocating IP addresses in 1-bit increments instead of the 8-bit increments used in classful schemes (Class A, B, C). The number after the slash in CIDR notation represents the number of bits assigned to the network address, such as /24 for 24 network bits.",
+      "evidence": [
+        {
+          "source_id": "d328437b-3fe7-45d1-9b8c-3076354580a1",
+          "chunk_id": "76fd9336-df03-4955-a576-83e554699f6a",
+          "quote": "Classful address schemes (Classes A,B & C ) of allocating addresses in 8-bit increments is wasteful",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d328437b-3fe7-45d1-9b8c-3076354580a1",
+          "chunk_id": "76fd9336-df03-4955-a576-83e554699f6a",
+          "quote": "In CIDR is allocated in 1-bit increment as against 8-bit increment",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d328437b-3fe7-45d1-9b8c-3076354580a1",
+          "chunk_id": "76fd9336-df03-4955-a576-83e554699f6a",
+          "quote": "Number next to the slash represents the number of bits assigned to the network address\n• Network ID - 192.168.1.0/24\n• CIDR – 24",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-b42b0d8a7dc270ee",
+      "question": "How does synchronous serial transmission establish and maintain synchronization at both the bit and block levels, handle idle periods, and how do these mechanisms differ from the timing and framing methods used in asynchronous transmission?",
+      "reference_answer": "Synchronous serial transmission establishes bit-level synchronization by timing each bit and superimposing data on a timing signal so the receiver continues to receive timing along with the data; it prevents timing drift by synchronizing clock speed through a separate clock line or an embedded clock signal. Block-level synchronization is achieved by beginning each block with a preamble bit pattern (opening flag) and ending it with a post-amble bit pattern (closing flag). When idle, the transmitter sends a square wave timing signal. In contrast, asynchronous transmission does not require synchronization between transmitter and receiver devices; it relies on start and stop bits and inserts gaps between the bit stream, making the method slower.",
+      "evidence": [
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "In the absence of start & stop bits, bit synchronization is established between sender & receiver by ‘timing’ the transmission of each bit Transmitted data are super-imposed on the timing signal in such a way that the receiver continues to receive the timing signal along with the data",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "Clock speed : time interval (clock speed) must be synchronized, to prevent timing drift between transmitter and receiver; can Use separate clock line Embed clock signal in data",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "In synchronous transmission, there is another level of synchronization required, to allow the receiver to determine the beginning and end of a block of data. Each block begins with a preamble bit pattern (opening flag) and Ends with a post-amble bit pattern (closing flag)",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "54b16d2f-c7a9-43b5-af41-911488a3e514",
+          "quote": "In the absence of data to transmit, the transmitter sends a square wave timing signal to the other end",
+          "locator": "slide 46",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "No synchronization is required between the transmitter and receiver devices.",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "The addition of start and stop bits and the insertion of gaps in between the bit stream makes the method to be very slow.",
+          "locator": "slide 37",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Networking-244cd065c00699a3",
+      "question": "Despite being slower and less efficient, why is asynchronous transmission considered cost-effective and well-suited to short-burst traffic, while synchronous transmission is preferred for high-speed applications such as live video despite its higher cost and complexity?",
+      "reference_answer": "Asynchronous transmission is cost-effective because no synchronization is required between the transmitter and receiver, line cost is low for short lines, and idle time is not expensive; it is easy to implement and best suited to Internet traffic sent in short bursts and used by modems. Although the overhead of start and stop bits and gaps makes it slower and less efficient—with a bandwidth loss of 20–30% over capacity—a corrupted character does not affect its neighbors. Synchronous transmission is preferred for high-speed communication because it sends multiple bytes in frames without extra bits or gaps, yielding only 5% bandwidth loss over capacity; however, it requires more expensive hardware and software, local buffer storage, accurately synchronized clocks at both ends, and complicated synchronization, making it costly but appropriate for live video streams.",
+      "evidence": [
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "No synchronization is required between the transmitter and receiver devices.",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "It is also a more cost-effective method. If lines are short, asynchronous transmission is better, because line cost would be low and idle time will not be expensive.",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "Best suited to Internet traffic in which information is transmitted in short bursts.",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "Used by modems",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "If a character is corrupted during transmission, its successor and predecessor character will not be affected.",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "677f6210-7911-4b7b-8028-b9f00d00edc5",
+          "quote": "The addition of start and stop bits and the insertion of gaps in between the bit stream makes the method to be very slow.",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "17d3a138-223d-4788-b8c7-917e2f76a67e",
+          "quote": "| Bandwidth loss | 5% over capacity | 20-30% over capacity |",
+          "locator": "slide 55",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "54b16d2f-c7a9-43b5-af41-911488a3e514",
+          "quote": "This method is faster as compared to asynchronous as there are no extra bits (start bit & stop bit) There is no gap between the individual data bytes",
+          "locator": "slide 46",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "54b16d2f-c7a9-43b5-af41-911488a3e514",
+          "quote": "Uses more expensive hardware and software for communications.",
+          "locator": "slide 46",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "54b16d2f-c7a9-43b5-af41-911488a3e514",
+          "quote": "It requires local buffer storage at the two ends of line to assemble blocks It also requires accurately synchronized clocks at both ends",
+          "locator": "slide 46",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fc2587d9-d54b-4723-b886-0f521596a650",
+          "chunk_id": "54b16d2f-c7a9-43b5-af41-911488a3e514",
+          "quote": "Synchronous transmission is used for high-speed communication between computers Example - live video streams",
+          "locator": "slide 46",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

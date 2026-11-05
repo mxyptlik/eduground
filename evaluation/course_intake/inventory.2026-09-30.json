@@ -1,0 +1,2504 @@
+{
+  "schema_version": 1,
+  "dry_run": true,
+  "root": "C:\\Users\\User\\Desktop\\eduground\\Courses",
+  "registry": null,
+  "courses": [
+    {
+      "course_id": "Architectures-Organisation",
+      "title": "Architectures & Organisation",
+      "relative_directory": "Architectures & Organisation",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "C",
+      "title": "C#",
+      "relative_directory": "C#",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Computational-Science-and-Numerical-Methods",
+      "title": "Computational Science and Numerical Methods",
+      "relative_directory": "Computational Science and Numerical Methods",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "title": "Computer Architecture and Organization II",
+      "relative_directory": "Computer Architecture and Organization II",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "title": "Computer Graphics and Animation",
+      "relative_directory": "Computer Graphics and Animation",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Computer-Security",
+      "title": "Computer Security",
+      "relative_directory": "Computer Security",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Hardware",
+      "title": "Hardware",
+      "relative_directory": "Hardware",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "title": "Human computer interaction",
+      "relative_directory": "Human computer interaction",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "title": "Leadership devlopment",
+      "relative_directory": "Leadership devlopment",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "MAT212",
+      "title": "MAT212",
+      "relative_directory": "MAT212",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "MAT214",
+      "title": "MAT214",
+      "relative_directory": "MAT214",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Networking",
+      "title": "Networking",
+      "relative_directory": "Networking",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "title": "Organization of Programming Languages",
+      "relative_directory": "Organization of Programming Languages",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "title": "Peace & Conflict",
+      "relative_directory": "Peace & Conflict",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "PHY232",
+      "title": "PHY232",
+      "relative_directory": "PHY232",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Project-Management",
+      "title": "Project Management",
+      "relative_directory": "Project Management",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "title": "System analysis and design",
+      "relative_directory": "System analysis and design",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "title": "Total man concept",
+      "relative_directory": "Total man concept",
+      "notebook_id": null,
+      "reviewer": null,
+      "notes": "course_id inferred from the directory name; confirm or replace it in courses.csv"
+    }
+  ],
+  "documents": [
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Computer Organization and Architecture.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 17920983,
+      "sha256": "2016623e12d594e92226e133a1e38e40ea9ae395ce1ec0942af350a910283488",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Lecture 1 Slides.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 3083471,
+      "sha256": "1f2ab79af676423d3d62e3d7704d7681a4e05d8908cc5e0308b10ef3dfc82c75",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Module 2 Lecture 1 Slides.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 3799552,
+      "sha256": "883028438c79a23cc89198c9e811739467d75c632c8106125baab29ccba496b4",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Module 2 Lecture 2 Slides.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 4728832,
+      "sha256": "8ec43dd402450adbf0acafec4611e24be683f01513ec49498897090dccf51a2f",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Module 2 Lecture 3 Slides.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 5231616,
+      "sha256": "f336af2593290621fd28f713ad5e859a1eb7441194ed65cfed3e0daa1be23669",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Module 3 Slides.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1631158,
+      "sha256": "1e295ba72c0ea3922ff67a438ad0306656803e8319999ac00e8858607254fad9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Module 4 Slides.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 2157940,
+      "sha256": "5e647830f39034e92d53d622a54c15400a7a9e00312530cd5259303a75e31bf3",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Architectures-Organisation",
+      "relative_path": "Architectures & Organisation/Module 5 Slides.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 965734,
+      "sha256": "fe494427cf526f0489b032da28a42eca0a2a5dd869b7a5f29307763525ce1749",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 1.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 2467601,
+      "sha256": "e008f7600cae970d94595c11e4d44a3e46a31172f1f4ad601d66e904ed95b710",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 2.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1731306,
+      "sha256": "2e8bea42f8dcbef3155461904140cd0aec300b4a26de738ebc3b1ae43fa3aad7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 3.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 2870446,
+      "sha256": "a8a77f0f0230637db4f19800dcb0e32531a4a12b15915c7aecd8fd11c2442ed0",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 4.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1409231,
+      "sha256": "d408da6f708d957cbafb3e32ccd94f41c2a471f6fecf0d2fe48ca6414a0f6dab",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 5.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1510180,
+      "sha256": "0e6f90beaa43defbe9ec434db6b6694cb78b2af43f3e1d2500b16ab3718ef655",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 6.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 2292067,
+      "sha256": "bb1ecf9a32ee732921bc84d1bf3651e2bc00299be13f1be88a13d7517f2d99ad",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 7.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1917286,
+      "sha256": "8f2229c4638bb327ccf1dc7d93f8f8637c37bdfda88062acda9cd16925aaf36f",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/CSC221 LECTURE 8.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1264357,
+      "sha256": "618db0769a352361448fef2ecfe51eac8cbaa9fb0d2c514428f8efa566651aaa",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "C",
+      "relative_path": "C#/Starting Out with Visual C#.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 12894773,
+      "sha256": "21fb762e54e7a86d8921ca628619ee0201410194c1a3398ce24e6fa30e9e65a9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computational-Science-and-Numerical-Methods",
+      "relative_path": "Computational Science and Numerical Methods/L1_CSC431-OyeladeOJ.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1809689,
+      "sha256": "5047c79d40674920d7ee8e795c8813144600877e21291f1c441c2b7e7640e975",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computational-Science-and-Numerical-Methods",
+      "relative_path": "Computational Science and Numerical Methods/L2_CSC431_Lectures(Guassian_Method).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1161530,
+      "sha256": "efb32acc38f1a9068ebbd4b7311c9d0e512882c9b660b54e7ad66d49396109aa",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 - FAULT TOLERANCE Part 2.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 545635,
+      "sha256": "821d3eb69cb316d20ebded7059272e30ba078bae0a2d7eeb8d5712937035c07f",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 - FAULT TOLERANCE.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 446630,
+      "sha256": "204c02c5f73404f472d865178ef92a1e0e3f11c82e423e8980828b5687300861",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 - FAULT TOLERANCE_PART3.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 416408,
+      "sha256": "8aebacb77e68f6724b732b84ed2d6447a7ffab8ed48d3d0f638d23cf47a47d8a",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 - GENERAL INTRO_COURSE_OVERVIEW.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 381391,
+      "sha256": "80ed1cf65465440985f54123d880be2ef4d256c02fa49710debaee48aca3abf0",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 - MEMORY HIERARCHY  AND CACHE MEMORY DESIGN.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 4279945,
+      "sha256": "a3c7be652f3b229f1df80fa165ac6b56cd416f6485a45137d9cd00927aff9f68",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 - MEMORY OPERATIONS AND PERFORMANCE.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 780785,
+      "sha256": "9b1268b6cd1c7138536ab122fed595c79d502df524cfcb957a5ba0417f515a25",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 TOPIC1 SLIDES.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 381391,
+      "sha256": "80ed1cf65465440985f54123d880be2ef4d256c02fa49710debaee48aca3abf0",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 TOPIC2 SLIDES.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 780780,
+      "sha256": "5aac8da57ec8fecfd6d049dae7574d3c0df47f2513d2b551c2bf453eefd74c81",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 TOPIC3 SLIDES.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1604554,
+      "sha256": "b88e6b87ac032fc103d76b301e8c369edec33e400f7eeb8dccb70cff5e07c439",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 TOPIC4 SLIDES.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 928348,
+      "sha256": "25282a54472655d008d4116d972ccd94993964bcabe72357645095beae541ab8",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 TOPIC5 SLIDES.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 446632,
+      "sha256": "093182ada069a4652507a5ae876e813fd6a6e060a05cd5b4c6c85017acbe82f1",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425 TOPIC6 SLIDES.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 549141,
+      "sha256": "dd0ed5c856db0e9cdae12ddb51b3ee8dce8cde964274101a582f052ee11a5389",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425_Input-Output Control.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 2195489,
+      "sha256": "d083d61c7c4156b165f1a9825f029832b9b1ca19ebc065bf080fc2e30d202018",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Architecture-and-Organization-II",
+      "relative_path": "Computer Architecture and Organization II/CSC425_Synchronous_Asyncronus_Control_updated.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1561711,
+      "sha256": "fe9a2a9abfa60d7f7f2176b4b5ffea9484c84ed4b03d04ece7193f788dea9567",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/2D-Translation.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1033196,
+      "sha256": "6e7138484ac2c22806788070ff748ef69ab8161fea1c88a905c3b5a639fa84cd",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/3D_Transformations.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 330544,
+      "sha256": "b85d074eebdb9c257878d1b030b5e44093b9cd433fc74eb9dc2f9bb9ca6bb574",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/Circle drawing Algorithm.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 370368,
+      "sha256": "da60366cfa25b3723455db0c2f75e76089991594b2b84e882d24348ad23aae09",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/CSC433 Course Compact.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 134268,
+      "sha256": "5aff5269d5f8f7fde8076ac586d36db4bfb6c5fcf8386c3aa406744963cbb981",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/Graph Algorithms.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1040745,
+      "sha256": "0a530ec5fdfaba0237bac0b488b873f3d79db7ad8580752a4f692aa6cce53659",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/John_F_Hughes,_Andries_van_Dam,_Morgan_McGuire,_David_F_Sklar,_James.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 19973353,
+      "sha256": "01e58450fcd33c48b464aa5dd4251852ab4f46e38d3b60a488365455292dcd4a",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/L1_DDA and Bresenham’s algorithms.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 676118,
+      "sha256": "51590e5f9622855a0359b2342f33da0204de15a30aedc139c97bb6526907ca79",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/Module2_Lecture.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 723613,
+      "sha256": "4f90f18427055daff3c54b18a7a672b870c329959a7a7938a8805cdce7369dc7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Graphics-and-Animation",
+      "relative_path": "Computer Graphics and Animation/TOPIC_2_Output_Primitives_II_Algorithms_for_Curves_Circles_and_Ellipses.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 688726,
+      "sha256": "1e5df5fcbb639195864815121943d3561b7ae52b63c8c452816da9871a204786",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Computer Security an... by Paul C. van Oorschot (z-lib.org).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 9809862,
+      "sha256": "081334aeafade8fc46809204aa3b05f91f60cce87a07d3419b9c643d187e69fc",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Computer Security and Internet.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 5777685,
+      "sha256": "d607d9eecb169c38eec7bf5c9126be9e859db0f4489c507684c48b7904645aa7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 1 - Security Concepts and Principles.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1533910,
+      "sha256": "627580d57a4e8f7ca54ac5cb9b09dc4bee226c200d774b97c9b56ec4c3a901a9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 2 -Cryptographic Building Blocks.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1251359,
+      "sha256": "f9ea5bf0466a743456fa091e5046ad9b74ea6a44a4600a802fcb78b26e9dfff4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 3 - User Authentication, Passwords, Biometrics and Alternatives.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1585890,
+      "sha256": "90e814076118096685307116332637a122ccde1352930b3560b8b3df28501f36",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 4 - Operating System Security and Access Control.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1221029,
+      "sha256": "75e60552786c127d2905bb5a1f525971afc4661e6c82e68b6824fe91ce278358",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 5 - Malicious Software.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1256899,
+      "sha256": "1a010b4317b6f111abf7977dcb8b0e1d53b4d9d8868a31c02162c93b34f67cea",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 6 - Web and Browser Security.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 2467283,
+      "sha256": "1a83fd975d15889a08d8b57283f573972bd91a6ff73102786948cbd597f597c5",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 7 - Intrusion Detection.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 867877,
+      "sha256": "02f106f125bf14c0348cd019d6d586cd41603d9c567f3ef56bc0f190c2059a35",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Computer-Security",
+      "relative_path": "Computer Security/Lecture 8 - Auditing.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 687971,
+      "sha256": "0fc103c566010dff58d1bc9f24237cbcb1838a267dce8a516ac8b2adaa670371",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CH-23_integrated circuit.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 254979,
+      "sha256": "b9c90bb514ecd7bb3ff0520fc592d2a3869359af9c557aa25d66412882a7299c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 1 - L1.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1709568,
+      "sha256": "7e0e43cd40c1b0128026602bc32bab441dc67f9373ed349253227acb1d363bb6",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 1 - L2.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 6217266,
+      "sha256": "c32225ca92832dca6565f7f37e96cdc559b7b19ed1d0bd6c87089ab8e2086e28",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 2 - L1.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 7242419,
+      "sha256": "19c50cd84f1a21b22373d78a30f2d9fc011316c9a635fb1780564c16fcba88ce",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 2 - L2.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 4159959,
+      "sha256": "1ac9b4d3e3cc12bbbe9f5325a600bf9a94a32d4877836ce5fc6502e948031a9c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 2 - L3.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 5767954,
+      "sha256": "b1c931e9568c80ce96fe1b6a826db5602e538b514b3a8eeef2bf7c549f496dfe",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 2 - L4.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 6529635,
+      "sha256": "a5768bff5e77edb753d5aefe419fabbf9022df182c1bbb3063730ba9901b16bc",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 MODULE 2 - Printer and Monitors.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1338502,
+      "sha256": "388ae3b3c0b9629c58eca2f42f70480675cae27f2909ddea0e78cdcd9e5129c2",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 Module 3a - Combinational Logic.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 3112142,
+      "sha256": "ae14ba234744e8dc1ff47f3d26e63b849d5eae49449510955d48f7095bcf6264",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/CSC 223 Module 3b - Combinational Logic.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 2631626,
+      "sha256": "6504ad574241d036c403a12be2e75e1bb890dbf609aee0c2b344c2a0e29cd1a2",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/Digital_Electronics_Computer_Circuits.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 559104,
+      "sha256": "97a3d325ff499950b50aaf1e42fc8a1e621225c03406ccf935a97c3dfb327f30",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/Fundamentals Of Computer Organization And Architecture (2005).pdf ( PDFDrive.com ).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 3541142,
+      "sha256": "d50b898021f685f9e21b3138a6bdd5b6a524e4cc3a4df188fe98c6acb5911d9d",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/Gates and Circuits.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 3084288,
+      "sha256": "58c220868c147c761328f44cfcd7fa877587fd88cf728f1affacc4425abd46b9",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/IC_fabrication_process.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 2496512,
+      "sha256": "5fd8b59c39b5c5c1691fb6c2e89703155fb044d3a3ad7227dfc0d624d1b8cf45",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/IC_processing_packages_and_processing.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 881152,
+      "sha256": "9dd27379bb03a35d29038ec36d42bde3cd0c04c58bb92bce1e1f452843bb5755",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/Integrated_Circuits.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 706048,
+      "sha256": "c2b0fd68e162a4bef3b67d4fb2518d9d209d87bbf9e77ef1482afc06d68313d2",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/Major components that make up an ink jet printer for an optimal printing output.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 111694,
+      "sha256": "1c0ba04d007728d15baa0196b621f5a40e0f9e064aea9739ab38893fee6b2b58",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/module2_Lecture2_computer_memory2.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 15495849,
+      "sha256": "a044dc22621aed0693cef6dd3390a9cdc79ea27016ad201185d29505a5ecbdaa",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/Practice Question.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 76745,
+      "sha256": "341709d691e50d00e0a3904b75eeb8a69c50cd88c580d6db026284ae1b55e794",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Hardware",
+      "relative_path": "Hardware/SUMMARY OF INTEGRATED CIRCUITS.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 57140,
+      "sha256": "3517465804e1341ce75d7416e80214b3111551e81ca5412aa1526e32811453d1",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 1] - lecture 1 ppt.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1662752,
+      "sha256": "dd2a8fac556719583e88fd887046a9ccb2043770568dc865386c038ad3928607",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 2] - lecture 2.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1710235,
+      "sha256": "c34f8987bb55e35436a4e1d7997d6a70bab31e2ef56edd7d113924f8c05dd779",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 2] - Lecture2word.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 257164,
+      "sha256": "a83860f755700ad415d32b5f40865d369fc09e448e42d0733be2817ea43c977c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 3] - Lecture 3_HCI_Evaluation and the User Experience1_2022.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 291393,
+      "sha256": "8840bebee0ab3bd32f0128aa79b2de5699a6ea7dcdde5fdf14d5f2b7b649c0e7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 4] - Lecture 4_HCI_2021.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 2095069,
+      "sha256": "9608dda96524312f99c0c98712f0c5b905f89ee8b4c3d53c9d5dae462c68cc29",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 5] - Interaction Styles.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 853875,
+      "sha256": "c7f3ea69972ace61806d22a4f39c11ffb9e8a0f312d023d831734ec51b302554",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 6] - LECTURE 6.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1013640,
+      "sha256": "60ee75803d08f803bd7a7fd589a96cc1be587e14d29a759e7d3a02a8fb61c3f6",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 6] - lecture 6ppt.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1622903,
+      "sha256": "37d67d473ece33b695339db62076804501455451e61c0d13860d537bcc1c2407",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 7] - LECTURE 7.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 491047,
+      "sha256": "ea361312d94c01e1c92b589c50d97f70924dca719866ef00c60339aceb54821e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 7] - lecture 7ppt.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 982562,
+      "sha256": "610d6536ec52023ac6938c29642419b4fd9cbdd3141a1ce878a62052e834aaa4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 8] - LECTURE 8.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 318046,
+      "sha256": "c68ee91c86f1854a3140a8a23835d24c0a65be54babc67509625afa7984d4c5a",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Human-computer-interaction",
+      "relative_path": "Human computer interaction/[TOPIC 8] - lecture 8ppt.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1373486,
+      "sha256": "019613731e5a3754f22c663a79fd0d0f90ff140d916798dfe021e77995142ba3",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221-LectureTwo-Solution-Focused-Leadership (1)_compressed.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 3278136,
+      "sha256": "c5b378e86cd81571e646612119e9ba64587640f66857b1c5849ae4169b728c5e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_Lecture_1_Leadership_Covenant_compressed.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 2734886,
+      "sha256": "8c906f93af8758473b337a1560a8438d2936a9c37460c4409b089aba8584ebfe",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureEight_Conflict_Management_and_Negotiation_in_Leadership.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1343352,
+      "sha256": "94c72c1024580605e88f4c45c1299c5f3406b7f0befb57f0059ae9bbef801318",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureFive_NonProfit_Leadership_and_Social_Change.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1290797,
+      "sha256": "1b59ddc0b569714aea2cafd4722544bfbaf80d0edca75f65b56a3e021f6ac521",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureFour_Boardroom-Ethics-and-Governance.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 721319,
+      "sha256": "2f38a2310ce43dcdd1f57cfcc8b6baee8c8c9bdef9a38951fe5c5b489ccfcca4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureNine_Leading_and_Managing_Change.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 752045,
+      "sha256": "7389b9b53027b37ee193b2c01e791ce5cd809092fa4bcea016959b756c4a907f",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureSeven_Ethics_Integrity_And_Anti_corruption_Leadership.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 886037,
+      "sha256": "5c38ac5c30d57f1e78cefa994b18c4353101397bd93620857f18687f1d207d9e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureSix_TeamLeadership_Workplace_Dynamics.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 895607,
+      "sha256": "9e3b7725d697e4eb6ef330586836b6db97b95e6266b27caba6f7efe9f75122af",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Leadership-devlopment",
+      "relative_path": "Leadership devlopment/DLD221_LectureThree_Leading_Transformation.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 841451,
+      "sha256": "8b10b336cdad6e03647a3d7d53765442b538738e1f5e686cf908e7e7bdd1786e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/advanced_engineering_mathematics_strouoh_i_subd_4edition_Copy.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 54344747,
+      "sha256": "7640255bbee28d9dddf2d5ba9d42f6e30db6500ab8ea04b4fa0ee5d52850a461",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/Mat 212 (6).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 119370,
+      "sha256": "f28c4deae0f42dc965ac589261be407b9aaf30b34da1e6834ae089c516c1167d",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/mat 212 (7).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 183752,
+      "sha256": "0df155c5263e95224140e426ee3ef0f7b248735d50171db33de2e74e25bff4ad",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/Mat 212 lecture notes(2).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 185095,
+      "sha256": "8819664d4f310fe563744c8f39f25b260abc3a39af55e0f46f32487307ca6647",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/MAT 212(1).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 129103,
+      "sha256": "611052a459d49296977289b6b59f29d7e56b5b5416044da951c63191465564e1",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/mat 212(3).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 134279,
+      "sha256": "ef70bd9d89756816d227f448add152ef5a8fa7a72a0ad2878454d49b3d78decd",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/MAT212 PREVIOUS SESSIONS QUESTIONS (1).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 719117,
+      "sha256": "1678d7ac01213c22fd410e2210566ca55fefe7e7df0ff91bd21c990c16ce629c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/mat212 week one.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 752483,
+      "sha256": "0a0dab5e1fdf450d80c8c7b95b3e31928d267f1b626593841be9ea042f6f2c74",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/MAT212_successive differentiation_TEACHING.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1185792,
+      "sha256": "20cbc3ad4a019d8148bd00a5566971d598a480295ca5054cae6addf8fcfe62e5",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/successive differentiation_lec1 -wk6.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 118535,
+      "sha256": "5c1581ffedb9dbe89244b886d0600497b9c1c0d099b1bc1a23abe7f3077a04cb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/taylor series and maclaurin series-wk5.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1109582,
+      "sha256": "dbb5eec93a4e9f6ae51bd90dddcf070a094dd2436071925d5dc49edd35499655",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT212",
+      "relative_path": "MAT212/week four.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 984164,
+      "sha256": "b4e01867d83adf15651716c56bc874f18e1a53389aa8a37eb3c0acc5519f901e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/BASIS AND DIMENSION.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 348663,
+      "sha256": "96dd86735dc54d8dda671f26b5a31bd27ae84d10f784baac886e980b2d47152c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/book.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 7626685,
+      "sha256": "5240f2782e645bc6351ad9eba69d8c19500142a5cca9c90450c17b3765a1a400",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/DEFINITION OF MATRIX AND MATRIX ALGEBRA.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 778549,
+      "sha256": "6476066e14c3e8d6297c7494d7e986f061804b9b88f53b7d35bbbc635e453064",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/DETERMINANT and INVERSE of MATRIX(1).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 597593,
+      "sha256": "29cde3f6d7a2d846c870b986ed024ee81e8ea6e6e9b9475dbf61c39544944be4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/DETERMINANT and INVERSE of MATRIX.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 285151,
+      "sha256": "c37d734a7a47aefa52e94777f60fbf7c67d2fcfa76a420032563cc4b5014ac51",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/DETERMINANTS.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 269973,
+      "sha256": "c0802e07127276262ce4414d76be84b07ffa614e19277c40dfc7c57a9fccc442",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/ECHELON and RANK of the MATRIX.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 326482,
+      "sha256": "6e6f656e536557ee744333deb2b28ba1343a41db3f270a8071cb33a611cbb86a",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Echelon matrices.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 192461,
+      "sha256": "d55f646c4f2c0df2078b783cf97aae95237ec76afe239be8713fc78733651043",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Echelon matrix.docx",
+      "suffix": ".docx",
+      "source_type": "docx",
+      "byte_size": 26404,
+      "sha256": "d243671e13f534de752ab47fe354ee58ba782a6f29b2019f509bc3d4db92bdcd",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/EIGEN VALUES.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 455849,
+      "sha256": "2542efd3125c2e0a85f1d8eaa0d1583a79837e9ddc23f40dceae548a8e999edb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/EigenValue and Eigen Vector.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 57247,
+      "sha256": "7e3c34ba225c74d37c31746e56283f3dc9acec1465dcdb60f72c899f1dc60d66",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Elementary Operations on Matrices(1).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 689420,
+      "sha256": "f330cc54ba5500c45e0112edb19cd766db7930d6b834b6af81d5666f1077d3b4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Homogeneous and Nonhomgeneous Systems.docx",
+      "suffix": ".docx",
+      "source_type": "docx",
+      "byte_size": 204272,
+      "sha256": "a26348be935a8bc193dd8ced336ddebc3974e44620a0ba5ec91f4cc78c456d30",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/howard-anton-chris-rorres-elementary-linear-algebra-applications-version-11th-edition.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 8476267,
+      "sha256": "d42f539c67dae1de1fe85b36efa3f43c4d222976b893710a8e7f1e5895c9341e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/LINEAR COMBINATION.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 513273,
+      "sha256": "c24dabe53ebef3d2811d7d9d43168d8b3175109032682fb5ac13ede5cdb3a711",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Linear Independence and Linear Dependence.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 159116,
+      "sha256": "e7580052a02243aa50820a3a2ce1df6e29e8d23ae467851bdfae593d4bbe5874",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/LINEAR TRANSFORMATION.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1184375,
+      "sha256": "c3355d819c59e82d0da5b4057fa200ba18690257413591d8da2861212cb9a913",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/MAT 214 Course Compact_18_19.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 93251,
+      "sha256": "5ba1fbaf7e5269afcf732050812f22b5ab4492c9e3fe34f2a91d8d1c03d8e7e6",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/mat214 linear mapping.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 109872,
+      "sha256": "6d16e550aeae2c99ff4d34077fb8a25a8a52a9ea4dd7dd9753d11c1ff2977d1c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/MAT214 VECTOR SPACE.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1279988,
+      "sha256": "44e68d41cc4acf6a350f0606d764cf67d6353d2816b654192c09f82f6aca86b6",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Rank of a Matrix1.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 137638,
+      "sha256": "6ff957423e6226f8651faa0460a5dc3239252a7e59b0d55b3c85076dad262ff2",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/sec4_1.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 291651,
+      "sha256": "47fd67317e8885e4ee16137abeba9fe53d1099a01102a9440085e8b48f231743",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/Steps to Reduce a Matrix to Row Echelon Form.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 267083,
+      "sha256": "25ccb743b29be04f5a9756ba3547ba30c814a9f18e0ca546bbbb617bf98f959c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/SYSTEM OF LINEAR EQUATIONS (2).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 255589,
+      "sha256": "6e24a9a4575177eda5e8934c3cde59b4774dfb5fc68d065e094f91bf39023ffc",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/SYSTEM OF LINEAR EQUATIONS.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 368921,
+      "sha256": "948e4df40721b7d895220f1e28f7b020e2566241aa3cd7fa6216c16b324ce4f7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "MAT214",
+      "relative_path": "MAT214/textbook.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 8987128,
+      "sha256": "bb636c979729724e59da05d21a3d7111d55c28ad1183e27e4f0715bcbdc0eda9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/CSC 424_Error Control_2025.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 835366,
+      "sha256": "6abc53c23e6604d8a16ab8d55563977a95f0b9d724d085ce45ae59349b9f5d98",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/CSC424_Lecture 1_2026F.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1312016,
+      "sha256": "5b5a9c93b7b985f0e45c5341ccbd661f7db79dbd43737206e2b1d4121d4df6d7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/CSC424_Lecture 7_Digital Transmission (1)_2026.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 2002327,
+      "sha256": "b33d0b8e099cb3b3ac1b59f43125937aa08a55bf277a36867d62520b011f867b",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/CSC424_Satellite Communications_2025.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 3396504,
+      "sha256": "d9c7f90fe8a878788827ea60af6676cdac2b5e28f42e2a4c43f3cc9c981f7617",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/CSC424_Transmission Media_2026.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 3184383,
+      "sha256": "e26fcc247a27e171c708b458575926aaafc2b604b8ba36f718facf22c40ff238",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Descriptions of OSI RM Layers_2026.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 836078,
+      "sha256": "62dd19debc816d8d9c32b6a1b09d1640b94d10a7d329e77d3d30558dd594a22f",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Digital Transmission (3)_Multiplexing_2024.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1355032,
+      "sha256": "381ead96685cf7955b68c4af85e3c8da6fef0e7b5e23913c737f147d6f341965",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Digital Transmission_2_Modulation_2025.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 2488485,
+      "sha256": "99861a30f33f4d65dcae3e908a0cc48a91f115fe577e297c4b9fd5ce96b9ed6a",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Interconnecting Devices_Lecture 5_2024.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1495027,
+      "sha256": "4fcaceaa17120288439b87c3438cea96eaee8ecbb5bab0a614bb8ab09fe3b0c5",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/IP Addressing  Network Address Translation_2.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 978145,
+      "sha256": "f7bf65572a7e8cb72ff12317dd812fe0ac4f6c1e15c9bd787f714de47735480e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/IP Addressing  Network Address Translation_2024.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 944817,
+      "sha256": "6f528681824ec8d4161dc2f6e2e407014a95c03a8302357649bbb1272771441a",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Network Components, Features  and Models_2025.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1183178,
+      "sha256": "95a05bd01c9954f4914cb3e5ef7600919161fe3eb30de6ffad563d9aa79a1e69",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Protocols  How it Works_Lecture 2_2026.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1434779,
+      "sha256": "a324ad0461e7ab55f9c2311976ccd1ab45d8fdd95ef33fb29a4fe74fdba063bd",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Signal Impairment_2026.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 955398,
+      "sha256": "a827e97ef755382d2403eb753d1d31c592dba393d198f3775997c8a7d375846f",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Networking",
+      "relative_path": "Networking/Standards Process_Lecture 3_2024.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 786363,
+      "sha256": "225ecb41f917e70e545692373c11e33ede8e27c636c876900a6925de60fc0eb9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/Concepts of Programming Languages by Robert W. Sebesta.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 9133222,
+      "sha256": "cb0033e95535c2efb74ff897741fd7fb4c3f3652cab0fda6a9d423fec9a5fca6",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch1.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 814592,
+      "sha256": "617cbcfb5d413879c829a4ba36771eafd7b0ab503d7ec28c2899ee0615060694",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch10.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1994240,
+      "sha256": "4a25fbe0540bb310a0e2d12173e153874ef09534d51c96a783bf582bf932213e",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch11.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 601600,
+      "sha256": "1190a6ddcf36d0f6e3068b6efde116c8229935ddde6edec8297b53f191336365",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch12.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 650752,
+      "sha256": "9f1f779b521963a48efa975ea315c4dfbcd2d1d56cbfd36c2867083ed0047c0c",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch13.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 878080,
+      "sha256": "f40b4570c7aaca99cf2c0966ccc1d55ef307065c5ae2466793fb62d21dc963aa",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch14.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 734720,
+      "sha256": "decf570fc03a7d1e331d9bcb5ddbfcef71a447b50650117ba40861781f33eaa5",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch15.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 686592,
+      "sha256": "6cabe70f3f465688889f8c2c0f70147b2f04e65eda381c34807d4897fd54041f",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch16.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 662528,
+      "sha256": "609328be1f0b7515ba0a460f004be56af15fb78d36b10c61d02e0b39c666a1a0",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch2.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 978944,
+      "sha256": "aab76917361bc2e26e48a17be4381fcabc731c118c6bd3eb87d0d05ec38842ae",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch3.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 655360,
+      "sha256": "13a7b1311992d6613853115b3ed8581da810fe4bf65996fe59ff81c37b2fb96a",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch4.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 676864,
+      "sha256": "d99cc5cb73218a554c522dec347c3dd205f6a25880c46b9efa75d3c17e1f34b8",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch5.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 613376,
+      "sha256": "48fd4d775d77bb3e90f393183434b17683f37c1d46323919b42c1aee9db21063",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch6.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1119232,
+      "sha256": "40281f4ce8866a418ce17deb364620138cab2e5e41d652d9015a3fe0198e4000",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch7.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 574464,
+      "sha256": "a9da981842e5bde0eff71b9bc61c182bae39e80a1ec7e03d6a6838c6372ad843",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch8.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 649216,
+      "sha256": "2d9c9caff25314b2681f7e425b678f9133b38eb625928f9969013031ecec822c",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Organization-of-Programming-Languages",
+      "relative_path": "Organization of Programming Languages/pl12ch9.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1006080,
+      "sha256": "ced2d7eee1592f77b5100ddee715bc59b37dd22f9d0bb4b5ec1447c9ae070d8c",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/Conflict Handling Techniques  Costs of Conflict.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 402696,
+      "sha256": "8b92275c525b3304a7aa5d9076cf478ce6a7d7522dc1d74075441c687a0a78e4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 (Military Means to Conflict Resolution).ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 283136,
+      "sha256": "f749f2f57cbb82b0a1bbc08f64656b2b27a635684db4f51bfcb238dc6f4ac0d9",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 ANALYSIS OF GENDER-BASED VIOLENCE.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 3724800,
+      "sha256": "8e53a368178a36423acd5e4e5ad5d8a92ffd8583feb16c5281be23092b0c0cb7",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 CONFLICT HANDLING TECHNIQUES.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 373318,
+      "sha256": "dce09878b9c43cea8665aeb882c29354b3e870e128df670f025f0d9fcc682dac",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 EARLY WARNING SYSTEM.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 509620,
+      "sha256": "dd2ea6e98fe9db3d3bd9a2c9630e2c2f0acfaefe3ea98b704c51c3ba0db0a0c4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 Industrial Conflict.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 2127383,
+      "sha256": "552bcffb871e01f5c90cd1334ddf906a7534175444b757f95bd9d5bb35f9b800",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 MILITARY MEANS TO CONFLICT RESOLUTION.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 285184,
+      "sha256": "8ea8eb9fb92499c715ff9487fc4f127f2500f6ee4c2006171fef509691fa1eee",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 NON MILITARY MEANS OF CONFLICT RESOLUTION.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 230400,
+      "sha256": "92b1925fbe1962166ac5518a0c6e3b9946ed524ea8a84c5daace163aa268b0ae",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 NON-MILITARY MEANS TO CONFLICT RESOLUTION.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 140288,
+      "sha256": "224b0eaf08cb1e7c6d171f385d6ffb0437681b9a9e40da699dfe4cb952c6c586",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 PSYCHOLOGICAL APPROACH TO CONFLICT.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 220137,
+      "sha256": "0f0347abd4d02cdf6829bf861cf07d4d27cec687139492ac3363b400486dcd12",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 THE CONCEPTUAL DEFINITIONS OF PEACE  CONFLICT.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 710785,
+      "sha256": "8d09e2a6b1585abe76ba99497605f916a86fcf387662018a3521fca1f10b3ceb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 The Conceptual Definitions of Peace and Conflict.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 710785,
+      "sha256": "8d09e2a6b1585abe76ba99497605f916a86fcf387662018a3521fca1f10b3ceb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 THE LIFE CYCLE OF CONFLICT.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 195072,
+      "sha256": "2c01056fdd375359b028ba983dbe83bb898ee9e8447ea1e5cf74498f0657a8bd",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 THE NEXUS BETWEEN COMMUNICATION  PEACE.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 452895,
+      "sha256": "9851ae206648265f2cbb0a64f812c4b73a1e94e141813f43c7d3abe8ed8a52e4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 The Nexus between Communication and Peace.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 452895,
+      "sha256": "9851ae206648265f2cbb0a64f812c4b73a1e94e141813f43c7d3abe8ed8a52e4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST 222 TYPES AND CAUSES OF CONFLICT.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 587069,
+      "sha256": "f1effe51513b3b5481d67ab6127c967f70e5ccf365380d1257120f3c64353c58",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST222 POST CONFLICT PEACEBUILDING.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 109416,
+      "sha256": "48948144c044914410ca5ead2e4622f9d252e76f50d0852a94c295d5c43a33b6",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST222 Psychological Approach to Conflict.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 260091,
+      "sha256": "7c70c7c80cbc5145884c860a654b1c1923b3ec5adfdf347bef4d1b6967a2d3ee",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST222 Sociological Dimension of Conflict.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1263616,
+      "sha256": "200517c7099cd80e063951e9580ce2a844b02b692cf65cf5f1cf7d34658f1b30",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST222 SOCIOLOGICAL DIMENSIONS OF CONFLICT.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 1265152,
+      "sha256": "2a11b706671b29b6b6592471117138c2c1f36c7d6352e5cdf5a1217df01bf0bd",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Peace-Conflict",
+      "relative_path": "Peace & Conflict/GST222-GENDER BASED VIOLENCE.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 3763712,
+      "sha256": "d3e9b8fd6c2e5d1ecc3b32b0d518ede1e04e754ca3214074300c3538da044b4c",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit and Electronics 1.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 963293,
+      "sha256": "ab40803535d58466c229bc454384d6311931d45371ff2ecdb20eb00618ab7245",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit and Electronics 2.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1049873,
+      "sha256": "6a65cc5c6b3b4fc9e73b8da5a75c4295fd06e34be8c9bc2d1aab9e728d72cc53",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit and Electronics 3 and 4.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1226417,
+      "sha256": "ff51616a6c621410a7f6ec2b7c630fa2b396dc97aa5e220511fcc313ad09a1b5",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit CLASS 11 and 12 UP.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 802709,
+      "sha256": "d570eafdee1807c1458eea0958d94155f3c2880cf5ce42ff6630c240a5a5c269",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit CLASS 5 and 6 UP.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 924967,
+      "sha256": "0786caedd5561a5b383a336bbef2e810da496ebdfc661bbf2d3c7db6d51d1be5",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit CLASS 7 and 8 UP.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1274899,
+      "sha256": "75f91f8cc156bdf0db2b353e59909b9578503b7f7c3ed56c73362a573145a94e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electric Circuit CLASS 9 and 10 UP.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 508247,
+      "sha256": "df0c3c1f4d941fe668608c1ab555aa0c7bf98ff46e2cdf4bc05a62709ce379d0",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/Electrical and Electronic Principles and Technology, 6th Edition by John Bird (z-lib.org).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 30806326,
+      "sha256": "299becdedb5e89cec731fbf438f1ec777c2334f10e04ed070f569c53000da313",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY 232 - Electric Circuit CLASS 4 Additional.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 455077,
+      "sha256": "be8c22b843469c950e73be71d709400b0cf74aff79e792b2c192728ea28050f4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY 232 - Electric Circuit CLASS 5 and 6 UP.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 852687,
+      "sha256": "a59c99c851de52ad1b73305ebda790a3533cbe85efa54be0fba559ecd17f2cb6",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY 232 - Electric Circuit CLASS 7 and 8 2021.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 686099,
+      "sha256": "d87dc5ce869393a7b998c320458773542b666e2ad9c9d9e23cb21630a08874b1",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232 Lecture 8.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1182800,
+      "sha256": "6e30d05fd0099da3f94ee7dc38467dfb038d7f2cbbcfd4a7e566574dd9906bb5",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232_Electron Emission.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 3533197,
+      "sha256": "9c4a1b54a99df6dc7da87287e5df5d2ec9e2edbf544784cec3c1f754f1261ba4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232_Oscillator Circuits .pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1225976,
+      "sha256": "1d0e0bf2496a2841e5b5260f13d38cca3169c9b82ce474381d5f950df1d9ebc4",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232_P-N Junction .pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 5759293,
+      "sha256": "a8ad9df9cec9e0a95b5fcd263fcaeb8153fa0294bac2d93d3b13ea680a2513e9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232_Transistor .pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 3492165,
+      "sha256": "1062ded0ba363a293290b6870056ab13ad7ec25b97b40ccc0c95022d4b1d9dab",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232_Transistors Versus Vacuum Tubes .pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1634295,
+      "sha256": "2726613fd907afdb234f8abe63367d8a259456c0cba2b94a5ffdfd6b6709f06c",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "PHY232",
+      "relative_path": "PHY232/PHY232Electric Circuit and Electronics Lecture 9 2021.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 656896,
+      "sha256": "ad4170ce97e5cd820f792591f82027f35b74cf59f582fa998ac74dca365e4251",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Introduction to PM.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1208595,
+      "sha256": "23adc78e87da8efe17ec01ec39053575d91f329b5dda43d6dc8deaa2920ee202",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/MIS415_PM_Project_process_group_part2 (1).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 670710,
+      "sha256": "2e8364d37762039aae5afdd5cf27e794c7d7651a8a51cdd6eac2c750d289000d",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/MIS415_Project Human Resource_Mgt_PT2 (1).pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 3037212,
+      "sha256": "d5aeb3bb84c161c17b1f9937bfaf508d45f14e0e622717581a4f61e093c2aecb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/MIS415_Project Human Resource_Mgt_PT2.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 3037212,
+      "sha256": "d5aeb3bb84c161c17b1f9937bfaf508d45f14e0e622717581a4f61e093c2aecb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/MIS415_Project Quality Management.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 832079,
+      "sha256": "333a1e483425e03b267f1f57bbbd91a7b20ceb833da4306315cabfdbee13f146",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Project Human Resources Management 2023.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1507567,
+      "sha256": "9a93b6242f93f99bf3f1c1484e7dacea771dde0de0796530559c62acc15d19ed",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Project Integration 2025.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1151528,
+      "sha256": "a9374545b2103252d34002d2b4fa51389d3d76cbc881f7a106acb2e6be898016",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Project Quality Management 2023-24.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1218021,
+      "sha256": "8932b9046920d19d95dd6a42202ecf18b96c608e72ea860c954e62326c89d26e",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Project Risk Management 2020-21.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1582525,
+      "sha256": "2420e1b580056a3f1b54aed0f249a632d5fcda8d9e40836e13c70d3b9e85b0bd",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Project Time Management.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1224814,
+      "sha256": "cd4c00b27ffa8cc1da0912f904013d7d306bd7a336b3a4ccc5624103c60a83d0",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Project-Management",
+      "relative_path": "Project Management/Scope Management 2025.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1746847,
+      "sha256": "efd78eb951fe3d73ab2e48700d41e858fd13850f6163cb17c99f0919aadba9cf",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/CSC317- LECTURE 1.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 874225,
+      "sha256": "c2f71978d8e981e124a943c29f3d299726db14c33132a722b358e034aad2c1c1",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/CSC317- LECTURE 2.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1394731,
+      "sha256": "a3f97993bd9897577189612d7e38dea68440bc00424c8681fe2768c3f69cf8f9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/CSC317- LECTURE 3 (1).pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 494964,
+      "sha256": "6fcbf18a12a500bbdfe8a396d9cc26edc97f5ff016e735539e9a5231b597194d",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/CSC317- LECTURE 4.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 311753,
+      "sha256": "471e6d6183ac73c107aa6b9168d48349583ff09b3e927cbd70c253c75c4cdb5f",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/CSC317- LECTURE 5.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1622814,
+      "sha256": "c2607d6245d35a6f05c35c96f29f236a738b0229394f8a29ab040560f530f9d7",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/DFD 2021.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 1162378,
+      "sha256": "8a310a62175a74622a14153218e8329d322853b3094cf026cfbcaa15609dc0bd",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/Lecture 6_ERD.ppt",
+      "suffix": ".ppt",
+      "source_type": null,
+      "byte_size": 3743744,
+      "sha256": "4341fec324efa038dd20f65a741b001ce2dd23417354e85d1a9c3dd3d1ff6b31",
+      "supported": false,
+      "status": "unsupported"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/Lecture 7 OOP-.pptx",
+      "suffix": ".pptx",
+      "source_type": "pptx",
+      "byte_size": 490214,
+      "sha256": "cf3e770aa322545265447afcc43bbf8df1f599947ab2fddfed2f183fed4608bb",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "System-analysis-and-design",
+      "relative_path": "System analysis and design/UML Diagrams.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 995000,
+      "sha256": "4c12661e677a480dd6d63deb9f3b361df41205433b9f6d442e3f2c756160b875",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421-521-Lecture1_Making_Choices_in_Marriage_compressed.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 1488404,
+      "sha256": "1a78e8442bcf225b3ecbeacda45b74a5c380ff166b04aa29ad1f8cc32d98ce42",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521-LectureTwo-Principles-Courtship.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 692050,
+      "sha256": "03bb682727aac993811f0fb8ace5197eab8391ba677dd047ebb3252ce09dd567",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521_Lecture_Six_Understanding_Family_Responsibilities_Part1.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 737870,
+      "sha256": "ebadb2d849e1fafe4492e5eeec2f4127ee44cf4e4ee0320b726725916c63d9ac",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521_LectureFive_Strengthening_the_Marital_Union.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 852845,
+      "sha256": "f565420082edc985686af32910e1580b7dd591bc33a08e7b999910c73df649aa",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521_LectureFour_Effective_Communication_In_Marriage.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 622210,
+      "sha256": "2e54dc3dde4fefc2e98537657a80ed4f9b6515e0751ba5cd918f84b0b6fd81e9",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521_LectureNine_Examining_the_Causes_and_Prevention_of_Divorce.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 685530,
+      "sha256": "a01a83d93377171d6e84fe50822862a3e8a70386f331258bb2b22e1c15b1090d",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521_LectureSeven_Family_and_Spiritual_Warfare.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 590929,
+      "sha256": "f63c57f58cc2a0968fbd30b8698ad59d88c832a80cabbb75dcdd7c4ca436b9ff",
+      "supported": true,
+      "status": "candidate"
+    },
+    {
+      "course_id": "Total-man-concept",
+      "relative_path": "Total man concept/TMC421_521_LectureThree_HealthyMarriage.pdf",
+      "suffix": ".pdf",
+      "source_type": "pdf",
+      "byte_size": 647909,
+      "sha256": "d2724178f4c070fcea8e9d3b7627782fa22ac375f201e13e274ab359259cbc22",
+      "supported": true,
+      "status": "candidate"
+    }
+  ],
+  "duplicates": [
+    {
+      "sha256": "80ed1cf65465440985f54123d880be2ef4d256c02fa49710debaee48aca3abf0",
+      "paths": [
+        "Computer Architecture and Organization II/CSC425 - GENERAL INTRO_COURSE_OVERVIEW.pptx",
+        "Computer Architecture and Organization II/CSC425 TOPIC1 SLIDES.pptx"
+      ],
+      "course_ids": [
+        "Computer-Architecture-and-Organization-II"
+      ]
+    },
+    {
+      "sha256": "8d09e2a6b1585abe76ba99497605f916a86fcf387662018a3521fca1f10b3ceb",
+      "paths": [
+        "Peace & Conflict/GST 222 THE CONCEPTUAL DEFINITIONS OF PEACE  CONFLICT.pptx",
+        "Peace & Conflict/GST 222 The Conceptual Definitions of Peace and Conflict.pptx"
+      ],
+      "course_ids": [
+        "Peace-Conflict"
+      ]
+    },
+    {
+      "sha256": "9851ae206648265f2cbb0a64f812c4b73a1e94e141813f43c7d3abe8ed8a52e4",
+      "paths": [
+        "Peace & Conflict/GST 222 THE NEXUS BETWEEN COMMUNICATION  PEACE.pptx",
+        "Peace & Conflict/GST 222 The Nexus between Communication and Peace.pptx"
+      ],
+      "course_ids": [
+        "Peace-Conflict"
+      ]
+    },
+    {
+      "sha256": "d5aeb3bb84c161c17b1f9937bfaf508d45f14e0e622717581a4f61e093c2aecb",
+      "paths": [
+        "Project Management/MIS415_Project Human Resource_Mgt_PT2 (1).pdf",
+        "Project Management/MIS415_Project Human Resource_Mgt_PT2.pdf"
+      ],
+      "course_ids": [
+        "Project-Management"
+      ]
+    }
+  ],
+  "summary": {
+    "course_count": 18,
+    "file_count": 230,
+    "candidate_count": 193,
+    "empty_count": 0,
+    "unsupported_count": 37,
+    "duplicate_group_count": 4
+  }
+}

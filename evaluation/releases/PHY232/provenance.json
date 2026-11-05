@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "6a95edc4be09ad30465fe0371053ce270361252eeb5affd46587671979e9a6d3",
+  "course_id": "PHY232",
+  "review_records": [
+    {
+      "sample_id": "PHY232-41a63eb65e45c54d",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:17:56.964Z",
+      "revision": 1,
+      "review_content_hash": "811803e8df15d1a0cb4a9e09e7f959c09886b61a91a73dcb901ff2565aa0fe9b"
+    },
+    {
+      "sample_id": "PHY232-08e9baa6d592612f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:18:21.415Z",
+      "revision": 1,
+      "review_content_hash": "636b4c41176c98ed12b94264f302dd7af0e787eb6cc21b09cc7cfe8124f3d371"
+    },
+    {
+      "sample_id": "PHY232-1ad96488a43756ae",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:18:47.532Z",
+      "revision": 1,
+      "review_content_hash": "7bf8b056e8b250b5178399da7cd0296ca19494154cdb4df81d35e02e03fd24a9"
+    },
+    {
+      "sample_id": "PHY232-fd90fe5123d5da13",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:19:51.579Z",
+      "revision": 1,
+      "review_content_hash": "3b4c376be0d67ea08aacde89df710b78779afeb65c2c1c3778073f7b732c9b44"
+    },
+    {
+      "sample_id": "PHY232-111299f38b2f861f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:20:26.197Z",
+      "revision": 1,
+      "review_content_hash": "e88488ed9516c13bd54524dee70c4e2e55493215cbd0b072d7f551391a0f0d33"
+    },
+    {
+      "sample_id": "PHY232-e031efbe300690d4",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:21:21.701Z",
+      "revision": 1,
+      "review_content_hash": "08165088f7fc5e314ea783d5336d2f995eeb4748563f9c648dad7469e084d903"
+    },
+    {
+      "sample_id": "PHY232-61bf5913d44fb45e",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:23:14.172Z",
+      "revision": 1,
+      "review_content_hash": "61173ec75360c2c3f745cbbfe8ab80a6beafff037f3a9aaa1f703a7bcdb64c7d"
+    },
+    {
+      "sample_id": "PHY232-21b102a121b45931",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:25:04.013Z",
+      "revision": 1,
+      "review_content_hash": "98a62640a1a9983de0548826ac56f1f4f9a7fe4d058f8387596c6acae9fd63bf"
+    },
+    {
+      "sample_id": "PHY232-2cba17c6f34a18ba",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:25:49.728Z",
+      "revision": 1,
+      "review_content_hash": "b24795a36370b48c88839dd8ddb1ef3df3cbbfd73fd32d3ed319232f9ec1e704"
+    },
+    {
+      "sample_id": "PHY232-f2056c012a9eec72",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:26:10.314Z",
+      "revision": 1,
+      "review_content_hash": "6c1a2a0897ae198d47d22ef94a9fe1bde6990a3507e01148f9fc71f34c7539ca"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

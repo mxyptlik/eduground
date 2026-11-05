@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "835f30e161a2c8e520a0f3f79eed81f36e4d9b83566752add3c73e01fb4f5a80",
+  "course_id": "Networking",
+  "review_records": [
+    {
+      "sample_id": "Networking-9d990dfe6e120b92",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:56:59.090Z",
+      "revision": 1,
+      "review_content_hash": "21c6acd99f557c9945976e021cd66c371141231fc4c857edd3fe1cfa40d38f2d"
+    },
+    {
+      "sample_id": "Networking-e385567812540929",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:53:57.650Z",
+      "revision": 1,
+      "review_content_hash": "66287e360b7137df33e71dc04cb0ada85239c78777fcfeb0e89379f847a7941f"
+    },
+    {
+      "sample_id": "Networking-8557b0ee9780ad14",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:54:17.127Z",
+      "revision": 1,
+      "review_content_hash": "2e78b3a39160532db50fb3f3b17c8d68ccb0253dd723b82e1e18dc18abf9658c"
+    },
+    {
+      "sample_id": "Networking-eaf077806e928334",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:57:21.135Z",
+      "revision": 1,
+      "review_content_hash": "e976132f3e420e208c9b4cd99d349548d286e25a55907bb7049411a2b69807f9"
+    },
+    {
+      "sample_id": "Networking-8d7859cb1185579c",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:02:01.532Z",
+      "revision": 1,
+      "review_content_hash": "9960c0098ee135193cd986f84306e524fbd1f1d934c323d68529cd4827a25ba1"
+    },
+    {
+      "sample_id": "Networking-6831001596acf2fd",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:03:10.560Z",
+      "revision": 1,
+      "review_content_hash": "ccd178b3c6a220440da0a270972e30e4de4ea3b4f1f474c9830d4cc7069d7066"
+    },
+    {
+      "sample_id": "Networking-a1f119c1ee3aac6c",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:03:25.981Z",
+      "revision": 1,
+      "review_content_hash": "c2afd4dc43cd1adbb57df25c056ea93f3f839a7f956d6760dd8c43f60f0f25bf"
+    },
+    {
+      "sample_id": "Networking-aba0006b6f01a38f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:05:55.270Z",
+      "revision": 1,
+      "review_content_hash": "dc5a142ff58c8687f83dd026e16e4077e1180b68105f8d7a64b982ce06574dde"
+    },
+    {
+      "sample_id": "Networking-b42b0d8a7dc270ee",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:09:50.418Z",
+      "revision": 1,
+      "review_content_hash": "69932be41405889b028382050201aefd4f17e10c06b65d8f107a2ff51d029c82"
+    },
+    {
+      "sample_id": "Networking-244cd065c00699a3",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:11:56.832Z",
+      "revision": 1,
+      "review_content_hash": "1756c83d1273419763b492f13461375e2c83fc91f16594947e89ea3b9af6c5cf"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

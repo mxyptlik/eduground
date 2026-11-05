@@ -1,0 +1,70 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "60f884a8de8fa3038af87cd5663cab343a711be9553caab6caa8f68d7141f4a7",
+  "course_id": "MAT212",
+  "review_records": [
+    {
+      "sample_id": "MAT212-a37c1c7c35bb91af",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:20:21.370Z",
+      "revision": 1,
+      "review_content_hash": "5b53c7bf20c7d8deafef7ed1008b5174145dbe05c320b74694728bc5ef0211dc"
+    },
+    {
+      "sample_id": "MAT212-0ffa1c5c07ac788d",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:20:35.954Z",
+      "revision": 1,
+      "review_content_hash": "830ab95af41d6594aeb9be56dec97b6faeb9497d5817fe947ee763a82a0a4639"
+    },
+    {
+      "sample_id": "MAT212-3df6044996c4d64b",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:22:27.567Z",
+      "revision": 1,
+      "review_content_hash": "b7074b7ebed603d31aae032979610621d2f659a7d6bb2ee638adf4e0a009b903"
+    },
+    {
+      "sample_id": "MAT212-f0603d51ae0dd921",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:33:58.239Z",
+      "revision": 1,
+      "review_content_hash": "76e47768c2cefe3d25b4526f245aaf008906744dec5fba4cd20dd3cdb5022155"
+    },
+    {
+      "sample_id": "MAT212-534c009bcb33f62d",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:44:37.694Z",
+      "revision": 1,
+      "review_content_hash": "25ac029b15d6590349bb1ee09b74777caa4686affc16d9cffed2cf9667ceed5e"
+    },
+    {
+      "sample_id": "MAT212-fd3266f623ce5f68",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:45:17.843Z",
+      "revision": 1,
+      "review_content_hash": "139c6a30e623ac8f31c808166e9ef7b1585369d63fea9887e8c80c9d565ed9dc"
+    },
+    {
+      "sample_id": "MAT212-ba23cb66f16b3ba1",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:48:26.499Z",
+      "revision": 1,
+      "review_content_hash": "fa35b1aed1d582eceaa05367aa8e1cd57867d8b55390089a3f6a666a566eec7a"
+    },
+    {
+      "sample_id": "MAT212-fbf828d4e8de0aa1",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:48:36.268Z",
+      "revision": 1,
+      "review_content_hash": "16dba5ea221564af95b136047a052d521df01ae8944de4ee4584af7bf86a3cf8"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 8,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

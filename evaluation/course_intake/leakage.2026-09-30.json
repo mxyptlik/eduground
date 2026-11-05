@@ -1,0 +1,74 @@
+{
+  "cross_course_duplicate_groups": [],
+  "cross_course_question_overlap": [],
+  "exact_duplicate_groups": [
+    {
+      "course_ids": [
+        "Computer-Architecture-and-Organization-II"
+      ],
+      "paths": [
+        "Computer Architecture and Organization II/CSC425 - GENERAL INTRO_COURSE_OVERVIEW.pptx",
+        "Computer Architecture and Organization II/CSC425 TOPIC1 SLIDES.pptx"
+      ],
+      "sha256": "80ed1cf65465440985f54123d880be2ef4d256c02fa49710debaee48aca3abf0"
+    },
+    {
+      "course_ids": [
+        "Peace-Conflict"
+      ],
+      "paths": [
+        "Peace & Conflict/GST 222 THE CONCEPTUAL DEFINITIONS OF PEACE  CONFLICT.pptx",
+        "Peace & Conflict/GST 222 The Conceptual Definitions of Peace and Conflict.pptx"
+      ],
+      "sha256": "8d09e2a6b1585abe76ba99497605f916a86fcf387662018a3521fca1f10b3ceb"
+    },
+    {
+      "course_ids": [
+        "Peace-Conflict"
+      ],
+      "paths": [
+        "Peace & Conflict/GST 222 THE NEXUS BETWEEN COMMUNICATION  PEACE.pptx",
+        "Peace & Conflict/GST 222 The Nexus between Communication and Peace.pptx"
+      ],
+      "sha256": "9851ae206648265f2cbb0a64f812c4b73a1e94e141813f43c7d3abe8ed8a52e4"
+    },
+    {
+      "course_ids": [
+        "Project-Management"
+      ],
+      "paths": [
+        "Project Management/MIS415_Project Human Resource_Mgt_PT2 (1).pdf",
+        "Project Management/MIS415_Project Human Resource_Mgt_PT2.pdf"
+      ],
+      "sha256": "d5aeb3bb84c161c17b1f9937bfaf508d45f14e0e622717581a4f61e093c2aecb"
+    }
+  ],
+  "near_duplicate_candidates": [
+    {
+      "courses": [
+        "Peace-Conflict"
+      ],
+      "left": "Peace & Conflict/GST 222 (Military Means to Conflict Resolution).ppt",
+      "reason": "same normalised filename and comparable size but different bytes",
+      "right": "Peace & Conflict/GST 222 MILITARY MEANS TO CONFLICT RESOLUTION.ppt",
+      "status": "requires_human_disposition"
+    }
+  ],
+  "note": "No file or question was removed; every flagged row needs an explicit human disposition.",
+  "report_only": true,
+  "schema_version": 1,
+  "shared_evidence_chunks": [],
+  "summary": {
+    "cross_course_duplicate_groups": 0,
+    "cross_course_question_pairs": 0,
+    "disposition_required": true,
+    "exact_duplicate_groups": 4,
+    "near_duplicate_candidates": 1,
+    "shared_evidence_chunks": 0
+  },
+  "thresholds": {
+    "near_duplicate_similarity": 0.8,
+    "question_similarity": 0.9,
+    "size_tolerance": 0.05
+  }
+}

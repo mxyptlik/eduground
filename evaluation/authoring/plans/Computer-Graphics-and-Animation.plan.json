@@ -1,0 +1,65 @@
+{
+  "course_id": "Computer-Graphics-and-Animation",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "29831bb9-765e-4c97-8bb5-3a4c5da81dc8",
+        "491af7f9-41af-4480-84c3-5eee71869d18",
+        "0d0b2115-22a2-41ea-921d-284c29069c03",
+        "7a9dec86-726e-4dc9-96ad-343bf7af9a6d"
+      ],
+      "prompt_sha256": "588d4c888e5050a48a976cab1875cff26619b48da971724c7643aca162b650d2",
+      "prompt_utf8_bytes": 8896
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "7c25a8e0-f504-4845-af6c-14b83a4c1ccf",
+        "36c17df5-3396-4dc4-91dd-f25952cacb61",
+        "a81d57de-abe9-44a9-bbe9-fde55325c988",
+        "36d14abd-6753-4444-b9d0-2715ce526a86"
+      ],
+      "prompt_sha256": "39f6047eb86a3e2fc00a162cf11ac5d83149144bfa028d19c87f149baa29fcdd",
+      "prompt_utf8_bytes": 10045
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "a113c712-169e-4175-8482-35135fa0a4a7",
+        "15d1282c-6a39-4532-a8a4-ceded44f87eb",
+        "62284758-47c5-4679-a2b8-f90fb73b4aee"
+      ],
+      "prompt_sha256": "25e369ec1a9f20b51d82e869f215d68c41195b0ffb9d510378482e6aa0fa8364",
+      "prompt_utf8_bytes": 5020
+    }
+  ],
+  "provider_calls_made": 0
+}

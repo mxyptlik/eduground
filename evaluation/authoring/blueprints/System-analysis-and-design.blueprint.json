@@ -1,0 +1,40 @@
+{
+  "course_id": "System-analysis-and-design",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "ee38a3b6-0152-4ab8-a7c7-5f96c956b2ba",
+        "7a71ba8e-1ad8-46a8-936d-9a81bc275e42",
+        "9a1075f6-e492-4b21-8892-a34aabc42872",
+        "15e82916-bf55-40d4-b9d3-856bcec5c944"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "460fe68b-8352-4669-899f-3ec2de82a442",
+        "aef2ee34-cb80-40ae-8154-5b8061bb8bb0",
+        "e6eb2a8f-7b02-4b24-abd5-e3f79420edf6",
+        "a879fcce-ee83-4bfc-b844-250817928b47"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "b94b5be9-82a4-430f-a220-e1d89522234d",
+        "85a7aa06-d062-40e3-9616-4448e6817aec",
+        "5fd9c490-26d2-4938-ba48-c2470983fbe1"
+      ]
+    }
+  ]
+}

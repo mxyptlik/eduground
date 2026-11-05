@@ -1,0 +1,65 @@
+{
+  "course_id": "Hardware",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "0e1db650-b52f-4161-bdd9-f804e41b02e6",
+        "d086f39b-f2f9-48ce-81fc-0ca3530c6136",
+        "fb5c897e-8489-43f3-9689-9128671d51b6",
+        "a2a7da48-2cbd-41a9-83d3-039ff7de7bf9"
+      ],
+      "prompt_sha256": "963e7c2df35d957f3d7f96e8ba06ad2e5713e1c15ce61229ac5788a7d4608fba",
+      "prompt_utf8_bytes": 12455
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "a0e0172e-2b90-4658-b5b0-2438e8708ca6",
+        "52d1c79e-59d1-49b4-83f8-ad3d5da74b07",
+        "0e7d065d-6830-4eb9-acbc-6c16727ecba2",
+        "52c8e3fe-ab49-4b5a-a29a-79d86a6297d4"
+      ],
+      "prompt_sha256": "f9c1aaf4dca8f55ea6c3b0e15c90579fe5e2c703ea4d8fdff7925d4c8b98ae7d",
+      "prompt_utf8_bytes": 13831
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "885d046c-10c4-4e37-a58e-c59e914e06f7",
+        "3492120b-28c3-4dc4-96f3-544b212a954a",
+        "2f70766e-40a2-4337-90ae-63be15225e0e"
+      ],
+      "prompt_sha256": "87ef3b423da09d6929fcf9403a96d8e63095c8761b6a484bba63bf2fd4a3c2d2",
+      "prompt_utf8_bytes": 7848
+    }
+  ],
+  "provider_calls_made": 0
+}

@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "b6b622febf433d83e5a70cd6618e820090e442604431130102af80d969972198",
+  "course_id": "Leadership-devlopment",
+  "review_records": [
+    {
+      "sample_id": "Leadership-devlopment-56c5e53f9426ff5c",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:51:37.381Z",
+      "revision": 1,
+      "review_content_hash": "bb5b27eb3c61cba585ce9da4b0926e211aadcf1ee8a41d83a9b7bdd33a195f4d"
+    },
+    {
+      "sample_id": "Leadership-devlopment-ef62aa40fb7fd9e8",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:52:06.029Z",
+      "revision": 1,
+      "review_content_hash": "307bb9e22d57c21524f001b98cf3f225f5429eab5b056e6218f202c07b18f703"
+    },
+    {
+      "sample_id": "Leadership-devlopment-dc88a390860a8132",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:54:24.175Z",
+      "revision": 1,
+      "review_content_hash": "7d5fccaff9826d3136ac6628963085ff0e7701f1a07c642731445106931eadb4"
+    },
+    {
+      "sample_id": "Leadership-devlopment-45cc6656e379ec10",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:54:45.881Z",
+      "revision": 1,
+      "review_content_hash": "5fbb586eecf575e50dc05b35b1d209d8a27660d0e334156b09ce261419475c11"
+    },
+    {
+      "sample_id": "Leadership-devlopment-9ef766380a0f29ab",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:55:48.843Z",
+      "revision": 1,
+      "review_content_hash": "3e759f6285707dbda626ae9595be8c8515a50b864bb2e0fbfb3182d3c7d37dd2"
+    },
+    {
+      "sample_id": "Leadership-devlopment-29e0bb6b5200c018",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:56:50.990Z",
+      "revision": 1,
+      "review_content_hash": "a5a29eabb87a794f94848365bfad2edc07b9c136d65a53ce81a952a4d0a3482d"
+    },
+    {
+      "sample_id": "Leadership-devlopment-b8cc495a9a584b76",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:57:49.684Z",
+      "revision": 1,
+      "review_content_hash": "ca81ce771ace0938ca7d72880b319d0e729de5c1466cc574cf504e61cc76099b"
+    },
+    {
+      "sample_id": "Leadership-devlopment-c15806ef7f084874",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:12:31.765Z",
+      "revision": 1,
+      "review_content_hash": "c84667e8691f488b2f4e4cbd9a101fe287339fe029ff6b9a031bf7f7ef8d529e"
+    },
+    {
+      "sample_id": "Leadership-devlopment-7a16562421ef88a6",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:19:31.893Z",
+      "revision": 1,
+      "review_content_hash": "e5e6ea3955dc26262740d5642491802ab89896f1eb631c92811350007e885922"
+    },
+    {
+      "sample_id": "Leadership-devlopment-66070271f6559c30",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T00:19:56.430Z",
+      "revision": 1,
+      "review_content_hash": "19fe5407b054f74109da20ed03fe86468fc2db8eea410c9099d8d4deb53d03d0"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

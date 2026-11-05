@@ -1,0 +1,40 @@
+{
+  "course_id": "Project-Management",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "890b540b-28a2-41d0-8404-de5938807acc",
+        "332f04c6-a733-4374-b495-a3e807c0a5b9",
+        "706b0b37-7815-40e0-90d9-35e4aa5ab542",
+        "3cdbfe3d-76fd-46ea-8527-8c8a3e877bb6"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "6a0e04bf-75db-474b-8a82-d31810cac6b7",
+        "05094dc0-3ae4-476f-86fb-d2e544d7795a",
+        "57fa2f30-a2df-49b2-8290-2f167f958c7c",
+        "90791cd1-7278-4adf-9a34-355ed1513581"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "6f61fd5b-ca65-4b8a-a0ef-23a7bda9bd0c",
+        "99c7f921-0ffa-4d13-b636-82e3d61f2092",
+        "cb6af8e5-acd3-4464-853d-b2bc6420e102"
+      ]
+    }
+  ]
+}

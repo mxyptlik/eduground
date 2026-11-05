@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "a3f334589c1bfe181e72faac705e305c048e7eda38f061545a931ae9262852f3",
+  "course_id": "Human-computer-interaction",
+  "review_records": [
+    {
+      "sample_id": "Human-computer-interaction-79ae95bfdf28ccdd",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:13:15.705Z",
+      "revision": 1,
+      "review_content_hash": "bb898fd7f20992066b2547dab9a0b1d0fb3bc3dad6ce40a346f7d907f7bee68f"
+    },
+    {
+      "sample_id": "Human-computer-interaction-215ad220d9fe8dba",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:13:41.270Z",
+      "revision": 1,
+      "review_content_hash": "2abb2c26c0ca85214b8080fdaab663109783d435ce3ef9c041e4818b16c5017f"
+    },
+    {
+      "sample_id": "Human-computer-interaction-5aaf094739316088",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:14:15.584Z",
+      "revision": 1,
+      "review_content_hash": "fb8bcc2227a2e8b69399d29251c17cec05da952d10e320c64f603f6ebc53cc8c"
+    },
+    {
+      "sample_id": "Human-computer-interaction-0e5e5308c842bc35",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:14:58.606Z",
+      "revision": 1,
+      "review_content_hash": "2b13eae0112fab30c27b682d594261056cd54c68249dffbe3842369f6a3177cb"
+    },
+    {
+      "sample_id": "Human-computer-interaction-9339a8aeaf39f311",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:21:16.335Z",
+      "revision": 1,
+      "review_content_hash": "2e1e52eab24f35f39aefeb6307c4196ded6d2b205167d4c23411b7fcf2e92c77"
+    },
+    {
+      "sample_id": "Human-computer-interaction-409200891a634e69",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:28:36.671Z",
+      "revision": 1,
+      "review_content_hash": "ad24c80db31beba5c2f0143d120448168f5e81d1628ff13c11b68b0ef3ea605a"
+    },
+    {
+      "sample_id": "Human-computer-interaction-d5cab12f53bd14b9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:31:21.201Z",
+      "revision": 1,
+      "review_content_hash": "cca7e299f9a93380ec84e1dd299ff6234949e9b8d902b1435fae30db7b16b8e5"
+    },
+    {
+      "sample_id": "Human-computer-interaction-0c24d928bb7ab356",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:43:47.758Z",
+      "revision": 1,
+      "review_content_hash": "fabc9521c6c2f8fbef3f5fa7deaee0543e6a6fadca0eb42e3c13072e993ade2c"
+    },
+    {
+      "sample_id": "Human-computer-interaction-47cbf4f053cdd47a",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:50:48.480Z",
+      "revision": 1,
+      "review_content_hash": "d7862bd2a0fc79e3121931a708ce2f031a949f77273e0ade250ac2f66038c910"
+    },
+    {
+      "sample_id": "Human-computer-interaction-9042fce4b9d326da",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T23:51:19.885Z",
+      "revision": 1,
+      "review_content_hash": "036edaa2b1cdc3d5a332b5c963694df563fa73a5b4378a1f0fd3ad8e39a332e0"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

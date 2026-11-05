@@ -1,0 +1,65 @@
+{
+  "course_id": "Computer-Security",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "65a5e800-5c0c-4949-ab4c-509456e218eb",
+        "e5057158-436a-434d-8f01-1576d5d8f3af",
+        "9a1ea089-8e13-4802-a287-ac881488485d",
+        "ea994345-dcd3-4917-8c90-a81db4eb2b48"
+      ],
+      "prompt_sha256": "6ede6b7bf259aa68dbb5ce9c11b96dc1c5f69df00c986ab586420c69bccf125c",
+      "prompt_utf8_bytes": 12868
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "793954c7-2cde-4db5-8ca8-38e9966cde06",
+        "2e12825f-adfb-4d35-96a3-f66b005a7ca9",
+        "c68a4bd9-1448-4e73-a05c-51b6114960d7",
+        "e83b072b-18a4-45cd-b9ad-0ff71490f12d"
+      ],
+      "prompt_sha256": "aaff7d92adbfe2e4ea77cb2f1aa94f8afd21bf030e62946495262d956aeb48c3",
+      "prompt_utf8_bytes": 13286
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+        "f274bd4b-f6f4-45f5-9234-ad5ef2497ad1",
+        "022fd9d1-2699-42b2-aa21-b8d9185924f1"
+      ],
+      "prompt_sha256": "6f001cb05d4d3b66b3862dab5e068cc6ed5bab91d574e2e84a8099939c308ca8",
+      "prompt_utf8_bytes": 10253
+    }
+  ],
+  "provider_calls_made": 0
+}

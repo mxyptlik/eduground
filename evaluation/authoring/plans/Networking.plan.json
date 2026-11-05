@@ -1,0 +1,65 @@
+{
+  "course_id": "Networking",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "eba9c345-7906-404d-8ebd-a37a9db96139",
+        "6376237f-fe32-41a9-a882-db2cfbbd8dc9",
+        "4edba6e7-eb64-4673-8bcf-b67bbd32f47d",
+        "d9145600-0efb-4ffe-a7ae-6cb382c15dbd"
+      ],
+      "prompt_sha256": "b081c5d8ef5dad49ac2ede1a37aad0f5a86a6756eca83ddc52dba640f56a8be2",
+      "prompt_utf8_bytes": 12779
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "39040e34-783c-476e-98a6-9a8d0f1e4f74",
+        "1ba6c0c2-602f-4c9d-8663-93a144499d15",
+        "4e092d27-dd92-496b-89fa-8f5a9852efcd",
+        "76fd9336-df03-4955-a576-83e554699f6a"
+      ],
+      "prompt_sha256": "6433bfd7b33b02dee75e9bd0d895e04f5c57bb4dca1e236332c3aac0ec1143c8",
+      "prompt_utf8_bytes": 12865
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "677f6210-7911-4b7b-8028-b9f00d00edc5",
+        "54b16d2f-c7a9-43b5-af41-911488a3e514",
+        "17d3a138-223d-4788-b8c7-917e2f76a67e"
+      ],
+      "prompt_sha256": "8843602ec03757dc0f5e3ddedf7aec366dc17ec1e4410df291c681cb33266604",
+      "prompt_utf8_bytes": 9012
+    }
+  ],
+  "provider_calls_made": 0
+}

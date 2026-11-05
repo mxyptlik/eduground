@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "e99e49f80995c735ee54aa82494bb06f0d4d12f1d81efa1c47a56b38f6b5d17d",
+  "course_id": "Project-Management",
+  "review_records": [
+    {
+      "sample_id": "Project-Management-7726f4560ae0582f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:26:33.914Z",
+      "revision": 1,
+      "review_content_hash": "ca12d7115b06df71cd37c6ffdabe3944258ec509e3d7981b8d3d425cc8bb9ca5"
+    },
+    {
+      "sample_id": "Project-Management-8c2b4849d0f79594",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:27:07.744Z",
+      "revision": 1,
+      "review_content_hash": "19850e7952ab7f6b77220238e658f8e20eb3e0d0cf0abdd89e7466b59dfb8dcc"
+    },
+    {
+      "sample_id": "Project-Management-0261885b9bdb7d40",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:27:23.555Z",
+      "revision": 1,
+      "review_content_hash": "4abb8a9fd6589def7bd240fd720e1a5990a85e5cbb2dff9e1d26d932f92989fc"
+    },
+    {
+      "sample_id": "Project-Management-8dd5ee78ad0b1835",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:34:41.379Z",
+      "revision": 1,
+      "review_content_hash": "ba821c2156857de7b303df10b440e72250b0168f4babf7c31028781bbef67aea"
+    },
+    {
+      "sample_id": "Project-Management-ad91f83abea55672",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:37:26.189Z",
+      "revision": 1,
+      "review_content_hash": "55fd12872f228f29c97548a4c05547ec16c0e0d899494a26d2ce5ff29e2f5310"
+    },
+    {
+      "sample_id": "Project-Management-c0f8198ee95f089f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:06:28.631Z",
+      "revision": 2,
+      "review_content_hash": "9bc6d1d3af1565cc89b3dcafaee1dc1681577460c8f5c3217bbaa368bece36a2"
+    },
+    {
+      "sample_id": "Project-Management-3bfe39a624ad2f98",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:06:42.312Z",
+      "revision": 1,
+      "review_content_hash": "cdc5fdc6d7bc8a10eb5385b7ac50e5e7f3dc45ecd69aade2b4a72d5d505bdbd7"
+    },
+    {
+      "sample_id": "Project-Management-b7f66f036cace5ca",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:06:53.650Z",
+      "revision": 1,
+      "review_content_hash": "105416fe47b274770ac748fd322f606c775b082d53e3162b65e1a336dd274028"
+    },
+    {
+      "sample_id": "Project-Management-a2e2e6571a48a0fb",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:07:04.087Z",
+      "revision": 1,
+      "review_content_hash": "3218bf0293f115ea99526dace61f124d1e8ca99b1951cc729aa9048c784f5ffe"
+    },
+    {
+      "sample_id": "Project-Management-d35f4d99df5666dc",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:07:20.942Z",
+      "revision": 1,
+      "review_content_hash": "9ea2d9a2386e492415e321864797c8b67ce5a33f23d17ee201ec88d43fddbf4b"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

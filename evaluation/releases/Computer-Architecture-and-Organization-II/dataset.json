@@ -1,0 +1,482 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Computer-Architecture-and-Organization-II",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Computer-Architecture-and-Organization-II",
+  "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+      "source_label": "CSC425_Synchronous_Asyncronus_Control_updated",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "fe9a2a9abfa60d7f7f2176b4b5ffea9484c84ed4b03d04ece7193f788dea9567",
+      "version_number": 1,
+      "original_filename": "CSC425_Synchronous_Asyncronus_Control_updated.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1b8eda3b-17ef-4a5b-8dd1-fe0ff46e838f",
+      "source_label": "CSC425_Input-Output Control",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "d083d61c7c4156b165f1a9825f029832b9b1ca19ebc065bf080fc2e30d202018",
+      "version_number": 1,
+      "original_filename": "CSC425_Input-Output Control.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1cf1710e-66ee-4ee6-b650-07671363e353",
+      "source_label": "CSC425 - FAULT TOLERANCE_PART3",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "8aebacb77e68f6724b732b84ed2d6447a7ffab8ed48d3d0f638d23cf47a47d8a",
+      "version_number": 1,
+      "original_filename": "CSC425 - FAULT TOLERANCE_PART3.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2b089583-dcc1-46ce-90b7-68e9a456cfd9",
+      "source_label": "CSC425 - FAULT TOLERANCE Part 2",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "821d3eb69cb316d20ebded7059272e30ba078bae0a2d7eeb8d5712937035c07f",
+      "version_number": 1,
+      "original_filename": "CSC425 - FAULT TOLERANCE Part 2.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2c569bb1-1006-46cc-b116-a33887f38cb8",
+      "source_label": "CSC425 - MEMORY OPERATIONS AND PERFORMANCE",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "9b1268b6cd1c7138536ab122fed595c79d502df524cfcb957a5ba0417f515a25",
+      "version_number": 1,
+      "original_filename": "CSC425 - MEMORY OPERATIONS AND PERFORMANCE.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "49da64d2-e8aa-44d0-8c9b-92047a8dc90f",
+      "source_label": "CSC425 - FAULT TOLERANCE",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "204c02c5f73404f472d865178ef92a1e0e3f11c82e423e8980828b5687300861",
+      "version_number": 1,
+      "original_filename": "CSC425 - FAULT TOLERANCE.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "584eae2d-b077-40d5-be97-9c5e03b97408",
+      "source_label": "CSC425 TOPIC2 SLIDES",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "5aac8da57ec8fecfd6d049dae7574d3c0df47f2513d2b551c2bf453eefd74c81",
+      "version_number": 1,
+      "original_filename": "CSC425 TOPIC2 SLIDES.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "5b618318-c26a-4b43-95e7-809353f447f0",
+      "source_label": "CSC425 - MEMORY HIERARCHY  AND CACHE MEMORY DESIGN",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "a3c7be652f3b229f1df80fa165ac6b56cd416f6485a45137d9cd00927aff9f68",
+      "version_number": 1,
+      "original_filename": "CSC425 - MEMORY HIERARCHY  AND CACHE MEMORY DESIGN.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "5f4045cb-9a1a-49a7-84aa-a9ec6f274200",
+      "source_label": "CSC425 - GENERAL INTRO_COURSE_OVERVIEW",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "80ed1cf65465440985f54123d880be2ef4d256c02fa49710debaee48aca3abf0",
+      "version_number": 1,
+      "original_filename": "CSC425 - GENERAL INTRO_COURSE_OVERVIEW.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6065e57b-8770-46e9-870d-69796880425e",
+      "source_label": "CSC425 TOPIC5 SLIDES",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "093182ada069a4652507a5ae876e813fd6a6e060a05cd5b4c6c85017acbe82f1",
+      "version_number": 1,
+      "original_filename": "CSC425 TOPIC5 SLIDES.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8e85ad19-dc74-45c1-9c2c-87bc755e8819",
+      "source_label": "CSC425 TOPIC4 SLIDES",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "25282a54472655d008d4116d972ccd94993964bcabe72357645095beae541ab8",
+      "version_number": 1,
+      "original_filename": "CSC425 TOPIC4 SLIDES.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "91fe5870-8e41-47ad-b5f8-57ab2db98e05",
+      "source_label": "CSC425 TOPIC3 SLIDES",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "b88e6b87ac032fc103d76b301e8c369edec33e400f7eeb8dccb70cff5e07c439",
+      "version_number": 1,
+      "original_filename": "CSC425 TOPIC3 SLIDES.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+      "source_label": "CSC425 TOPIC6 SLIDES",
+      "notebook_id": "acfa2e07-6f29-4a4f-8a74-6b7693631b92",
+      "sha256": "dd0ed5c856db0e9cdae12ddb51b3ee8dce8cde964274101a582f052ee11a5389",
+      "version_number": 1,
+      "original_filename": "CSC425 TOPIC6 SLIDES.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-db0e7487f4983e34",
+      "question": "What is memory hierarchy?",
+      "reference_answer": "A structured arrangement of different storage types in a computer system, designed to optimize performance and cost.",
+      "evidence": [
+        {
+          "source_id": "5b618318-c26a-4b43-95e7-809353f447f0",
+          "chunk_id": "7464ffb2-1479-498a-a210-f160ea53b6f6",
+          "quote": "Memory hierarchy is a structured arrangement of different storage types in a computer system, designed to optimize performance and cost.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-3d16bd860f556a63",
+      "question": "In what form is data sent in synchronous transmission?",
+      "reference_answer": "Data is sent in frames or blocks.",
+      "evidence": [
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "939987be-5229-4fbd-845c-156b13987f1c",
+          "quote": "• In Synchronous transmission data is sent in frames or blocks.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-1af40c95cce25c2d",
+      "question": "What is a checksum?",
+      "reference_answer": "An error-detection value generated by summing data blocks and appending the result to the transmitted message.",
+      "evidence": [
+        {
+          "source_id": "2b089583-dcc1-46ce-90b7-68e9a456cfd9",
+          "chunk_id": "5c9e07ef-3a39-464c-a7c9-17bbf5b9e937",
+          "quote": "A checksum is an error-detection value generated by summing data blocks and appending the result to the transmitted message.",
+          "locator": "slide 12",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-3551f404cba800dd",
+      "question": "What are four advantages of virtual memory?",
+      "reference_answer": "Efficient memory utilization, supports multitasking, provides process isolation, and allows execution of large programs.",
+      "evidence": [
+        {
+          "source_id": "8e85ad19-dc74-45c1-9c2c-87bc755e8819",
+          "chunk_id": "a83787ec-1e8e-43a2-b047-fc1c0926178c",
+          "quote": "Efficient memory utilization Supports multitasking Provides process isolation Allows execution of large programs",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-7d74ba14be00a384",
+      "question": "Why is bus arbitration required in systems with multiple master devices, and how does the master/slave distinction enforce the rule that only one device can use the bus at a time?",
+      "reference_answer": "Bus arbitration is required when there is more than one master device because only one device can use the bus at a time. Bus masters are the only devices allowed to initiate transfers and reserve the bus, while bus slaves respond to requests but cannot reserve the bus. Arbitration schemes must therefore provide priority to certain masters while ensuring lower-priority devices are not starved out.",
+      "evidence": [
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+          "quote": "In systems with more than one master device, bus arbitration is required.",
+          "locator": "page 6",
+          "evidence_group": null
+        },
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+          "quote": "Bus arbitration schemes must provide priority to certain master devices and, at the same time, make sure lower priority devices are not starved out.",
+          "locator": "page 6",
+          "evidence_group": null
+        },
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+          "quote": "• To use a bus, a device must reserve it, because only one device can use the bus at a time.\nBus masters are devices that are allowed to initiate transfer of information (control bus),\nand bus slaves are modules that are activated by a master and respond to requests to read\nand write data (so only masters can reserve the bus).",
+          "locator": "page 6",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-69a1df9bb9c6675c",
+      "question": "How do spatial and temporal locality of reference support the design of a memory hierarchy that uses cache memory, and why is cache designed to contain copies of main memory rather than function as an independent address space?",
+      "reference_answer": "Spatial locality means that nearby memory addresses are likely to be accessed after a given location is accessed, while temporal locality means a recently accessed location is likely to be accessed again. These patterns allow the system to organize data so that most references are to the faster upper levels like L1 cache. Because cache is expensive and has limited capacity, it is designed to combine the access time of high-speed memory with the size of lower-speed main memory by holding copies of portions of main memory, making the hierarchy transparent to the processor and programmer.",
+      "evidence": [
+        {
+          "source_id": "5b618318-c26a-4b43-95e7-809353f447f0",
+          "chunk_id": "bc15b64d-ecda-47a1-bbdb-e35fd4b7eb2d",
+          "quote": "Space: If we access a memory location, close by addresses will very likely be accessed; Time: If we access a memory location, we will very likely access it again;",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5b618318-c26a-4b43-95e7-809353f447f0",
+          "chunk_id": "bc15b64d-ecda-47a1-bbdb-e35fd4b7eb2d",
+          "quote": "Organize data across the hierarchy such that % of accesses to lower levels is substantially less than that of upper levels i.e. L2 memory contains all program instructions and data: Data that is currently being used should be in L1; Eventually: Data ∈ L1 will be swapped to L2 to make room for new data; On average, most references will be to data contained in L1.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5b618318-c26a-4b43-95e7-809353f447f0",
+          "chunk_id": "bc15b64d-ecda-47a1-bbdb-e35fd4b7eb2d",
+          "quote": "Because cache is very expensive and has limited capacity.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5b618318-c26a-4b43-95e7-809353f447f0",
+          "chunk_id": "bc15b64d-ecda-47a1-bbdb-e35fd4b7eb2d",
+          "quote": "Cache memory is designed to combine: Memory access time of expensive, high-speed memory combined with the large memory size of less expensive, lower-speed memory Cache contains a copy of portions of main memory.",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-33459c8f4fe6d722",
+      "question": "Why are CRC-based error detection methods alone insufficient for ensuring transaction integrity in banking systems, and what system-level fault-tolerant mechanisms are used instead to handle network failures during financial transactions?",
+      "reference_answer": "CRC is limited to error detection and cannot correct errors; moreover, some carefully structured error patterns can produce a zero remainder and go undetected. Banking systems require more than detection—they need continuity and recovery. They use transaction logs, database replication, and rollback mechanisms. If a network fails after an account is debited but before confirmation, the system determines whether the transaction succeeded and either finalizes it or reverses the debit automatically to protect customer funds.",
+      "evidence": [
+        {
+          "source_id": "2b089583-dcc1-46ce-90b7-68e9a456cfd9",
+          "chunk_id": "f36ee31d-5a28-4020-ac67-243912e04f3b",
+          "quote": "Error Detection Only: CRC identifies errors but does not correct them. Additional techniques such as Hamming codes are needed for correction.",
+          "locator": "slide 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2b089583-dcc1-46ce-90b7-68e9a456cfd9",
+          "chunk_id": "f36ee31d-5a28-4020-ac67-243912e04f3b",
+          "quote": "Rare Undetected Errors: Although extremely unlikely, some carefully structured error patterns can still produce a zero remainder.",
+          "locator": "slide 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6065e57b-8770-46e9-870d-69796880425e",
+          "chunk_id": "63de32fd-e114-41a3-864e-194272a1c127",
+          "quote": "Fault Scenario Suppose the network connection fails after the account is debited but before confirmation is received.",
+          "locator": "slide 58",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6065e57b-8770-46e9-870d-69796880425e",
+          "chunk_id": "63de32fd-e114-41a3-864e-194272a1c127",
+          "quote": "Fault-Tolerant Solution The banking system uses: Transaction logs Database replication Rollback mechanisms",
+          "locator": "slide 58",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6065e57b-8770-46e9-870d-69796880425e",
+          "chunk_id": "63de32fd-e114-41a3-864e-194272a1c127",
+          "quote": "The system determines whether the transaction completed successfully and either: Finalizes the withdrawal, or Reverses the debit automatically. Thus, customer funds remain protected.",
+          "locator": "slide 58",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-5dcc2c5789c8c181",
+      "question": "How does asynchronous bus coordination differ from clock-based synchronous coordination in terms of scalability and device support, and why does this flexibility still require a reservation protocol where only bus masters can initiate transfers?",
+      "reference_answer": "Using a protocol instead of a clock to coordinate transactions allows asynchronous buses to scale better with technology and support a wider variety of devices. However, because only one device can use the bus at a time, a device must reserve it. Bus masters are allowed to initiate transfers and reserve the bus, while slaves respond to master requests but cannot reserve the bus. Both follow a communications protocol with very specific timing requirements to coordinate access.",
+      "evidence": [
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+          "quote": "• Using a protocol instead of the clock to coordinate transactions means that asynchronous\nbuses scale better with technology and can support a wider variety of devices.",
+          "locator": "page 6",
+          "evidence_group": null
+        },
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+          "quote": "• To use a bus, a device must reserve it, because only one device can use the bus at a time.\nBus masters are devices that are allowed to initiate transfer of information (control bus),\nand bus slaves are modules that are activated by a master and respond to requests to read\nand write data (so only masters can reserve the bus).",
+          "locator": "page 6",
+          "evidence_group": null
+        },
+        {
+          "source_id": "05fe836c-6d89-4cc4-ab32-60ac1c2e22b1",
+          "chunk_id": "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+          "quote": "• Both follow a communications protocol to use the bus, working within very specific\ntiming requirements.",
+          "locator": "page 6",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-b5a8cd28008fe99e",
+      "question": "How do the Hamming distance formulas mathematically explain the specific error detection and correction capabilities stated for Hamming codes and the operational behavior of ECC memory during read operations?",
+      "reference_answer": "The text establishes that the minimum Hamming distance determines a code’s error detection and correction capability, with a code of minimum distance d able to detect d−1 errors and correct ⌊d−1​]/2 errors. Hamming codes are explicitly described as capable of detecting two-bit errors and correcting one-bit errors; applying the given formulas, these capabilities are consistent with a minimum distance of 3, because d−1=2 detects two-bit errors and ⌊(d−1)/2⌋=1 corrects one-bit errors when d=3. Likewise, ECC memory read operations correct single-bit errors and detect multiple-bit errors, which falls within the correction and detection bounds described by Hamming distance. Thus, the Hamming distance formulas provide the mathematical basis that explains the operational limits observed in both Hamming codes and ECC memory.",
+      "evidence": [
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "The minimum Hamming distance determines the error detection and correction capability of a code.",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "A code with minimum distance d can detect: d−1 errors.",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "A code with minimum distance d can correct: ⌊d−1​]/2 errors.",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "599b325d-bf9b-48a4-b826-07ceabc33884",
+          "quote": "It is a linear error-correcting code capable of: Detecting two-bit errors Correcting one-bit errors",
+          "locator": "slide 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "Single-bit error → corrected automatically Multiple-bit error → detected and reported",
+          "locator": "slide 34",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Architecture-and-Organization-II-dae8653a3d2d30b2",
+      "question": "Given that CRC is widely adopted in modern communication systems and can detect various error types including burst errors, why is ECC memory rather than CRC deployed in critical environments such as banking systems and aerospace computers?",
+      "reference_answer": "CRC is widely adopted because it offers high detection accuracy, efficient hardware implementation with shift registers and XOR gates, and excellent burst error detection in communication networks. However, CRC is fundamentally error detection only: it identifies errors but does not correct them, and additional techniques such as Hamming codes are needed for correction. In contrast, ECC memory automatically detects and corrects memory errors; during read operations it recalculates ECC bits, corrects single-bit errors automatically, and detects multiple-bit errors. This correction capability prevents silent data corruption, reduces system crashes, and ensures data integrity—properties essential for banking systems protecting transaction records and account balances, and for aerospace systems that must endure radiation-induced bit flips. Consequently, ECC memory is used in these critical environments where automatic correction is required, whereas CRC alone is insufficient.",
+      "evidence": [
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "599b325d-bf9b-48a4-b826-07ceabc33884",
+          "quote": "High Detection Accuracy: Detects more errors than parity and checksum methods. Efficient Hardware Implementation: Can be implemented using simple shift registers and XOR gates. Excellent Burst Error Detection: Particularly effective in communication networks. Widely Adopted: Used in virtually all modern communication systems.",
+          "locator": "slide 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "599b325d-bf9b-48a4-b826-07ceabc33884",
+          "quote": "Error Detection Only: CRC identifies errors but does not correct them. Additional techniques such as Hamming codes are needed for correction.",
+          "locator": "slide 24",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "Reading Data retrieved ECC recalculated Compare results If: No mismatch → data valid Single-bit error → corrected automatically Multiple-bit error → detected and reported",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "Benefits of ECC Memory Reliability: Prevents silent data corruption. Availability: Reduces system crashes. Data Integrity Important in: Financial databases Cloud computing Medical records",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "Banking Systems ECC memory protects: Transaction records Customer account balances ATM databases Single-bit memory errors can be corrected automatically without affecting transactions.",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "bf4628a3-e997-4c76-9388-02f3f3c0470c",
+          "chunk_id": "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+          "quote": "Aerospace Systems Spacecraft experience radiation-induced bit flips. ECC and Hamming codes help maintain reliable operation of onboard computers.",
+          "locator": "slide 34",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

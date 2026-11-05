@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "60822de6e06eddd99be52d661e04a1c8961d71eced06bc862766211f2277ba69",
+  "course_id": "Computer-Security",
+  "review_records": [
+    {
+      "sample_id": "Computer-Security-88223e13b4aec69e",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:13:57.858Z",
+      "revision": 1,
+      "review_content_hash": "0510318c8f0b2454910bcabfbb8645ab7262bcfe5274b2d241174cb5d4b7ccf7"
+    },
+    {
+      "sample_id": "Computer-Security-06f65e2ff50cf2d1",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:14:36.620Z",
+      "revision": 1,
+      "review_content_hash": "ed384fd0a96bbd6a39e4f21b00d62a989e6944807d656714ec13a43bca14bdc7"
+    },
+    {
+      "sample_id": "Computer-Security-8f49b9285d6599e9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:14:57.608Z",
+      "revision": 1,
+      "review_content_hash": "cfb3bbfc0160e8a1ac03965cfee760d466cb1fba4e35038219d97aa8f8fd3190"
+    },
+    {
+      "sample_id": "Computer-Security-ee0bb661fc883cb6",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:15:25.096Z",
+      "revision": 1,
+      "review_content_hash": "4a4815f50065438f97d869c729c106c20fefc6ad384a99a87ccbdb498cc91982"
+    },
+    {
+      "sample_id": "Computer-Security-3a81aeb9aa668270",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:25:06.514Z",
+      "revision": 1,
+      "review_content_hash": "559bb21bc271ab6fcb81e151f46769ac81abd44b6360124a8497f24588f15809"
+    },
+    {
+      "sample_id": "Computer-Security-db7975a8ca438636",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:26:48.056Z",
+      "revision": 1,
+      "review_content_hash": "526a30ba4cdfb0f0fe5ae1ed6a624df093421a46792cf11789f0c063a88ecf4b"
+    },
+    {
+      "sample_id": "Computer-Security-61d2f3185f800208",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:33:26.500Z",
+      "revision": 1,
+      "review_content_hash": "36303acad85b4fa64871adfda4b7dbc5c0d23297c4ff437e5e03fb7fdf3cc980"
+    },
+    {
+      "sample_id": "Computer-Security-977b59dc0174ffd2",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:48:28.872Z",
+      "revision": 1,
+      "review_content_hash": "1835fae99ff043f01f43dee88c31faeba0346193947f40eef5f5a9cde462a442"
+    },
+    {
+      "sample_id": "Computer-Security-ac6d8b6e894f27d3",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:36:55.956Z",
+      "revision": 1,
+      "review_content_hash": "38cdfaeee7c9f518c56b4a3e85e635aa693b43b3d850981f7577e82f5ada50f4"
+    },
+    {
+      "sample_id": "Computer-Security-6217953e2830601c",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:37:44.780Z",
+      "revision": 1,
+      "review_content_hash": "79f08f12a92090a75f9af0574c2eb0a6c7e67fd5eedd7b0caf40e7ba74e18b50"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

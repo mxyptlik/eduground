@@ -1,0 +1,40 @@
+{
+  "course_id": "Peace-Conflict",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "8b0f597c-6531-433b-b1fe-e87e6e1f236d",
+        "465bc14a-198b-42e8-9c37-4a7ae33dd82d",
+        "0c6fb101-8334-4ab8-bf0d-a3a839016177",
+        "79ac7d5d-efbf-4fca-8278-0d1160b643c3"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "926b2ac9-6e1e-419e-8a86-2eb561d7a6c3",
+        "c21ade43-bb1f-4ff2-a51f-fbc3dccd61ea",
+        "2e0d8abe-6ef8-4472-8be6-7dfee4341dad",
+        "a220913d-2ce8-49b4-8de9-e8b71a3143e9"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "a476ab24-9e29-4102-8409-6ed3d2ec84eb",
+        "c08b0d0e-d0fc-45bc-ad4b-c3356cef47d1",
+        "cac59c7b-0259-4260-b9d9-5afe66b3e71b"
+      ]
+    }
+  ]
+}

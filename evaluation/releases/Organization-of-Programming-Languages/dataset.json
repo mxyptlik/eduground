@@ -1,0 +1,512 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Organization-of-Programming-Languages",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Organization-of-Programming-Languages",
+  "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "03e72151-5914-467c-a811-c3156d843f59",
+      "source_label": "pl12ch6",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "395cf8558ca67a2c5e0ed95102d44e4c95a5249eb1f147a5008f17742496b0be",
+      "version_number": 1,
+      "original_filename": "pl12ch6.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "0fa8c418-7408-46ad-82f1-8ffb935d6de1",
+      "source_label": "pl12ch10",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "c5787efe761c8e9dc42efb620a11bafafb24cc0b3fb02f965ab848e637a21b4a",
+      "version_number": 1,
+      "original_filename": "pl12ch10.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1d859275-5302-47bd-afbd-a709523e4ea0",
+      "source_label": "pl12ch13",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "895cf3fb5bab04780f2c3bf7377f82b20bcd06eab90d9eec21933d172035c4dc",
+      "version_number": 1,
+      "original_filename": "pl12ch13.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "34f70d49-756c-4f0f-b20f-2e52ecfb104c",
+      "source_label": "pl12ch16",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "8894edd32934911d89d4820e2e06e554e5d5c6f47e6549e9499ed5ecef32e5f6",
+      "version_number": 1,
+      "original_filename": "pl12ch16.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "43ad6f50-5087-4738-9dfa-b3a1b58b24b5",
+      "source_label": "pl12ch15",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "1078121db1ab6d73f15298540f1be12620f54c5fd2d4ebc8beb4b639fe16d41e",
+      "version_number": 1,
+      "original_filename": "pl12ch15.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4b224834-d807-4609-9c40-b1d8431fe46a",
+      "source_label": "pl12ch4",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "dc2d0ecd9007727fecc8de19a0f5d57bbc6312c8acb4fd426ac0440efcf6aaaa",
+      "version_number": 1,
+      "original_filename": "pl12ch4.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6c166685-8a6e-477f-955f-fe41f9617add",
+      "source_label": "pl12ch14",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "0eb5a9d7c92962cc92519189df16ee5271458532762664e4f5399bfc30409d61",
+      "version_number": 1,
+      "original_filename": "pl12ch14.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "782798c1-563e-4b69-907f-0f140c82b4aa",
+      "source_label": "pl12ch7",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "ccfb8cbf6e2bb1cbb4d08bb2cb50ca2bac05212d0336a3c10839185a75bb0521",
+      "version_number": 1,
+      "original_filename": "pl12ch7.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "823a6cf8-6e08-40c8-986a-bf49a711476b",
+      "source_label": "pl12ch5",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "ad09c9abb52b00fa05f1ab2c2184c85e2bd54ebe76d37a5523c48602581cda71",
+      "version_number": 1,
+      "original_filename": "pl12ch5.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "840ef53f-22dc-4418-a0fe-aa2d317b2e15",
+      "source_label": "pl12ch2",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "5f15bfa318422af32bff514b370f08cd9c32bb7bf020e3e2153b1d6c5c4c98eb",
+      "version_number": 1,
+      "original_filename": "pl12ch2.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9e7ee8f8-29a3-41be-ac50-5c80bd9b4b64",
+      "source_label": "pl12ch11",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "d1d82c8669cb1128b45a33e6087e846308ee315724588bf0b7a8c0579479b29a",
+      "version_number": 1,
+      "original_filename": "pl12ch11.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+      "source_label": "pl12ch8",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "e6611eb32b0889a55b02b4a386850c6d13afb2942721399a1dd89465df38805b",
+      "version_number": 1,
+      "original_filename": "pl12ch8.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c48d7290-192f-4be6-8ee4-345fb76a0001",
+      "source_label": "pl12ch9",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "5ef38e311c86fd616b429a11b415da4daf4361d99fc2e6f2c1205913e24d6d97",
+      "version_number": 1,
+      "original_filename": "pl12ch9.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c8782806-ccec-41e2-8571-1b70581637dc",
+      "source_label": "pl12ch1",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "b2e0a1b590ce543081671d6f95739dd1a2f6102859b844a85a7329d54ed0b86b",
+      "version_number": 1,
+      "original_filename": "pl12ch1.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "e91df315-6f60-4fdb-8655-931d647d12a2",
+      "source_label": "pl12ch12",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "9375f3932cf0b733290eb1c792d9780c3295992f5fc2bdf92a4586894963dc42",
+      "version_number": 1,
+      "original_filename": "pl12ch12.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+      "source_label": "pl12ch3",
+      "notebook_id": "3c6c8c00-2d8d-4dd9-912f-aa8c253c5246",
+      "sha256": "6f8d377defadb297810e529088fd276a52063beed6ba9ac7432b7658f40aadd1",
+      "version_number": 1,
+      "original_filename": "pl12ch3.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Organization-of-Programming-Languages-80d17d48672063fb",
+      "question": "What is a data type?",
+      "reference_answer": "A data type defines a collection of data objects and a set of predefined operations on those objects.",
+      "evidence": [
+        {
+          "source_id": "03e72151-5914-467c-a811-c3156d843f59",
+          "chunk_id": "d985bbb0-b458-4c05-9be0-ac40ff38adc2",
+          "quote": "A data type defines a collection of data objects and a set of predefined operations on those objects",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-fd1a2c94628fc4d9",
+      "question": "What is an atom in Prolog?",
+      "reference_answer": "An atom consists of either a string of letters, digits, and underscores beginning with a lowercase letter, or a string of printable ASCII characters delimited by apostrophes.",
+      "evidence": [
+        {
+          "source_id": "34f70d49-756c-4f0f-b20f-2e52ecfb104c",
+          "chunk_id": "d90541e4-2795-43e7-8c88-332ab45c1e9f",
+          "quote": "Atom consists of either: a string of letters, digits, and underscores beginning with a lowercase letter a string of printable ASCII characters delimited by apostrophes",
+          "locator": "slide 17",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-353398df50b5fa77",
+      "question": "What are the typical precedence levels for operators in arithmetic expressions?",
+      "reference_answer": "The typical precedence levels are: parentheses, unary operators, ** (if the language supports it), *, /, +, -.",
+      "evidence": [
+        {
+          "source_id": "782798c1-563e-4b69-907f-0f140c82b4aa",
+          "chunk_id": "7a28118b-8a5d-4d30-965b-f97b7a75c319",
+          "quote": "Typical precedence levels parentheses unary operators ** (if the language supports it) *, / +, -",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-4fa5785619c37741",
+      "question": "How does a Python for loop work?",
+      "reference_answer": "In a Python for loop, the loop variable takes on the values in the specified range, one for each iteration. At loop termination, the loop variable has the last value assigned to it. The else clause is optional and executes if the loop terminates normally.",
+      "evidence": [
+        {
+          "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+          "chunk_id": "d3ed5e96-8dd1-4fc8-9ee7-687bde00a243",
+          "quote": "The loop variable takes on the values specified in the given range, one for each iteration\n\nAt loop termination, the loop variable has the last value that was assigned to it\n\nThe else clause, which is optional, is executed if the loop terminates normally",
+          "locator": "slide 25",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-1e7cc23e14f67a95",
+      "question": "How do different programming languages handle character strings as primitive versus non-primitive types, and what design implications does this have for operations and implementation?",
+      "reference_answer": "Languages vary in whether they treat strings as primitive types or special arrays. C and C++ do not have primitive strings, using char arrays with library functions instead. SNOBOL4 has primitive strings with many operations including elaborate pattern matching. Fortran and Python have primitive types with assignment and several operations. Java, C#, Ruby, and Swift provide primitive strings via the String class, while Perl, JavaScript, Ruby, and PHP provide built-in pattern matching using regular expressions. For implementation, static length strings use compile-time descriptors, limited dynamic length may need run-time descriptors (but not in C and C++), and dynamic length requires run-time descriptors with allocation/deallocation being the biggest implementation problem.",
+      "evidence": [
+        {
+          "source_id": "03e72151-5914-467c-a811-c3156d843f59",
+          "chunk_id": "57fc5cb2-e1f9-477e-aade-4aaf1a38a014",
+          "quote": "C and C++ Not primitive Use char arrays and a library of functions that provide operations SNOBOL4 (a string manipulation language) Primitive Many operations, including elaborate pattern matching Fortran and Python Primitive type with assignment and several operations Java (and C#, Ruby, and Swift) Primitive via the String class Perl, JavaScript, Ruby, and PHP - Provide built-in pattern matching, using regular expressions",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "03e72151-5914-467c-a811-c3156d843f59",
+          "chunk_id": "57fc5cb2-e1f9-477e-aade-4aaf1a38a014",
+          "quote": "Static length: compile-time descriptor Limited dynamic length: may need a run-time descriptor for length (but not in C and C++) Dynamic length: need run-time descriptor; allocation/deallocation is the biggest implementation problem",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-adf718152dcc1d84",
+      "question": "What is referential transparency, what conditions violate it, and why do pure functional languages naturally maintain this property?",
+      "reference_answer": "Referential transparency is the property that any two expressions in a program that have the same value can be substituted for one another anywhere in the program without affecting its action. It is violated when a function has functional side effects, such as when a function referenced in an expression alters another operand of the expression (e.g., changing a two-way parameter or non-local variable). Pure functional languages maintain referential transparency because they do not have variables; functions cannot have state stored in local variables, and if a function uses an outside value, it must be a constant. Thus, the value of a function depends only on its parameters. Java requires that operands appear to be evaluated in left-to-right order to manage side effects.",
+      "evidence": [
+        {
+          "source_id": "782798c1-563e-4b69-907f-0f140c82b4aa",
+          "chunk_id": "e176926f-fdf9-4e3d-9b95-9e0f4bd664d2",
+          "quote": "A program has the property of referential transparency if any two expressions in the program that have the same value can be substituted for one another anywhere in the program, without affecting the action of the program",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "782798c1-563e-4b69-907f-0f140c82b4aa",
+          "chunk_id": "e176926f-fdf9-4e3d-9b95-9e0f4bd664d2",
+          "quote": "Because they do not have variables, programs in pure functional languages are referentially transparent Functions cannot have state, which would be stored in local variables If a function uses an outside value, it must be a constant (there are no variables). So, the value of a function depends only on its parameters",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "782798c1-563e-4b69-907f-0f140c82b4aa",
+          "chunk_id": "e176926f-fdf9-4e3d-9b95-9e0f4bd664d2",
+          "quote": "Problem with functional side effects: When a function referenced in an expression alters another operand of the expression; e.g., for a parameter change: a = 10; /* assume that fun changes its parameter */ b = a + fun(&a);",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "782798c1-563e-4b69-907f-0f140c82b4aa",
+          "chunk_id": "e176926f-fdf9-4e3d-9b95-9e0f4bd664d2",
+          "quote": "Java requires that operands appear to be evaluated in left-to-right order",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-31638bb689dc4093",
+      "question": "How do Prolog's goal resolution strategies differ between forward and backward chaining, and what search strategy does Prolog use for subgoals with backtracking?",
+      "reference_answer": "Prolog uses two main resolution approaches: bottom-up resolution (forward chaining), which begins with facts and rules and attempts to find a sequence that leads to the goal, working well with a large set of possibly correct answers; and top-down resolution (backward chaining), which begins with the goal and attempts to find a sequence leading to facts in the database, working well with a small set of possibly correct answers. Prolog implementations use backward chaining. For subgoals, Prolog uses depth-first search, finding a complete proof for the first subgoal before working on others, because it can be done with fewer computer resources. When a subgoal fails, Prolog backtracks by reconsidering previous subgoals to find alternative solutions, beginning the search where the previous search left off. This is demonstrated in trace events: Call, Exit, Redo, and Fail.",
+      "evidence": [
+        {
+          "source_id": "34f70d49-756c-4f0f-b20f-2e52ecfb104c",
+          "chunk_id": "094b474b-7404-4220-bf47-ae4c812258a0",
+          "quote": "Bottom-up resolution, forward chaining Begin with facts and rules of database and attempt to find sequence that leads to goal Works well with a large set of possibly correct answers Top-down resolution, backward chaining Begin with goal and attempt to find sequence that leads to set of facts in database Works well with a small set of possibly correct answers Prolog implementations use backward chaining",
+          "locator": "slide 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "34f70d49-756c-4f0f-b20f-2e52ecfb104c",
+          "chunk_id": "094b474b-7404-4220-bf47-ae4c812258a0",
+          "quote": "Depth-first search: find a complete proof for the first subgoal before working on others Breadth-first search: work on all subgoals in parallel Prolog uses depth-first search Can be done with fewer computer resources",
+          "locator": "slide 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "34f70d49-756c-4f0f-b20f-2e52ecfb104c",
+          "chunk_id": "094b474b-7404-4220-bf47-ae4c812258a0",
+          "quote": "With a goal with multiple subgoals, if fail to show truth of one of subgoals, reconsider previous subgoal to find an alternative solution: backtracking Begin search where previous search left off",
+          "locator": "slide 26",
+          "evidence_group": null
+        },
+        {
+          "source_id": "34f70d49-756c-4f0f-b20f-2e52ecfb104c",
+          "chunk_id": "094b474b-7404-4220-bf47-ae4c812258a0",
+          "quote": "Tracing model of execution - four events: Call (beginning of attempt to satisfy goal) Exit (when a goal has been satisfied) Redo (when backtrack occurs) Fail (when goal fails)",
+          "locator": "slide 26",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-487a855379a5119b",
+      "question": "How do languages differ in their loop control mechanisms, particularly regarding user-located control and data structure iteration, and what design issues arise?",
+      "reference_answer": "For user-located loop control, design issues include whether the conditional should be part of the exit and whether control should be transferable out of more than one loop. Languages offer varying support: C, C++, Python, Ruby, and C# have unconditional unlabeled exits (break); Java and Perl have unconditional labeled exits (break in Java, last in Perl); C, C++, and Python have unlabeled continue that skips the remainder of the current iteration; and Java and Perl have labeled versions of continue. For iteration based on data structures, the control mechanism is a call to an iterator function that returns the next element. PHP uses current, next, and reset for array iteration. Java 5.0 uses a foreach-style for loop for arrays and classes implementing the Iterable interface, such as ArrayList. F# simulates logically-controlled loops using recursive functions due to its functional nature.",
+      "evidence": [
+        {
+          "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+          "chunk_id": "829a2e10-cf4a-46a7-a6d9-17ae5769c26b",
+          "quote": "Simple design for single loops (e.g., break) Design issues for nested loops Should the conditional be part of the exit? Should control be transferable out of more than one loop?",
+          "locator": "slide 29",
+          "evidence_group": null
+        },
+        {
+          "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+          "chunk_id": "829a2e10-cf4a-46a7-a6d9-17ae5769c26b",
+          "quote": "C , C++, Python, Ruby, and C# have unconditional unlabeled exits (break) Java and Perl have unconditional labeled exits (break in Java, last in Perl) C, C++, and Python have an unlabeled control statement, continue, that skips the remainder of the current iteration, but does not exit the loop Java and Perl have labeled versions of continue",
+          "locator": "slide 29",
+          "evidence_group": null
+        },
+        {
+          "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+          "chunk_id": "829a2e10-cf4a-46a7-a6d9-17ae5769c26b",
+          "quote": "PHP - current points at one element of the array - next moves current to the next element - reset moves current to the first element",
+          "locator": "slide 29",
+          "evidence_group": null
+        },
+        {
+          "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+          "chunk_id": "829a2e10-cf4a-46a7-a6d9-17ae5769c26b",
+          "quote": "Java 5.0 (uses for, although it is called foreach) For arrays and any other class that implements the Iterable interface, e.g., ArrayList for (String myElement : myList) { … }",
+          "locator": "slide 29",
+          "evidence_group": null
+        },
+        {
+          "source_id": "abda5e3b-43c6-4b95-8349-6a788a84ef30",
+          "chunk_id": "829a2e10-cf4a-46a7-a6d9-17ae5769c26b",
+          "quote": "F# As with counter-controlled loops, logically-controlled loops can be simulated with recursive functions let rec whileLoop test body = if test() then body() whileLoop test body else ()",
+          "locator": "slide 29",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-f9dabad19a000f81",
+      "question": "According to the supplied evidence, how do denotational semantics and axiomatic semantics differ in their foundational theories, their formal treatment of logical pretest loops, and their practical utility for program verification versus language implementation?",
+      "reference_answer": "Denotational semantics is founded on recursive function theory and defines logical pretest loops recursively, converting iteration to recursion through mathematically defined state mapping functions; it has been used in compiler generation systems but is too complex for language users. Axiomatic semantics is founded on formal logic and predicate calculus for formal program verification; it defines loops via inference rules governed by a loop invariant that must satisfy conditions such as P => I, {I and B} S {I}, and (I and (not B)) => Q, and while it is a good tool for correctness proofs, it is not useful for language users or compiler writers.",
+      "evidence": [
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "5a1b471b-5e3c-4e48-8d4d-c84d84103c5d",
+          "quote": "Based on recursive function theory The most abstract semantics description method Originally developed by Scott and Strachey (1970)",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "8c683ba4-315d-4e4e-8d30-1854423617a0",
+          "quote": "The meaning of the loop is the value of the program variables after the statements in the loop have been executed the prescribed number of times, assuming there have been no errors In essence, the loop has been converted from iteration to recursion, where the recursive control is mathematically defined by other recursive state mapping functions",
+          "locator": "slide 41",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "8c683ba4-315d-4e4e-8d30-1854423617a0",
+          "quote": "Has been used in compiler generation systems Because of its complexity, it are of little use to language users",
+          "locator": "slide 41",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "8c683ba4-315d-4e4e-8d30-1854423617a0",
+          "quote": "Based on formal logic (predicate calculus) Original purpose: formal program verification",
+          "locator": "slide 41",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "6f96ef51-5907-4160-be30-71243ce6c606",
+          "quote": "Characteristics of the loop invariant: I must meet the following conditions: P => I -- the loop invariant must be true initially {I} B {I} -- evaluation of the Boolean must not change the validity of I {I and B} S {I} -- I is not changed by executing the body of the loop (I and (not B)) => Q -- if I is true and B is false, Q is implied The loop terminates -- can be difficult to prove",
+          "locator": "slide 50",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "6f96ef51-5907-4160-be30-71243ce6c606",
+          "quote": "It is a good tool for correctness proofs, and an excellent framework for reasoning about programs, but it is not as useful for language users and compiler writers",
+          "locator": "slide 50",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Organization-of-Programming-Languages-1fd72e656d49b08e",
+      "question": "How does the supplied evidence contrast the denotational semantic specification of an assignment statement with the axiomatic semantic treatment of assignment, particularly regarding the representation of program state and the methodology for reasoning about correctness?",
+      "reference_answer": "Denotational semantics explicitly models program state as the set of all current variable values s = {<i1, v1>, <i2, v2>, …, <in, vn>} and specifies assignment by a state-mapping function Ma that constructs a new state s′ while preserving existing variable values through VARMAP. Axiomatic semantics does not model state explicitly as a set of values; instead, it uses assertions to express relationships and constraints among variables, specifying assignment by the axiom {Qx->E} x = E {Q}, and reasons about correctness by working backward from the desired postcondition to the first statement.",
+      "evidence": [
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "5a1b471b-5e3c-4e48-8d4d-c84d84103c5d",
+          "quote": "The state of a program is the values of all its current variables s = {<i1, v1>, <i2, v2>, …, <in, vn>}",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "5a1b471b-5e3c-4e48-8d4d-c84d84103c5d",
+          "quote": "Ma(x := E, s) = if Me(E, s) == error then error\nelse s’ = {<i1,v1’>,<i2,v2’>,...,<in,vn’>}, where for j = 1, 2, ..., n,\nif ij == x then vj’ = Me(E, s)\nelse vj’ = VARMAP(ij, s)",
+          "locator": "slide 34",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "8c683ba4-315d-4e4e-8d30-1854423617a0",
+          "quote": "An assertion before a statement (a precondition) states the relationships and constraints among variables that are true at that point in execution An assertion following a statement is a postcondition",
+          "locator": "slide 41",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "8c683ba4-315d-4e4e-8d30-1854423617a0",
+          "quote": "An axiom for assignment statements (x = E): {Qx->E} x = E {Q}",
+          "locator": "slide 41",
+          "evidence_group": null
+        },
+        {
+          "source_id": "ea42a53f-6e89-4694-ac05-27873a5a1541",
+          "chunk_id": "8c683ba4-315d-4e4e-8d30-1854423617a0",
+          "quote": "The postcondition for the entire program is the desired result Work back through the program to the first statement. If the precondition on the first statement is the same as the program specification, the program is correct.",
+          "locator": "slide 41",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

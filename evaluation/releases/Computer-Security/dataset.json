@@ -1,0 +1,453 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Computer-Security",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Computer-Security",
+  "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "0b04a68c-47a5-4113-b84f-69564b8402bc",
+      "source_label": "Lecture 3 - User Authentication, Passwords, Biometrics and Alternatives",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "90e814076118096685307116332637a122ccde1352930b3560b8b3df28501f36",
+      "version_number": 1,
+      "original_filename": "Lecture 3 - User Authentication, Passwords, Biometrics and Alternatives.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1f73e63f-4efa-4484-83b5-37ac8a3be921",
+      "source_label": "Lecture 5 - Malicious Software",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "1a010b4317b6f111abf7977dcb8b0e1d53b4d9d8868a31c02162c93b34f67cea",
+      "version_number": 1,
+      "original_filename": "Lecture 5 - Malicious Software.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "329d5f88-10ce-4f01-b45f-a5db1cad4868",
+      "source_label": "Lecture 2 -Cryptographic Building Blocks",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "f9ea5bf0466a743456fa091e5046ad9b74ea6a44a4600a802fcb78b26e9dfff4",
+      "version_number": 1,
+      "original_filename": "Lecture 2 -Cryptographic Building Blocks.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6d059019-7f33-4631-8739-025131aaf4ca",
+      "source_label": "Lecture 8 - Auditing",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "0fc103c566010dff58d1bc9f24237cbcb1838a267dce8a516ac8b2adaa670371",
+      "version_number": 1,
+      "original_filename": "Lecture 8 - Auditing.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7aad6951-d95b-4999-83f8-612465094815",
+      "source_label": "Lecture 4 - Operating System Security and Access Control",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "75e60552786c127d2905bb5a1f525971afc4661e6c82e68b6824fe91ce278358",
+      "version_number": 1,
+      "original_filename": "Lecture 4 - Operating System Security and Access Control.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a90590c7-67e7-4a7a-a78a-dfd4ed199250",
+      "source_label": "Lecture 6 - Web and Browser Security",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "1a83fd975d15889a08d8b57283f573972bd91a6ff73102786948cbd597f597c5",
+      "version_number": 1,
+      "original_filename": "Lecture 6 - Web and Browser Security.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "ac143406-75df-4dd0-bc84-335fe3e8d9a0",
+      "source_label": "Lecture 1 - Security Concepts and Principles",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "627580d57a4e8f7ca54ac5cb9b09dc4bee226c200d774b97c9b56ec4c3a901a9",
+      "version_number": 1,
+      "original_filename": "Lecture 1 - Security Concepts and Principles.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+      "source_label": "Lecture 7 - Intrusion Detection",
+      "notebook_id": "40bfe35d-6cec-4b75-85c9-1f1365022b61",
+      "sha256": "02f106f125bf14c0348cd019d6d586cd41603d9c567f3ef56bc0f190c2059a35",
+      "version_number": 1,
+      "original_filename": "Lecture 7 - Intrusion Detection.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Computer-Security-88223e13b4aec69e",
+      "question": "What are the three components of an auditing system?",
+      "reference_answer": "The Logger, Analyzer, and Notifier.",
+      "evidence": [
+        {
+          "source_id": "6d059019-7f33-4631-8739-025131aaf4ca",
+          "chunk_id": "9a1ea089-8e13-4802-a287-ac881488485d",
+          "quote": "An Auditing System consists of three components: ▪ The Logger, Analyzer, and Notifier.",
+          "locator": "page 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-06f65e2ff50cf2d1",
+      "question": "What does the logger component of an auditing system do?",
+      "reference_answer": "It records information, usually controlled by parameters.",
+      "evidence": [
+        {
+          "source_id": "6d059019-7f33-4631-8739-025131aaf4ca",
+          "chunk_id": "9a1ea089-8e13-4802-a287-ac881488485d",
+          "quote": "Logger: Records information, usually controlled by parameters",
+          "locator": "page 9",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-8f49b9285d6599e9",
+      "question": "Do metamorphic viruses use encryption?",
+      "reference_answer": "No, they use no encryption and thus have no decryptor portion.",
+      "evidence": [
+        {
+          "source_id": "1f73e63f-4efa-4484-83b5-37ac8a3be921",
+          "chunk_id": "e5057158-436a-434d-8f01-1576d5d8f3af",
+          "quote": "These use no encryption and thus have no decryptor portion.",
+          "locator": "page 43",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-ee0bb661fc883cb6",
+      "question": "What are three legitimate reasons for browser (URL) redirection?",
+      "reference_answer": "Web page having moved, available mobile-friendly version of the site, and different domain for credit card payments.",
+      "evidence": [
+        {
+          "source_id": "a90590c7-67e7-4a7a-a78a-dfd4ed199250",
+          "chunk_id": "ea994345-dcd3-4917-8c90-a81db4eb2b48",
+          "quote": "Legitimate reasons include: ▪ Web page having moved ▪ Available mobile-friendly version of the site ▪ Different domain for credit card payments",
+          "locator": "page 22",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-3a81aeb9aa668270",
+      "question": "How does the lecture distinguish between authentication and authorization, and what example is provided to illustrate authentication serving as a sub-goal toward authorization?",
+      "reference_answer": "The lecture defines authentication as the process of using supporting evidence to substantiate an asserted identity. It notes that confirming an asserted identity may be an end-goal in itself (mere authentication), but it can also be a sub-goal toward the end-goal of authorization, which determines if privilege or access should be granted to the requesting entity. The specific example given is that users may be asked to enter a password to authorize installation or upgrading of operating system or application software.",
+      "evidence": [
+        {
+          "source_id": "0b04a68c-47a5-4113-b84f-69564b8402bc",
+          "chunk_id": "793954c7-2cde-4db5-8ca8-38e9966cde06",
+          "quote": "Authentication is the process of using supporting evidence to Substantiate an asserted identity.",
+          "locator": "page 4",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0b04a68c-47a5-4113-b84f-69564b8402bc",
+          "chunk_id": "793954c7-2cde-4db5-8ca8-38e9966cde06",
+          "quote": "Confirming an asserted identity may be an end-goal, mere Authentication ▪ It can also be a sub-goal towards the end-goal of Authorization ▪ To determine if privilege or access should be to granted to the requesting entity. ▪ E.g. for the account currently in use, users may be asked to enter a password to authorize installation or upgrading of operating system or application software",
+          "locator": "page 4",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-db7975a8ca438636",
+      "question": "Contrast authentication and identification (recognition) as described in the lecture. How does the fingerprint example illustrate authentication, and how does the criminals-in-a-crowd scenario illustrate identification?",
+      "reference_answer": "Authentication involves a simple one-to-one test using supporting evidence to substantiate an asserted identity, as illustrated by an asserted username and fingerprint pair being tested against a corresponding stored template. In contrast, identification (or recognition) establishes an identity from available information without an explicit identity having been asserted, exemplified by picking out known criminals in a crowd, where each face is checked against a list of database faces for a potential match.",
+      "evidence": [
+        {
+          "source_id": "0b04a68c-47a5-4113-b84f-69564b8402bc",
+          "chunk_id": "793954c7-2cde-4db5-8ca8-38e9966cde06",
+          "quote": "Authentication is the process of using supporting evidence to Substantiate an asserted identity. ▪ It involves a simple One-to-One test;",
+          "locator": "page 4",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0b04a68c-47a5-4113-b84f-69564b8402bc",
+          "chunk_id": "793954c7-2cde-4db5-8ca8-38e9966cde06",
+          "quote": "In some instances, for an asserted username and fingerprint pair, a single test determines whether the pair matches a corresponding stored template",
+          "locator": "page 4",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0b04a68c-47a5-4113-b84f-69564b8402bc",
+          "chunk_id": "793954c7-2cde-4db5-8ca8-38e9966cde06",
+          "quote": "In contrast, Identification (or Recognition) establishes an identity from available information without an explicit identity having been asserted—such as ▪ Picking out known Criminals in a Crowd ▪ Each face in the crowd is checked against a list of database faces for a potential match",
+          "locator": "page 4",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-61d2f3185f800208",
+      "question": "According to the malicious software lecture, what conceptual consequences result from worms lacking a dormant stage?",
+      "reference_answer": "The lecture states that worms have no dormant stage. As a result, they tend to spread more quickly, are more likely to overload network communications channel capacity, and can cause a form of denial of service even when that is not their end-goal.",
+      "evidence": [
+        {
+          "source_id": "1f73e63f-4efa-4484-83b5-37ac8a3be921",
+          "chunk_id": "2e12825f-adfb-4d35-96a3-f66b005a7ca9",
+          "quote": "▪ Worms have no Dormant stage ▪ Therefore, ▪ Tend to spread More quickly ▪ More likely to overload network communications channel capacity, ▪ Can cause a form of Denial Of Service, even when that is not their end-goal.",
+          "locator": "page 46",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-977b59dc0174ffd2",
+      "question": "What role do logs play in analysing system security state and reconstructing system state, according to the auditing lecture?",
+      "reference_answer": "Logs provide a mechanism for analysing the system security state and for determining whether a requested action or sequence of events will put the system in a nonsecure (compromised) state. Furthermore, the system’s state can be reconstructed at any time from logged events that cause state transitions, along with the previous and new values of the objects changed.",
+      "evidence": [
+        {
+          "source_id": "6d059019-7f33-4631-8739-025131aaf4ca",
+          "chunk_id": "c68a4bd9-1448-4e73-a05c-51b6114960d7",
+          "quote": "Logging is the recording of events or statistics to provide information about system Use and Performance.",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6d059019-7f33-4631-8739-025131aaf4ca",
+          "chunk_id": "c68a4bd9-1448-4e73-a05c-51b6114960d7",
+          "quote": "Logs provide a mechanism for analysing the system security state, ▪ Determine if a requested action or the sequence of events will put the system in a nonsecure (compromised) state.",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "6d059019-7f33-4631-8739-025131aaf4ca",
+          "chunk_id": "c68a4bd9-1448-4e73-a05c-51b6114960d7",
+          "quote": "System’s state can be reconstructed at any time from logged events that cause state transitions, and the previous and new values of the objects changed",
+          "locator": "page 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-ac6d8b6e894f27d3",
+      "question": "How does the Director's correlation of multi-layer agent information overcome the blind spots of individual Agents in detecting intrusions, and what protocol exemplifies extending such correlated detection into a coordinated network-wide response?",
+      "reference_answer": "Individual Agents produce information at multiple layers of abstraction—application, system, and network—yet each offers only a partial view, so a single Agent may miss critical discrepancies. In the lecture's example, one Agent reporting logins and another reporting commands executed both fail to notice a user unexpectedly recompiling the kernel at night, but the Director correlates these logs to spot the attack immediately. Once an attack is identified, this detection can trigger a coordinated response across distributed systems: the IDIP protocol allows an IDS that detects an attack over a network to notify other IDSes on cooperative firewalls, which can then reject messages from the source.",
+      "evidence": [
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Agents produce information at multiple layers of abstraction",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Application-monitoring Agents provide one view (usually one line) of an event",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "System-monitoring Agents provide a different view (usually many lines) of an event",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Network-monitoring Agents provide yet another view (involving many network packets) of an event",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Agent #1 reports logins and logouts",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Agent #2 reports commands executed",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Neither agent spots discrepancy",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Director correlates the Log and could spot it at once",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "f274bd4b-f6f4-45f5-9234-ad5ef2497ad1",
+          "quote": "IDIP protocol coordinates IDSes to respond to attack",
+          "locator": "page 56",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "f274bd4b-f6f4-45f5-9234-ad5ef2497ad1",
+          "quote": "If an IDS detects attack over a network, notifies other IDSes on cooperative firewalls; they can then reject messages from the source",
+          "locator": "page 56",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Security-6217953e2830601c",
+      "question": "How does network architecture constrain the placement and effectiveness of network-based agents, and why does this limitation make the Director's correlation of multi-layer agent information essential for detecting certain attacks?",
+      "reference_answer": "Network architecture dictates agent placement: on an Ethernet or broadcast medium, one agent is needed per subnet, whereas on a point-to-point medium, one agent is needed per connection or at a distribution/routing point. Consequently, network-based agents usually focus on intruders entering the network and do not help when inside attacks must be monitored. The Director compensates for this by combining information from Agents at different layers of abstraction—application, system, and network—enabling it to detect discrepancies that no single network agent can identify, such as correlating login and command execution logs to spot an anomalous nighttime kernel recompilation.",
+      "evidence": [
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Network architecture dictates agent placement",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Ethernet or broadcast medium: one agent per subnet",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Point-to-point medium: one agent per connection, or agent at distribution/routing point",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Focus is usually on intruders entering network",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Does not help if inside attacks to be monitored",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Agents produce information at multiple layers of abstraction",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Agent #1 reports logins and logouts",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Agent #2 reports commands executed",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Neither agent spots discrepancy",
+          "locator": "page 49",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d85ce306-bcc5-44ea-aaf6-66198d92ca88",
+          "chunk_id": "d7e0980a-d5fc-4698-a72b-2d75714a6c02",
+          "quote": "Director correlates the Log and could spot it at once",
+          "locator": "page 49",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

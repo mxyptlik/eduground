@@ -1,0 +1,40 @@
+{
+  "course_id": "Computational-Science-and-Numerical-Methods",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "5ac869b6-e81a-4bea-bf2b-da84c2038041",
+        "271199da-d6c2-47d7-b231-9f5643db945c",
+        "6d180820-4498-4e29-9fa2-dae09e7e70bc",
+        "90fc0d09-56ec-4bff-bd5c-6c75e12d22c4"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "ee77be6e-2dd3-4b2c-b3d2-466a28e44bf1",
+        "5b5d9afa-510c-4b44-8d90-e5186a7693c2",
+        "c037e081-3b57-4b31-8060-63a495c938ec",
+        "8801dde2-92db-4a65-96b8-53b1cc56fd79"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "16a24095-c41e-4225-81d7-4ff8514091e8",
+        "de120176-b68a-406d-88b6-fac73eac156c",
+        "c7542415-495f-4974-b0f9-f9082cf06f90"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "course_id": "Computer-Architecture-and-Organization-II",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "939987be-5229-4fbd-845c-156b13987f1c",
+        "5c9e07ef-3a39-464c-a7c9-17bbf5b9e937",
+        "7464ffb2-1479-498a-a210-f160ea53b6f6",
+        "a83787ec-1e8e-43a2-b047-fc1c0926178c"
+      ],
+      "prompt_sha256": "98ba9790c447fcfee0f00b6733ee6a4bc2646cc6737a448df754ff8be7c958a2",
+      "prompt_utf8_bytes": 13638
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "8cfa5b26-b3f0-4e14-9237-2e545d50099a",
+        "f36ee31d-5a28-4020-ac67-243912e04f3b",
+        "bc15b64d-ecda-47a1-bbdb-e35fd4b7eb2d",
+        "63de32fd-e114-41a3-864e-194272a1c127"
+      ],
+      "prompt_sha256": "180aafd171ead987ba0142e9b02470471c39b23b1ce523e78d9ebfd8f193646b",
+      "prompt_utf8_bytes": 12810
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "599b325d-bf9b-48a4-b826-07ceabc33884",
+        "7bc06213-c48b-4b2d-b5b6-e91dc04320f3",
+        "20e17ffd-82f3-40ab-925f-4c640739d75e"
+      ],
+      "prompt_sha256": "b172462b4f387ccd8006d6c629b80e09405b1a1a9cba3ec63de85dd9fe521cf1",
+      "prompt_utf8_bytes": 9457
+    }
+  ],
+  "provider_calls_made": 0
+}

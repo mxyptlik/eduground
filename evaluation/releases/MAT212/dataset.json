@@ -1,0 +1,317 @@
+{
+  "schema_version": 2,
+  "dataset_id": "MAT212",
+  "version": "draft-1+human-reviewed",
+  "course_id": "MAT212",
+  "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "01dd362b-a1c7-4cda-b997-4d4f8745d66a",
+      "source_label": "Mat 212 (6)",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "f28c4deae0f42dc965ac589261be407b9aaf30b34da1e6834ae089c516c1167d",
+      "version_number": 1,
+      "original_filename": "Mat 212 (6).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "0207fa38-61ed-4cf6-8ec3-4a218fa4e15c",
+      "source_label": "mat 212 (7)",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "0df155c5263e95224140e426ee3ef0f7b248735d50171db33de2e74e25bff4ad",
+      "version_number": 1,
+      "original_filename": "mat 212 (7).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1ee86691-6c75-4c94-96c6-25551ad8ab0e",
+      "source_label": "mat212 week one",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "0a0dab5e1fdf450d80c8c7b95b3e31928d267f1b626593841be9ea042f6f2c74",
+      "version_number": 1,
+      "original_filename": "mat212 week one.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2eb3bf89-cf48-455d-a647-ecea212c1dc8",
+      "source_label": "mat 212(3)",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "ef70bd9d89756816d227f448add152ef5a8fa7a72a0ad2878454d49b3d78decd",
+      "version_number": 1,
+      "original_filename": "mat 212(3).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6192d4c7-12ae-4ee2-b03d-76e2a7c2cc22",
+      "source_label": "MAT 212(1)",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "611052a459d49296977289b6b59f29d7e56b5b5416044da951c63191465564e1",
+      "version_number": 1,
+      "original_filename": "MAT 212(1).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "828e92d5-c69c-4d87-b0db-f3fbf971eae3",
+      "source_label": "Mat 212 lecture notes(2)",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "8819664d4f310fe563744c8f39f25b260abc3a39af55e0f46f32487307ca6647",
+      "version_number": 1,
+      "original_filename": "Mat 212 lecture notes(2).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9f08eb63-994b-4bf0-a518-b703b12241a2",
+      "source_label": "MAT212 PREVIOUS SESSIONS QUESTIONS (1)",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "1678d7ac01213c22fd410e2210566ca55fefe7e7df0ff91bd21c990c16ce629c",
+      "version_number": 1,
+      "original_filename": "MAT212 PREVIOUS SESSIONS QUESTIONS (1).pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a628e248-8dc5-4e01-bfac-f144a4fee764",
+      "source_label": "MAT212_successive differentiation_TEACHING",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "6d9a273eee86d17f98eed458337481a05f456f82c1d151702bc88a6fea779750",
+      "version_number": 1,
+      "original_filename": "MAT212_successive differentiation_TEACHING.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c0fd773e-f4aa-480d-96f8-5b440adc05fb",
+      "source_label": "advanced_engineering_mathematics_strouoh_i_subd_4edition_Copy",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "7640255bbee28d9dddf2d5ba9d42f6e30db6500ab8ea04b4fa0ee5d52850a461",
+      "version_number": 1,
+      "original_filename": "advanced_engineering_mathematics_strouoh_i_subd_4edition_Copy.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c6ce836c-b570-42f0-a809-9afedd9e4f41",
+      "source_label": "successive differentiation_lec1 -wk6",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "5c1581ffedb9dbe89244b886d0600497b9c1c0d099b1bc1a23abe7f3077a04cb",
+      "version_number": 1,
+      "original_filename": "successive differentiation_lec1 -wk6.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c9f6ca7a-9604-4bf4-9a08-b7b22908e1cd",
+      "source_label": "week four",
+      "notebook_id": "a35fc46f-2708-40c1-b59f-62cd40471576",
+      "sha256": "b4e01867d83adf15651716c56bc874f18e1a53389aa8a37eb3c0acc5519f901e",
+      "version_number": 1,
+      "original_filename": "week four.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "MAT212-a37c1c7c35bb91af",
+      "question": "What are the stationary points of the function f discussed in the partial differentiation notes?",
+      "reference_answer": "(0,0,0) and (1,1,1)",
+      "evidence": [
+        {
+          "source_id": "1ee86691-6c75-4c94-96c6-25551ad8ab0e",
+          "chunk_id": "2d78eada-2f19-437c-b045-f1580cce985f",
+          "quote": "Thus the stationary points of f are (0,0,0) and (1,1,1).",
+          "locator": "page 11",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-0ffa1c5c07ac788d",
+      "question": "According to the MAT 212 Mathematical Methods I notes, what prerequisite knowledge of series and formulas should students have before starting the work on series solution of differential equations?",
+      "reference_answer": "Maclaurine’s series and Leibnitz formula",
+      "evidence": [
+        {
+          "source_id": "01dd362b-a1c7-4cda-b997-4d4f8745d66a",
+          "chunk_id": "08754dbb-2610-4f0b-8793-6fc64ba9310e",
+          "quote": "have knowledge of Maclaurine’s series and Leibnitz formula",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-3df6044996c4d64b",
+      "question": "According to the MAT 212(1) notes, what is the first step when finding the Maclaurin series for xe2x3?",
+      "reference_answer": "Use the Maclaurin series for ex and replace x with 2x3, then multiply the resulting series by x.",
+      "evidence": [
+        {
+          "source_id": "6192d4c7-12ae-4ee2-b03d-76e2a7c2cc22",
+          "chunk_id": "291611f7-74d0-4045-b969-9973ea1fbddc",
+          "quote": "Again we use the Maclaurin series for ex and replace x with 2x3. Then we multiply the resulting series by x.",
+          "locator": "page 6",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-f0603d51ae0dd921",
+      "question": "According to the MAT212 successive differentiation notes, what condition must functions u and v satisfy for Leibnitz's theorem to apply?",
+      "reference_answer": "Their nth derivatives must exist.",
+      "evidence": [
+        {
+          "source_id": "a628e248-8dc5-4e01-bfac-f144a4fee764",
+          "chunk_id": "20c41dd4-2a89-4160-b8f5-c6c464d1a47c",
+          "quote": "If u and v are functions of x such that their nth derivatives exist",
+          "locator": "slide 71",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-534c009bcb33f62d",
+      "question": "What is the fundamental procedure for deriving a Maclaurin series for a function, and to what broader class of problems does this repeated differentiation and evaluation at x = 0 apply?",
+      "reference_answer": "The fundamental procedure is to repeatedly differentiate the function and evaluate the derivatives at x = 0 to determine the coefficients. As long as a function can be differentiated over and over again and the derivative values at x = 0 can be found, this method can be used to express any such function as a series of ascending powers of x.",
+      "evidence": [
+        {
+          "source_id": "828e92d5-c69c-4d87-b0db-f3fbf971eae3",
+          "chunk_id": "4f1c733f-2c0e-4a6e-8bbe-0bf2aa10a1d9",
+          "quote": "As long as we can differentiate a given function over and over again, and find the values of the derivatives when we put x = 0, then we can use this method to express any function as a series of ascending powers of x.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-fd3266f623ce5f68",
+      "question": "Why are Lagrange multipliers considered advantageous over direct substitution in constrained optimization, and is it always necessary to solve for the multiplier λ explicitly?",
+      "reference_answer": "Lagrange multipliers are advantageous because they avoid the need to rewrite the constraint g(x,y)=0 explicitly as y=h(x), which can be difficult or algebraically messy. Moreover, it is not always necessary to find the explicit value of λ to determine the solution to the problem.",
+      "evidence": [
+        {
+          "source_id": "1ee86691-6c75-4c94-96c6-25551ad8ab0e",
+          "chunk_id": "0b380e82-3b15-4356-828f-f5248b3ee68a",
+          "quote": "Lagrange multipliers are particularly useful when it is difficult (or just algebraically messy!) to rewrite g(x,y) = 0 in the form y = h(x).",
+          "locator": "page 13",
+          "evidence_group": null
+        },
+        {
+          "source_id": "1ee86691-6c75-4c94-96c6-25551ad8ab0e",
+          "chunk_id": "0b380e82-3b15-4356-828f-f5248b3ee68a",
+          "quote": "L(x,y,λ) = f(x,y)−λg(x,y).",
+          "locator": "page 13",
+          "evidence_group": null
+        },
+        {
+          "source_id": "1ee86691-6c75-4c94-96c6-25551ad8ab0e",
+          "chunk_id": "0b380e82-3b15-4356-828f-f5248b3ee68a",
+          "quote": "Note that in Example 12 we did not need to find λ in order to find the solution to the problem.",
+          "locator": "page 13",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-ba23cb66f16b3ba1",
+      "question": "What prerequisites are identified as necessary before studying Taylor and Maclaurin series, and how does the material describe extending Maclaurin’s series to Taylor’s series?",
+      "reference_answer": "The prerequisites include having knowledge of power series and the ratio test, being able to differentiate simple functions, and being familiar with the rules for combining power series. Maclaurin’s series is extended to Taylor’s series by combining known power series together.",
+      "evidence": [
+        {
+          "source_id": "828e92d5-c69c-4d87-b0db-f3fbf971eae3",
+          "chunk_id": "4f1c733f-2c0e-4a6e-8bbe-0bf2aa10a1d9",
+          "quote": "Prerequisites: Before starting this work you should:\n\n• have knowledge of power series and of the ratio test\n\n• be able to differentiate simple functions\n\n• be familiar with the rules for combining power series",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "828e92d5-c69c-4d87-b0db-f3fbf971eae3",
+          "chunk_id": "4f1c733f-2c0e-4a6e-8bbe-0bf2aa10a1d9",
+          "quote": "• Extend Maclaurin’s series to Taylor’s series combining known power\nseries together",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "MAT212-fbf828d4e8de0aa1",
+      "question": "How does Leibnitz’s rule transform a second-order linear differential equation into a recurrence for its Maclaurin coefficients, and why do only the values of y and its first derivative at x = 0 remain arbitrary?",
+      "reference_answer": "Applying Leibnitz’s rule to the differential equation yields a relation among the higher-order derivatives; evaluated at x = 0 this produces a recurrence such as y^(n+2) = −(n+1)y^(n). Because the equation is second order, the values of y(0) and y'(0) supply the two arbitrary constants, and all higher derivatives are then fixed by the recurrence and the initial conditions.",
+      "evidence": [
+        {
+          "source_id": "01dd362b-a1c7-4cda-b997-4d4f8745d66a",
+          "chunk_id": "e3398986-1046-4fd8-aeb1-500acdcaee18",
+          "quote": "y(n+2) +{xy(n+1) +n.1.y(n)}+y(n) = 0",
+          "locator": "page 3",
+          "evidence_group": null
+        },
+        {
+          "source_id": "01dd362b-a1c7-4cda-b997-4d4f8745d66a",
+          "chunk_id": "e3398986-1046-4fd8-aeb1-500acdcaee18",
+          "quote": "∴ atx = 0 y(n+2) +(n+1)y(n) = 0 y(n+2) = −(n+1)y(n)",
+          "locator": "page 3",
+          "evidence_group": null
+        },
+        {
+          "source_id": "01dd362b-a1c7-4cda-b997-4d4f8745d66a",
+          "chunk_id": "e3398986-1046-4fd8-aeb1-500acdcaee18",
+          "quote": "The values (y) and (y(cid:48)) provide the two arbitrary constants for the second 0 0\norder equation and are obtained from the given initial conditions.",
+          "locator": "page 3",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

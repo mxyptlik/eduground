@@ -1,0 +1,65 @@
+{
+  "course_id": "PHY232",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "f5d7bfab-8eb0-4455-831a-3ceba37406f2",
+        "d761b713-56d9-4e43-a4ee-34b984753d3d",
+        "a4da095e-54bf-4e0b-b60e-0ce94f349e26",
+        "3d04520f-6dd3-468e-9618-0a3fd33e4fb9"
+      ],
+      "prompt_sha256": "f5cb6171d7b490e4b0f1d87767d0b52c9204d0c796047973e2c44af9f59d9753",
+      "prompt_utf8_bytes": 11351
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "0337217f-3f9c-4798-8884-556a3b0b4e51",
+        "06d17e0d-d5c6-4348-b1c4-c83be63420ae",
+        "78e1762e-afd6-43b9-a5df-0366d55869b6",
+        "2af60812-aec5-42a8-a0a2-ace2c1954cc1"
+      ],
+      "prompt_sha256": "0d089cc7200f0ae805c24dcafef19ebc70ae082b958f0121b5562201257a08aa",
+      "prompt_utf8_bytes": 9807
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "d26e7e29-6cbc-49f7-8cf7-546957a965e4",
+        "34e4ddde-b598-4fea-aff8-2a23a4e829e2",
+        "9fe25ab7-f50b-4188-a425-7695d11450d8"
+      ],
+      "prompt_sha256": "c314cb478bbcd617a34e65c7e41758c66c2710747ebf6bda94e0ab7a1935c183",
+      "prompt_utf8_bytes": 7834
+    }
+  ],
+  "provider_calls_made": 0
+}

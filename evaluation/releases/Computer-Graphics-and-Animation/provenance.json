@@ -1,0 +1,70 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "dd8efc752423c682cefaafb53ffc70f328e4bf98bd5a11482450ea38a8f21b9e",
+  "course_id": "Computer-Graphics-and-Animation",
+  "review_records": [
+    {
+      "sample_id": "Computer-Graphics-and-Animation-47ac162dcdff56ea",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:01:30.922Z",
+      "revision": 1,
+      "review_content_hash": "b113b09153345dd6b66fc837481190b509a7abd5c846eeee0b2a7cc6d76035f0"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-a58ddfa4762c3246",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:11:00.885Z",
+      "revision": 1,
+      "review_content_hash": "b1768f5f7464638a7284531601944fff980cfcc36caac26494222c7f4771ffca"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-6b45bd5e52c7c85f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:11:30.524Z",
+      "revision": 1,
+      "review_content_hash": "968c35b65bd7c0cf6cd8b4ed672a85ef1cbe93a9d79be3bdbf36561de7cfb2fa"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-fa4525866c63841b",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:11:53.174Z",
+      "revision": 1,
+      "review_content_hash": "9beb14f1defbebc87858f4c4f8c03a178189e989263ffb6dec81869ee28a8b34"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-a5935134741d9eae",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:12:06.300Z",
+      "revision": 1,
+      "review_content_hash": "019be26a794dc45c3897f99026444c650b1ccf78cb9fb5a7fa60faea80441eb4"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-7758ae72bef8cc1e",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:13:17.948Z",
+      "revision": 1,
+      "review_content_hash": "aa5ee9fb9b680c65bc49afa7a26c45f6d932956e6f75864203501e1792e17629"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-d991cc42f59636f9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:12:16.466Z",
+      "revision": 1,
+      "review_content_hash": "7443e6ae2c007d2b534c8304e2085cdb6889d574c27f9b3da14e54aa97b44158"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-24cf2d4e2fbc8d92",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T22:13:39.828Z",
+      "revision": 1,
+      "review_content_hash": "0fc974ca5779102b2424eb472b890d6bf3074bc839a39548227adb9d5fa46ca8"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 8,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

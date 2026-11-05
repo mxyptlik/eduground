@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "1c56dbf6bfe6efb545b3eaccd0a17474c3f4eef02742266890b6f7eb99187851",
+  "course_id": "C",
+  "review_records": [
+    {
+      "sample_id": "C-2c214432716bfe57",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:48:58.000Z",
+      "revision": 2,
+      "review_content_hash": "b8f5a7ad88698f073567ae9b749c9096dada73e8edbd93e0276448984d4ed879"
+    },
+    {
+      "sample_id": "C-807e084621fdd42a",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:22:47.875Z",
+      "revision": 1,
+      "review_content_hash": "fea42b265f7c8cda82ce50d6948e9cadae37881327e7b66c32f6903705fee27f"
+    },
+    {
+      "sample_id": "C-accfe2bbecf8a4c9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:23:40.406Z",
+      "revision": 1,
+      "review_content_hash": "f175369528f9e2fa813225660c058cdb3b55165ae679e189c99e9cc7f0d3c545"
+    },
+    {
+      "sample_id": "C-8262c0cbbcd92d6a",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:24:34.404Z",
+      "revision": 1,
+      "review_content_hash": "0dd2486ac763957e76a107329305518ae38aebaeb86e37f09bad64b7c88f24d4"
+    },
+    {
+      "sample_id": "C-b9c07121b127234a",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:30:59.785Z",
+      "revision": 1,
+      "review_content_hash": "1b8a96b882b3443b2b291631cb23ea654d9ace4de5b36bc234e29ab896a4204f"
+    },
+    {
+      "sample_id": "C-63ab800a57bc99b2",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:32:05.099Z",
+      "revision": 1,
+      "review_content_hash": "54cdc92d3d59bd36a579042049170c7c273df4695a38a4ec57276d4f8fbcf02d"
+    },
+    {
+      "sample_id": "C-5afd7be3c4a7734f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:38:22.261Z",
+      "revision": 1,
+      "review_content_hash": "3d43cd8040682345da0318730f4b454cb2dbbdd4480ace848830a588111a5c7b"
+    },
+    {
+      "sample_id": "C-f83b9d9133d36213",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:42:19.543Z",
+      "revision": 1,
+      "review_content_hash": "2a13209beae389745b77ba218f66009b735ad5209af38705605aed4264c70e71"
+    },
+    {
+      "sample_id": "C-ef708cde65aeb17d",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:43:47.102Z",
+      "revision": 1,
+      "review_content_hash": "fbe0591160adf3f3a499b3b511373d623fd1412a693005eea8517d266745a8f7"
+    },
+    {
+      "sample_id": "C-a66038660db74e56",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T20:48:01.571Z",
+      "revision": 1,
+      "review_content_hash": "b0b779e5ee7294ac917661e80ca373a3225f2ca8e5b4a275ec0e93dbce81382e"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

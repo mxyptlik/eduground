@@ -1,0 +1,528 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Human-computer-interaction",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Human-computer-interaction",
+  "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+      "source_label": "[TOPIC 7] - LECTURE 7",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "ea361312d94c01e1c92b589c50d97f70924dca719866ef00c60339aceb54821e",
+      "version_number": 1,
+      "original_filename": "[TOPIC 7] - LECTURE 7.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2e2fe0bc-5fff-47df-a556-51d2c614dd52",
+      "source_label": "[TOPIC 2] - Lecture2word",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "a83860f755700ad415d32b5f40865d369fc09e448e42d0733be2817ea43c977c",
+      "version_number": 1,
+      "original_filename": "[TOPIC 2] - Lecture2word.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "34fb2b80-b1c1-4524-b830-aaefb9b2496c",
+      "source_label": "[TOPIC 6] - lecture 6ppt",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "37d67d473ece33b695339db62076804501455451e61c0d13860d537bcc1c2407",
+      "version_number": 1,
+      "original_filename": "[TOPIC 6] - lecture 6ppt.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4fa2b940-4174-4489-8ee0-1f3358e14bfb",
+      "source_label": "[TOPIC 7] - lecture 7ppt",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "610d6536ec52023ac6938c29642419b4fd9cbdd3141a1ce878a62052e834aaa4",
+      "version_number": 1,
+      "original_filename": "[TOPIC 7] - lecture 7ppt.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "519889b9-0a4c-49dd-9b7b-a115575005f7",
+      "source_label": "[TOPIC 8] - LECTURE 8",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "c68ee91c86f1854a3140a8a23835d24c0a65be54babc67509625afa7984d4c5a",
+      "version_number": 1,
+      "original_filename": "[TOPIC 8] - LECTURE 8.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+      "source_label": "[TOPIC 3] - Lecture 3_HCI_Evaluation and the User Experience1_2022",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "8840bebee0ab3bd32f0128aa79b2de5699a6ea7dcdde5fdf14d5f2b7b649c0e7",
+      "version_number": 1,
+      "original_filename": "[TOPIC 3] - Lecture 3_HCI_Evaluation and the User Experience1_2022.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "67c922da-32d1-492a-b076-b3c28a82fa5a",
+      "source_label": "[TOPIC 5] - Interaction Styles",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "c7f3ea69972ace61806d22a4f39c11ffb9e8a0f312d023d831734ec51b302554",
+      "version_number": 1,
+      "original_filename": "[TOPIC 5] - Interaction Styles.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "84cab16e-4de2-40fb-8a03-ef85678c8e7c",
+      "source_label": "[TOPIC 4] - Lecture 4_HCI_2021",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "9608dda96524312f99c0c98712f0c5b905f89ee8b4c3d53c9d5dae462c68cc29",
+      "version_number": 1,
+      "original_filename": "[TOPIC 4] - Lecture 4_HCI_2021.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+      "source_label": "[TOPIC 8] - lecture 8ppt",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "019613731e5a3754f22c663a79fd0d0f90ff140d916798dfe021e77995142ba3",
+      "version_number": 1,
+      "original_filename": "[TOPIC 8] - lecture 8ppt.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "bed842d8-fc95-43d9-88bf-d639b4517e76",
+      "source_label": "[TOPIC 6] - LECTURE 6",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "60ee75803d08f803bd7a7fd589a96cc1be587e14d29a759e7d3a02a8fb61c3f6",
+      "version_number": 1,
+      "original_filename": "[TOPIC 6] - LECTURE 6.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d33b0098-ef6a-4a62-ac8c-80c3b2da8c73",
+      "source_label": "[TOPIC 2] - lecture 2",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "c34f8987bb55e35436a4e1d7997d6a70bab31e2ef56edd7d113924f8c05dd779",
+      "version_number": 1,
+      "original_filename": "[TOPIC 2] - lecture 2.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+      "source_label": "[TOPIC 1] - lecture 1 ppt",
+      "notebook_id": "4873f948-246f-4a73-8731-5ab8a71dfed3",
+      "sha256": "dd2a8fac556719583e88fd887046a9ccb2043770568dc865386c038ad3928607",
+      "version_number": 1,
+      "original_filename": "[TOPIC 1] - lecture 1 ppt.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Human-computer-interaction-79ae95bfdf28ccdd",
+      "question": "What are the three models of communication and collaboration mentioned in the lecture?",
+      "reference_answer": "Synchronous communication, asynchronous communication, and CMC combined with other activity.",
+      "evidence": [
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "902b66fb-03da-43de-ad7f-991a6928171a",
+          "quote": "Models of Communication & Collaboration  Synchronous communication  Asynchronous communication  CMC combined with other activity",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-215ad220d9fe8dba",
+      "question": "What are two examples of video-sharing services mentioned in the lecture?",
+      "reference_answer": "YouTube and Vimeo.",
+      "evidence": [
+        {
+          "source_id": "519889b9-0a4c-49dd-9b7b-a115575005f7",
+          "chunk_id": "74583f92-b2fb-45af-85f5-5f84039956c6",
+          "quote": "Video content has increased dramatically, fueled by the ease of recording video with cellphones and the availability of video-sharing services such as YouTube and Vimeo.",
+          "locator": "page 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-5aaf094739316088",
+      "question": "What is one benefit of synchronous communication mentioned in the lecture?",
+      "reference_answer": "Not having to physically face people may increase shy people's confidence and self-esteem to converse more in \"virtual\" public.",
+      "evidence": [
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "902b66fb-03da-43de-ad7f-991a6928171a",
+          "quote": "Benefits:  Not having to physically face people may increase shy people's confidence and self-esteem to converse more in \"virtual\" public.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-0e5e5308c842bc35",
+      "question": "What are three examples of communication texts that can be analyzed using natural language processing algorithms?",
+      "reference_answer": "Chat logs, tweets, and Facebook posts.",
+      "evidence": [
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "902b66fb-03da-43de-ad7f-991a6928171a",
+          "quote": "Communication texts, including chat logs, tweets, Facebook posts, and online comments can be analyzed using natural language processing (NLP) algorithms.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-9339a8aeaf39f311",
+      "question": "How do synchronous and asynchronous communication differ conceptually in terms of temporal coordination, and what are distinct benefits and problems associated with each mode?",
+      "reference_answer": "Synchronous communication supports real-time conversations using voice or typing, while asynchronous communication takes place remotely at different times without time-dependent turn-taking. Synchronous benefits include increased confidence for shy people in virtual public settings and quick questions without email lag; problems include poor image quality due to bandwidth limitations. Asynchronous benefits include greater autonomy over when and how to respond; problems include flaming and message overload.",
+      "evidence": [
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Synchronous communication Where conversations in real time are supported by letting people talk with each other either using their voices or through typing.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Asynchronous communication Where communication between participants takes place remotely and at different times. It relies not on time dependent turn-taking but on participants initiating communication and responding to others when they want or are able to do so.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Not having to physically face people may increase shy people's confidence and self-esteem to converse more in \"virtual\" public.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "In offices, instant messaging allows users to fire off quick questions and answers without the time lag of email or phone-tag.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Lack of adequate bandwidth has plagued video communication, resulting in poor-quality images that frequently break up, judder, have shadows, and appear as unnatural images.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Flexibility: Greater autonomy and control of when and how to respond, so can attend to it in own time rather than having to take a turn in a conversation at a particular cue.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Flaming: When a user writes incensed angry email expressed in uninhibited language that is much stronger than normally used when interacting with the same person face to face.",
+          "locator": "page 2",
+          "evidence_group": null
+        },
+        {
+          "source_id": "2d0ab831-eb18-40e4-88a6-1bab1dd1b0e7",
+          "chunk_id": "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+          "quote": "Overload: Many people experience message overload, receiving over 30 emails or other messages a day.",
+          "locator": "page 2",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-409200891a634e69",
+      "question": "What is the concept of evaluation in HCI, and why is it considered important throughout the design life cycle?",
+      "reference_answer": "Evaluation involves collecting and analyzing data about users' experiences with design artifacts to ensure systems behave as expected and meet user requirements. It is important because it helps avoid the deadly assumption that designers represent all users, aims to improve the artifact's design, and should ideally occur throughout the design life cycle with results feeding back into modifications. It focuses on both usability and user experience.",
+      "evidence": [
+        {
+          "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+          "chunk_id": "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+          "quote": "Evaluation involves collecting and analyzing data about users’ or potential users’ experiences when interacting with a design artifact such as a screen sketch, prototype, app, computer system, or component of a computer system.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+          "chunk_id": "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+          "quote": "Evaluation focuses on testing systems to ensure that they actually behave as expected and meet user requirements.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+          "chunk_id": "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+          "quote": "Ideally, evaluation should occur throughout the design life cycle, with the results of the evaluation feeding back into modifications to the design.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+          "chunk_id": "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+          "quote": "Deadly Assumption – Designers assume that if they and their colleagues can use a product and find it attractive, others will too.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+          "chunk_id": "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+          "quote": "A central goal of evaluation is to improve the artifact’s design.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "5c3b77c9-50ad-4447-9d22-e9aa023bfaf0",
+          "chunk_id": "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+          "quote": "Focuses on both the usability of the system (how easy the system is to learn and to use) and on the users’ experiences (how satisfying, enjoyable, or motivating) the interaction with the system is",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-d5cab12f53bd14b9",
+      "question": "How do dynamic queries and faceted search embody direct-manipulation principles to address limitations of form fill-in interfaces?",
+      "reference_answer": "Dynamic queries apply direct-manipulation principles by providing visual representations of actions and queried objects, rapid incremental reversible actions, and immediate feedback, thereby preventing errors and encouraging exploration. Faceted search integrates category browsing with keyword searching, presents hierarchical faceted metadata as simultaneous menus with dynamically updated counts, and allows navigation along multiple conceptual dimensions while avoiding empty result sets. Both approaches address the tendency of form fill-in interfaces to produce zero-hit or mega-hit result sets.",
+      "evidence": [
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "While form fill-in interfaces can lead users to waste time specifying queries that have zero -hit or mega-hit result sets, early work on dynamic queries and query previews demonstrated the benefit of applying direct-manipulation principles to queries.",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "a visual representation of the possible actions (e.g., menus, sliders, or buttons to represent choices for each field)",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "rapid, incremental, and reversible actions and immediate feedback.",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "The dynamic query approach is appealing as it prevents errors and encourages exploration",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "tightly integrates category browsing with keyword searching (i.e., navigation and search).",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "makes use of hierarchical faceted metadata presented as simultaneous menus and dynamically updated counts as a preview of the results.",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "9ea0552f-671e-472e-8fff-f5300c96a074",
+          "chunk_id": "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50",
+          "quote": "Counts are updated dynamically, so empty result sets are avoided.",
+          "locator": "page 23",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-0c24d928bb7ab356",
+      "question": "What opportunities motivate the adoption of speech recognition in human-computer interaction, and what obstacles hinder its widespread use according to the lectures?",
+      "reference_answer": "Opportunities include supporting users with physical impairments, enabling hands-free interaction when hands are busy or eyes occupied, accommodating mobility requirements and harsh or cramped conditions, handling limited application domain vocabularies, and assisting users unable to read or write. Obstacles include interference from noisy environments and poor-quality microphones, the need to learn and remember commands, challenges from strong accents or unusual vocabulary, social inappropriateness in shared spaces, time-consuming error correction, increased cognitive load, difficulty with math or programming without customization, the ephemeral nature of speech, privacy issues, and difficulty scanning or searching spoken messages.",
+      "evidence": [
+        {
+          "source_id": "34fb2b80-b1c1-4524-b830-aaefb9b2496c",
+          "chunk_id": "55a20016-3ae6-4058-a41c-f18090e9bf82",
+          "quote": " Opportunities\n\n When users have physical impairments\n\n When the speaker's hands are busy\n\n When mobility is required\n\n When the speaker's eyes are occupied\n\n When harsh or cramped conditions preclude use of a keyboard\n\n When application domain vocabulary and tasks are limited\n\n When the user is unable to read or write (e.g., children)",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "34fb2b80-b1c1-4524-b830-aaefb9b2496c",
+          "chunk_id": "55a20016-3ae6-4058-a41c-f18090e9bf82",
+          "quote": " Obstacles to speech recognition\n\n Interference from noisy environments and poor-quality microphones\n\n Commands need to be learned and remembered  Recognition may be challenged by strong accents or unusual vocabulary\n\n Talking is not always acceptable (e.g., in shared office, during meetings)\n\n Error correction can be time-consuming  Increased cognitive load compared with typing or pointing\n\n Math or programming difficult without extreme customization  Slow pace of speech output when compared with visual displays\n\n Ephemeral nature of speech\n\n Not socially acceptable in public spaces (also privacy issues)  Difficulty in scanning /searching spoken messages",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-47cbf4f053cdd47a",
+      "question": "How does the lecture connect the predicted evolution of human-computer interfaces toward ubiquitous and context-aware systems with the required process and interdisciplinary collaboration of interaction design?",
+      "reference_answer": "The lecture states that desktops will disappear as new interfaces become ubiquitous, pervasive, invisible, embedded in the surrounding environment, context aware, attentive, perceptive, and sensing users' needs. It then presents interaction design as requiring collaboration among graphic designers, artists, animators, photographers, film experts, and product designers, and as an iterative process with four basic activities: identifying needs and establishing requirements, developing alternative designs, building interactive versions, and evaluating throughout. The lecture further emphasizes that designing usable interactive products requires considering who will use them, where they will be used, and what activities people are doing, and that the key question is how to optimize users' interactions to match the activities being supported. Together, these passages suggest that the shift toward pervasive, context-aware interfaces demands a multidisciplinary, user-centered, and iterative design process that explicitly addresses diverse users, environments, and activities.",
+      "evidence": [
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "252a85f8-f9d0-4cb2-904e-c9550ad76cf6",
+          "quote": "Desktop to disappear as new interfaces will be ubiquitous, pervasive, invisibleand embedded in surrounding environment, context aware, attentive, perceptive, sensing users needs, providingfeedbacketc",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "292d5251-ffd1-42a6-b8aa-95073bfbb157",
+          "quote": "Interaction design involves the collaboration of graphic designers, artists, animators, photographers, film experts, and product designers etc.",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "292d5251-ffd1-42a6-b8aa-95073bfbb157",
+          "quote": "The process of interaction design involves four basic activities:\n\n1. Identifying needs and establishing requirements.\n\n2. Developing alternative designs that meet those requirements.\n\n3. Building interactive versions of the designs so that they can be\n\ncommunicated and assessed.\n\n4. Evaluating what is being built throughout the process.",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "292d5251-ffd1-42a6-b8aa-95073bfbb157",
+          "quote": "Designing usable interactive products thus requires considering;\n\n who is going to be using them\n\n where they are going to be used.\n\n understanding the kind of activities people are doing when\n\ninteracting with the products.",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "292d5251-ffd1-42a6-b8aa-95073bfbb157",
+          "quote": "A key question for interaction design is:\n\n how do you optimize the users' interactions with a system,\n\nenvironment or product, so that they match the users'\n\nactivities that are being supported and extended?",
+          "locator": "page 14",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Human-computer-interaction-9042fce4b9d326da",
+      "question": "How do the parking sign examples and the stated aims of interaction design discussed early in the lecture map onto the specific usability and user experience goals presented later?",
+      "reference_answer": "The lecture contrasts a bad parking sign, which requires excessive mental processing to answer a simple question, with a good design that is user-centred, providing a direct yes or no answer; uses visuals rather than text, making it incredibly intuitive with green for OK and red for No Parking; and accommodates colour blindness with stripes for No Parking. These examples illustrate the usability goals of effectiveness, efficiency, learnability, and memorability, as well as the broader aim of developing interactive products that are easy, effective, and enjoyable to use. The good design also supports user experience goals such as being satisfying, helpful, and emotionally fulfilling by reducing cognitive burden, while the bad design fails to meet these same criteria.",
+      "evidence": [
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "252a85f8-f9d0-4cb2-904e-c9550ad76cf6",
+          "quote": "Imagine you are a driver along this road on a Tuesday morning at 9 a.m. Can you park at this spot?\n\nWhat sounds like a simple question takes a lot of mental processing to answer.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "252a85f8-f9d0-4cb2-904e-c9550ad76cf6",
+          "quote": "drivers simply want to know whether they can park at a spot. Yes or no—that’s\n\nall drivers needed, and that’s all the parking sign shows.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "252a85f8-f9d0-4cb2-904e-c9550ad76cf6",
+          "quote": "The result is incredibly intuitive: green\n\nfor OK, red for No Parking. It’s even designed for the colour blind, with stripes for No\n\nParking.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "252a85f8-f9d0-4cb2-904e-c9550ad76cf6",
+          "quote": "Interaction design aims to;\n\n to redress this concern by bringing usability into the\n\ndesign process\n\n to develop interactive products that are easy, effective, and\n\nenjoyable to use-from the users' perspective.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "f76f4af0-24de-434c-bd7a-25ca6903085e",
+          "quote": "Usability is generally regarded as ensuring that interactive\n\nproducts are easy to learn, effective to use, and enjoyable\n\nfrom the user's perspective.\n\nUsability is broken down into the following goals:\n\n effective to use (effectiveness)\n\n efficient to use (efficiency)\n\n safe to use (safety)\n\n have good utility (utility)\n\n easy to learn (learnability)\n\n easy to remember how to use (memorability)",
+          "locator": "page 23",
+          "evidence_group": null
+        },
+        {
+          "source_id": "dc8dc556-89c9-48d6-a039-d45479afc4c4",
+          "chunk_id": "f76f4af0-24de-434c-bd7a-25ca6903085e",
+          "quote": "Interaction design also help to create systems that are:\n\n satisfying\n\n enjoyable\n\n fun\n\n entertaining\n\n helpful\n\n motivating\n\n pleasing\n\n supportive of creativity\n\n rewarding\n\n emotionally fulfilling",
+          "locator": "page 23",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

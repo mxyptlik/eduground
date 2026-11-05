@@ -1,0 +1,40 @@
+{
+  "course_id": "Leadership-devlopment",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "67dbcf4d-eee7-458b-b828-ea2d726160c9",
+        "01f5375d-3786-45c2-8383-63a47775441f",
+        "77070a6f-3bec-4eac-92b0-b7424ed14cdb",
+        "68d5caec-2654-4f31-8b92-10fd25bdb606"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "b722361c-b965-4e8b-a0d7-36e6d45bcdcc",
+        "96a1c146-87db-438d-b681-f7749505b231",
+        "43043ca2-56ef-45c6-8eac-6aa5b22ef208",
+        "06e7da00-5f27-49ec-8281-9718436e0180"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "8ca3a616-3d13-4a5b-ab15-187eec2338ca",
+        "b7884c09-7159-43ca-b0cd-2f3df5764175",
+        "b8247cdd-e821-43f6-84f5-264e63700046"
+      ]
+    }
+  ]
+}

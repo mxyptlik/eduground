@@ -1,0 +1,65 @@
+{
+  "course_id": "Leadership-devlopment",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "67dbcf4d-eee7-458b-b828-ea2d726160c9",
+        "01f5375d-3786-45c2-8383-63a47775441f",
+        "77070a6f-3bec-4eac-92b0-b7424ed14cdb",
+        "68d5caec-2654-4f31-8b92-10fd25bdb606"
+      ],
+      "prompt_sha256": "4a12079c2e7917aa83dd2673a08aaa1e6e558c62ae8a97fbee2a11e5f078647f",
+      "prompt_utf8_bytes": 13593
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "b722361c-b965-4e8b-a0d7-36e6d45bcdcc",
+        "96a1c146-87db-438d-b681-f7749505b231",
+        "43043ca2-56ef-45c6-8eac-6aa5b22ef208",
+        "06e7da00-5f27-49ec-8281-9718436e0180"
+      ],
+      "prompt_sha256": "29d9fabebbb4ab5ed7df15e36ee2eedd228df3fb3792c200463895dcbdaffe12",
+      "prompt_utf8_bytes": 13585
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "8ca3a616-3d13-4a5b-ab15-187eec2338ca",
+        "b7884c09-7159-43ca-b0cd-2f3df5764175",
+        "b8247cdd-e821-43f6-84f5-264e63700046"
+      ],
+      "prompt_sha256": "b616dd8320b994dc65520606acc8695be015378b2df4f505c1358fa3fde27c15",
+      "prompt_utf8_bytes": 10015
+    }
+  ],
+  "provider_calls_made": 0
+}

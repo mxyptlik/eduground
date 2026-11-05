@@ -1,0 +1,65 @@
+{
+  "course_id": "C",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "f9a4ce53-b308-42d4-851d-71d312bf182a",
+        "d900933a-9f82-40de-b072-b7feca3bfa58",
+        "00fa1559-d04d-4f53-939f-cd2949da3c17",
+        "b3f614d7-a1aa-48b2-809d-1e48d4e1c071"
+      ],
+      "prompt_sha256": "5a515407e7b58ad2d0d3290483920713f3d6f867c7e7355a018b37ee9dbbde5c",
+      "prompt_utf8_bytes": 12072
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "ba90b817-6de5-4e0e-89b9-2356e3e43c28",
+        "ee43791b-5183-46e8-bb8c-a02bbae64450",
+        "bad0235b-8420-4fad-b863-26aca66facac",
+        "6159e9bb-40c1-4765-9ec8-3163ab70c2d8"
+      ],
+      "prompt_sha256": "302eb1486da0507f0476c3981b7bb0e72a9b9050a2ceda65fd834186da944b91",
+      "prompt_utf8_bytes": 11202
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "9d836879-4370-41de-93e7-e69834722ee3",
+        "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+        "aed99855-6f41-43e9-9a27-6d87a3770149"
+      ],
+      "prompt_sha256": "5418cf4484aedeb7fe9a7dfc3667408b1e7de3ce0e7c84859292b3f2717d8286",
+      "prompt_utf8_bytes": 7532
+    }
+  ],
+  "provider_calls_made": 0
+}

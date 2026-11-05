@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "ee3b8dd3784256600dc8b0b14a7fe87c87161d0538fab1eed69d71a128ab4d37",
+  "course_id": "Total-man-concept",
+  "review_records": [
+    {
+      "sample_id": "Total-man-concept-7828a46d1d91f9be",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:14:14.672Z",
+      "revision": 1,
+      "review_content_hash": "aff5ee52393fa1c20571e4759101f5728c5ee9f68dbdc10b4f045227da8acaa4"
+    },
+    {
+      "sample_id": "Total-man-concept-cbaa32d75d262671",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:14:37.667Z",
+      "revision": 1,
+      "review_content_hash": "beb298c222d48726952ee69e181091f0b34352818239ba3513c4c51778dc64b2"
+    },
+    {
+      "sample_id": "Total-man-concept-b8ca2770d26ab629",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:14:57.139Z",
+      "revision": 1,
+      "review_content_hash": "75dd1c0ac59120f42ca328afef490fc49bfc70c5388715fce5b7310506d82951"
+    },
+    {
+      "sample_id": "Total-man-concept-439936382a5f9ac9",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:16:43.341Z",
+      "revision": 1,
+      "review_content_hash": "b3e469afde6ceb39c70dc5a3bbf4aa585ba8f31fb63c00352fa5ff122e96c5ac"
+    },
+    {
+      "sample_id": "Total-man-concept-89f699c3d0f4d257",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:19:20.912Z",
+      "revision": 1,
+      "review_content_hash": "e500b8828fd2fe4c95bce3c49c8522a02a5b1e52600175e1f8c3ae9311e39890"
+    },
+    {
+      "sample_id": "Total-man-concept-f751ddb563298ae7",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:17:02.602Z",
+      "revision": 1,
+      "review_content_hash": "98d323a8ab63c769c927ebcee55731153deddef2e95d5db7a4b28a35143483bf"
+    },
+    {
+      "sample_id": "Total-man-concept-77352a6236c78cda",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:17:25.072Z",
+      "revision": 1,
+      "review_content_hash": "cd28dbe96bcdc7daf3f7b4a6f116cd32d11073f3ad45b0b48b686986fdb9122f"
+    },
+    {
+      "sample_id": "Total-man-concept-e9444bbf141dfb08",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:17:46.635Z",
+      "revision": 1,
+      "review_content_hash": "8d572d1ad46734945bdbf1bcfee9a3b318faccce0e78e1ffb41e1af36d9a08e4"
+    },
+    {
+      "sample_id": "Total-man-concept-1006ef5f06d7f1a3",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:18:36.294Z",
+      "revision": 1,
+      "review_content_hash": "3efe67c85cd920947ebe856aff7fad320dfa08ca89f481c43e2c5fed680969fb"
+    },
+    {
+      "sample_id": "Total-man-concept-1627af0d44d11b4b",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T03:18:53.531Z",
+      "revision": 1,
+      "review_content_hash": "6069f031a9cdf26c70275b5feef531b44eff16fe22a234917cd837fbd865bb4d"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "9d8e7c232661745d734192108bfdb596576df6cdda903172c042fd8f8698a1fb",
+  "course_id": "Computational-Science-and-Numerical-Methods",
+  "review_records": [
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-99d7aa964b9839ad",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:26:59.728Z",
+      "revision": 1,
+      "review_content_hash": "5a3dc11da1fa422653e9875606b48089d85a106cbca7c02e143dca464f418965"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-5236a68c088bd4a4",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:27:42.366Z",
+      "revision": 1,
+      "review_content_hash": "7e6a7b0a3e076d289025b7049522deaa3740b1fd8168845322a36877862b7c2c"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-1702990c4080e5ea",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:28:06.886Z",
+      "revision": 1,
+      "review_content_hash": "4b05a05fb6a22c5412eaa657f2b056540711e1c833535b8f4ef1a3a354a557c8"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-cb91692c675fe8dd",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:29:40.533Z",
+      "revision": 1,
+      "review_content_hash": "6ec6a21cc0ff7f143dbb9ae2873bdfc792f89e4f0c15763836bea2eb7d1d6763"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-1208e8585cb9f212",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:37:20.428Z",
+      "revision": 1,
+      "review_content_hash": "981b3ba59e5aed2536cabcc1b70ad28481bc6d1f3d59e9cf4e3738dce37e47ea"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-c4d15f8c91fd6531",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:38:31.609Z",
+      "revision": 1,
+      "review_content_hash": "49246a0c28ee801ecbe8aa1e56ba1af102aea76401bd2b5523015b7dbe883323"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-e1af7b4d1a027f24",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:41:08.652Z",
+      "revision": 1,
+      "review_content_hash": "213db687d0c3586c21cbcd1306beb9332634f547dfad708d5bb4e4eed435ac43"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-c0389aadcac5bb3f",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:41:57.064Z",
+      "revision": 1,
+      "review_content_hash": "15986775c29cbcf8e581c60ae0278ed37f8864734992be70e82219ff958ff3a6"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-0769f6cb5a27b9ca",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:42:42.514Z",
+      "revision": 1,
+      "review_content_hash": "433e92649460010060f3ea352afd5af35408a02ea37ff185bd5c980779d8da45"
+    },
+    {
+      "sample_id": "Computational-Science-and-Numerical-Methods-6536aabaa0f973b7",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-06T21:43:19.682Z",
+      "revision": 1,
+      "review_content_hash": "1734a54a4e62edd3db9df54e15a4a209bef037a984f03910d4e182c26f198ec5"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

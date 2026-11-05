@@ -1,0 +1,502 @@
+{
+  "schema_version": 2,
+  "dataset_id": "C",
+  "version": "draft-1+human-reviewed",
+  "course_id": "C",
+  "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+      "source_label": "CSC221 LECTURE 3",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "a8a77f0f0230637db4f19800dcb0e32531a4a12b15915c7aecd8fd11c2442ed0",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 3.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2af17a24-6f83-4586-a8d0-15e05e0e3968",
+      "source_label": "CSC221 LECTURE 4",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "d408da6f708d957cbafb3e32ccd94f41c2a471f6fecf0d2fe48ca6414a0f6dab",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 4.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "56d0ad7f-7d5b-4200-87a2-b5e63bae9b3e",
+      "source_label": "CSC221 LECTURE 1",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "e008f7600cae970d94595c11e4d44a3e46a31172f1f4ad601d66e904ed95b710",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 1.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "74a46507-88bb-46b4-a1eb-02db2179319e",
+      "source_label": "CSC221 LECTURE 6",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "bb1ecf9a32ee732921bc84d1bf3651e2bc00299be13f1be88a13d7517f2d99ad",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 6.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a5d40656-f175-4434-bfa3-8c9cd0fc188d",
+      "source_label": "CSC221 LECTURE 5",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "0e6f90beaa43defbe9ec434db6b6694cb78b2af43f3e1d2500b16ab3718ef655",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 5.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a944d483-e275-4128-8462-5a8fcea12763",
+      "source_label": "CSC221 LECTURE 2",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "2e8bea42f8dcbef3155461904140cd0aec300b4a26de738ebc3b1ae43fa3aad7",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 2.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c5e1f1c9-5f61-4c31-98dd-06ef0d6b3a29",
+      "source_label": "CSC221 LECTURE 7",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "8f2229c4638bb327ccf1dc7d93f8f8637c37bdfda88062acda9cd16925aaf36f",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 7.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+      "source_label": "CSC221 LECTURE 8",
+      "notebook_id": "180f4708-8251-4ddc-9e23-2ac7bb6b4ce7",
+      "sha256": "618db0769a352361448fef2ecfe51eac8cbaa9fb0d2c514428f8efa566651aaa",
+      "version_number": 1,
+      "original_filename": "CSC221 LECTURE 8.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "C-2c214432716bfe57",
+      "question": "What punctuation mark is required after the while statement in a do loop?",
+      "reference_answer": "The semicolon.",
+      "evidence": [
+        {
+          "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+          "chunk_id": "f9a4ce53-b308-42d4-851d-71d312bf182a",
+          "quote": "The semicolon after the while statement is required.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-807e084621fdd42a",
+      "question": "According to the lecture, what are comments in C# used for?",
+      "reference_answer": "Documentation.",
+      "evidence": [
+        {
+          "source_id": "56d0ad7f-7d5b-4200-87a2-b5e63bae9b3e",
+          "chunk_id": "d900933a-9f82-40de-b072-b7feca3bfa58",
+          "quote": "They are used for documentation.",
+          "locator": "page 15",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-accfe2bbecf8a4c9",
+      "question": "What is the rule for the first character of a variable name in C#?",
+      "reference_answer": "It must be either a letter, an underscore character, or the at symbol.",
+      "evidence": [
+        {
+          "source_id": "56d0ad7f-7d5b-4200-87a2-b5e63bae9b3e",
+          "chunk_id": "d900933a-9f82-40de-b072-b7feca3bfa58",
+          "quote": "The first character of a variable name must be either a letter, an underscore character ( _), or the at symbol ( @ ).",
+          "locator": "page 15",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-8262c0cbbcd92d6a",
+      "question": "In the bitwise operator example, what is the result of op1 & op2 when op1 is 4 and op2 is 5?",
+      "reference_answer": "4",
+      "evidence": [
+        {
+          "source_id": "a944d483-e275-4128-8462-5a8fcea12763",
+          "chunk_id": "b3f614d7-a1aa-48b2-809d-1e48d4e1c071",
+          "quote": "op1 = 4; op2 = 5; result = op1 & op2; In this case, the binary representations of op1 and op2 , which are 100 and 101 are considered, therefore the result is 100 which returns 4 as the result .",
+          "locator": "page 14",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-b9c07121b127234a",
+      "question": "According to the lecture material, what is the key difference between a while loop and a do loop regarding when the Boolean test occurs, and what is the consequence if that test initially evaluates to false?",
+      "reference_answer": "In a while loop, the Boolean test takes place at the start of the loop cycle, not the end. If the test evaluates to false, then the loop cycle is never executed and program execution jumps straight to the code following the loop.",
+      "evidence": [
+        {
+          "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+          "chunk_id": "ba90b817-6de5-4e0e-89b9-2356e3e43c28",
+          "quote": "The Boolean test in a while loop takes place at the start of the loop cycle, not the end.",
+          "locator": "page 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+          "chunk_id": "ba90b817-6de5-4e0e-89b9-2356e3e43c28",
+          "quote": "If the test evaluates to false, then the loop cycle is never executed.",
+          "locator": "page 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+          "chunk_id": "ba90b817-6de5-4e0e-89b9-2356e3e43c28",
+          "quote": "Instead, program execution jumps straight to the code following the loop.",
+          "locator": "page 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-63ab800a57bc99b2",
+      "question": "How does the break statement differ from the continue statement in terms of their effect on loop execution?",
+      "reference_answer": "The break command causes the loop to end immediately. In contrast, continue only stops the current cycle, not the whole loop, causing execution to continue with the next loop cycle.",
+      "evidence": [
+        {
+          "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+          "chunk_id": "ba90b817-6de5-4e0e-89b9-2356e3e43c28",
+          "quote": "break — Causes the loop to end immediately .",
+          "locator": "page 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "18628894-76a4-4cd2-a88a-0a8878b1cc5e",
+          "chunk_id": "ba90b817-6de5-4e0e-89b9-2356e3e43c28",
+          "quote": "continue — Causes the current loop cycle to end immediately (execution continues with the next loop cycle) .",
+          "locator": "page 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-5afd7be3c4a7734f",
+      "question": "What distinguishes a default constructor from a nondefault constructor, and how is an object instantiated using a default constructor?",
+      "reference_answer": "A default constructor is a parameterless method with the same name as the class itself, whereas nondefault constructors have parameters. An object is instantiated using the new keyword with the default constructor, for example: CupOfCoffee myCup = new CupOfCoffee();",
+      "evidence": [
+        {
+          "source_id": "a5d40656-f175-4434-bfa3-8c9cd0fc188d",
+          "chunk_id": "bad0235b-8420-4fad-b863-26aca66facac",
+          "quote": "All objects have a default constructor , which is a parameterless method with the same name as the class itself.",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "a5d40656-f175-4434-bfa3-8c9cd0fc188d",
+          "chunk_id": "bad0235b-8420-4fad-b863-26aca66facac",
+          "quote": "A class definition might include several constructor methods with parameters, known as nondefault constructors.",
+          "locator": "page 14",
+          "evidence_group": null
+        },
+        {
+          "source_id": "a5d40656-f175-4434-bfa3-8c9cd0fc188d",
+          "chunk_id": "bad0235b-8420-4fad-b863-26aca66facac",
+          "quote": "Constructors are called using the new keyword: CupOfCoffee myCup = new CupOfCoffee();",
+          "locator": "page 14",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-f83b9d9133d36213",
+      "question": "What arithmetic effect do the left-shift and right-shift operators have on an integer operand, and what happens to any integer remainder during a right shift?",
+      "reference_answer": "Each bit shifted to the left multiplies the value by 2. Each bit shifted to the right has the effect of dividing the operand by 2, and any integer remainder is lost.",
+      "evidence": [
+        {
+          "source_id": "a944d483-e275-4128-8462-5a8fcea12763",
+          "chunk_id": "6159e9bb-40c1-4765-9ec8-3163ab70c2d8",
+          "quote": "Each bit shifted to the left multiplies the value by 2, so two bit - shifts to the left result in multiplication by 4.",
+          "locator": "page 16",
+          "evidence_group": null
+        },
+        {
+          "source_id": "a944d483-e275-4128-8462-5a8fcea12763",
+          "chunk_id": "6159e9bb-40c1-4765-9ec8-3163ab70c2d8",
+          "quote": "Conversely, each bit shifted to the right has the effect of dividing the operand by 2, with any integer remainder being lost.",
+          "locator": "page 16",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-ef708cde65aeb17d",
+      "question": "What specific user-interface controls and application architecture does the Lecture 7 assignment require students to incorporate into a Windows Forms project, and according to Lecture 8, what underlying .NET stream mechanisms and MySQL database components provide the technical foundation for the saving, printing, and data manipulation functionalities required by that assignment?",
+      "reference_answer": "The Lecture 7 assignment requires students to create an application incorporating (i) the Richtext and Listview, (ii) a menu driven application, (iii) printing control, and (iv) saving controls. The Lecture 8 material explains that all input and output in the .NET Framework involves streams, where output streams are used when data is written to some external destination, which can be a physical disk file, a network location, a printer, or another program, thereby supporting saving and printing. For database functionality, the Lecture 8 material specifies adding the MySQL .NET Connector Extension, referencing MySql.Data (MySql.Data.dll), and using the namespace MySql.Data.MySqlClient, while the Lecture 8 assignment requires implementing How to load, How to add, How to delete, How to insert, Using both datagrid.",
+      "evidence": [
+        {
+          "source_id": "c5e1f1c9-5f61-4c31-98dd-06ef0d6b3a29",
+          "chunk_id": "9d836879-4370-41de-93e7-e69834722ee3",
+          "quote": "(i) How to use the Richtext and Listview (ii) How to create a menu driven application (iii) How to use printing control (iv) How to use saving controls",
+          "locator": "page 28",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "All input and output in the .NET Framework involves the use of streams",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "Output streams are used when data is written to some external destination, which can be a physical disk file, a network location, a printer, or another program.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "MySQL .NET Connector Extension",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "select the checkbox from the list the MySql.Data (MySql.Data.dll) and then click on OK.",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "using MySql.Data.MySqlClient;",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to load",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to add",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to delete",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to insert",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "Using both datagrid",
+          "locator": "page 18",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "C-a66038660db74e56",
+      "question": "According to the CSC221 Lecture 8 material, how does the concept of a stream as an abstract representation of a serial device relate to the file creation and text-writing examples provided, and what specific MySQL connector reference and namespace must be added to extend such a Windows Forms application to execute queries to phpmyadmin and fulfill the assignment involving datagrid operations?",
+      "reference_answer": "The lecture defines a stream as an abstract representation of a serial device and further explains that a serial device is something that stores data in a linear manner and is accessed the same way: one byte at a time. This concept underlies the file creation examples, which include Write a program in C# Sharp to create a blank file in the disk newly, Write a program in C# Sharp to create a file and add some text, and Write a program in C# Sharp to read a file and display the contents on the screen, supported by The FileStream Object, Some of the most useful static methods of the File class, and Some useful static methods of the Directory class. To connect to MySQL, the material instructs selecting the MySql.Data (MySql.Data.dll) reference and adding the using statement using MySql.Data.MySqlClient; the assignment then requires How to load, How to add, How to delete, How to insert, Using both datagrid.",
+      "evidence": [
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "A stream is an abstract representation of a serial device",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "A serial device is something that stores data in a linear manner and is accessed the same way: one byte at a time.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "Write a program in C# Sharp to create a blank file in the disk newly.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "Write a program in C# Sharp to create a file and add some text.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "Write a program in C# Sharp to read a file and display the contents on the screen.",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "The FileStream Object",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "Some of the most useful static methods of the File class",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "a10ef519-c550-4827-9736-fe9daf7c7b8c",
+          "quote": "Some useful static methods of the Directory class",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "select the checkbox from the list the MySql.Data (MySql.Data.dll) and then click on OK.",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "using MySql.Data.MySqlClient;",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to load",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to add",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to delete",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "How to insert",
+          "locator": "page 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "f4947b04-d23a-41a1-ada0-d95c407368c1",
+          "chunk_id": "aed99855-6f41-43e9-9a27-6d87a3770149",
+          "quote": "Using both datagrid",
+          "locator": "page 18",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

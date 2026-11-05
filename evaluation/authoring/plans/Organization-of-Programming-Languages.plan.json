@@ -1,0 +1,65 @@
+{
+  "course_id": "Organization-of-Programming-Languages",
+  "total_requested": 10,
+  "targets_by_split": {
+    "development": 8,
+    "held_out": 2
+  },
+  "targets_by_type": {
+    "conceptual": 4,
+    "factual": 4,
+    "synthesis": 2
+  },
+  "targets_by_difficulty": {
+    "easy": 4,
+    "hard": 2,
+    "medium": 4
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "d985bbb0-b458-4c05-9be0-ac40ff38adc2",
+        "d90541e4-2795-43e7-8c88-332ab45c1e9f",
+        "7a28118b-8a5d-4d30-965b-f97b7a75c319",
+        "d3ed5e96-8dd1-4fc8-9ee7-687bde00a243"
+      ],
+      "prompt_sha256": "47f6060b9daaf853f394a28d09812004426cffb4c22635b75a59bb0285cbe24c",
+      "prompt_utf8_bytes": 14087
+    },
+    {
+      "batch": 2,
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "57fc5cb2-e1f9-477e-aade-4aaf1a38a014",
+        "094b474b-7404-4220-bf47-ae4c812258a0",
+        "e176926f-fdf9-4e3d-9b95-9e0f4bd664d2",
+        "829a2e10-cf4a-46a7-a6d9-17ae5769c26b"
+      ],
+      "prompt_sha256": "e00ec52da53a60777633c1f121303d1ad8f2cea55ee33eb1bc611a0b65ebfffe",
+      "prompt_utf8_bytes": 13918
+    },
+    {
+      "batch": 3,
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "5a1b471b-5e3c-4e48-8d4d-c84d84103c5d",
+        "8c683ba4-315d-4e4e-8d30-1854423617a0",
+        "6f96ef51-5907-4160-be30-71243ce6c606"
+      ],
+      "prompt_sha256": "f7b4770653341ec411fb5cf0418949647de3aa24fbbefda574bd20293e795cf1",
+      "prompt_utf8_bytes": 9697
+    }
+  ],
+  "provider_calls_made": 0
+}

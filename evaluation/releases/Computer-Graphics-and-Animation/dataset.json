@@ -1,0 +1,273 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Computer-Graphics-and-Animation",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Computer-Graphics-and-Animation",
+  "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+      "source_label": "3D_Transformations",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "b85d074eebdb9c257878d1b030b5e44093b9cd433fc74eb9dc2f9bb9ca6bb574",
+      "version_number": 1,
+      "original_filename": "3D_Transformations.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "71494213-d4dc-4b2c-bbcb-15f85d150e4a",
+      "source_label": "Graph Algorithms",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "0a530ec5fdfaba0237bac0b488b873f3d79db7ad8580752a4f692aa6cce53659",
+      "version_number": 1,
+      "original_filename": "Graph Algorithms.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7fe7b8dc-ffb9-4c41-8ea8-706c02cf42e1",
+      "source_label": "TOPIC_2_Output_Primitives_II_Algorithms_for_Curves_Circles_and_Ellipses",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "1e5df5fcbb639195864815121943d3561b7ae52b63c8c452816da9871a204786",
+      "version_number": 1,
+      "original_filename": "TOPIC_2_Output_Primitives_II_Algorithms_for_Curves_Circles_and_Ellipses.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "802500ba-3e24-4842-923d-c8a32ed52c2b",
+      "source_label": "CSC433 Course Compact",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "5aff5269d5f8f7fde8076ac586d36db4bfb6c5fcf8386c3aa406744963cbb981",
+      "version_number": 1,
+      "original_filename": "CSC433 Course Compact.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9f88c6a4-acb5-4305-b49a-637d998cc7d6",
+      "source_label": "Circle drawing Algorithm",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "da60366cfa25b3723455db0c2f75e76089991594b2b84e882d24348ad23aae09",
+      "version_number": 1,
+      "original_filename": "Circle drawing Algorithm.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a3637875-4f92-49c8-909d-66f7d4e78341",
+      "source_label": "Module2_Lecture",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "4f90f18427055daff3c54b18a7a672b870c329959a7a7938a8805cdce7369dc7",
+      "version_number": 1,
+      "original_filename": "Module2_Lecture.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d482d889-448a-4100-95a5-920ad042a82f",
+      "source_label": "2D-Translation",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "6e7138484ac2c22806788070ff748ef69ab8161fea1c88a905c3b5a639fa84cd",
+      "version_number": 1,
+      "original_filename": "2D-Translation.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "ea07592c-5365-43c1-ac8d-4259b6c26615",
+      "source_label": "L1_DDA and Bresenham’s algorithms",
+      "notebook_id": "b297eb99-5566-40b0-a3ba-5b37099a75cb",
+      "sha256": "51590e5f9622855a0359b2342f33da0204de15a30aedc139c97bb6526907ca79",
+      "version_number": 1,
+      "original_filename": "L1_DDA and Bresenham’s algorithms.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Computer-Graphics-and-Animation-47ac162dcdff56ea",
+      "question": "Where do 3D transformations take place according to the module text?",
+      "reference_answer": "in a three-dimensional plane",
+      "evidence": [
+        {
+          "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+          "chunk_id": "29831bb9-765e-4c97-8bb5-3a4c5da81dc8",
+          "quote": "• 3D Transformations take place in a three-dimensional plane.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-a58ddfa4762c3246",
+      "question": "How many octants are created when each quadrant of a circle is divided into two parts in the mid-point circle algorithm?",
+      "reference_answer": "8",
+      "evidence": [
+        {
+          "source_id": "7fe7b8dc-ffb9-4c41-8ea8-706c02cf42e1",
+          "chunk_id": "491af7f9-41af-4480-84c3-5eee71869d18",
+          "quote": "• Each quadrant can be divided into two (2) parts, making it 8 octants",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-6b45bd5e52c7c85f",
+      "question": "According to the Bresenham's algorithm text, what is the slope and what is tan θ when x and y values are both increasing?",
+      "reference_answer": "slope =1 while tan θ = 45°",
+      "evidence": [
+        {
+          "source_id": "a3637875-4f92-49c8-909d-66f7d4e78341",
+          "chunk_id": "7a9dec86-726e-4dc9-96ad-343bf7af9a6d",
+          "quote": "• When x and y values are increasing, then slope =1 while tan  = 45",
+          "locator": "page 19",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-fa4525866c63841b",
+      "question": "What is the resulting new coordinate in the 3D translation example after translating the point (5, 6, 7) by Tx = 3, Ty = 3, and Tz = 2?",
+      "reference_answer": "(8, 9, 9)",
+      "evidence": [
+        {
+          "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+          "chunk_id": "29831bb9-765e-4c97-8bb5-3a4c5da81dc8",
+          "quote": "• Hence the new coordinate = (8, 9, 9)",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-a5935134741d9eae",
+      "question": "Based on the CSC433 course compact, how does the 3D Transformations module differ in content coverage from the 2D Transformations module?",
+      "reference_answer": "The 2D Transformations module (Week 5) covers Translation, Scaling, Rotation, Homogeneous Co- ordinate system, Composite Transformations, and Windows-to-Viewport transformation. The 3D Transformations module (Week 6) covers Translation, Scaling, Rotation, Shearing, Reflection, and Composite Transformations. Consequently, the 3D module introduces Shearing and Reflection, which are not listed in the 2D module, while the 2D module explicitly includes the Homogeneous Co-ordinate system and Windows-to-Viewport transformation as distinct topics.",
+      "evidence": [
+        {
+          "source_id": "802500ba-3e24-4842-923d-c8a32ed52c2b",
+          "chunk_id": "a81d57de-abe9-44a9-bbe9-fde55325c988",
+          "quote": "Week 5: 2D Transformations: Translation, Scaling, Rotation, Homogeneous Co- ordinate system, Composite Transformations, Windows-to-Viewport transformation",
+          "locator": "page 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "802500ba-3e24-4842-923d-c8a32ed52c2b",
+          "chunk_id": "a81d57de-abe9-44a9-bbe9-fde55325c988",
+          "quote": "Week 6: 3D Transformations: Translation, Scaling, Rotation, Shearing, Reflection, and Composite Transformations.",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-7758ae72bef8cc1e",
+      "question": "Why does the 3D scaling representation use homogeneous coordinates, and how is this approach reflected in the CSC433 course structure?",
+      "reference_answer": "The 3D scaling notes explicitly cast the scaling equations in matrix form 'using the homogenous coordinate,' which allows the individual x, y, and z scaling operations to be represented together as a single matrix expression rather than three separate scalar equations. The CSC433 course outline reflects the importance of this concept by dedicating Week 5 to the 'Homogeneous Co-ordinate system' within the 2D Transformations module, indicating that homogeneous coordinates are taught as a foundational tool for composing geometric transformations.",
+      "evidence": [
+        {
+          "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+          "chunk_id": "7c25a8e0-f504-4845-af6c-14b83a4c1ccf",
+          "quote": "• In Matrix form using the homogenous coordinate, the above scaling equations\nmay be represented as-",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "802500ba-3e24-4842-923d-c8a32ed52c2b",
+          "chunk_id": "a81d57de-abe9-44a9-bbe9-fde55325c988",
+          "quote": "Week 5: 2D Transformations: Translation, Scaling, Rotation, Homogeneous Co- ordinate system, Composite Transformations, Windows-to-Viewport transformation",
+          "locator": "page 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-d991cc42f59636f9",
+      "question": "In the 3D scaling notes, what is the purpose of the translation steps that precede and follow scaling when the operation is performed relative to a fixed point (a, b, c)?",
+      "reference_answer": "The translation steps are necessary because the basic scaling equations operate relative to the origin. By first translating the fixed point (a, b, c) to the origin, the object can be scaled using the standard origin-based scaling equations. The final translation returns the object to its original position, ensuring that the object appears to have been scaled relative to the fixed point rather than the global origin.",
+      "evidence": [
+        {
+          "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+          "chunk_id": "7c25a8e0-f504-4845-af6c-14b83a4c1ccf",
+          "quote": "• When scaling of an object relative to fixed a point (a, b, c), observe the following: i. Translate the fixed point to the origin ii. Scale the object relative to the origin iii. Translate the object back to its original position.",
+          "locator": "page 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Computer-Graphics-and-Animation-24cf2d4e2fbc8d92",
+      "question": "According to the 3D scaling material, how does the magnitude of a scaling factor control whether an object is enlarged or reduced, and what happens when the scaling parameters differ across the x, y, and z axes?",
+      "reference_answer": "The magnitude of the scaling factor dictates size change: if the scaling factor is greater than 1, the object size is increased, and if it is less than 1, the object size is reduced. When different scaling parameters are applied to each axis—such as scaling factors of 2 along x, and 3 along y and z—each coordinate is multiplied by its respective factor independently, which changes the object's proportions because the axes are scaled by different amounts.",
+      "evidence": [
+        {
+          "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+          "chunk_id": "7c25a8e0-f504-4845-af6c-14b83a4c1ccf",
+          "quote": "• Scaling factor determines whether the object size is to be increased or reduced. • If scaling factor > 1, then the object size is increased. • If scaling factor < 1, then the object size is reduced.",
+          "locator": "page 7",
+          "evidence_group": null
+        },
+        {
+          "source_id": "17bd2346-8cce-4d2b-ac78-eb3d8ab48a8b",
+          "chunk_id": "7c25a8e0-f504-4845-af6c-14b83a4c1ccf",
+          "quote": "• Scaling factor along x axis = 2 • Scaling factor along y axis = 3 • Scaling factor along z axis = 3",
+          "locator": "page 7",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

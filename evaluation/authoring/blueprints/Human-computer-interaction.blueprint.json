@@ -1,0 +1,40 @@
+{
+  "course_id": "Human-computer-interaction",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "902b66fb-03da-43de-ad7f-991a6928171a",
+        "b8b09aac-089d-4c84-8a02-106d12d87f98",
+        "74583f92-b2fb-45af-85f5-5f84039956c6",
+        "606f2f2c-e23d-4585-904b-4d5b22add9a9"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "c67082df-91b7-4d4f-8da3-e9d6ab4441f8",
+        "55a20016-3ae6-4058-a41c-f18090e9bf82",
+        "ccfdd08d-b0fa-4cd6-907e-0292729b5514",
+        "2b75e87e-64ea-4017-b0a1-9ed3f0a30c50"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "252a85f8-f9d0-4cb2-904e-c9550ad76cf6",
+        "292d5251-ffd1-42a6-b8aa-95073bfbb157",
+        "f76f4af0-24de-434c-bd7a-25ca6903085e"
+      ]
+    }
+  ]
+}

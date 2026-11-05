@@ -1,0 +1,84 @@
+{
+  "review_kind": "eduground-human-review-v1",
+  "original_dataset_hash": "ae566ef8fcb847ea886304cc07a18c81ff07e118772152e303084c5f3296d55f",
+  "course_id": "Peace-Conflict",
+  "review_records": [
+    {
+      "sample_id": "Peace-Conflict-6d9142fcee2f91fa",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:22:16.054Z",
+      "revision": 1,
+      "review_content_hash": "328253f4e6bf97936a9252602e8b0cecb8dde0cf9b352a4bda5484e95d6b0078"
+    },
+    {
+      "sample_id": "Peace-Conflict-13b48e6e74d39f53",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:33:11.619Z",
+      "revision": 1,
+      "review_content_hash": "8f927ec6c45409c97223794a0b4edd5ec44bc92cf80cc70c7bad4fdb45f48fb3"
+    },
+    {
+      "sample_id": "Peace-Conflict-3eb2a78bd2c19574",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:33:30.477Z",
+      "revision": 1,
+      "review_content_hash": "b223fa3194501cb613e205af4ad438c41538844391dfb4f1285382e0519fd716"
+    },
+    {
+      "sample_id": "Peace-Conflict-863bf1f789719e4d",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:34:18.840Z",
+      "revision": 1,
+      "review_content_hash": "c0e15fb9722e5db4797f4659a0d6051704d82a7cb735a6818a8ee093c0d6cf46"
+    },
+    {
+      "sample_id": "Peace-Conflict-b03286169d5171cd",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T01:34:37.905Z",
+      "revision": 1,
+      "review_content_hash": "1e0b03ee6ecaa7e93312dddeb8ec15095dab67423ff8c93acc4e439b2c8fb4ec"
+    },
+    {
+      "sample_id": "Peace-Conflict-34954dddcfe000b8",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:00:59.715Z",
+      "revision": 1,
+      "review_content_hash": "46d407c703f6b39c39440268cac6e6e3a4c6b4cd36cd08dd0ecd12eca10b8fad"
+    },
+    {
+      "sample_id": "Peace-Conflict-39778c771026bbc3",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:01:09.768Z",
+      "revision": 1,
+      "review_content_hash": "8863e335218f3240d6be703d34de3d07b8341b3a23c26593e1f9fa9416ccedb2"
+    },
+    {
+      "sample_id": "Peace-Conflict-219305a2ae8ccb88",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:01:19.684Z",
+      "revision": 1,
+      "review_content_hash": "7f8b4d06ef39f22469bb8368201f115410b5016106d7d356b903f78622e4570c"
+    },
+    {
+      "sample_id": "Peace-Conflict-9652f67317aba189",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:01:29.701Z",
+      "revision": 1,
+      "review_content_hash": "3ef37f314d2030cfb282d1b77685031b30c4b59e540df064a13b7a652950b4f3"
+    },
+    {
+      "sample_id": "Peace-Conflict-701edd85b6874790",
+      "reviewer": "Favour Sam",
+      "reviewed_at_utc": "2026-10-07T02:02:25.866Z",
+      "revision": 1,
+      "review_content_hash": "5302562da93aecd6687be9aa2c21acec12d9d4e56effdaa855c7f004351da363"
+    }
+  ],
+  "identity_assurance": "reviewer self-reported in local workspace",
+  "counts": {
+    "Pending": 0,
+    "Accept": 10,
+    "Flag": 0,
+    "Reject": 0
+  }
+}

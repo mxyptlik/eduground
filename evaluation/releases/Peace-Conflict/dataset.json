@@ -1,0 +1,486 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Peace-Conflict",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Peace-Conflict",
+  "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "019d38d5-49a5-4ad0-af4e-51e23430a674",
+      "source_label": "GST 222 TYPES AND CAUSES OF CONFLICT",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "f1effe51513b3b5481d67ab6127c967f70e5ccf365380d1257120f3c64353c58",
+      "version_number": 1,
+      "original_filename": "GST 222 TYPES AND CAUSES OF CONFLICT.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "01bac2b0-e8fa-487a-a1b2-eb03f8831def",
+      "source_label": "GST 222 EARLY WARNING SYSTEM",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "dd2ea6e98fe9db3d3bd9a2c9630e2c2f0acfaefe3ea98b704c51c3ba0db0a0c4",
+      "version_number": 1,
+      "original_filename": "GST 222 EARLY WARNING SYSTEM.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "0790fc43-7d3b-47e0-8430-88603c1e1083",
+      "source_label": "GST222 SOCIOLOGICAL DIMENSIONS OF CONFLICT",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "75801c0a5697ace8795490af42273db6e061d370ca7b6d8884178a104a78922e",
+      "version_number": 1,
+      "original_filename": "GST222 SOCIOLOGICAL DIMENSIONS OF CONFLICT.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "17d4dd1e-875f-46e5-8588-58b000f69b70",
+      "source_label": "GST 222 PSYCHOLOGICAL APPROACH TO CONFLICT",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "0f0347abd4d02cdf6829bf861cf07d4d27cec687139492ac3363b400486dcd12",
+      "version_number": 1,
+      "original_filename": "GST 222 PSYCHOLOGICAL APPROACH TO CONFLICT.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3169de53-ab0c-43fc-8a81-ecbd80f4f9af",
+      "source_label": "GST 222 NON MILITARY MEANS OF CONFLICT RESOLUTION",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "e14e0e3b277e8de35c9482df7873c089d14b76049803ca334d1efff479d86e34",
+      "version_number": 1,
+      "original_filename": "GST 222 NON MILITARY MEANS OF CONFLICT RESOLUTION.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "45401054-4b38-4353-866f-1df7860078ce",
+      "source_label": "GST222 Psychological Approach to Conflict",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "7c70c7c80cbc5145884c860a654b1c1923b3ec5adfdf347bef4d1b6967a2d3ee",
+      "version_number": 1,
+      "original_filename": "GST222 Psychological Approach to Conflict.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "5550f78c-6af8-4193-956c-59998fb0d8ba",
+      "source_label": "GST 222 NON-MILITARY MEANS TO CONFLICT RESOLUTION",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "8416b116d414ddebacbff2a9b4e8db3a895db1f24e2ce82d2d3bc054d5522a33",
+      "version_number": 1,
+      "original_filename": "GST 222 NON-MILITARY MEANS TO CONFLICT RESOLUTION.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "670a8647-f2a3-42c5-bc53-e1727246066e",
+      "source_label": "GST 222 The Nexus between Communication and Peace",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "9851ae206648265f2cbb0a64f812c4b73a1e94e141813f43c7d3abe8ed8a52e4",
+      "version_number": 1,
+      "original_filename": "GST 222 The Nexus between Communication and Peace.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "6c7170e9-24c7-4f73-bdb6-65b346724d81",
+      "source_label": "GST 222 MILITARY MEANS TO CONFLICT RESOLUTION",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "a6cc2473f06d6c977ab47ee97ea681f969b56bee1a9b33aa9948d4f978b86f0e",
+      "version_number": 1,
+      "original_filename": "GST 222 MILITARY MEANS TO CONFLICT RESOLUTION.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "79bd1fbd-ca74-4ca2-b27c-f527441a640f",
+      "source_label": "GST 222 Industrial Conflict",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "552bcffb871e01f5c90cd1334ddf906a7534175444b757f95bd9d5bb35f9b800",
+      "version_number": 1,
+      "original_filename": "GST 222 Industrial Conflict.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7df197b4-1e03-4456-84fe-d1cd0dd7902b",
+      "source_label": "GST222-GENDER BASED VIOLENCE",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "9f341bb8c009d356889d87e12932674a3980defb75e80182f3bff682f9acde2c",
+      "version_number": 1,
+      "original_filename": "GST222-GENDER BASED VIOLENCE.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8a6ad52d-4edf-4878-9825-f73be26baf6f",
+      "source_label": "GST 222 CONFLICT HANDLING TECHNIQUES",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "dce09878b9c43cea8665aeb882c29354b3e870e128df670f025f0d9fcc682dac",
+      "version_number": 1,
+      "original_filename": "GST 222 CONFLICT HANDLING TECHNIQUES.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "9332446b-f8a5-4bd8-8878-df6891cc7ad9",
+      "source_label": "GST 222 ANALYSIS OF GENDER-BASED VIOLENCE",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "d367296bad5a88c28b81389db68e1f99e0a90feca0a3a27035a2471cd9d03af8",
+      "version_number": 1,
+      "original_filename": "GST 222 ANALYSIS OF GENDER-BASED VIOLENCE.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a00a127b-33e5-4b13-bae5-712d312c253b",
+      "source_label": "GST222 Sociological Dimension of Conflict",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "f94211a45a81cccdbadece815d0f189ebd7344184427688871b01fff575f5e20",
+      "version_number": 1,
+      "original_filename": "GST222 Sociological Dimension of Conflict.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+      "source_label": "GST 222 THE CONCEPTUAL DEFINITIONS OF PEACE  CONFLICT",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "8d09e2a6b1585abe76ba99497605f916a86fcf387662018a3521fca1f10b3ceb",
+      "version_number": 1,
+      "original_filename": "GST 222 THE CONCEPTUAL DEFINITIONS OF PEACE  CONFLICT.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c112ee68-5da7-44a9-a207-b307cc19e610",
+      "source_label": "GST 222 THE LIFE CYCLE OF CONFLICT",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "c8cf645a75b5b05d668accdc4d8765659104c4446bbe0a5e0ae09e425300bf7d",
+      "version_number": 1,
+      "original_filename": "GST 222 THE LIFE CYCLE OF CONFLICT.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "f34ad226-fcdd-494c-8ef6-ead7c4f69cbf",
+      "source_label": "GST222 POST CONFLICT PEACEBUILDING",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "48948144c044914410ca5ead2e4622f9d252e76f50d0852a94c295d5c43a33b6",
+      "version_number": 1,
+      "original_filename": "GST222 POST CONFLICT PEACEBUILDING.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fa19a8f8-0020-4a19-bdf5-953b8d01697d",
+      "source_label": "GST 222 (Military Means to Conflict Resolution)",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "0432313b47258fdfc8b5446275697722a525c626290d463066748fee68683ab6",
+      "version_number": 1,
+      "original_filename": "GST 222 (Military Means to Conflict Resolution).pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "fb522f0d-c64a-4908-861b-034df712e9d9",
+      "source_label": "Conflict Handling Techniques  Costs of Conflict",
+      "notebook_id": "227543a7-8ea9-4510-9f70-054e57153712",
+      "sha256": "8b92275c525b3304a7aa5d9076cf478ce6a7d7522dc1d74075441c687a0a78e4",
+      "version_number": 1,
+      "original_filename": "Conflict Handling Techniques  Costs of Conflict.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Peace-Conflict-6d9142fcee2f91fa",
+      "question": "According to the Marxist School of Thought, when is peace feasible?",
+      "reference_answer": "Peace is only feasible when there is justice and equality in the distribution of resources.",
+      "evidence": [
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "79ac7d5d-efbf-4fca-8278-0d1160b643c3",
+          "quote": "They argued that peace is only feasible when there is justice and equality in the distribution of resources.",
+          "locator": "slide 18",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-13b48e6e74d39f53",
+      "question": "What are the three outcomes of the peace process according to Kelman?",
+      "reference_answer": "Conflict settlement, resolution, and reconciliation.",
+      "evidence": [
+        {
+          "source_id": "45401054-4b38-4353-866f-1df7860078ce",
+          "chunk_id": "465bc14a-198b-42e8-9c37-4a7ae33dd82d",
+          "quote": "Three outcomes of peace process- Conflict settlement, resolution, and reconciliation (Kelman,2010, 1999)- correspond to the influence 3 processes",
+          "locator": "slide 14",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-3eb2a78bd2c19574",
+      "question": "What is a stay-in or sit-down strike?",
+      "reference_answer": "Workmen come to the workplace, stay at work but they don't work.",
+      "evidence": [
+        {
+          "source_id": "79bd1fbd-ca74-4ca2-b27c-f527441a640f",
+          "chunk_id": "0c6fb101-8334-4ab8-bf0d-a3a839016177",
+          "quote": "Stay-in or Sit Down Strikes: Workmen come to the workplace, stay at work but they don’t work.",
+          "locator": "slide 13",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-863bf1f789719e4d",
+      "question": "What does Stagner (1967) define conflict as?",
+      "reference_answer": "A situation in which two or more human beings desire goals which they perceive as being obtainable by one or the other, but not both; each party is mobilizing energy to obtain a goal; and each party perceive the other as a barrier or threat to that goal.",
+      "evidence": [
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "79ac7d5d-efbf-4fca-8278-0d1160b643c3",
+          "quote": "Stagner (1967: 16) defines conflict as a ‘situation in which two or more human beings desire goals which they perceive as being obtainable by one or the other, but not both; each party is mobilizing energy to obtain a goal; and each party perceive the other as a barrier or threat to that goal’.",
+          "locator": "slide 18",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-b03286169d5171cd",
+      "question": "According to the psychological approach described in the text, how does identification differ from compliance as an influence process in conflict resolution, and what does reconciliation involve in this context?",
+      "reference_answer": "Identification differs from compliance in that it involves the alignment of one’s behaviour and attitudes with perceived qualities in another, rather than the external enforcement associated with political settlement. Reconciliation involves internalising the values and attitudes of one party so that they are incorporated into the behaviour repertoire of the other, leading to a shared identity where influence is accepted to maintain congruence with one's self-identity and avoid dissonance.",
+      "evidence": [
+        {
+          "source_id": "45401054-4b38-4353-866f-1df7860078ce",
+          "chunk_id": "c21ade43-bb1f-4ff2-a51f-fbc3dccd61ea",
+          "quote": "In contrast to Political settlement, identification rather than compliance is the influence process involved in conflict resolution.",
+          "locator": "slide 22",
+          "evidence_group": null
+        },
+        {
+          "source_id": "45401054-4b38-4353-866f-1df7860078ce",
+          "chunk_id": "c21ade43-bb1f-4ff2-a51f-fbc3dccd61ea",
+          "quote": "Identification refers to the alignment of one’s behaviour and attitudes with perceived qualities in another. E.g. Camp David accord, 1976.",
+          "locator": "slide 22",
+          "evidence_group": null
+        },
+        {
+          "source_id": "45401054-4b38-4353-866f-1df7860078ce",
+          "chunk_id": "c21ade43-bb1f-4ff2-a51f-fbc3dccd61ea",
+          "quote": "Involves internalising the values and attitudes of one party is incorporated into the behaviour repertoire of the other. identity becomes shared and influence is accepted to maintain congruence with one's self-identity and keep out dissonance.",
+          "locator": "slide 22",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-34954dddcfe000b8",
+      "question": "Why does the text argue that peace and conflict resist universally accepted definitions within International Relations, and how are these concepts tied to the actions of states and non-states?",
+      "reference_answer": "The text argues that the multidisciplinary nature of International Relations makes it difficult to hinge both concepts on universally accepted definitions. Peace and conflict are tied to actions because the study of International Relations is principally the study of states’ and non-states’ interests, which are the determinant of actions. Consequently, peace and conflict are at the mercy of these actions—such as cooperation, trade, aid, bluff, war, estrangement, and sanctions—which are determined by those interests.",
+      "evidence": [
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "a220913d-2ce8-49b4-8de9-e8b71a3143e9",
+          "quote": "The multidisciplinary nature of International Relations makes it difficult to hinge both concepts of peace and conflict on certain universally accepted definitions.",
+          "locator": "slide 28",
+          "evidence_group": null
+        },
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "a220913d-2ce8-49b4-8de9-e8b71a3143e9",
+          "quote": "It is important to note that the study of International Relations is principally the study of states’ and non-states’ interests, which are the determinant of actions.",
+          "locator": "slide 28",
+          "evidence_group": null
+        },
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "a220913d-2ce8-49b4-8de9-e8b71a3143e9",
+          "quote": "Peace and conflict are at the mercy of these actions; the decision to cooperate, trade, aid, bluff, war, estrange, sanction, et cetera are determined by the outlined interest.",
+          "locator": "slide 28",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-39778c771026bbc3",
+      "question": "How do the roles of a conciliator, an arbitrator, and the National Industrial Court differ in the industrial conflict resolution process described in the text?",
+      "reference_answer": "A conciliator assists parties to reach a compromise by suggesting a solution, but the parties are not obliged to accept those views. An arbitrator is concerned with the imposition of a solution on the disputing parties. The National Industrial Court serves as the final decision-making body, and its determinations are binding on both employers and employees, with no appeal permitted to any other court under Section 20(3).",
+      "evidence": [
+        {
+          "source_id": "79bd1fbd-ca74-4ca2-b27c-f527441a640f",
+          "chunk_id": "2e0d8abe-6ef8-4472-8be6-7dfee4341dad",
+          "quote": "A conciliator assists the parties to reach a compromise decision by suggesting a solution to them Though it is not obligatory on the parties to accept the views of a conciliator",
+          "locator": "slide 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "79bd1fbd-ca74-4ca2-b27c-f527441a640f",
+          "chunk_id": "2e0d8abe-6ef8-4472-8be6-7dfee4341dad",
+          "quote": "An Arbitrator is concerned with the imposition of a solution on the disputing parties",
+          "locator": "slide 18",
+          "evidence_group": null
+        },
+        {
+          "source_id": "79bd1fbd-ca74-4ca2-b27c-f527441a640f",
+          "chunk_id": "2e0d8abe-6ef8-4472-8be6-7dfee4341dad",
+          "quote": "The Court has a President and four other members. Section 20(3) provides that no appeal shall lie to any other court or person from any determination of the national industrial court The NIC under s.20(1) has thirty working days within which to determine any dispute referred to it. The decision of the court becomes binding on both the employers and employees.",
+          "locator": "slide 18",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-219305a2ae8ccb88",
+      "question": "How do the conceptual treatment of interests in International Relations and the psychological approach to conflict resolution compare regarding the origins or management of conflict?",
+      "reference_answer": "In International Relations, interests are presented as the principal determinant of state and non-state actions, and peace and conflict are at the mercy of these actions—such as cooperation, trade, aid, bluff, war, and sanction—which are determined by outlined interests. The psychological approach, by contrast, proceeds from interest-based negotiations to address the underlying psychological needs from which conflicts arise, foregrounding internal identity alignment over structural interest calculation.",
+      "evidence": [
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "a220913d-2ce8-49b4-8de9-e8b71a3143e9",
+          "quote": "It is important to note that the study of International Relations is principally the study of states’ and non-states’ interests, which are the determinant of actions.",
+          "locator": "slide 28",
+          "evidence_group": null
+        },
+        {
+          "source_id": "a3a8847a-55ad-47de-a895-b8e1ed86cc75",
+          "chunk_id": "a220913d-2ce8-49b4-8de9-e8b71a3143e9",
+          "quote": "Peace and conflict are at the mercy of these actions; the decision to cooperate, trade, aid, bluff, war, estrange, sanction, et cetera are determined by the outlined interest.",
+          "locator": "slide 28",
+          "evidence_group": null
+        },
+        {
+          "source_id": "45401054-4b38-4353-866f-1df7860078ce",
+          "chunk_id": "c21ade43-bb1f-4ff2-a51f-fbc3dccd61ea",
+          "quote": "Proceeds from interest based negotiations to addressing the psychological needs from which conflicts arise.",
+          "locator": "slide 22",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-9652f67317aba189",
+      "question": "How does the role and method of a third party in the joint problem solving approach to conflict handling compare to the role and method of a third party in peace enforcement missions, and what outcome differences distinguish these approaches?",
+      "reference_answer": "In the joint problem solving approach, a third party uses mediation to help the conflicting parties resolve the conflict on mutually agreeable terms, leading to win-win outcomes. In peace enforcement missions, the international community or a third party identifies a party that fails to comply with a peace agreement and decides to intervene and enforce it or apply force to reach one, with soldiers carrying heavy arms that can overwhelm the aggressive side.",
+      "evidence": [
+        {
+          "source_id": "fb522f0d-c64a-4908-861b-034df712e9d9",
+          "chunk_id": "cac59c7b-0259-4260-b9d9-5afe66b3e71b",
+          "quote": "This requires the parties to the conflict acting together {by negotiating with each other}, or being helped by a third party {using mediation} to resolve the conflict on mutually agreeable terms. This kind of approach is easier facilitated in situations where the negative effect of further hostility is clear to all parties in the conflict. This approach leads to win-win outcomes and is considered to be the best for handling conflicts",
+          "locator": "slide 9",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fa19a8f8-0020-4a19-bdf5-953b8d01697d",
+          "chunk_id": "a476ab24-9e29-4102-8409-6ed3d2ec84eb",
+          "quote": "Once the international community or third party clearly identifies such party that fails to comply with the peace agreement; may decide to intervene and enforce it or apply force to reach one.",
+          "locator": "slide 32",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fa19a8f8-0020-4a19-bdf5-953b8d01697d",
+          "chunk_id": "a476ab24-9e29-4102-8409-6ed3d2ec84eb",
+          "quote": "In such situation, the soldiers carry heavy arms that can overwhelm those of the aggressive side.",
+          "locator": "slide 32",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Peace-Conflict-701edd85b6874790",
+      "question": "How does the use of military means in the 'confrontation' conflict handling style resemble the tactics employed in peace enforcement, and what key difference exists between the actors implementing these two approaches?",
+      "reference_answer": "Both the confrontation style and peace enforcement involve the use of military means or overwhelming force; confrontation may employ military instrument, intimidation, and blackmail as a unilateral action by one party to impose its will, while peace enforcement involves soldiers carrying heavy arms to overwhelm an aggressive non-compliant party. The key difference is that confrontation is executed by one of the parties to the conflict seeking to impose its will, whereas peace enforcement is undertaken by the international community or an external third party.",
+      "evidence": [
+        {
+          "source_id": "fb522f0d-c64a-4908-861b-034df712e9d9",
+          "chunk_id": "c08b0d0e-d0fc-45bc-ad4b-c3356cef47d1",
+          "quote": "One of the parties takes a unilateral action towards dealing with the problem forcefully. The aim here is for the stronger party in the conflict to impose its will on the other. This could be in terms of using military instrument, intimidation, and blackmail.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fa19a8f8-0020-4a19-bdf5-953b8d01697d",
+          "chunk_id": "a476ab24-9e29-4102-8409-6ed3d2ec84eb",
+          "quote": "In such situation, the soldiers carry heavy arms that can overwhelm those of the aggressive side.",
+          "locator": "slide 32",
+          "evidence_group": null
+        },
+        {
+          "source_id": "fa19a8f8-0020-4a19-bdf5-953b8d01697d",
+          "chunk_id": "a476ab24-9e29-4102-8409-6ed3d2ec84eb",
+          "quote": "Once the international community or third party clearly identifies such party that fails to comply with the peace agreement; may decide to intervene and enforce it or apply force to reach one.",
+          "locator": "slide 32",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}

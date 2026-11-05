@@ -1,0 +1,40 @@
+{
+  "course_id": "MAT214",
+  "batches": [
+    {
+      "count": 4,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "chunk_ids": [
+        "a390e056-5d56-4bd7-85dc-286c276acc0b",
+        "5230fa85-122f-4c60-b128-598fcdb944dd",
+        "a710837f-2118-40b9-ac1a-789c73b50f72",
+        "5aae1523-d17e-4418-97f0-db47ef8f5fd3"
+      ]
+    },
+    {
+      "count": 4,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "chunk_ids": [
+        "d258e980-ddb8-4989-9fea-4f8e525235ed",
+        "4b1f3d6c-9262-4b02-b06b-c21de71e5334",
+        "88257400-baa3-4005-a86e-d83bea2a1f7d",
+        "948a36b5-add6-41cf-aae9-62c5e5b84b92"
+      ]
+    },
+    {
+      "count": 2,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "chunk_ids": [
+        "a2a198a5-05ab-471e-8a60-2f9505684b50",
+        "0627699c-1967-482d-8fc4-5ae5d5f7ac02",
+        "6c7b7442-c8bd-4691-8167-cc0886d3ef80"
+      ]
+    }
+  ]
+}

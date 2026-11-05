@@ -1,0 +1,535 @@
+{
+  "schema_version": 2,
+  "dataset_id": "Hardware",
+  "version": "draft-1+human-reviewed",
+  "course_id": "Hardware",
+  "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+  "created_at_utc": null,
+  "source_manifest": [
+    {
+      "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+      "source_label": "CSC 223 MODULE 1 - L2",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "c32225ca92832dca6565f7f37e96cdc559b7b19ed1d0bd6c87089ab8e2086e28",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 1 - L2.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "10ac56cc-7859-4675-a7f4-c659bb38cd04",
+      "source_label": "Major components that make up an ink jet printer for an optimal printing output",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "1c0ba04d007728d15baa0196b621f5a40e0f9e064aea9739ab38893fee6b2b58",
+      "version_number": 1,
+      "original_filename": "Major components that make up an ink jet printer for an optimal printing output.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "1122e220-785b-4feb-902e-5dbc9e30fe3f",
+      "source_label": "CSC 223 MODULE 2 - L2",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "1ac9b4d3e3cc12bbbe9f5325a600bf9a94a32d4877836ce5fc6502e948031a9c",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 2 - L2.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "2e3cd871-2a62-43cd-9414-5f0a5519cfeb",
+      "source_label": "CSC 223 MODULE 1 - L1",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "b287d708579d08baeb722cc525e3c1579383aa3bd103a1862b3580dbf0574b21",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 1 - L1.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "315a292a-2d87-4a43-84d6-d886a64916c8",
+      "source_label": "Integrated_Circuits",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "3c9cdabe8d76b88d5096c461c1c2a2c6f02d9aad17c5f76d3c8602af17800240",
+      "version_number": 1,
+      "original_filename": "Integrated_Circuits.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3968e628-7f82-45cc-bed8-e74cfc36155a",
+      "source_label": "CH-23_integrated circuit",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "b9c90bb514ecd7bb3ff0520fc592d2a3869359af9c557aa25d66412882a7299c",
+      "version_number": 1,
+      "original_filename": "CH-23_integrated circuit.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "3c9e69cd-8daf-4f9b-b75f-39978cc433c5",
+      "source_label": "Practice Question",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "341709d691e50d00e0a3904b75eeb8a69c50cd88c580d6db026284ae1b55e794",
+      "version_number": 1,
+      "original_filename": "Practice Question.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "42566a8f-6e0b-4607-b1c5-596a42569442",
+      "source_label": "CSC 223 Module 3a - Combinational Logic",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "ae14ba234744e8dc1ff47f3d26e63b849d5eae49449510955d48f7095bcf6264",
+      "version_number": 1,
+      "original_filename": "CSC 223 Module 3a - Combinational Logic.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4748c3a2-82df-402b-a6bf-662c267c1d8a",
+      "source_label": "CSC 223 MODULE 2 - L4",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "a5768bff5e77edb753d5aefe419fabbf9022df182c1bbb3063730ba9901b16bc",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 2 - L4.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "49e4cf52-c781-4799-aaa2-6902faf3b380",
+      "source_label": "Digital_Electronics_Computer_Circuits",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "144d002557020cb47bc7b939cac228e61e93ea4a05fa71f74f899135f15097af",
+      "version_number": 1,
+      "original_filename": "Digital_Electronics_Computer_Circuits.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "4d0a547e-7cbc-4d4a-8817-f6c6fb6db89a",
+      "source_label": "SUMMARY OF INTEGRATED CIRCUITS",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "3517465804e1341ce75d7416e80214b3111551e81ca5412aa1526e32811453d1",
+      "version_number": 1,
+      "original_filename": "SUMMARY OF INTEGRATED CIRCUITS.pdf",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "631fbd1f-7eca-4d06-aec6-8848263556eb",
+      "source_label": "CSC 223 MODULE 2 - Printer and Monitors",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "388ae3b3c0b9629c58eca2f42f70480675cae27f2909ddea0e78cdcd9e5129c2",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 2 - Printer and Monitors.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "7e790b0a-a077-4e21-adb9-59ef27eef6ce",
+      "source_label": "IC_processing_packages_and_processing",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "60e18cef1e168935068eb5c8852e1a7725b3dcef3399d1efb633af4f576ca100",
+      "version_number": 1,
+      "original_filename": "IC_processing_packages_and_processing.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "833f74d5-1ddf-4fda-86a7-9aadf226efa5",
+      "source_label": "IC_fabrication_process",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "5717066a5af16ce76b489f14254934e4805161841e49c41173df453276817954",
+      "version_number": 1,
+      "original_filename": "IC_fabrication_process.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "8d4b6f94-81f7-4d39-a122-0b5378cfed23",
+      "source_label": "CSC 223 MODULE 2 - L3",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "b1c931e9568c80ce96fe1b6a826db5602e538b514b3a8eeef2bf7c549f496dfe",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 2 - L3.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a5af0c87-4dbc-41b1-9496-fa14585c78f7",
+      "source_label": "CSC 223 Module 3b - Combinational Logic",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "6504ad574241d036c403a12be2e75e1bb890dbf609aee0c2b344c2a0e29cd1a2",
+      "version_number": 1,
+      "original_filename": "CSC 223 Module 3b - Combinational Logic.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "a8fd11ea-93e3-4432-8e10-d88e5aa499c6",
+      "source_label": "module2_Lecture2_computer_memory2",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "a044dc22621aed0693cef6dd3390a9cdc79ea27016ad201185d29505a5ecbdaa",
+      "version_number": 1,
+      "original_filename": "module2_Lecture2_computer_memory2.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "c3ef7464-52ec-4f95-a08d-27c01492aeaf",
+      "source_label": "Gates and Circuits",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "e916ab313bca727219d76308523375e1ebcf904894471b6e97caa0b4a2301c37",
+      "version_number": 1,
+      "original_filename": "Gates and Circuits.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    },
+    {
+      "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+      "source_label": "CSC 223 MODULE 2 - L1",
+      "notebook_id": "92161768-9b3b-4bf7-ac1a-c605643eea85",
+      "sha256": "19c50cd84f1a21b22373d78a30f2d9fc011316c9a635fb1780564c16fcba88ce",
+      "version_number": 1,
+      "original_filename": "CSC 223 MODULE 2 - L1.pptx",
+      "page_or_slide_range": null,
+      "extraction_method": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Hardware-da387eba59723f44",
+      "question": "What components are included inside a computer cabinet?",
+      "reference_answer": "The components inside a computer cabinet include the power supply, motherboard, memory chips, expansion slots, ports and interface, processor, cables and storage devices.",
+      "evidence": [
+        {
+          "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+          "chunk_id": "0e1db650-b52f-4161-bdd9-f804e41b02e6",
+          "quote": "The computer cabinet encloses the components that are required for the running of the computer. The components inside a computer cabinet include the power supply, motherboard, memory chips, expansion slots, ports and interface, processor, cables and storage devices.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-31f7f9dfae4f74b8",
+      "question": "What are the five functions of a computer system mentioned in the hardware basics?",
+      "reference_answer": "The five functions are input, processing, output, storage and control.",
+      "evidence": [
+        {
+          "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+          "chunk_id": "0e1db650-b52f-4161-bdd9-f804e41b02e6",
+          "quote": "Notes: A computer is a system with input, processing, output, storage and control",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-6bbc1263ef7b95ea",
+      "question": "What circuit components are part of an integrated circuit?",
+      "reference_answer": "Transistors, diodes, resistors, capacitors, etc.",
+      "evidence": [
+        {
+          "source_id": "3968e628-7f82-45cc-bed8-e74cfc36155a",
+          "chunk_id": "d086f39b-f2f9-48ce-81fc-0ca3530c6136",
+          "quote": "An integrated circuit is one in which circuit components such as transistors, diodes, resistors, capacitors etc. are automatically part of a small semiconductor chip.",
+          "locator": "page 2",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-8dca06f48b71e078",
+      "question": "What metal is commonly used for metalization in chip manufacturing, and what company has been shipping chips with copper?",
+      "reference_answer": "Aluminum is common, but copper is the latest step, and IBM has been shipping chips with copper for a year.",
+      "evidence": [
+        {
+          "source_id": "7e790b0a-a077-4e21-adb9-59ef27eef6ce",
+          "chunk_id": "a2a7da48-2cbd-41a9-83d3-039ff7de7bf9",
+          "quote": "Aluminum is common choice",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "7e790b0a-a077-4e21-adb9-59ef27eef6ce",
+          "chunk_id": "a2a7da48-2cbd-41a9-83d3-039ff7de7bf9",
+          "quote": "Latest step is to use copper IBM has been shipping chips with copper for a year",
+          "locator": "slide 8",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "factual",
+      "difficulty": "easy",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-c56c98d06a561aa8",
+      "question": "How does the instruction cycle illustrate the distinct and coordinated roles of the CPU's control unit and arithmetic-logic unit?",
+      "reference_answer": "The instruction cycle demonstrates coordination by assigning instruction handling to the control unit and actual computation to the ALU. The control unit sequentially accesses and decodes program instructions, translating them into commands. During execution, the ALU performs the mathematical or logical operation implied by the decoded instruction. Finally, the result is stored back to memory.",
+      "evidence": [
+        {
+          "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+          "chunk_id": "a0e0172e-2b90-4658-b5b0-2438e8708ca6",
+          "quote": "The ALU performs mathematical calculations and makes logical comparisons The Control Unit sequentially accesses program instructions, decode them and coordinates the flows of data in and out the ALU, primary storage and other input, output devices and secondary storage.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+          "chunk_id": "a0e0172e-2b90-4658-b5b0-2438e8708ca6",
+          "quote": "Decoding: The instruction that is fetched is broken down into parts or decoded. The instruction is translated into commands so that they correspond to those in the CPU’s instruction set. The instruction set architecture of the CPU defines the way in which an instruction is decoded.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+          "chunk_id": "a0e0172e-2b90-4658-b5b0-2438e8708ca6",
+          "quote": "Executing: The decoded instruction or the command is executed. CPU performs the operation implied by the program instruction. For example, if it is an ADD instruction, addition is performed.",
+          "locator": "slide 10",
+          "evidence_group": null
+        },
+        {
+          "source_id": "0ef0a5af-4373-478e-bca6-00f20a40e5b8",
+          "chunk_id": "a0e0172e-2b90-4658-b5b0-2438e8708ca6",
+          "quote": "Storing: CPU writes back the results of execution, to the computer’s memory.",
+          "locator": "slide 10",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-34ee449065a61df8",
+      "question": "Why do monolithic integrated circuits typically require inductors and high-value capacitors to be connected externally rather than fabricated on the chip?",
+      "reference_answer": "Monolithic fabrication is well-suited to transistors, diodes, resistors, and only very small capacitors in the picofarad range. It is neither convenient nor economical to fabricate capacitances exceeding 30 pF, and it is not possible to fabricate inductors or transformers on the semiconductor chip surface. Consequently, when larger capacitance or inductance is needed, discrete components must be connected exterior to the chip.",
+      "evidence": [
+        {
+          "source_id": "3968e628-7f82-45cc-bed8-e74cfc36155a",
+          "chunk_id": "52d1c79e-59d1-49b4-83f8-ad3d5da74b07",
+          "quote": "An integrated circuit (IC) usually contains only transistors, diodes and resistors. It is usually very difficult to form inductors in an IC. Also, only very small capacitors, in the picofarad range, can be included. When inductors and large values of C are needed, they are connected externally to an IC.",
+          "locator": "page 3",
+          "evidence_group": null
+        },
+        {
+          "source_id": "3968e628-7f82-45cc-bed8-e74cfc36155a",
+          "chunk_id": "52d1c79e-59d1-49b4-83f8-ad3d5da74b07",
+          "quote": "In an IC, it is neither convenient nor economical to fabricate capacitances exceeding 30 pF. Therefore, for high values of capacitance, discrete components exterior to IC chip are connected.",
+          "locator": "page 3",
+          "evidence_group": null
+        },
+        {
+          "source_id": "3968e628-7f82-45cc-bed8-e74cfc36155a",
+          "chunk_id": "52d1c79e-59d1-49b4-83f8-ad3d5da74b07",
+          "quote": "It is not possible to fabricate inductors and transformers on the surface of semi-conductor chip. Therefore, these components are connected exterior to the semi-conductor chip.",
+          "locator": "page 3",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-1636764269583ef5",
+      "question": "What fundamental limitations of hand-designed integrated circuits did computer-aided design systems address when they were introduced around 1980?",
+      "reference_answer": "Hand-designed ICs were prone to many errors, required numerous costly trial fabrications and tests before production, and were limited to small, expensive batches. CAD systems mitigated these issues by introducing reusable component libraries, enforcing design rules, assisting with routing, and enabling simulation of interim designs before fabrication.",
+      "evidence": [
+        {
+          "source_id": "7e790b0a-a077-4e21-adb9-59ef27eef6ce",
+          "chunk_id": "52c8e3fe-ab49-4b5a-a29a-79d86a6297d4",
+          "quote": "IC design started as hand process leads to many errors requires many trial fabrications and tests to refine design before production small batches, very expensive Around 1980, computer-aided design systems began to be used for ICs simple notations for expressing components of chip component libraries for reuse of earlier designs and mirroring, rotation, etc.",
+          "locator": "slide 17",
+          "evidence_group": null
+        },
+        {
+          "source_id": "7e790b0a-a077-4e21-adb9-59ef27eef6ce",
+          "chunk_id": "52c8e3fe-ab49-4b5a-a29a-79d86a6297d4",
+          "quote": "CAD systems (continued) enforce design rules help with routing of connections simulation of interim designs 2-D or 3-D device simulators logic simulators timing simulators",
+          "locator": "slide 17",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-55308e7766964a3a",
+      "question": "How does the use of the lambda unit in IC design rules allow a single chip layout to remain usable across different semiconductor manufacturing processes?",
+      "reference_answer": "By expressing all geometric constraints—such as widths, separations, and overlaps—as multiples of an elementary distance unit λ rather than as absolute physical measurements, the design becomes independent of any specific fabrication process. Each new manufacturing technology merely defines its own λ value in microns, so the same layout can scale downward as process technologies improve without a complete redesign.",
+      "evidence": [
+        {
+          "source_id": "7e790b0a-a077-4e21-adb9-59ef27eef6ce",
+          "chunk_id": "52c8e3fe-ab49-4b5a-a29a-79d86a6297d4",
+          "quote": "Want design of IC to be independent of process used to implement design especially want to scale as process technologies improve Place constraints on widths, separations, overlaps base all measures on elementary distance unit  each process defines a value for  in microns pattern generator produces output files appropriately",
+          "locator": "slide 17",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "conceptual",
+      "difficulty": "medium",
+      "split": "development",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-bc79a2ba2f76e0f1",
+      "question": "How do the physical placement and speed characteristics of processor registers and cache reflect the principle that the storage hierarchy is organized by distance from the CPU, and how does this arrangement relate to the CPU’s described role as the central communication hub?",
+      "reference_answer": "The evidence states that the storage hierarchy is based on distance from the CPU, with closer levels offering greater bandwidth and lower access latency. Processor registers are located inside the processor and are the fastest of all forms of computer data storage, while processor cache is an intermediate stage between ultra-fast registers and much slower main memory, introduced solely to increase performance. Because the CPU chip has a large number of pins through which essentially all communication in a computer system occurs and continuously reads instructions from primary storage, placing the fastest storage sub-layers closest to the CPU minimizes access latency and supports its central communication role.",
+      "evidence": [
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "3492120b-28c3-4dc4-96f3-544b212a954a",
+          "quote": "Storage hierarchy is based on distance from CPU. Lower storage in the hierarchy has lesser bandwidth and greater access latency from the CPU.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "Processor registers are located inside the processor.",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "Registers are the fastest of all forms of computer data storage.",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "Processor cache is an intermediate stage between ultra-fast registers and much slower main memory.",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "c3ef7464-52ec-4f95-a08d-27c01492aeaf",
+          "chunk_id": "885d046c-10c4-4e37-a58e-c59e914e06f7",
+          "quote": "The most important integrated circuit in any computer is the Central Processing Unit, or CPU Each CPU chip has a large number of pins through which essentially all communication in a computer system occurs",
+          "locator": "slide 37",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "3492120b-28c3-4dc4-96f3-544b212a954a",
+          "quote": "CPU continuously reads instructions stored there and executes them as required.",
+          "locator": "slide 1",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    },
+    {
+      "sample_id": "Hardware-9435acbb1a738516",
+      "question": "According to the evidence, how did the transition from early primary storage technologies to modern semiconductor RAM support the architectural versatility of Von Neumann machines, and what performance limitations of main memory led to the development of its sub-layers?",
+      "reference_answer": "Early computers used delay lines, Williams tubes, or rotating magnetic drums, which were unreliable and were mostly replaced by magnetic core memory by 1954. Core memory remained dominant until the 1970s, when advances in integrated circuit technology allowed semiconductor memory to become economically competitive, leading to modern random-access memory (RAM). This storage progression supports Von Neumann architecture, which requires memory for storing operating instructions and data so that machines can be reprogrammed with new in-memory instructions without hardware reconfiguration. However, because main memory is much slower than processor registers, two sub-layers were introduced: processor registers, located inside the processor and the fastest form of storage, and processor cache, an intermediate stage between registers and main memory introduced solely to increase performance.",
+      "evidence": [
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "3492120b-28c3-4dc4-96f3-544b212a954a",
+          "quote": "Early computers used delay lines, Williams tubes, or rotating magnetic drums as primary storage. By 1954, those unreliable methods were mostly replaced by magnetic core memory.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "3492120b-28c3-4dc4-96f3-544b212a954a",
+          "quote": "Core memory remained dominant until the 1970s, when advances in integrated circuit (IC) technology allowed semiconductor memory to become economically competitive.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "This led to modern random-access memory (RAM). It is small-sized, light, but quite expensive at the same time.",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "3492120b-28c3-4dc4-96f3-544b212a954a",
+          "quote": "Von Neumann machines differ in having a memory in which they store their operating instructions and data.",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "3492120b-28c3-4dc4-96f3-544b212a954a",
+          "quote": "More versatile, do not need to have their hardware reconfigured for each new program, but can simply be reprogrammed with new in-memory instructions;",
+          "locator": "slide 1",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "On the other hand, main memory is much slower, but has a much greater storage capacity than processor registers.",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "Processor registers are located inside the processor. Each register typically holds a word of data (often 32 or 64 bits). CPU instructions instruct the ALU to perform various calculations or other operations on this data. Registers are the fastest of all forms of computer data storage.",
+          "locator": "slide 8",
+          "evidence_group": null
+        },
+        {
+          "source_id": "d9ebff6d-8005-4b73-9f95-ebecce029356",
+          "chunk_id": "2f70766e-40a2-4337-90ae-63be15225e0e",
+          "quote": "Processor cache is an intermediate stage between ultra-fast registers and much slower main memory. Introduced solely to increase performance of the computer.",
+          "locator": "slide 8",
+          "evidence_group": null
+        }
+      ],
+      "answerable": true,
+      "question_type": "synthesis",
+      "difficulty": "hard",
+      "split": "held_out",
+      "authoring_method": "Kimi/OpenRouter source-bound draft",
+      "integrity": "verified"
+    }
+  ]
+}
